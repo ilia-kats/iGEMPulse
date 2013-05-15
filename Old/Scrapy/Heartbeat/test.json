@@ -1,0 +1,54 @@
+[
+    {
+        "name": "BCCS-Bristol", 
+        "title": "Bacto-Builders", 
+        "track": "Unspecified", 
+        "abstract": "Assembling particles at microscopic scales into desired patterns or structures is usually difficult or impossible. All construction projects require the manipulation of varying size components, many much larger than any individual. To make this  possible, teams of individuals work together towards a common goal. To find out how to transfer this behaviour to our ``Bacto-Builders", 
+        "award": [
+            "Best Model"
+        ], 
+        "teamInfo": "http://igem.org/Team.cgi?id=135", 
+        "link": "http://2008.igem.org/Team:BCCS-Bristol", 
+        "year": 2008, 
+        "medal": "bronze medal", 
+        "teamMembers": {
+            "Student_Members": [
+                "Neil J. Parikh", 
+                "Katherine Jacobs", 
+                "Rima Shah", 
+                "Daniel Ludwig"
+            ], 
+            "Instructors": [
+                "John Cumbers", 
+                "Adrian Reich", 
+                "Gary Wessel"
+            ]
+        }
+    }, 
+    {
+        "name": "Bologna", 
+        "title": "Ecoli.PROM: an Erasable and Programmable Genetic M\u00ad\u00ademory with E. coli", 
+        "track": "Unspecified", 
+        "abstract": "The project aims to design a bacterial reprogrammable memory with genetically engineered E.coli colonies in solid medium working as an array of binary memory cells. To engineer bacteria we designed a genetic flip-flop composed of a binary memory (toggle switch) and an UV sensitive trigger. We chose UV to have a fine spatial selectivity in programming the cells and IPTG  to reset the memory. We designed a circuit with high UV sensitivity by computer-model analysis. Core elements of the genetic memory are two mutually regulated promoters, designed as independent operator sites flanking a constitutive promoter. Thus, promoter transcriptional strength and repressor binding affinity can be independently fixed. Operator libraries for LacI, TetR, Lambda and LexA repressors were cloned as BioBricks to allow the rational design of regulated promoters that is still lacking in the Registry We expect this approach to be a benefit in many  Synthetic Biology applications.\n", 
+        "award": [
+            "Best Experimental Measurement"
+        ], 
+        "teamInfo": "http://igem.org/Team.cgi?id=79", 
+        "link": "http://2008.igem.org/Team:Bologna", 
+        "year": 2008, 
+        "medal": "bronze medal", 
+        "teamMembers": {
+            "Student_Members": [
+                "Neil J. Parikh", 
+                "Katherine Jacobs", 
+                "Rima Shah", 
+                "Daniel Ludwig"
+            ], 
+            "Instructors": [
+                "John Cumbers", 
+                "Adrian Reich", 
+                "Gary Wessel"
+            ]
+        }
+    }
+]

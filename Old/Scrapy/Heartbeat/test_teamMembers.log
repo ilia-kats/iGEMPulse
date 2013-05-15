@@ -1,0 +1,7 @@
+2013-04-06 16:21:37+0200 [scrapy] INFO: Scrapy 0.16.4 started (bot: igem)
+2013-04-06 16:21:37+0200 [scrapy] DEBUG: Enabled extensions: FeedExporter, LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-04-06 16:21:37+0200 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, RedirectMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-04-06 16:21:37+0200 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-04-06 16:21:37+0200 [scrapy] DEBUG: Enabled item pipelines: 
+2013-04-06 16:23:04+0200 [scrapy] INFO: Scrapy 0.16.4 started (bot: igem)
+2013-04-06 16:23:04+0200 [scrapy] DEBUG: Enabled extensions: FeedExporter, LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState

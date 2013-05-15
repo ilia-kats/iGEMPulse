@@ -1,0 +1,68 @@
+    108 --
+      1             1st Runner Up
+      2             1st Runner Up Winner of the PoPS Prize
+      2             2nd Runner Up Winner of the Synthetic Standard
+     65             Advance to Championship
+      1             (BBa_K540000)
+      1             (BBa_K541515)
+      1             (BBa_K559010)
+      1             (BBa_K567011 and BBa_K567012)
+      1             (BBa_K572005)
+      1             (BBa_K590087)
+      1             (BBa_K652000)
+      2             Best Environmental Project
+      1             Best Environment Project
+      3             Best Experimental Measurement
+      1             Best Experimental Measurement Approach Americas
+      1             Best Experimental Measurement Approach Asia
+      1             Best Experimental Measurement Approach Europe
+      1             Best Food or Energy Project
+      3             Best Foundational Advance
+      4             Best Health or Medicine Project
+      4             Best Human Practices Advance
+      1             Best Human Practices Advance Americas
+      1             Best Human Practices Advance Asia
+      1             Best Human Practices Advance Europe
+      3             Best Information Processing Project
+      1             Best Manufacturing Project
+      2             Best Model
+      2             Best Model Americas
+      1             Best Model Asia
+      1             Best Model Europe
+      3             Best New Application Area
+      1             Best New BioBrick Device Engineered Americas
+      1             Best New BioBrick Device Engineered Asia
+      1             Best New BioBrick Device Engineered Europe
+      1             Best New BioBrick Part Natural
+      1             Best New BioBrick Part Natural Americas
+      2             Best New BioBrick Part Natural Asia
+      1             Best New BioBrick Part Natural Europe
+      1             Best New BioBrick Part Natural Runner Up
+      3             Best New BioBrick Part or Device Engineered
+      1             Best New Standard
+      2             Best Poster
+      1             Best Poster Americas
+      1             Best Poster Asia
+      1             Best Poster Europe
+      1             Best Poster Runner Up
+      3             Best Presentation
+      1             Best Presentation Americas
+      1             Best Presentation Asia
+      1             Best Presentation Europe
+      1             Best Rookie Team
+      2             Best Software Tool
+      4             Best Wiki
+      1             Best Wiki Americas
+      1             Best Wiki Asia
+      1             Best Wiki Europe
+     14             Finalist
+      1             Grand Prize Winner Americas
+      1             Grand Prize Winner Asia
+      1             Grand Prize Winner Europe
+      3             Grand Prize Winner of the BioBrick Trophy
+      5             iGEMers Prize
+      4             Regional Finalist Americas
+      3             Regional Finalist Europe
+      1             Safety Commendation Americas
+      1             Safety Commendation Asia
+      1             Safety Commendation Europe

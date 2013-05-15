@@ -1,0 +1,160 @@
+<span title="amino acids [3]" rel="1.09861228867">amino acids</span>
+<span title="antibiotic resistance [4]" rel="1.38629436112">antibiotic resistance</span>
+<span title="antibiotics [3]" rel="1.09861228867">antibiotics</span>
+<span title="artificial cells [2]" rel="0.69314718056">artificial cells</span>
+<span title="Bacillus subtilis [7]" rel="1.94591014906">Bacillus subtilis</span>
+<span title="bacterial cells [3]" rel="1.09861228867">bacterial cells</span>
+<span title="BioBricks [13]" rel="2.56494935746">BioBricks</span>
+<span title="biochemical [2]" rel="0.69314718056">biochemical</span>
+<span title="biodegradation [1]" rel="0.0">biodegradation</span>
+<span title="biodiesel [4]" rel="1.38629436112">biodiesel</span>
+<span title="biofilm formation [5]" rel="1.60943791243">biofilm formation</span>
+<span title="biofilms [9]" rel="2.19722457734">biofilms</span>
+<span title="biofuels [9]" rel="2.19722457734">biofuels</span>
+<span title="bioinformatics [1]" rel="0.0">bioinformatics</span>
+<span title="biological materials [1]" rel="0.0">biological materials</span>
+<span title="biological parts [5]" rel="1.60943791243">biological parts</span>
+<span title="biological processes [3]" rel="1.09861228867">biological processes</span>
+<span title="biological systems [7]" rel="1.94591014906">biological systems</span>
+<span title="biologists [5]" rel="1.60943791243">biologists</span>
+<span title="biomass [5]" rel="1.60943791243">biomass</span>
+<span title="biomaterials [1]" rel="0.0">biomaterials</span>
+<span title="biomedical [1]" rel="0.0">biomedical</span>
+<span title="biomolecules [3]" rel="1.09861228867">biomolecules</span>
+<span title="biopolymers [1]" rel="0.0">biopolymers</span>
+<span title="bioreactors [2]" rel="0.69314718056">bioreactors</span>
+<span title="bioremediation [13]" rel="2.56494935746">bioremediation</span>
+<span title="biosafety [1]" rel="0.0">biosafety</span>
+<span title="biosensors [12]" rel="2.48490664979">biosensors</span>
+<span title="biosynthesis [5]" rel="1.60943791243">biosynthesis</span>
+<span title="biosynthetic [5]" rel="1.60943791243">biosynthetic</span>
+<span title="biotechnological applications [1]" rel="0.0">biotechnological applications</span>
+<span title="biotechnology [6]" rel="1.79175946923">biotechnology</span>
+<span title="bottom-up [4]" rel="1.38629436112">bottom-up</span>
+<span title="building blocks [1]" rel="0.0">building blocks</span>
+<span title="cancer [16]" rel="2.77258872224">cancer</span>
+<span title="cell growth [1]" rel="0.0">cell growth</span>
+<span title="cell membrane [1]" rel="0.0">cell membrane</span>
+<span title="cell populations [1]" rel="0.0">cell populations</span>
+<span title="cell-based [4]" rel="1.38629436112">cell-based</span>
+<span title="cell-free [3]" rel="1.09861228867">cell-free</span>
+<span title="cellular systems [2]" rel="0.69314718056">cellular systems</span>
+<span title="complex systems [1]" rel="0.0">complex systems</span>
+<span title="computational modeling [1]" rel="0.0">computational modeling</span>
+<span title="computer-aided [1]" rel="0.0">computer-aided</span>
+<span title="constitutive promoter [4]" rel="1.38629436112">constitutive promoter</span>
+<span title="cost-effective [2]" rel="0.69314718056">cost-effective</span>
+<span title="current state [2]" rel="0.69314718056">current state</span>
+<span title="design principles [1]" rel="0.0">design principles</span>
+<span title="design process [1]" rel="0.0">design process</span>
+<span title="directed evolution [3]" rel="1.09861228867">directed evolution</span>
+<span title="DNA molecules [1]" rel="0.0">DNA molecules</span>
+<span title="DNA sequences [3]" rel="1.09861228867">DNA sequences</span>
+<span title="DNA synthesis [1]" rel="0.0">DNA synthesis</span>
+<span title="DNA-binding [1]" rel="0.0">DNA-binding</span>
+<span title="drug delivery [5]" rel="1.60943791243">drug delivery</span>
+<span title="energy production [1]" rel="0.0">energy production</span>
+<span title="environmental conditions [2]" rel="0.69314718056">environmental conditions</span>
+<span title="Escherichia coli [26]" rel="3.25809653802">Escherichia coli</span>
+<span title="essential genes [1]" rel="0.0">essential genes</span>
+<span title="eukaryotic cells [2]" rel="0.69314718056">eukaryotic cells</span>
+<span title="experimental data [2]" rel="0.69314718056">experimental data</span>
+<span title="experimental results [1]" rel="0.0">experimental results</span>
+<span title="fine-tuning [1]" rel="0.0">fine-tuning</span>
+<span title="first step [4]" rel="1.38629436112">first step</span>
+<span title="first time [3]" rel="1.09861228867">first time</span>
+<span title="fusion proteins [1]" rel="0.0">fusion proteins</span>
+<span title="gene expression [29]" rel="3.36729582999">gene expression</span>
+<span title="gene therapy [5]" rel="1.60943791243">gene therapy</span>
+<span title="genetic circuits [4]" rel="1.38629436112">genetic circuits</span>
+<span title="genetic elements [1]" rel="0.0">genetic elements</span>
+<span title="genetic engineering [2]" rel="0.69314718056">genetic engineering</span>
+<span title="genetic material [1]" rel="0.0">genetic material</span>
+<span title="genetic networks [2]" rel="0.69314718056">genetic networks</span>
+<span title="genetic parts [1]" rel="0.0">genetic parts</span>
+<span title="genome engineering [2]" rel="0.69314718056">genome engineering</span>
+<span title="Gram-negative [4]" rel="1.38629436112">Gram-negative</span>
+<span title="high level [2]" rel="0.69314718056">high level</span>
+<span title="high-throughput [1]" rel="0.0">high-throughput</span>
+<span title="homologous recombination [2]" rel="0.69314718056">homologous recombination</span>
+<span title="host cell [2]" rel="0.69314718056">host cell</span>
+<span title="host organism [1]" rel="0.0">host organism</span>
+<span title="human health [2]" rel="0.69314718056">human health</span>
+<span title="important role [1]" rel="0.0">important role</span>
+<span title="important topic [1]" rel="0.0">important topic</span>
+<span title="individual cells [1]" rel="0.0">individual cells</span>
+<span title="large number [2]" rel="0.69314718056">large number</span>
+<span title="large-scale [2]" rel="0.69314718056">large-scale</span>
+<span title="living organisms [2]" rel="0.69314718056">living organisms</span>
+<span title="living systems [2]" rel="0.69314718056">living systems</span>
+<span title="logic gates [2]" rel="0.69314718056">logic gates</span>
+<span title="long-term [1]" rel="0.0">long-term</span>
+<span title="low-cost [2]" rel="0.69314718056">low-cost</span>
+<span title="major challenge [1]" rel="0.0">major challenge</span>
+<span title="mammalian cells [8]" rel="2.07944154168">mammalian cells</span>
+<span title="mathematical models [3]" rel="1.09861228867">mathematical models</span>
+<span title="membrane proteins [1]" rel="0.0">membrane proteins</span>
+<span title="metabolic engineering [4]" rel="1.38629436112">metabolic engineering</span>
+<span title="metabolic pathways [4]" rel="1.38629436112">metabolic pathways</span>
+<span title="microbial cells [2]" rel="0.69314718056">microbial cells</span>
+<span title="minimal genome [2]" rel="0.69314718056">minimal genome</span>
+<span title="model system [2]" rel="0.69314718056">model system</span>
+<span title="modular design [1]" rel="0.0">modular design</span>
+<span title="molecular biology [2]" rel="0.69314718056">molecular biology</span>
+<span title="multicellular organisms [3]" rel="1.09861228867">multicellular organisms</span>
+<span title="nanodevices [1]" rel="0.0">nanodevices</span>
+<span title="nanoparticles [5]" rel="1.60943791243">nanoparticles</span>
+<span title="nanoscale [2]" rel="0.69314718056">nanoscale</span>
+<span title="nanotechnology [2]" rel="0.69314718056">nanotechnology</span>
+<span title="negative feedback [1]" rel="0.0">negative feedback</span>
+<span title="new parts [1]" rel="0.0">new parts</span>
+<span title="new tools [1]" rel="0.0">new tools</span>
+<span title="next step [1]" rel="0.0">next step</span>
+<span title="non-natural [1]" rel="0.0">non-natural</span>
+<span title="nucleic acids [2]" rel="0.69314718056">nucleic acids</span>
+<span title="oligonucleotides [2]" rel="0.69314718056">oligonucleotides</span>
+<span title="one-step [2]" rel="0.69314718056">one-step</span>
+<span title="past decade [1]" rel="0.0">past decade</span>
+<span title="PCR [10]" rel="2.30258509299">PCR</span>
+<span title="positive feedback [2]" rel="0.69314718056">positive feedback</span>
+<span title="post-transcriptional [2]" rel="0.69314718056">post-transcriptional</span>
+<span title="potential applications [1]" rel="0.0">potential applications</span>
+<span title="protein design [2]" rel="0.69314718056">protein design</span>
+<span title="protein expression [4]" rel="1.38629436112">protein expression</span>
+<span title="protein production [6]" rel="1.79175946923">protein production</span>
+<span title="protein-DNA [1]" rel="0.0">protein-DNA</span>
+<span title="quorum sensing [21]" rel="3.04452243772">quorum sensing</span>
+<span title="rational design [1]" rel="0.0">rational design</span>
+<span title="real-time [2]" rel="0.69314718056">real-time</span>
+<span title="regulatory elements [3]" rel="1.09861228867">regulatory elements</span>
+<span title="reverse engineering [1]" rel="0.0">reverse engineering</span>
+<span title="riboswitch [3]" rel="1.09861228867">riboswitch</span>
+<span title="Saccharomyces cerevisiae [7]" rel="1.94591014906">Saccharomyces cerevisiae</span>
+<span title="same time [1]" rel="0.0">same time</span>
+<span title="self-assembly [3]" rel="1.09861228867">self-assembly</span>
+<span title="signaling pathways [2]" rel="0.69314718056">signaling pathways</span>
+<span title="site-directed [3]" rel="1.09861228867">site-directed</span>
+<span title="site-specific [2]" rel="0.69314718056">site-specific</span>
+<span title="so-called [1]" rel="0.0">so-called</span>
+<span title="steady-state [1]" rel="0.0">steady-state</span>
+<span title="structure-function [1]" rel="0.0">structure-function</span>
+<span title="symbiotic [2]" rel="0.69314718056">symbiotic</span>
+<span title="synthetic biology [69]" rel="4.2341065046">synthetic biology</span>
+<span title="synthetic network [1]" rel="0.0">synthetic network</span>
+<span title="taking advantage [2]" rel="0.69314718056">taking advantage</span>
+<span title="three-dimensional [1]" rel="0.0">three-dimensional</span>
+<span title="time-delay [1]" rel="0.0">time-delay</span>
+<span title="tissue engineering [2]" rel="0.69314718056">tissue engineering</span>
+<span title="top-down [2]" rel="0.69314718056">top-down</span>
+<span title="transcription factors [7]" rel="1.94591014906">transcription factors</span>
+<span title="transcriptional regulation [1]" rel="0.0">transcriptional regulation</span>
+<span title="transcriptional regulators [3]" rel="1.09861228867">transcriptional regulators</span>
+<span title="two-component [3]" rel="1.09861228867">two-component</span>
+<span title="ultimate goal [1]" rel="0.0">ultimate goal</span>
+<span title="useful tool [2]" rel="0.69314718056">useful tool</span>
+<span title="web-based [1]" rel="0.0">web-based</span>
+<span title="well-characterized [3]" rel="1.09861228867">well-characterized</span>
+<span title="well-defined [1]" rel="0.0">well-defined</span>
+<span title="whole-cell [4]" rel="1.38629436112">whole-cell</span>
+<span title="wide range [1]" rel="0.0">wide range</span>
+<span title="wide variety [2]" rel="0.69314718056">wide variety</span>
