@@ -18,7 +18,7 @@ COOKIES_DEBUG = True
 
 # Team.cgi works extensively with cookies
 #CONCURRENT_ITEMS = 1
-#CONCURRENT_REQUESTS_PER_DOMAIN = 1
+CONCURRENT_REQUESTS_PER_DOMAIN = 1
 DUPEFILTER_CLASS = 'scrapy.dupefilter.BaseDupeFilter'
 
 YEARS = [2007, 2008, 2009, 2010, 2011, 2012]
