@@ -22,4 +22,5 @@ class ResultItem(Item):
     year = Field()
     team = Field()
     medal = Field()
-    awards = Field()
+    awards_regional = Field()
+    awards_championship = Field()

@@ -23,15 +23,15 @@ class TeamSpider(BaseSpider):
             hxs = HtmlXPathSelector(response)
             item = TeamItem()
             item['year'] = int(hxs.select("//h1[@class='firstHeading']/text()").re("IGEM (\d{4})")[0])
-            item['name'] = hxs.select("//table[@id='table_info']/tr[1]/td[2]/text()").extract()
-            item['region'] = hxs.select("//table[@id='table_info']/tr[td[1]/text()='Region:']/td[2]/text()").extract()
-            item['project'] = hxs.select("//table[@id='table_abstract']/tr[1]/td[1]/text()").extract()
-            item['abstract'] = hxs.select("//table[@id='table_abstract']/tr[2]/td[1]/text()").extract()
+            item['name'] = hxs.select("//table[@id='table_info']/tr[1]/td[2]/text()").extract()[0]
+            item['region'] = hxs.select("//table[@id='table_info']/tr[td[1]/text()='Region:']/td[2]/text()").extract()[0]
+            item['project'] = hxs.select("//table[@id='table_abstract']/tr[1]/td[1]/text()").extract()[0]
+            item['abstract'] = hxs.select("//table[@id='table_abstract']/tr[2]/td[1]/text()").extract()[0]
             item['instructors'] = hxs.select("//table[@id='table_roster'][1]//tr/td[2]/text()").extract()
             item['students'] = hxs.select("//table[@id='table_roster'][2]//tr/td[2]/text()").extract()
             item['advisors'] = hxs.select("//table[@id='table_roster'][3]//tr/td[2]/text()").extract()
             item['url'] = response.meta['url'] # can't use response.url due to redirect
-            item['wiki'] = hxs.select("//table[@id='table_info']/tr[1]/td[2]/div/a[1]/@href").extract()
+            item['wiki'] = hxs.select("//table[@id='table_info']/tr[1]/td[2]/div/a[1]/@href").extract()[0]
             item['parts_range'] = hxs.select("//table[@id='table_ranges']//span/text()").re("(BBa_[^\s]+) to (BBa_[^\s]+)")
 
             self.seenTeams.add(item['url'])

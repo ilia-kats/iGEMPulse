@@ -23,5 +23,5 @@ DUPEFILTER_CLASS = 'scrapy.dupefilter.BaseDupeFilter'
 
 YEARS = [2007, 2008, 2009, 2010, 2011, 2012]
 TEAM_LIST = "http://igem.org/Team_List?year=%d"
-RESULTS = "http://igem.org/Results?year=%d"
+RESULTS = "http://igem.org/Results?year=%d&region=All&division=igem"
 
