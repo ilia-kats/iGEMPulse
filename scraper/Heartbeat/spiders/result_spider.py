@@ -1,16 +1,18 @@
 from scrapy.spider import BaseSpider
 from scrapy.selector import HtmlXPathSelector
 from scrapy.http import Request
-from scrapy.conf import settings
 
 from Heartbeat.items import ResultItem
 
 class ResultSpider(BaseSpider):
     name = 'ResultSpider'
-    start_urls = [settings['RESULTS'] % year for year in settings['YEARS']]
 
     def __init__(self):
         self.seenTeams = set() # avoid duplicates when teams are listed both for continent and championship
+
+    def start_requests(self):
+        for year in self.crawler.settings['YEARS']:
+            yield self.make_requests_from_url(self.crawler.settings['RESULTS'] % year)
 
     def parse(self, response):
         hxs = HtmlXPathSelector(response)
