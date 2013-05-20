@@ -27,8 +27,8 @@ class TeamSpider(BaseSpider):
             item['year'] = int(hxs.select("//h1[@class='firstHeading']/text()").re("IGEM (\d{4})")[0])
             item['name'] = hxs.select("//table[@id='table_info']/tr[1]/td[2]/text()").extract()[0]
             item['region'] = hxs.select("//table[@id='table_info']/tr[td[1]/text()='Region:']/td[2]/text()").extract()[0]
-            item['project'] = hxs.select("//table[@id='table_abstract']/tr[1]/td[1]//text()").extract()[0]
-            item['abstract'] = hxs.select("//table[@id='table_abstract']/tr[2]/td[1]//text()").extract()[0]
+            item['project'] = "".join(hxs.select("//table[@id='table_abstract']/tr[1]/td[1]//text()").extract())
+            item['abstract'] = "".join(hxs.select("//table[@id='table_abstract']/tr[2]/td[1]//text()").extract())
             item['instructors'] = hxs.select("//table[@id='table_roster'][1]//tr/td[2]/text()").extract()
             item['students'] = hxs.select("//table[@id='table_roster'][2]//tr/td[2]/text()").extract()
             item['advisors'] = hxs.select("//table[@id='table_roster'][3]//tr/td[2]/text()").extract()

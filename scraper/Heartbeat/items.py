@@ -20,7 +20,7 @@ class TeamItem(Item):
 
 class ResultItem(Item):
     year = Field()
-    team = Field()
+    name = Field()
     medal = Field()
     awards_regional = Field()
     awards_championship = Field()

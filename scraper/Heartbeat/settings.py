@@ -16,6 +16,8 @@ HTTPCACHE_ENABLED = False
 #COOKIES_ENABLED = False
 COOKIES_DEBUG = True
 
+ITEM_PIPELINES = ['Heartbeat.pipelines.HeartbeatPipeline']
+
 # Team.cgi works extensively with cookies
 #CONCURRENT_ITEMS = 1
 #CONCURRENT_REQUESTS_PER_DOMAIN = 1
@@ -28,3 +30,5 @@ TEAM_LIST = "http://igem.org/Team_List?year=%d"
 RESULTS = "http://igem.org/Results?year=%d&region=All&division=igem"
 
 SPIDERS = ['ResultSpider','TeamSpider']
+
+OUTFILE='test.json'

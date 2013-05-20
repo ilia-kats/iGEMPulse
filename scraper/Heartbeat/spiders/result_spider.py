@@ -24,11 +24,11 @@ class ResultSpider(BaseSpider):
                     continue
                 item = ResultItem()
                 item['year'] = year
-                item['team'] = team.select("./div[@class='teambar']/p/a/text()").extract()[0]
-                if (year, item['team']) in self.seenTeams:
+                item['name'] = team.select("./div[@class='teambar']/p/a/text()").extract()[0]
+                if (year, item['name']) in self.seenTeams:
                     continue
                 else:
-                    self.seenTeams.add((year, item['team']))
+                    self.seenTeams.add((year, item['name']))
                 seal = team.select("./div[@class='teambar']/div[@class='resulticons']/img[@class='seal']/@alt").extract()
                 if seal:
                     item['medal'] = seal[0].split(" ")[0]
