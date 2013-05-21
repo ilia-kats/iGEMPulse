@@ -3,9 +3,10 @@
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/topics/item-pipeline.html
 
+import sys
 import json
 
-from Heartbeat.items import TeamItem, ResultItem
+from Heartbeat.items import HeartbeatItem
 
 class HeartbeatPipeline(object):
     spiders = 0
@@ -25,13 +26,17 @@ class HeartbeatPipeline(object):
     def close_spider(cls, spider):
         cls.spiders -= 1
         if cls.spiders == 0:
-            outf = open(cls.outfile, "w")
+            if (cls.outfile == "-"):
+                outf = sys.stdout
+            else:
+                outf = open(cls.outfile, "w")
             outf.write(json.dumps(cls.data.values(), indent=4, ensure_ascii=False, encoding="utf-8").encode("utf-8"))
-            outf.close()
+            if (cls.outfile != "-"):
+                outf.close()
 
     @classmethod
     def process_item(cls, item, spider):
-        if isinstance(item, (TeamItem, ResultItem)):
+        if isinstance(item, HeartbeatItem):
             if (item['year'], item['name']) not in cls.data:
                 cls.data[(item['year'], item['name'])] = dict(item)
             else:

@@ -5990,7 +5990,11 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:Potsdam_Bioware", 
-        "advisors": [], 
+        "instructors": [
+            "Kristian Müller", 
+            "Katja Arndt"
+        ], 
+        "name": "Potsdam Bioware", 
         "students": [
             "Mario Köhler", 
             "Tom Scheidt", 
@@ -6008,11 +6012,8 @@
             "Laura Rose", 
             "Oliver Zimmer"
         ], 
-        "abstract": "Antibodies are of utmost importance for research and therapy but their generation is laborious and time consuming. We established a novel streamlined workflow for obtaining antibodies by incorporating all natural steps such as antibody maturation, selection and production in one genetic system implemented into a eukaryotic cell line. We stably transfect an antibody construct into CHO cells and mimic maturation by using the enzyme AID (activation-induced deaminase), which is known to induce somatic hypermutation. For selection, we are testing and deploying a versatile and continuous viral system as well as magnetic beads and cell sorting. Finally, a genetic switch enables the transition from surface expression to production of soluble antibodies. In addition, we pursue phage display with an antibody fragment to study mutation rate and evolution by AID in prokaryotes. Our system supersedes animal immunization, and the smooth process will increase the ready availability of antibodies in various formats.\n", 
-        "instructors": [
-            "Kristian Müller", 
-            "Katja Arndt"
-        ], 
+        "region": "Europe", 
+        "advisors": [], 
         "awards_championship": [
             "Advance to Championship"
         ], 
@@ -6020,15 +6021,14 @@
             "BBa_K929000", 
             "BBa_K929999"
         ], 
+        "project": "Antibody Generation System - Maturation, Selection and Production in CHO Cells", 
+        "url": "http://igem.org/Team.cgi?id=929", 
         "awards_regional": [
             "Best New Standard, Europe"
         ], 
         "year": 2012, 
         "medal": "gold", 
-        "name": "Potsdam Bioware", 
-        "url": "http://igem.org/Team.cgi?id=929", 
-        "region": "Europe", 
-        "project": "Antibody Generation System - Maturation, Selection and Production in CHO Cells"
+        "abstract": "Antibodies are of utmost importance for research and therapy but their generation is laborious and time consuming. We established a novel streamlined workflow for obtaining antibodies by incorporating all natural steps such as antibody maturation, selection and production in one genetic system implemented into a eukaryotic cell line. We stably transfect an antibody construct into CHO cells and mimic maturation by using the enzyme AID (activation-induced deaminase), which is known to induce somatic hypermutation. For selection, we are testing and deploying a versatile and continuous viral system as well as magnetic beads and cell sorting. Finally, a genetic switch enables the transition from surface expression to production of soluble antibodies. In addition, we pursue phage display with an antibody fragment to study mutation rate and evolution by AID in prokaryotes. Our system supersedes animal immunization, and the smooth process will increase the ready availability of antibodies in various formats.\n"
     }, 
     {
         "wiki": "http://2010.igem.org/Team:HokkaidoU_Japan", 
@@ -9992,7 +9992,13 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:Peking", 
-        "advisors": [], 
+        "instructors": [
+            "Qi Ouyang ", 
+            "Haoqian Zhang", 
+            "Shuobing Chen", 
+            "Yi Yang"
+        ], 
+        "name": "Peking", 
         "students": [
             "Li Dayi", 
             "Tina Chen", 
@@ -10013,13 +10019,8 @@
             "Zhengcai Ma", 
             "Renmei Liu"
         ], 
-        "abstract": "Optogenetic tools have made significant impact on life sciences and beyond. However, several serious issues remain: cytotoxicy, narrow dynamic range, and dependency on laser and exogenous chromophore. To circumvent these, Peking iGEM has rationally constructed a hypersensitive sensor of luminance- Luminesensor. Primarily, the sensor was designed by fusing blue-light-sensing protein domain from Neurospora with DNA binding domain of LexA from E.coli, following which protein structure inspection and kinetic simulation were conducted to rationally perform optimization. Amazingly, Luminesensor was proved to be as sensitive as to sense natural light and even bioluminescence. With this sensor, spatiotemporal control of cellular behavior, such as phototaxis, high-resolution 2-D and 3-D bio-printing using dim light and even luminescence of iPad were shown to be very easy. What’s more, we successfully implemented cell-cell signaling using light, which is the very first time in synthetic biology and of great importance for biotechnological use.\n", 
-        "instructors": [
-            "Qi Ouyang ", 
-            "Haoqian Zhang", 
-            "Shuobing Chen", 
-            "Yi Yang"
-        ], 
+        "region": "Asia", 
+        "advisors": [], 
         "awards_championship": [
             "Advance to Championship", 
             "1st Runner Up"
@@ -10028,6 +10029,8 @@
             "BBa_K819000", 
             "BBa_K819999"
         ], 
+        "project": "Luminesensor: Programming Cells through Light", 
+        "url": "http://igem.org/Team.cgi?id=819", 
         "awards_regional": [
             "Best Presentation, Asia", 
             "Regional Finalist, Asia", 
@@ -10035,10 +10038,7 @@
         ], 
         "year": 2012, 
         "medal": "gold", 
-        "name": "Peking", 
-        "url": "http://igem.org/Team.cgi?id=819", 
-        "region": "Asia", 
-        "project": "Luminesensor: Programming Cells through Light"
+        "abstract": "Optogenetic tools have made significant impact on life sciences and beyond. However, several serious issues remain: cytotoxicy, narrow dynamic range, and dependency on laser and exogenous chromophore. To circumvent these, Peking iGEM has rationally constructed a hypersensitive sensor of luminance- Luminesensor. Primarily, the sensor was designed by fusing blue-light-sensing protein domain from Neurospora with DNA binding domain of LexA from E.coli, following which protein structure inspection and kinetic simulation were conducted to rationally perform optimization. Amazingly, Luminesensor was proved to be as sensitive as to sense natural light and even bioluminescence. With this sensor, spatiotemporal control of cellular behavior, such as phototaxis, high-resolution 2-D and 3-D bio-printing using dim light and even luminescence of iPad were shown to be very easy. What’s more, we successfully implemented cell-cell signaling using light, which is the very first time in synthetic biology and of great importance for biotechnological use.\n"
     }, 
     {
         "wiki": "http://2008.igem.org/Team:Lethbridge_CCS", 
@@ -18308,9 +18308,12 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:Penn_State", 
-        "advisors": [
-            "Howard Salis"
+        "instructors": [
+            "Tom Richard", 
+            "Jyotsna Lavanya Pandey", 
+            "Thomas McCarthy"
         ], 
+        "name": "Penn State", 
         "students": [
             "Chris Cetnar", 
             "Kaitlin Levin", 
@@ -18318,11 +18321,9 @@
             "Victoria Heasley ", 
             "Kevin Thyne"
         ], 
-        "abstract": "The central dogma of molecular biology does not always accurately predict results acquired in the lab. A construct containing two adjacent start codons in different reading frames measures the E. coli DH10B ribosome’s proclivity for either one start codon or the other through a fluorescent protein reporter in each respective reading frame. Variations in RBS translation initiation rates and length between start codons provide additional data. Repeating sequences of non-degenerative threonine and alanine codons measure codon bias and determine E. coli DH10B’s ability to translate varying lengths of identical codons through the use of mCherry and GFP reporters. Promoters are tested for bidirectionality in protein translation by measuring the rate of forward expression through downstream GFP or reverse expression through upstream RFP. A ratio of fluorescence characterizes each tested promoter.\n", 
-        "instructors": [
-            "Tom Richard", 
-            "Jyotsna Lavanya Pandey", 
-            "Thomas McCarthy"
+        "region": "Americas East", 
+        "advisors": [
+            "Howard Salis"
         ], 
         "awards_championship": [
             "Advance to Championship"
@@ -18331,13 +18332,12 @@
             "BBa_K933000", 
             "BBa_K933999"
         ], 
+        "project": "Questioning the Central Dogma of Molecular Biology", 
+        "url": "http://igem.org/Team.cgi?id=933", 
         "awards_regional": [], 
         "year": 2012, 
         "medal": "gold", 
-        "name": "Penn State", 
-        "url": "http://igem.org/Team.cgi?id=933", 
-        "region": "Americas East", 
-        "project": "Questioning the Central Dogma of Molecular Biology"
+        "abstract": "The central dogma of molecular biology does not always accurately predict results acquired in the lab. A construct containing two adjacent start codons in different reading frames measures the E. coli DH10B ribosome’s proclivity for either one start codon or the other through a fluorescent protein reporter in each respective reading frame. Variations in RBS translation initiation rates and length between start codons provide additional data. Repeating sequences of non-degenerative threonine and alanine codons measure codon bias and determine E. coli DH10B’s ability to translate varying lengths of identical codons through the use of mCherry and GFP reporters. Promoters are tested for bidirectionality in protein translation by measuring the rate of forward expression through downstream GFP or reverse expression through upstream RFP. A ratio of fluorescence characterizes each tested promoter.\n"
     }, 
     {
         "wiki": "http://2009.igem.org/Team:CityColSanFrancisco", 
@@ -22750,19 +22750,20 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:Penn", 
-        "advisors": [], 
+        "instructors": [
+            "Casim Sarkar", 
+            "Jordan Miller", 
+            "Mark Goulian"
+        ], 
+        "name": "Penn", 
         "students": [
             "Avin Veerakumar", 
             "Michael Magaraci", 
             "Peter Qiao", 
             "Ashwin Amurthur"
         ], 
-        "abstract": "   We are engineering E. coli bacteria which may enable highly targeted eradication of human epidermal growth factor receptor 2 (HER2) overexpressing cancer cells. Upon binding to HER2 overexpressing cells, bacterial cytotoxicity can be triggered with spatial and temporal precision by illumination with blue light, which activates overexpression and secretion of Cytolysin A (ClyA) under the control of the pDawn transcriptional module. \r\n   Furthermore, we are also investigating the feasibility of engineering bacterial biofilms that can act as antimicrobial surfaces. We are engineering E. coli bacteria to form non-pathogenic biofilms that express bacteriolytic proteins capable of inhibiting the formation of pathogenic biofilms that are potential sources of hospital acquired infections. These cells carry the a gene encoding lysostaphin (lss), which selectively destroys the cell walls of Streptococcus bacteria, a common pathogen in many hospital settings. \n", 
-        "instructors": [
-            "Casim Sarkar", 
-            "Jordan Miller", 
-            "Mark Goulian"
-        ], 
+        "region": "Americas East", 
+        "advisors": [], 
         "awards_championship": [
             "Advance to Championship"
         ], 
@@ -22770,6 +22771,8 @@
             "BBa_K811000", 
             "BBa_K811999"
         ], 
+        "project": "pDAWN Of A New Era: Engineering Bacterial Therapeutics", 
+        "url": "http://igem.org/Team.cgi?id=811", 
         "awards_regional": [
             "Regional Finalist, Americas East", 
             "Grand Prize Winner, Americas East", 
@@ -22777,10 +22780,7 @@
         ], 
         "year": 2012, 
         "medal": "gold", 
-        "name": "Penn", 
-        "url": "http://igem.org/Team.cgi?id=811", 
-        "region": "Americas East", 
-        "project": "pDAWN Of A New Era: Engineering Bacterial Therapeutics"
+        "abstract": "   We are engineering E. coli bacteria which may enable highly targeted eradication of human epidermal growth factor receptor 2 (HER2) overexpressing cancer cells. Upon binding to HER2 overexpressing cells, bacterial cytotoxicity can be triggered with spatial and temporal precision by illumination with blue light, which activates overexpression and secretion of Cytolysin A (ClyA) under the control of the pDawn transcriptional module. \r\n   Furthermore, we are also investigating the feasibility of engineering bacterial biofilms that can act as antimicrobial surfaces. We are engineering E. coli bacteria to form non-pathogenic biofilms that express bacteriolytic proteins capable of inhibiting the formation of pathogenic biofilms that are potential sources of hospital acquired infections. These cells carry the a gene encoding lysostaphin (lss), which selectively destroys the cell walls of Streptococcus bacteria, a common pathogen in many hospital settings. \n"
     }, 
     {
         "wiki": "http://2009.igem.org/Team:Washington-Software", 

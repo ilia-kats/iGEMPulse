@@ -5,9 +5,11 @@
 
 from scrapy.item import Item, Field
 
-class TeamItem(Item):
+class HeartbeatItem(Item):
     year = Field()
     name = Field()
+
+class TeamItem(HeartbeatItem):
     region = Field()
     project = Field()
     abstract = Field()
@@ -18,9 +20,7 @@ class TeamItem(Item):
     wiki = Field()
     parts_range = Field()
 
-class ResultItem(Item):
-    year = Field()
-    name = Field()
+class ResultItem(HeartbeatItem):
     medal = Field()
     awards_regional = Field()
     awards_championship = Field()
