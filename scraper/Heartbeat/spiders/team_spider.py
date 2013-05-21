@@ -25,7 +25,7 @@ class TeamSpider(BaseSpider):
             hxs = HtmlXPathSelector(response)
             item = TeamItem()
             item['year'] = int(hxs.select("//h1[@class='firstHeading']/text()").re("IGEM (\d{4})")[0])
-            item['name'] = hxs.select("//table[@id='table_info']/tr[1]/td[2]/text()").extract()[0]
+            item['name'] = hxs.select("//table[@id='table_info']/tr[1]/td[2]/text()").extract()[0].replace("_", " ")
             item['region'] = hxs.select("//table[@id='table_info']/tr[td[1]/text()='Region:']/td[2]/text()").extract()[0]
             item['project'] = "".join(hxs.select("//table[@id='table_abstract']/tr[1]/td[1]//text()").extract())
             item['abstract'] = "".join(hxs.select("//table[@id='table_abstract']/tr[2]/td[1]//text()").extract())
