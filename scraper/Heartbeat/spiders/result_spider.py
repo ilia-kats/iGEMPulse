@@ -32,12 +32,20 @@ class ResultSpider(BaseSpider):
                 seal = team.select("./div[@class='teambar']/div[@class='resulticons']/img[@class='seal']/@alt").extract()
                 if seal:
                     item['medal'] = seal[0].split(" ")[0]
-                awards = team.select("./div[@class='awardbar']/p/text()").extract()
+                awards = team.select("./div[@class='awardbar']/p")
                 item['awards_regional'] = []
                 item['awards_championship'] = []
                 for award in awards:
-                    if award.endswith(region):
-                        item['awards_regional'].append(award)
+                    # Best new BioBrick award contains BioBrick ID separated by <br>
+                    awardtexts = award.select("./text()").extract()
+                    awardtext = " ".join(awardtexts)
+                    regional = False
+                    for text in awardtexts:
+                        if text.endswith(region):
+                            regional = True
+                            break
+                    if regional:
+                        item['awards_regional'].append(awardtext)
                     else:
-                        item['awards_championship'].append(award)
+                        item['awards_championship'].append(awardtext)
                 yield item
