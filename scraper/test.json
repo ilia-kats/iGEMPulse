@@ -780,6 +780,42 @@
         ]
     }, 
     {
+        "wiki": "http://2012.igem.org/Team:UC_Davis", 
+        "advisors": [], 
+        "track": "Environment", 
+        "abstract": "Current plastic recycling practices successfully reduce the accumulation of non-degradable waste in the environment and landfills.  However, they remain surprisingly expensive.  Synthetic biology holds the potential to transform the recycling industry by altering the economics of waste processing.  To this end, we are engineering a model organism, E. coli, to degrade polyethylene terephthalate (PET), a common plastic found in soda bottles, carpets, clothing, food packaging, and even space blankets. We engineer and express a gene originally found in leaf-branch compost encoding a cutinase enzyme whose product degrades PET into two products: ethylene glycol and terephthalic acid.  Through rational and directed evolution of the E. coli chassis, we also create strains that utilize the breakdown product ethylene glycol as their sole carbon source.  \n", 
+        "instructors": [
+            "Marc Facciotti", 
+            "Ilias Tagkopoulos"
+        ], 
+        "awards_championship": [
+            "Advance to Championship"
+        ], 
+        "parts_range": [
+            "BBa_K936000", 
+            "BBa_K936999"
+        ], 
+        "awards_regional": [], 
+        "year": 2012, 
+        "medal": "gold", 
+        "name": "UC Davis", 
+        "url": "http://igem.org/Team.cgi?id=936", 
+        "region": "Americas West", 
+        "project": "Engineering Pathways for Polyethylene Terephthalate Degradation in E. coli", 
+        "students": [
+            "Akshay Sethi", 
+            "Christine Olson", 
+            "Pui Yan Ho", 
+            "Spencer Wong", 
+            "Sergio Castro Waqued", 
+            "Nicholas Csicsery", 
+            "Sahar Hojjat", 
+            "Colin Deniston", 
+            "Mattan Hamou", 
+            "Deborah Park"
+        ]
+    }, 
+    {
         "wiki": "http://2010.igem.org/Team:Imperial_College_London", 
         "advisors": [
             "James Chappell"
@@ -1087,56 +1123,6 @@
         "awards_regional": [], 
         "year": 2010, 
         "abstract": "-- No abstract provided yet --\n"
-    }, 
-    {
-        "wiki": "http://2012.igem.org/Team:NYU_Gallatin", 
-        "advisors": [
-            "Olga Safronova"
-        ], 
-        "track": "New Application", 
-        "abstract": "Aseatobacter (A-Seat-Obacter) began as a vision; a vision of fully formed seats and chairs emerging from giant vats of colorful bioengineered bacteria.\r\n\r\nAcetobacter xylinum naturally produces mats of cellulose that can be used for a variety of purposes. We wanted to create a broader spectrum of materials, so we altered the properties of the cellulose mats by engineering Acetobacter to express enzymes that synthesize N-acetyl glucosamine, a subunit of chitin. The result is a chitin-cellulose copolymer with unique properties. We have also engineered colors into the mats, and demonstrated their use in modern architectural design.\r\n\n", 
-        "instructors": [
-            "Nurit Bar-Shai", 
-            "Mitchell Joachim", 
-            "oliver medvedik", 
-            "Ellen Jorgensen", 
-            "Julie Wolf", 
-            "Philip Weller", 
-            "Maria Aiolova", 
-            "Melanie Fessel"
-        ], 
-        "awards_championship": [], 
-        "parts_range": [
-            "BBa_K850000", 
-            "BBa_K850999"
-        ], 
-        "awards_regional": [], 
-        "year": 2012, 
-        "medal": "bronze", 
-        "name": "NYU Gallatin", 
-        "url": "http://igem.org/Team.cgi?id=850", 
-        "region": "Americas East", 
-        "project": "Aseatobacter (not your mother's chair)", 
-        "students": [
-            "Alison Acevedo", 
-            "Min-Gyu Kim", 
-            "Will Long", 
-            "Sara Robertson", 
-            "Daniel Orr", 
-            "Alex Mossawir", 
-            "Jesse Grebler-Hull", 
-            "Taesong Kim", 
-            "Gregory Poterewicz", 
-            "Sarah Choukah", 
-            "James Schwartz", 
-            "Shivina Harjani", 
-            "Robyn Tse", 
-            "Shruti Grover", 
-            "Arthur Swieckowski", 
-            "Josue Ledesma", 
-            "Josh Moses", 
-            "Tania Doles"
-        ]
     }, 
     {
         "wiki": "http://2010.igem.org/Team:Gothenburg-Sweden", 
@@ -1478,52 +1464,42 @@
         ]
     }, 
     {
-        "wiki": "http://2012.igem.org/Team:TU_Munich", 
-        "instructors": [
-            "Arne Skerra"
-        ], 
-        "name": "TU Munich", 
-        "track": "Food & Energy", 
-        "region": "Europe", 
+        "wiki": "http://2012.igem.org/Team:Copenhagen", 
         "advisors": [
-            "Doreen Schiller", 
-            "Katrin Franz", 
-            "Fong-Chin Huang"
+            "Bjoern Hamberger"
         ], 
-        "awards_championship": [
-            "Advance to Championship"
+        "track": "Environment", 
+        "abstract": "Our overall objective is to create cyanobacteria that glow exclusively in darkness. To accomplish this, we will use a native promoter (lrtA) that normally functions as a light-regulated promoter in cyanobacteria. We will insert it into a plasmid together with the luxCDABE cassette. The cassette contains the luciferase enzyme and enzymes necessary for regeneration of its substrates.\r\nThe final goal is to make cyanobacteria (Synechococcus elongatus PCC 7002) glow because cyanobacteria perform photosynthesis and therefore do not need supplied nutrients. First, the experiment is carried out in E. coli and afterwards the plasmid is transferred to the cyanobacteria. Both of the systems will subsequently be thoroughly analyzed to determine important characteristics of the system including kinetics and efficiency of the expression levels.\r\nTo achieve this quantification we will collaborate with a fellow Physics student at University of Copenhagen. \n", 
+        "instructors": [
+            "Peter Naur", 
+            "Johan Andersen-Ranberg", 
+            "Pratik Shah"
         ], 
+        "awards_championship": [], 
         "parts_range": [
-            "BBa_K801000", 
-            "BBa_K801999"
+            "BBa_K770000", 
+            "BBa_K770999"
         ], 
-        "project": "TUM-Brew: iGEM's first and finest SynBio Beer", 
-        "students": [
-            "Dong-Jiunn Jeffery TRUONG", 
-            "Volker Morath", 
-            "Roman Prechtl", 
-            "Daniela Dichtler", 
-            "Simon Heinze", 
-            "Nadine Gerstenberg", 
-            "Fabian Froehlich", 
-            "David Wehner", 
-            "Maria Trumpfheller", 
-            "Katrin Fischer", 
-            "Martin Schappert", 
-            "Lara Kuntz", 
-            "Jara Obermann", 
-            "Saskia König", 
-            "Ingmar Polte", 
-            "Alois Bräuer", 
-            "Andrea Richter", 
-            "Dennis Hell", 
-            "Georg Schützinger"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=801", 
+        "awards_regional": [], 
         "year": 2012, 
-        "medal": "gold", 
-        "abstract": "The TU Munich iGEM Team engineers ''Saccharomyces cerevisiae'', also known as baker's yeast, in order to lay the foundations for a new generation of functional foods with nutritionally valuable ingredients.\r\nAs an example, for iGEM’s first “SynBio Beer” the compounds Xanthohumol (anticancerogenic), Limonene (limeflavor), Caffeine (stimulant) as well as the Thaumatin (protein sweetener) were chosen to demonstrate the spectrum of possibilities to complement traditional foods or beverages.\r\nThe metabolic pathways for these substances were converted to genetic BioBricks. Using the shuttle vector pYES2, which was adapted to the iGEM standard, transient transfection and expression in yeast were achieved. The gene products were subsequently characterized and their biosynthetic activities investigated.\r\nConstitutive, alcohol-inducible and light-switchable promoter systems were developed, to individually regulate the expression of these gene cassettes. By combining these BioBricks our team has been able to brew iGEM’s first and finest SynBio Beer.", 
-        "awards_regional": []
+        "medal": "bronze", 
+        "name": "Copenhagen", 
+        "url": "http://igem.org/Team.cgi?id=770", 
+        "region": "Europe", 
+        "project": "CyanoDelux", 
+        "students": [
+            "Chris Skovgaard Ramming", 
+            "Charlotte Amalie Emdal Navntoft", 
+            "Malte Thodberg", 
+            "Line Barington", 
+            "Michel Saremi", 
+            "Naja Emborg Vinding", 
+            "Camilla Victoria Lindgren Schwartz", 
+            "Charlotte Krag Varslev-Pedersen", 
+            "Cecilie Hundahl Johnsen", 
+            "Thomas Holst-Hansen", 
+            "Lea Gregers"
+        ]
     }, 
     {
         "wiki": "http://2012.igem.org/Team:Washington", 
@@ -1877,16 +1853,15 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:SJTU-BioX-Shanghai", 
+        "advisors": [
+            "Xie Zhitao"
+        ], 
+        "track": "New Application", 
+        "abstract": "In this year’s project, we aim at constructing a set of protein systems on the E.coli cell membrane as carriers of enzymes of assorted reactions. Distinct from linear DNA or RNA scaffolds in the traditional sense, the membrane protein system expands the dimension of reaction space, making possible the framework of numerous complex reactions on the two-dimensional plane, for example, switchable or circular reactions. In such a device, the membrane replaces DNA or RNA scaffolds as an extensive surface for proteins to anchor without limitation of expression amount. More importantly, by gathering the downstream enzymes through signal regulation, the reaction can be accelerated sharply. Besides, products can be transported much more efficiently from the inside to the outside of the cell in that the enzymes are tied to the membrane proteins. Hence the membrane is where the magic happens. \n", 
         "instructors": [
             "Gang Ma", 
             "Lin He ", 
             "Wang You"
-        ], 
-        "name": "SJTU-BioX-Shanghai", 
-        "track": "New Application", 
-        "region": "Asia", 
-        "advisors": [
-            "Xie Zhitao"
         ], 
         "awards_championship": [
             "Advance to Championship"
@@ -1895,6 +1870,16 @@
             "BBa_K771000", 
             "BBa_K771999"
         ], 
+        "awards_regional": [
+            "Regional Finalist, Asia", 
+            "Grand Prize Winner, Asia", 
+            "Best New BioBrick Device, Engineered, Asia"
+        ], 
+        "year": 2012, 
+        "medal": "gold", 
+        "name": "SJTU-BioX-Shanghai", 
+        "url": "http://igem.org/Team.cgi?id=771", 
+        "region": "Asia", 
         "project": "Membrane Magic", 
         "students": [
             "Suo Yang", 
@@ -1914,15 +1899,6 @@
             "Yuanhao Song", 
             "Wu Jiajie", 
             "Shiyi Liu"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=771", 
-        "year": 2012, 
-        "medal": "gold", 
-        "abstract": "In this year’s project, we aim at constructing a set of protein systems on the E.coli cell membrane as carriers of enzymes of assorted reactions. Distinct from linear DNA or RNA scaffolds in the traditional sense, the membrane protein system expands the dimension of reaction space, making possible the framework of numerous complex reactions on the two-dimensional plane, for example, switchable or circular reactions. In such a device, the membrane replaces DNA or RNA scaffolds as an extensive surface for proteins to anchor without limitation of expression amount. More importantly, by gathering the downstream enzymes through signal regulation, the reaction can be accelerated sharply. Besides, products can be transported much more efficiently from the inside to the outside of the cell in that the enzymes are tied to the membrane proteins. Hence the membrane is where the magic happens. \n", 
-        "awards_regional": [
-            "Regional Finalist, Asia", 
-            "Grand Prize Winner, Asia", 
-            "Best New BioBrick Device, Engineered, Asia"
         ]
     }, 
     {
@@ -3075,47 +3051,53 @@
         ]
     }, 
     {
-        "wiki": "http://2012.igem.org/Team:TU-Delft", 
-        "instructors": [
-            "Anne S. Meyer", 
-            "Esengül Yildirim", 
-            "Alessandro Abate", 
-            "Emrah Nikerel"
-        ], 
-        "name": "TU-Delft", 
-        "track": "Information Processing", 
-        "region": "Europe", 
+        "wiki": "http://2012.igem.org/Team:Tokyo-NoKoGen", 
         "advisors": [
-            "Calin Plesa", 
-            "Aljoscha Wahl", 
-            "Ilya Tkachev", 
-            "Daniel Solis Escalante"
+            "Nasa SAVORY"
         ], 
-        "awards_championship": [
-            "Advance to Championship"
+        "track": "New Application", 
+        "abstract": "We created an E. coli for long distance communication. This “Communicheria coli” was inspired by the Pony Express, a rapid mail delivery service in the American Wild West, where mail was relayed by horseback riders. Communicheria coli sends a message, in the form of light, to distant cells, which then relay the message to other distant cells.\r\nCommunicheria coli has light sensors constructed using the light receptor domain of bacterial sensory rhodopsin or the cyanobacterial green light sensor CcaS. In response to light signals, cells will induce their own lux operon to send the message to other distant cells, for example in a separate flask, which will in turn relay the message to other distant cells.\r\nTo improve the effectiveness of our new signal delivery system, we set out to enhance the light intensity, change the light color, and shorten the response time.\r\n\r\n\n", 
+        "instructors": [
+            "Stefano Ferri", 
+            "Koji Sode", 
+            "Kazunori IKEBUKURO"
         ], 
+        "awards_championship": [], 
         "parts_range": [
-            "BBa_K775000", 
-            "BBa_K775999"
+            "BBa_K769000", 
+            "BBa_K769999"
         ], 
-        "project": "Snifferomyces", 
-        "students": [
-            "Isabelle Jacobs", 
-            "Stephanie Lubbers", 
-            "Marcel Langelaan", 
-            "Lakshmeesh Rao Mohre Maruthi", 
-            "Mark Weijers", 
-            "Yifan Pan", 
-            "Eftychia Thomaidou", 
-            "Sietske Grijseels", 
-            "Menno Witteveen", 
-            "Lizah van der Aart"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=775", 
+        "awards_regional": [], 
         "year": 2012, 
-        "medal": "gold", 
-        "abstract": "The aim of this year’s iGEM project will be the synthesis of an olfactory device for the purpose of characterization of volatile compound. Here, the aim is to introduce olfactory receptor gene fusions into Saccharomyces cerevisiae and linking these receptors to a transcription response. Aims:\r\n\tThe diagnostics of the presence of tuberculosis bacteria in the lungs by sensing chemical compound methyl nicotinate by S. cerevisiae. For diagnostics, the response to these molecules is light, generated by the Lux proteins (visible blue light) or GFP (fluorescent green).\r\n\t\tIntroducing receptors for sensing the presence of banana-smell (iso-amyl acetate). This is done to see whether communication between S. cerevisiae and E. coli is possible by this volatile intermediate.\r\n\t\tSupplying a toolkit which allows scientists to introduce olfactory receptors in yeast with minimal effort. Further we want to characterize the receptor parts submitted by the 2009 Hongkong university.\r\n\t", 
-        "awards_regional": []
+        "medal": "silver", 
+        "name": "Tokyo-NoKoGen", 
+        "url": "http://igem.org/Team.cgi?id=769", 
+        "region": "Asia", 
+        "project": "Coli express for long distance communication", 
+        "students": [
+            "kotone miyake", 
+            "Hikaru Sekiguchi", 
+            "Jinhee LEE", 
+            "Somin LEE", 
+            "Shouhei TAKAMATHU", 
+            "Sumiya KAWAI", 
+            "Hayato Tsuruta", 
+            "Madoka Nagata", 
+            "Takeshi Iida", 
+            "Miki Sanada", 
+            "satoshi YANOKUCHI", 
+            "Mayumi Nakamura", 
+            "Miho Narita", 
+            "Tomomi YOKOYAMA", 
+            "Genki Sakai", 
+            "Hiroto OKANO", 
+            "masahiro kawakita", 
+            "Yuki Uchikura", 
+            "Nanoha Suzuki", 
+            "Kyoko Yonemoto", 
+            "Saki Nakashima", 
+            "Moto Yamasaki"
+        ]
     }, 
     {
         "wiki": "http://2011.igem.org/Team:Wageningen_UR", 
@@ -3952,13 +3934,12 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:Yale", 
+        "advisors": [], 
+        "track": "Foundational Advance", 
+        "abstract": "Traditional plasmid-based cloning methods are limited by tedious protocols that make targeted genetic changes within the cell. Multiplex Automated Genome Engineering (MAGE), an alternative technique for rapidly generating genomic diversity using the recombination ability of the λ-phage ssDNA-binding protein β, has to date only been introduced in E. coli. These cells must be transformed via electroporation for each MAGE cycle to facilitate efficient uptake of mutagenic oligonucleotides, but this process kills a significant portion of otherwise viable cells. For our project, we designed and created a universal test cassette system to introduce MAGE to diverse bacteria as well as a library of β homologs for testing. Finally, we optimized the technique for the naturally competent organisms B. subtilis and A. baylyi to eliminate the costly electroporation step and developed computational algorithms to aid in the design and prediction of MAGE experiments.\n", 
         "instructors": [
             "Farren Isaacs"
         ], 
-        "name": "Yale", 
-        "track": "Foundational Advance", 
-        "region": "Americas East", 
-        "advisors": [], 
         "awards_championship": [
             "Advance to Championship"
         ], 
@@ -3966,6 +3947,14 @@
             "BBa_K810000", 
             "BBa_K810999"
         ], 
+        "awards_regional": [
+            "Best Presentation, Americas East"
+        ], 
+        "year": 2012, 
+        "medal": "bronze", 
+        "name": "Yale", 
+        "url": "http://igem.org/Team.cgi?id=810", 
+        "region": "Americas East", 
         "project": "Multiplex Automated Genome Engineering (MAGE) in Naturally Competent Bacteria: An Alternative to Cloning", 
         "students": [
             "Aaron J O Lewis", 
@@ -3983,13 +3972,6 @@
             "Gabriel Levine", 
             "Joshua Okonkwo", 
             "Viveca Morris"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=810", 
-        "year": 2012, 
-        "medal": "bronze", 
-        "abstract": "Traditional plasmid-based cloning methods are limited by tedious protocols that make targeted genetic changes within the cell. Multiplex Automated Genome Engineering (MAGE), an alternative technique for rapidly generating genomic diversity using the recombination ability of the λ-phage ssDNA-binding protein β, has to date only been introduced in E. coli. These cells must be transformed via electroporation for each MAGE cycle to facilitate efficient uptake of mutagenic oligonucleotides, but this process kills a significant portion of otherwise viable cells. For our project, we designed and created a universal test cassette system to introduce MAGE to diverse bacteria as well as a library of β homologs for testing. Finally, we optimized the technique for the naturally competent organisms B. subtilis and A. baylyi to eliminate the costly electroporation step and developed computational algorithms to aid in the design and prediction of MAGE experiments.\n", 
-        "awards_regional": [
-            "Best Presentation, Americas East"
         ]
     }, 
     {
@@ -4551,18 +4533,17 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:Paris_Bettencourt", 
-        "instructors": [
-            "Ariel Lindner", 
-            "Antoine Decrulle", 
-            "Edwin Wintermute"
-        ], 
-        "name": "Paris Bettencourt", 
-        "track": "Environment", 
-        "region": "Europe", 
         "advisors": [
             "Aleksandra Nivina", 
             "Babak Nichabouri", 
             "Yang Yifan"
+        ], 
+        "track": "Environment", 
+        "abstract": "Many synthetic biology projects propose the application of Genetically Engineered Organisms (GEOs) in natural environments. However, issues of biosafety and ethics constrain the use of GEOs outside the lab. A primary concern is the Horizontal Gene Transfer (HGT) of synthetic genes to natural populations. Strategies developed to address this problem provide varying levels of containment, however, the substantial elimination of HGT remains difficult or perhaps impossible.\r\n\r\nWe have developed a new containment system to expand the range of environments where GEOs can be used safely. To do so, we rely on three levels of containment: physical containment with alginate capsules, semantic containment using an amber suppressor system, and an improved killswitch featuring delayed population-level suicide through complete genome degradation. We aim to raise the issue of biosafety by engaging the general public and scientific community through debate, and to advocate the discerning use of biosafety circuits in future iGEM projects.\n", 
+        "instructors": [
+            "Ariel Lindner", 
+            "Antoine Decrulle", 
+            "Edwin Wintermute"
         ], 
         "awards_championship": [
             "Advance to Championship", 
@@ -4574,6 +4555,14 @@
             "BBa_K914000", 
             "BBa_K914999"
         ], 
+        "awards_regional": [
+            "Safety Commendation, Europe"
+        ], 
+        "year": 2012, 
+        "medal": "gold", 
+        "name": "Paris Bettencourt", 
+        "url": "http://igem.org/Team.cgi?id=914", 
+        "region": "Europe", 
         "project": "bWARE", 
         "students": [
             "Dylan Iverson", 
@@ -4585,13 +4574,6 @@
             "Ernest Mordret", 
             "Claire Mayer", 
             "Zoran Marinkovic"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=914", 
-        "year": 2012, 
-        "medal": "gold", 
-        "abstract": "Many synthetic biology projects propose the application of Genetically Engineered Organisms (GEOs) in natural environments. However, issues of biosafety and ethics constrain the use of GEOs outside the lab. A primary concern is the Horizontal Gene Transfer (HGT) of synthetic genes to natural populations. Strategies developed to address this problem provide varying levels of containment, however, the substantial elimination of HGT remains difficult or perhaps impossible.\r\n\r\nWe have developed a new containment system to expand the range of environments where GEOs can be used safely. To do so, we rely on three levels of containment: physical containment with alginate capsules, semantic containment using an amber suppressor system, and an improved killswitch featuring delayed population-level suicide through complete genome degradation. We aim to raise the issue of biosafety by engaging the general public and scientific community through debate, and to advocate the discerning use of biosafety circuits in future iGEM projects.\n", 
-        "awards_regional": [
-            "Safety Commendation, Europe"
         ]
     }, 
     {
@@ -4726,6 +4708,51 @@
             "Mariko Matsuura", 
             "Akiko Nishimura", 
             "Komura Takuya"
+        ]
+    }, 
+    {
+        "wiki": "http://2012.igem.org/Team:University_College_London", 
+        "advisors": [
+            "Yanika Borg", 
+            "Alex Templar", 
+            "Howard Boland", 
+            "Chris P Barnes"
+        ], 
+        "track": "Environment", 
+        "abstract": "It is in the Great Pacific Garbage Patch that we are confronted with the real consequences of human plastic dependency: an immense mass of accumulating microplastic particles floating just beneath the surface of the North Pacific Ocean. Where attempts at physical removal and biodegradable plastics have failed to solve this pollution disaster, synthetic biology steps in. UCL’s project proposes the bioremediation of microplastic waste by two systems: degradation using a laccase enzyme or aggregation by controlled expression of curli. Ultimately we envisage the construction of habitable islands - turning waste into a resource. We used novel chassis: two marine bacteria, Oceanibulbus indoliflex  and Roseobacter denitrificans. In line with considering the viability of our project, we questioned the access ordinary citizens should have to these tools. Initiating a new partnership, UCL teamed up with a group of ‘biohackers’ (citizen scientists in molecular biology) to create the world’s first ‘Public BioBrick’.\n", 
+        "instructors": [
+            "Eli Keshavarz-Moore", 
+            "Darren N. Nesbeth"
+        ], 
+        "awards_championship": [
+            "Advance to Championship", 
+            "Best Presentation"
+        ], 
+        "parts_range": [
+            "BBa_K729000", 
+            "BBa_K729999"
+        ], 
+        "awards_regional": [], 
+        "year": 2012, 
+        "medal": "gold", 
+        "name": "University College London", 
+        "url": "http://igem.org/Team.cgi?id=729", 
+        "region": "Europe", 
+        "project": "Plastic Republic - Bioremediation of Marine Microplastic Waste  ", 
+        "students": [
+            "Yeping Lu", 
+            "Philipp Böing", 
+            "Bouran Sohrabi", 
+            "Aurelija Grigonyte", 
+            "Martina Sebastian", 
+            "James Rutley", 
+            "Bethan Wolfenden", 
+            "Erin Oerton", 
+            "Ting Chu En", 
+            "Leonard Wen Yan Leong", 
+            "Rhiannon Wilkinson", 
+            "Erick Miguel Ramos-Martinez", 
+            "Carina Tran"
         ]
     }, 
     {
@@ -4914,6 +4941,43 @@
         "url": "http://igem.org/Team.cgi?id=85", 
         "region": "Asia", 
         "project": "-- Not provided yet --"
+    }, 
+    {
+        "wiki": "http://2012.igem.org/Team:UT-Tokyo-Software", 
+        "advisors": [
+            "Masahiko Shimizu"
+        ], 
+        "track": "Software Tools", 
+        "abstract": "We developed new search and educational tools to assist iGEM\r\nteams. For many teams, the majority of team members are new-comers.\r\nOur primary goal therefore is to aid these beginners get used to iGEM\r\nearlier\r\nto make project initiation swift.  All of our tools are\r\nweb-based and have user-friendly interfaces enabling users to gain\r\nquick access to needed information.  Our project consists of the following four\r\ntools.\r\n“BioBrick Search” improves convenience in searching BioBrick parts by\r\na sophisticated interface and an ordering algorithm taking into acount the\r\nparts' frequency of use.\r\nWith “Past Project Search”, you can run a keyword search for all past\r\nprojects and access past teams' presentation material easily.\r\n“BioBrick Puzzle” and “Gene Network Game” are educational games intended\r\nfor beginners to acquire knowledge about BioBricks and gene networks,\r\nwhich aides them to plan their projects and conduct experiments.\n", 
+        "instructors": [
+            "Craig Hamilton", 
+            "Daichi Tamaru"
+        ], 
+        "awards_championship": [
+            "Best Interaction with the Parts Registry", 
+            "Advance to Software Jamboree"
+        ], 
+        "parts_range": [
+            "BBa_K791000", 
+            "BBa_K791999"
+        ], 
+        "awards_regional": [
+            "Best Human Practices Advance, Asia"
+        ], 
+        "year": 2012, 
+        "medal": "gold", 
+        "name": "UT-Tokyo-Software", 
+        "url": "http://igem.org/Team.cgi?id=791", 
+        "region": "Asia", 
+        "project": "Software tools for iGEMers: BioBrick/Project Search & Tutorials", 
+        "students": [
+            "Eiichi Matsumoto", 
+            "Eri Awazu", 
+            "Asahito Kaneko", 
+            "Kotaro Iwata", 
+            "Tsukasa Nakamura", 
+            "Masahiro Kiyota"
+        ]
     }, 
     {
         "wiki": "http://2010.igem.org/Team:uOttawa", 
@@ -6120,14 +6184,13 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:Potsdam_Bioware", 
+        "advisors": [], 
+        "track": "Manufacturing", 
+        "abstract": "Antibodies are of utmost importance for research and therapy but their generation is laborious and time consuming. We established a novel streamlined workflow for obtaining antibodies by incorporating all natural steps such as antibody maturation, selection and production in one genetic system implemented into a eukaryotic cell line. We stably transfect an antibody construct into CHO cells and mimic maturation by using the enzyme AID (activation-induced deaminase), which is known to induce somatic hypermutation. For selection, we are testing and deploying a versatile and continuous viral system as well as magnetic beads and cell sorting. Finally, a genetic switch enables the transition from surface expression to production of soluble antibodies. In addition, we pursue phage display with an antibody fragment to study mutation rate and evolution by AID in prokaryotes. Our system supersedes animal immunization, and the smooth process will increase the ready availability of antibodies in various formats.\n", 
         "instructors": [
             "Kristian Müller", 
             "Katja Arndt"
         ], 
-        "name": "Potsdam Bioware", 
-        "track": "Manufacturing", 
-        "region": "Europe", 
-        "advisors": [], 
         "awards_championship": [
             "Advance to Championship"
         ], 
@@ -6135,6 +6198,14 @@
             "BBa_K929000", 
             "BBa_K929999"
         ], 
+        "awards_regional": [
+            "Best New Standard, Europe"
+        ], 
+        "year": 2012, 
+        "medal": "gold", 
+        "name": "Potsdam Bioware", 
+        "url": "http://igem.org/Team.cgi?id=929", 
+        "region": "Europe", 
         "project": "Antibody Generation System - Maturation, Selection and Production in CHO Cells", 
         "students": [
             "Mario Köhler", 
@@ -6152,13 +6223,6 @@
             "Stefan Grabiger", 
             "Laura Rose", 
             "Oliver Zimmer"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=929", 
-        "year": 2012, 
-        "medal": "gold", 
-        "abstract": "Antibodies are of utmost importance for research and therapy but their generation is laborious and time consuming. We established a novel streamlined workflow for obtaining antibodies by incorporating all natural steps such as antibody maturation, selection and production in one genetic system implemented into a eukaryotic cell line. We stably transfect an antibody construct into CHO cells and mimic maturation by using the enzyme AID (activation-induced deaminase), which is known to induce somatic hypermutation. For selection, we are testing and deploying a versatile and continuous viral system as well as magnetic beads and cell sorting. Finally, a genetic switch enables the transition from surface expression to production of soluble antibodies. In addition, we pursue phage display with an antibody fragment to study mutation rate and evolution by AID in prokaryotes. Our system supersedes animal immunization, and the smooth process will increase the ready availability of antibodies in various formats.\n", 
-        "awards_regional": [
-            "Best New Standard, Europe"
         ]
     }, 
     {
@@ -6192,46 +6256,25 @@
         ]
     }, 
     {
-        "wiki": "http://2012.igem.org/Team:Wageningen_UR", 
-        "instructors": [
-            "Mark van passel", 
-            "Floor Hugenholtz"
-        ], 
-        "name": "Wageningen UR", 
-        "track": "Health & Medicine", 
-        "region": "Europe", 
+        "wiki": "http://2012.igem.org/Team:NTHU_BioEE", 
         "advisors": [], 
-        "awards_championship": [
-            "Advance to Championship"
+        "name": "NTHU BioEE", 
+        "students": [], 
+        "region": "Asia", 
+        "instructors": [
+            "Hsiao-Ching Lee", 
+            "Bor-Sen Chen"
         ], 
+        "awards_championship": [], 
         "parts_range": [
-            "BBa_K883000", 
-            "BBa_K883999"
+            "BBa_K889000", 
+            "BBa_K889999"
         ], 
-        "project": "A standardized tool for site specific drug delivery using Virus-Like Particles", 
-        "students": [
-            "Kees van der Ark", 
-            "Hugo de Vries", 
-            "Jeroen Bosman", 
-            "Han Yue", 
-            "Nick Brouwers", 
-            "Thijs Slijkhuis", 
-            "Mark van Veen", 
-            "Niels Dammes", 
-            "Lisa Sonnenberg", 
-            "Robert Nitschel", 
-            "Wouter Elings", 
-            "Jasper Jan Koehorst", 
-            "Agneya Bhushan", 
-            "Marnix Vlot"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=883", 
+        "project": "-- Not provided yet --", 
+        "url": "http://igem.org/Team.cgi?id=889", 
+        "awards_regional": [], 
         "year": 2012, 
-        "medal": "gold", 
-        "abstract": "Medicines are generally active in a non-site-specific fashion, affecting the whole patient, including healthy tissue. Therefore, we attempt to specifically target diseased areas by packaging medicines inside Virus-Like Particles (VLPs). VLPs are not infectious, as they are built solely from viral coat proteins. We designed a modular Plug and Apply system that enables modifications to these coat proteins. The system facilitates the linkage of numerous ligands to the coat protein, thereby creating site-specific carriers. After expression of coat protein genes in Escherichia coli the VLPs were assembled in vitro, yielding modified Virus-Like Particles. Medicines can be packed using the Plug and Apply system or simply by addition during VLP assembly. Concluding, VLPs can be used as universal carriers for site-specific drug delivery, allowing customization to a variety of diseases while decreasing side effects for patients during treatment.\n", 
-        "awards_regional": [
-            "Best Presentation, Europe"
-        ]
+        "abstract": "-- No abstract provided yet --\n"
     }, 
     {
         "wiki": "http://2010.igem.org/Team:UC_Davis", 
@@ -6795,14 +6838,13 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:Wisconsin-Madison", 
-        "instructors": [
-            "Brian Pfleger"
-        ], 
-        "name": "Wisconsin-Madison", 
-        "track": "Food & Energy", 
-        "region": "Americas East", 
         "advisors": [
             "Rebecca Weerth"
+        ], 
+        "track": "Food & Energy", 
+        "abstract": "In synthetic biology, a powerful method for the production of novel metabolites is the expression of heterologous genes in Escherichia coli. A common challenge when using non-native genes in metabolic engineering is determining if they are being properly expressed. To address this issue, we have constructed a BioFusion compatible system for testing the translation of a gene of interest. This system couples the translation of the target gene to a fluorescent reporter gene. Fluorescence will only be detected when the target gene is entirely translated. This construct enables synthetic biologists to quickly determine if a gene is being expressed without the need for costly antibodies or analytical instruments (e.g. mass spectrometry). Currently, we are utilizing this cassette to troubleshoot the expression of limonene synthase, an enzyme that catalyzes the production of limonene, a monoterpene with potential as a renewable jet fuel.\n", 
+        "instructors": [
+            "Brian Pfleger"
         ], 
         "awards_championship": [
             "Advance to Championship"
@@ -6811,6 +6853,12 @@
             "BBa_K762000", 
             "BBa_K762999"
         ], 
+        "awards_regional": [], 
+        "year": 2012, 
+        "medal": "gold", 
+        "name": "Wisconsin-Madison", 
+        "url": "http://igem.org/Team.cgi?id=762", 
+        "region": "Americas East", 
         "project": "A tool to evaluate the translation of heterologous genes in Eschericia coli", 
         "students": [
             "Yishen Cai", 
@@ -6824,12 +6872,7 @@
             "Michael Zaiken", 
             "Chelsea Webster", 
             "Shashank Shekhar"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=762", 
-        "year": 2012, 
-        "medal": "gold", 
-        "abstract": "In synthetic biology, a powerful method for the production of novel metabolites is the expression of heterologous genes in Escherichia coli. A common challenge when using non-native genes in metabolic engineering is determining if they are being properly expressed. To address this issue, we have constructed a BioFusion compatible system for testing the translation of a gene of interest. This system couples the translation of the target gene to a fluorescent reporter gene. Fluorescence will only be detected when the target gene is entirely translated. This construct enables synthetic biologists to quickly determine if a gene is being expressed without the need for costly antibodies or analytical instruments (e.g. mass spectrometry). Currently, we are utilizing this cassette to troubleshoot the expression of limonene synthase, an enzyme that catalyzes the production of limonene, a monoterpene with potential as a renewable jet fuel.\n", 
-        "awards_regional": []
+        ]
     }, 
     {
         "wiki": "http://2010.igem.org/Team:BCCS-Bristol", 
@@ -7070,40 +7113,54 @@
         ]
     }, 
     {
-        "wiki": "http://2012.igem.org/Team:UC_Davis", 
+        "wiki": "http://2012.igem.org/Team:NYU_Gallatin", 
+        "advisors": [
+            "Olga Safronova"
+        ], 
+        "track": "New Application", 
+        "abstract": "Aseatobacter (A-Seat-Obacter) began as a vision; a vision of fully formed seats and chairs emerging from giant vats of colorful bioengineered bacteria.\r\n\r\nAcetobacter xylinum naturally produces mats of cellulose that can be used for a variety of purposes. We wanted to create a broader spectrum of materials, so we altered the properties of the cellulose mats by engineering Acetobacter to express enzymes that synthesize N-acetyl glucosamine, a subunit of chitin. The result is a chitin-cellulose copolymer with unique properties. We have also engineered colors into the mats, and demonstrated their use in modern architectural design.\r\n\n", 
         "instructors": [
-            "Marc Facciotti", 
-            "Ilias Tagkopoulos"
+            "Nurit Bar-Shai", 
+            "Mitchell Joachim", 
+            "oliver medvedik", 
+            "Ellen Jorgensen", 
+            "Julie Wolf", 
+            "Philip Weller", 
+            "Maria Aiolova", 
+            "Melanie Fessel"
         ], 
-        "name": "UC Davis", 
-        "track": "Environment", 
-        "region": "Americas West", 
-        "advisors": [], 
-        "awards_championship": [
-            "Advance to Championship"
-        ], 
+        "awards_championship": [], 
         "parts_range": [
-            "BBa_K936000", 
-            "BBa_K936999"
+            "BBa_K850000", 
+            "BBa_K850999"
         ], 
-        "project": "Engineering Pathways for Polyethylene Terephthalate Degradation in E. coli", 
-        "students": [
-            "Akshay Sethi", 
-            "Christine Olson", 
-            "Pui Yan Ho", 
-            "Spencer Wong", 
-            "Sergio Castro Waqued", 
-            "Nicholas Csicsery", 
-            "Sahar Hojjat", 
-            "Colin Deniston", 
-            "Mattan Hamou", 
-            "Deborah Park"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=936", 
+        "awards_regional": [], 
         "year": 2012, 
-        "medal": "gold", 
-        "abstract": "Current plastic recycling practices successfully reduce the accumulation of non-degradable waste in the environment and landfills.  However, they remain surprisingly expensive.  Synthetic biology holds the potential to transform the recycling industry by altering the economics of waste processing.  To this end, we are engineering a model organism, E. coli, to degrade polyethylene terephthalate (PET), a common plastic found in soda bottles, carpets, clothing, food packaging, and even space blankets. We engineer and express a gene originally found in leaf-branch compost encoding a cutinase enzyme whose product degrades PET into two products: ethylene glycol and terephthalic acid.  Through rational and directed evolution of the E. coli chassis, we also create strains that utilize the breakdown product ethylene glycol as their sole carbon source.  \n", 
-        "awards_regional": []
+        "medal": "bronze", 
+        "name": "NYU Gallatin", 
+        "url": "http://igem.org/Team.cgi?id=850", 
+        "region": "Americas East", 
+        "project": "Aseatobacter (not your mother's chair)", 
+        "students": [
+            "Alison Acevedo", 
+            "Min-Gyu Kim", 
+            "Will Long", 
+            "Sara Robertson", 
+            "Daniel Orr", 
+            "Alex Mossawir", 
+            "Jesse Grebler-Hull", 
+            "Taesong Kim", 
+            "Gregory Poterewicz", 
+            "Sarah Choukah", 
+            "James Schwartz", 
+            "Shivina Harjani", 
+            "Robyn Tse", 
+            "Shruti Grover", 
+            "Arthur Swieckowski", 
+            "Josue Ledesma", 
+            "Josh Moses", 
+            "Tania Doles"
+        ]
     }, 
     {
         "wiki": "http://2011.igem.org/Team:Potsdam_Bioware", 
@@ -7881,13 +7938,12 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:Tianjin", 
+        "advisors": [], 
+        "track": "New Application", 
+        "abstract": "The Shine-Dalgarno (SD) sequence is a ribosome binding site several basepair ahead of start codon AUG. It interacts with the anti-Shine-Dalgarno (ASD) sequence in the 16S rRNA in the ribosome to initiate protein translation. By mutate the basepair in the SD and ASD sequence, we produced an orthogonal translation system where the canonical ribosome cannot translate the orthogonal mRNA, and vice versa. We call this system O-Key. Using the O-Key, we are able to strictly control the synthesis of desired product and prevent potential contamination to the publics and environment. We can even build a completely new orthogonal phage that can only infect our engineered E. coli. With these successful examples, we demonstrated a bright and secure future that guarantees the safety of the human and environment with our O-Key. \n", 
         "instructors": [
             "Yingjin Yuan"
         ], 
-        "name": "Tianjin", 
-        "track": "New Application", 
-        "region": "Asia", 
-        "advisors": [], 
         "awards_championship": [
             "Advance to Championship", 
             "2nd Runner Up"
@@ -7896,6 +7952,15 @@
             "BBa_K821000", 
             "BBa_K821999"
         ], 
+        "awards_regional": [
+            "Regional Finalist, Asia", 
+            "Best Poster, Asia"
+        ], 
+        "year": 2012, 
+        "medal": "gold", 
+        "name": "Tianjin", 
+        "url": "http://igem.org/Team.cgi?id=821", 
+        "region": "Asia", 
         "project": "AegiSafe O-Key ", 
         "students": [
             "Bin Jia", 
@@ -7914,14 +7979,6 @@
             "Andi Wangzhou", 
             "WEI YUFEI", 
             "Chao Li"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=821", 
-        "year": 2012, 
-        "medal": "gold", 
-        "abstract": "The Shine-Dalgarno (SD) sequence is a ribosome binding site several basepair ahead of start codon AUG. It interacts with the anti-Shine-Dalgarno (ASD) sequence in the 16S rRNA in the ribosome to initiate protein translation. By mutate the basepair in the SD and ASD sequence, we produced an orthogonal translation system where the canonical ribosome cannot translate the orthogonal mRNA, and vice versa. We call this system O-Key. Using the O-Key, we are able to strictly control the synthesis of desired product and prevent potential contamination to the publics and environment. We can even build a completely new orthogonal phage that can only infect our engineered E. coli. With these successful examples, we demonstrated a bright and secure future that guarantees the safety of the human and environment with our O-Key. \n", 
-        "awards_regional": [
-            "Regional Finalist, Asia", 
-            "Best Poster, Asia"
         ]
     }, 
     {
@@ -9585,41 +9642,51 @@
         ]
     }, 
     {
-        "wiki": "http://2012.igem.org/Team:Copenhagen", 
+        "wiki": "http://2012.igem.org/Team:TU_Munich", 
         "advisors": [
-            "Bjoern Hamberger"
+            "Doreen Schiller", 
+            "Katrin Franz", 
+            "Fong-Chin Huang"
         ], 
-        "track": "Environment", 
-        "abstract": "Our overall objective is to create cyanobacteria that glow exclusively in darkness. To accomplish this, we will use a native promoter (lrtA) that normally functions as a light-regulated promoter in cyanobacteria. We will insert it into a plasmid together with the luxCDABE cassette. The cassette contains the luciferase enzyme and enzymes necessary for regeneration of its substrates.\r\nThe final goal is to make cyanobacteria (Synechococcus elongatus PCC 7002) glow because cyanobacteria perform photosynthesis and therefore do not need supplied nutrients. First, the experiment is carried out in E. coli and afterwards the plasmid is transferred to the cyanobacteria. Both of the systems will subsequently be thoroughly analyzed to determine important characteristics of the system including kinetics and efficiency of the expression levels.\r\nTo achieve this quantification we will collaborate with a fellow Physics student at University of Copenhagen. \n", 
+        "track": "Food & Energy", 
+        "abstract": "The TU Munich iGEM Team engineers ''Saccharomyces cerevisiae'', also known as baker's yeast, in order to lay the foundations for a new generation of functional foods with nutritionally valuable ingredients.\r\nAs an example, for iGEM’s first “SynBio Beer” the compounds Xanthohumol (anticancerogenic), Limonene (limeflavor), Caffeine (stimulant) as well as the Thaumatin (protein sweetener) were chosen to demonstrate the spectrum of possibilities to complement traditional foods or beverages.\r\nThe metabolic pathways for these substances were converted to genetic BioBricks. Using the shuttle vector pYES2, which was adapted to the iGEM standard, transient transfection and expression in yeast were achieved. The gene products were subsequently characterized and their biosynthetic activities investigated.\r\nConstitutive, alcohol-inducible and light-switchable promoter systems were developed, to individually regulate the expression of these gene cassettes. By combining these BioBricks our team has been able to brew iGEM’s first and finest SynBio Beer.", 
         "instructors": [
-            "Peter Naur", 
-            "Johan Andersen-Ranberg", 
-            "Pratik Shah"
+            "Arne Skerra"
         ], 
-        "awards_championship": [], 
+        "awards_championship": [
+            "Advance to Championship"
+        ], 
         "parts_range": [
-            "BBa_K770000", 
-            "BBa_K770999"
+            "BBa_K801000", 
+            "BBa_K801999"
         ], 
         "awards_regional": [], 
         "year": 2012, 
-        "medal": "bronze", 
-        "name": "Copenhagen", 
-        "url": "http://igem.org/Team.cgi?id=770", 
+        "medal": "gold", 
+        "name": "TU Munich", 
+        "url": "http://igem.org/Team.cgi?id=801", 
         "region": "Europe", 
-        "project": "CyanoDelux", 
+        "project": "TUM-Brew: iGEM's first and finest SynBio Beer", 
         "students": [
-            "Chris Skovgaard Ramming", 
-            "Charlotte Amalie Emdal Navntoft", 
-            "Malte Thodberg", 
-            "Line Barington", 
-            "Michel Saremi", 
-            "Naja Emborg Vinding", 
-            "Camilla Victoria Lindgren Schwartz", 
-            "Charlotte Krag Varslev-Pedersen", 
-            "Cecilie Hundahl Johnsen", 
-            "Thomas Holst-Hansen", 
-            "Lea Gregers"
+            "Dong-Jiunn Jeffery TRUONG", 
+            "Volker Morath", 
+            "Roman Prechtl", 
+            "Daniela Dichtler", 
+            "Simon Heinze", 
+            "Nadine Gerstenberg", 
+            "Fabian Froehlich", 
+            "David Wehner", 
+            "Maria Trumpfheller", 
+            "Katrin Fischer", 
+            "Martin Schappert", 
+            "Lara Kuntz", 
+            "Jara Obermann", 
+            "Saskia König", 
+            "Ingmar Polte", 
+            "Alois Bräuer", 
+            "Andrea Richter", 
+            "Dennis Hell", 
+            "Georg Schützinger"
         ]
     }, 
     {
@@ -9657,16 +9724,15 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:ZJU-China", 
-        "instructors": [
-            "Ming Chen"
-        ], 
-        "name": "ZJU-China", 
-        "track": "New Application", 
-        "region": "Asia", 
         "advisors": [
             "Xin Li", 
             "Xiang Lan", 
             "Mu Xiao"
+        ], 
+        "track": "New Application", 
+        "abstract": "ZJU-China aims to design and realize a tunable RNA scaffold to accelerate biological pathways and turn their on and off. RNA scaffold is designed to colocalize enzymes through interactions between binding domains on the scaffold and target peptides fused to each enzyme in engineered biological pathways in vivo, which may suffered from low efficiency of production caused by relative lack of spatial organization of non-homologous enzymes. The scaffold allows efficient channeling of substrates to products over several enzymatic steps by limiting the diffusion of intermediates thus providing a bright future for solving the problem. Meanwhile, we plan to add an aptamer structure on RNA scaffold as a switch to regulate biological pathways by micromolecular ligands. Then we can control the all-or-none binding relationship between the enzymes and scaffold by whether the special ligands are presented or not.\n", 
+        "instructors": [
+            "Ming Chen"
         ], 
         "awards_championship": [
             "Advance to Championship"
@@ -9675,6 +9741,12 @@
             "BBa_K738000", 
             "BBa_K738999"
         ], 
+        "awards_regional": [], 
+        "year": 2012, 
+        "medal": "silver", 
+        "name": "ZJU-China", 
+        "url": "http://igem.org/Team.cgi?id=738", 
+        "region": "Asia", 
         "project": "Riboscaffold", 
         "students": [
             "Qian Mei", 
@@ -9686,12 +9758,7 @@
             "Jiahui Zhang", 
             "Xiao Liu", 
             "Jianing Yu"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=738", 
-        "year": 2012, 
-        "medal": "silver", 
-        "abstract": "ZJU-China aims to design and realize a tunable RNA scaffold to accelerate biological pathways and turn their on and off. RNA scaffold is designed to colocalize enzymes through interactions between binding domains on the scaffold and target peptides fused to each enzyme in engineered biological pathways in vivo, which may suffered from low efficiency of production caused by relative lack of spatial organization of non-homologous enzymes. The scaffold allows efficient channeling of substrates to products over several enzymatic steps by limiting the diffusion of intermediates thus providing a bright future for solving the problem. Meanwhile, we plan to add an aptamer structure on RNA scaffold as a switch to regulate biological pathways by micromolecular ligands. Then we can control the all-or-none binding relationship between the enzymes and scaffold by whether the special ligands are presented or not.\n", 
-        "awards_regional": []
+        ]
     }, 
     {
         "wiki": "http://2009.igem.org/Team:IBB_Pune", 
@@ -9725,25 +9792,46 @@
         ]
     }, 
     {
-        "wiki": "http://2012.igem.org/Team:NTHU_BioEE", 
+        "wiki": "http://2012.igem.org/Team:Wageningen_UR", 
         "advisors": [], 
-        "name": "NTHU BioEE", 
-        "students": [], 
-        "region": "Asia", 
+        "track": "Health & Medicine", 
+        "abstract": "Medicines are generally active in a non-site-specific fashion, affecting the whole patient, including healthy tissue. Therefore, we attempt to specifically target diseased areas by packaging medicines inside Virus-Like Particles (VLPs). VLPs are not infectious, as they are built solely from viral coat proteins. We designed a modular Plug and Apply system that enables modifications to these coat proteins. The system facilitates the linkage of numerous ligands to the coat protein, thereby creating site-specific carriers. After expression of coat protein genes in Escherichia coli the VLPs were assembled in vitro, yielding modified Virus-Like Particles. Medicines can be packed using the Plug and Apply system or simply by addition during VLP assembly. Concluding, VLPs can be used as universal carriers for site-specific drug delivery, allowing customization to a variety of diseases while decreasing side effects for patients during treatment.\n", 
         "instructors": [
-            "Hsiao-Ching Lee", 
-            "Bor-Sen Chen"
+            "Mark van passel", 
+            "Floor Hugenholtz"
         ], 
-        "awards_championship": [], 
+        "awards_championship": [
+            "Advance to Championship"
+        ], 
         "parts_range": [
-            "BBa_K889000", 
-            "BBa_K889999"
+            "BBa_K883000", 
+            "BBa_K883999"
         ], 
-        "project": "-- Not provided yet --", 
-        "url": "http://igem.org/Team.cgi?id=889", 
-        "awards_regional": [], 
+        "awards_regional": [
+            "Best Presentation, Europe"
+        ], 
         "year": 2012, 
-        "abstract": "-- No abstract provided yet --\n"
+        "medal": "gold", 
+        "name": "Wageningen UR", 
+        "url": "http://igem.org/Team.cgi?id=883", 
+        "region": "Europe", 
+        "project": "A standardized tool for site specific drug delivery using Virus-Like Particles", 
+        "students": [
+            "Kees van der Ark", 
+            "Hugo de Vries", 
+            "Jeroen Bosman", 
+            "Han Yue", 
+            "Nick Brouwers", 
+            "Thijs Slijkhuis", 
+            "Mark van Veen", 
+            "Niels Dammes", 
+            "Lisa Sonnenberg", 
+            "Robert Nitschel", 
+            "Wouter Elings", 
+            "Jasper Jan Koehorst", 
+            "Agneya Bhushan", 
+            "Marnix Vlot"
+        ]
     }, 
     {
         "wiki": "http://2011.igem.org/Team:Edinburgh", 
@@ -10116,19 +10204,18 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:UNAM_Genomics_Mexico", 
-        "instructors": [
-            "David Romero", 
-            "Osbaldo Resendis"
-        ], 
-        "name": "UNAM Genomics Mexico", 
-        "track": "Information Processing", 
-        "region": "Latin America", 
         "advisors": [
             "Hector F Medina A", 
             "Rogelio Hernandez Tamayo", 
             "Miguel Angel Vences Guzman", 
             "Jose Antonio Alonso-Pavon", 
             "Fares Osam Yáñez C"
+        ], 
+        "track": "Information Processing", 
+        "abstract": "\r\nBacillus booleanus is a project that wants to create a “molecular \r\ncomputer”. How it works? We are working on the creation of \r\ndifferent strains of Bacillus subtilis, each one will be able to perform \r\na single Boolean operation just like a transistor. A single transistor \r\nis not a computer, they need to communicate with others to \r\nperform new logic operations, but how our bacterial transistors can \r\ncommunicate? In  2011, Ben-Yehuda et. al. identified a type of \r\nbacterial communication mediated by nanotubes that bridge \r\nneighboring cells, providing a network for exchange of cellular \r\nmolecules within and between species. By using these nanotubes \r\nour bacterium will be capable to communicate with others so that \r\ncreate complex networks of logic gates. Using this it could be \r\npossible to develop a complex network of \"transistors\" to create, for \r\nexample, a synthetic metabolic pathway.\n", 
+        "instructors": [
+            "David Romero", 
+            "Osbaldo Resendis"
         ], 
         "awards_championship": [
             "Advance to Championship"
@@ -10137,6 +10224,14 @@
             "BBa_K851000", 
             "BBa_K851999"
         ], 
+        "awards_regional": [
+            "Best Wiki, Latin America"
+        ], 
+        "year": 2012, 
+        "medal": "silver", 
+        "name": "UNAM Genomics Mexico", 
+        "url": "http://igem.org/Team.cgi?id=851", 
+        "region": "Latin America", 
         "project": "Bacillus booleanus", 
         "students": [
             "Maria Angelica Bravo", 
@@ -10150,13 +10245,6 @@
             "Rebeca Borges Monroy", 
             "Laura Teresa Jimenez Barrón", 
             "Roberto Tirado Magallanes"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=851", 
-        "year": 2012, 
-        "medal": "silver", 
-        "abstract": "\r\nBacillus booleanus is a project that wants to create a “molecular \r\ncomputer”. How it works? We are working on the creation of \r\ndifferent strains of Bacillus subtilis, each one will be able to perform \r\na single Boolean operation just like a transistor. A single transistor \r\nis not a computer, they need to communicate with others to \r\nperform new logic operations, but how our bacterial transistors can \r\ncommunicate? In  2011, Ben-Yehuda et. al. identified a type of \r\nbacterial communication mediated by nanotubes that bridge \r\nneighboring cells, providing a network for exchange of cellular \r\nmolecules within and between species. By using these nanotubes \r\nour bacterium will be capable to communicate with others so that \r\ncreate complex networks of logic gates. Using this it could be \r\npossible to develop a complex network of \"transistors\" to create, for \r\nexample, a synthetic metabolic pathway.\n", 
-        "awards_regional": [
-            "Best Wiki, Latin America"
         ]
     }, 
     {
@@ -10205,16 +10293,15 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:Peking", 
+        "advisors": [], 
+        "track": "Foundational Advance", 
+        "abstract": "Optogenetic tools have made significant impact on life sciences and beyond. However, several serious issues remain: cytotoxicy, narrow dynamic range, and dependency on laser and exogenous chromophore. To circumvent these, Peking iGEM has rationally constructed a hypersensitive sensor of luminance- Luminesensor. Primarily, the sensor was designed by fusing blue-light-sensing protein domain from Neurospora with DNA binding domain of LexA from E.coli, following which protein structure inspection and kinetic simulation were conducted to rationally perform optimization. Amazingly, Luminesensor was proved to be as sensitive as to sense natural light and even bioluminescence. With this sensor, spatiotemporal control of cellular behavior, such as phototaxis, high-resolution 2-D and 3-D bio-printing using dim light and even luminescence of iPad were shown to be very easy. What’s more, we successfully implemented cell-cell signaling using light, which is the very first time in synthetic biology and of great importance for biotechnological use.\n", 
         "instructors": [
             "Qi Ouyang ", 
             "Haoqian Zhang", 
             "Shuobing Chen", 
             "Yi Yang"
         ], 
-        "name": "Peking", 
-        "track": "Foundational Advance", 
-        "region": "Asia", 
-        "advisors": [], 
         "awards_championship": [
             "Advance to Championship", 
             "1st Runner Up"
@@ -10223,6 +10310,16 @@
             "BBa_K819000", 
             "BBa_K819999"
         ], 
+        "awards_regional": [
+            "Best Presentation, Asia", 
+            "Regional Finalist, Asia", 
+            "Best Wiki, Asia"
+        ], 
+        "year": 2012, 
+        "medal": "gold", 
+        "name": "Peking", 
+        "url": "http://igem.org/Team.cgi?id=819", 
+        "region": "Asia", 
         "project": "Luminesensor: Programming Cells through Light", 
         "students": [
             "Li Dayi", 
@@ -10243,15 +10340,6 @@
             "Xianjun Chen", 
             "Zhengcai Ma", 
             "Renmei Liu"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=819", 
-        "year": 2012, 
-        "medal": "gold", 
-        "abstract": "Optogenetic tools have made significant impact on life sciences and beyond. However, several serious issues remain: cytotoxicy, narrow dynamic range, and dependency on laser and exogenous chromophore. To circumvent these, Peking iGEM has rationally constructed a hypersensitive sensor of luminance- Luminesensor. Primarily, the sensor was designed by fusing blue-light-sensing protein domain from Neurospora with DNA binding domain of LexA from E.coli, following which protein structure inspection and kinetic simulation were conducted to rationally perform optimization. Amazingly, Luminesensor was proved to be as sensitive as to sense natural light and even bioluminescence. With this sensor, spatiotemporal control of cellular behavior, such as phototaxis, high-resolution 2-D and 3-D bio-printing using dim light and even luminescence of iPad were shown to be very easy. What’s more, we successfully implemented cell-cell signaling using light, which is the very first time in synthetic biology and of great importance for biotechnological use.\n", 
-        "awards_regional": [
-            "Best Presentation, Asia", 
-            "Regional Finalist, Asia", 
-            "Best Wiki, Asia"
         ]
     }, 
     {
@@ -10425,38 +10513,6 @@
         ]
     }, 
     {
-        "wiki": "http://2012.igem.org/Team:Baskent-Meds", 
-        "advisors": [
-            "Didem Aksoy Körpe"
-        ], 
-        "name": "Baskent-Meds", 
-        "students": [
-            "Burak GÜLŞEN", 
-            "Berkhan GENÇ", 
-            "Cansu Celik", 
-            "Sevecen Kaplan", 
-            "Özgür Ozan CEYLAN", 
-            "Başak Alan", 
-            "Süleyman Mert Yiğitbaşı"
-        ], 
-        "region": "Europe", 
-        "instructors": [
-            "Prof.Dr. Feride I. Sahin", 
-            "Yunus Kasim Terzi", 
-            "Dr. Özlem Darcansoy İşeri"
-        ], 
-        "awards_championship": [], 
-        "parts_range": [
-            "BBa_K830000", 
-            "BBa_K830999"
-        ], 
-        "project": "-- Not provided yet --", 
-        "url": "http://igem.org/Team.cgi?id=830", 
-        "awards_regional": [], 
-        "year": 2012, 
-        "abstract": "-- No abstract provided yet --\n"
-    }, 
-    {
         "wiki": "http://2010.igem.org/Team:LMU-Munich", 
         "advisors": [
             "Achim Tresch", 
@@ -10580,6 +10636,9 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:Tsinghua-A", 
+        "advisors": [], 
+        "track": "Foundational Advance", 
+        "abstract": "The ambitious Tsinghua-A iGEMers are still dedicated to a beautiful combination of biology and engineering, and this year, the realization of a programmable logic device (PLD) on the gene sequence has become the focus of our attention. A series of symmetric logic-toggle modules, or briefly speaking, AND-OR switching gates, are designed to act as the basic parts of this Cell PLD. The idea comes from PLD which is widely used in electronics engineering. Hopefully, the construction of these modules in the cell will be achieved, with the help of the site-specific recombination systems. Feedforward control theory is introduced into the module and mechanism on the behavior has long been under our analysis, all aiming at a better performance of the logic gate. Modeling as well as computer simulation will help to evaluate and thus improve the robustness in this process.\n", 
         "instructors": [
             "Xiaowo Wang", 
             "Honglei Liu", 
@@ -10587,10 +10646,6 @@
             "Yang Chen", 
             "Guoqiang Chen"
         ], 
-        "name": "Tsinghua-A", 
-        "track": "Foundational Advance", 
-        "region": "Asia", 
-        "advisors": [], 
         "awards_championship": [
             "Advance to Championship"
         ], 
@@ -10598,6 +10653,12 @@
             "BBa_K740000", 
             "BBa_K740999"
         ], 
+        "awards_regional": [], 
+        "year": 2012, 
+        "medal": "silver", 
+        "name": "Tsinghua-A", 
+        "url": "http://igem.org/Team.cgi?id=740", 
+        "region": "Asia", 
         "project": "CPLD: a Cell-based Programmable Logic Device", 
         "students": [
             "Lei Wei", 
@@ -10618,12 +10679,7 @@
             "Hang Wu ", 
             "Haixiang Xu", 
             "Jian WEN"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=740", 
-        "year": 2012, 
-        "medal": "silver", 
-        "abstract": "The ambitious Tsinghua-A iGEMers are still dedicated to a beautiful combination of biology and engineering, and this year, the realization of a programmable logic device (PLD) on the gene sequence has become the focus of our attention. A series of symmetric logic-toggle modules, or briefly speaking, AND-OR switching gates, are designed to act as the basic parts of this Cell PLD. The idea comes from PLD which is widely used in electronics engineering. Hopefully, the construction of these modules in the cell will be achieved, with the help of the site-specific recombination systems. Feedforward control theory is introduced into the module and mechanism on the behavior has long been under our analysis, all aiming at a better performance of the logic gate. Modeling as well as computer simulation will help to evaluate and thus improve the robustness in this process.\n", 
-        "awards_regional": []
+        ]
     }, 
     {
         "wiki": "http://2008.igem.org/Team:Slovenia", 
@@ -10853,17 +10909,16 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:OUC-China", 
+        "advisors": [
+            "Yang Liu", 
+            "Wei Liu "
+        ], 
+        "track": "Environment", 
+        "abstract": "  Our projects focus on warning and countermeasure against red tide. A precise sensor and an effective processor is coming to solve it. N/P is recognized as the key indicator and floatable E.coli is needed for survival. \r\n  The second one was successfully solved by means of engineering our E.coli with a brand-new gvp gene clusters that possess far shorter length and better property for bacteria to float. Characterization and analysis of the gene cluster is underway. \r\n   Phosphate and nitrate sensor have been finished respectively, together with three test devices which facilitate our quantitative analysis. More detailed measurements are underway. Once those sensors work as expected, N/P as input would better match our model.\r\n   Fine-tuned comparators and ratio sensors with sRNA-mRNA interactions serve as the processor for decision-making. This model-driven part would take advantage of our fine-tuned N/P sensors and synthetical RNA interactions together to accurately alarm red tide.\r\n\n", 
         "instructors": [
             "Xiaohua Zhang", 
             "Guanpin Yang", 
             "Zhenghong Sui"
-        ], 
-        "name": "OUC-China", 
-        "track": "Environment", 
-        "region": "Asia", 
-        "advisors": [
-            "Yang Liu", 
-            "Wei Liu "
         ], 
         "awards_championship": [
             "Advance to Championship"
@@ -10872,6 +10927,15 @@
             "BBa_K737000", 
             "BBa_K737999"
         ], 
+        "awards_regional": [
+            "Best Model, Asia", 
+            "Best Experimental Measurement Approach, Asia"
+        ], 
+        "year": 2012, 
+        "medal": "gold", 
+        "name": "OUC-China", 
+        "url": "http://igem.org/Team.cgi?id=737", 
+        "region": "Asia", 
         "project": "oceanfilm and oceanfeel(a portable ratio sensor that can float)", 
         "students": [
             "peiran zhang", 
@@ -10888,14 +10952,6 @@
             "Weihong Lai", 
             "Haowen Xu", 
             "Chunyan Zhang"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=737", 
-        "year": 2012, 
-        "medal": "gold", 
-        "abstract": "  Our projects focus on warning and countermeasure against red tide. A precise sensor and an effective processor is coming to solve it. N/P is recognized as the key indicator and floatable E.coli is needed for survival. \r\n  The second one was successfully solved by means of engineering our E.coli with a brand-new gvp gene clusters that possess far shorter length and better property for bacteria to float. Characterization and analysis of the gene cluster is underway. \r\n   Phosphate and nitrate sensor have been finished respectively, together with three test devices which facilitate our quantitative analysis. More detailed measurements are underway. Once those sensors work as expected, N/P as input would better match our model.\r\n   Fine-tuned comparators and ratio sensors with sRNA-mRNA interactions serve as the processor for decision-making. This model-driven part would take advantage of our fine-tuned N/P sensors and synthetical RNA interactions together to accurately alarm red tide.\r\n\n", 
-        "awards_regional": [
-            "Best Model, Asia", 
-            "Best Experimental Measurement Approach, Asia"
         ]
     }, 
     {
@@ -11014,42 +11070,6 @@
             "Qinfeng Wu", 
             "Yan Chen", 
             "Dai Tang"
-        ]
-    }, 
-    {
-        "wiki": "http://2011.igem.org/Team:OUC-China", 
-        "advisors": [], 
-        "track": "Information Processing", 
-        "abstract": "Our work aims to illuminate the ancient Chinese philosophical theory called 'Wu Xing', also Theory of FIVE Elements, by artificially assembling a communication system between bacteria. This theory explains the composition and phenomena of the physical universe. In the system there exists close relationships classified as mutual promoting and restraining under certain conditions, by which functions of the various systems are coordinated and homeostasis of universe maintained. In our project, five modified nutritionally deficient bacteria represent the five elements in the theory. They talk to each other emitting and receiving specific signals called AHLs. Five pairs of signal receivers and producers, like luxR and luxI, are involved in achieving the process. Moreover, one will help another producing the essential nutrition for living while limit the production of a third member. Through such mechanism, the whole group survive and live in moderate coexistence, just like the effect of the philosophical theory.\n", 
-        "instructors": [
-            "Zhenghong Sui", 
-            "Xiaohua Zhang", 
-            "Guanpin Yang"
-        ], 
-        "awards_championship": [], 
-        "parts_range": [
-            "BBa_K594000", 
-            "BBa_K594999"
-        ], 
-        "awards_regional": [], 
-        "year": 2011, 
-        "medal": "bronze", 
-        "name": "OUC-China", 
-        "url": "http://igem.org/Team.cgi?id=594", 
-        "region": "Asia", 
-        "project": "Theory of Five Elements", 
-        "students": [
-            "Wei Liu ", 
-            "Jiajun Wu", 
-            "Yang Liu", 
-            "Jun Zhang", 
-            "Yu Xiaoyan", 
-            "Zhou  Xuemeng", 
-            "Xing Yi", 
-            "Yuyan Zhang", 
-            "Zhang Qian", 
-            "zhang xiao xi", 
-            "Yong Peng"
         ]
     }, 
     {
@@ -12007,46 +12027,43 @@
         ]
     }, 
     {
-        "wiki": "http://2012.igem.org/Team:Tokyo_Tech", 
-        "instructors": [
-            "Masayuki Yamamura", 
-            "Daisuke Kiga", 
-            "Shotaro Ayukawa", 
-            "Takeharu Tsuge"
-        ], 
-        "name": "Tokyo Tech", 
-        "track": "Information Processing", 
-        "region": "Asia", 
+        "wiki": "http://2012.igem.org/Team:Carnegie_Mellon", 
         "advisors": [
-            "Hiroe KAWABATA", 
-            "Azusa Saika", 
-            "Manami Hyakutake"
+            "Ge Yang", 
+            "Diana Marculescu", 
+            "Catalina Achim", 
+            "Aaron Mitchell"
+        ], 
+        "track": "Foundational Advance", 
+        "abstract": "The design and implementation of synthetic biological systems often require quantitative information on both transcription and translation rates. However, quantitative information about the expression strength of a synthetic promoter has been difficult to obtain due to the lack of noninvasive and real-time approaches to measure the levels of both RNA and protein in cells. Here, we engineer a fluorogen-activated bio-sensor that can provide information on both transcription strength and translation efficiency. This biosensor is noninvasive, easily applied to a variety of promoters, and more efficient than existing technologies. To demonstrate the utility of our biosensor, we constructed and characterized several designed T7Lac hybrid promoters. Furthermore, we developed a mathematical model of our synthetic system to guide experiments and an open-source electronic kit that mimics experimental setup and well suited for education purposes. Our results could have a broad impact on the measurement and standardization of synthetic biological parts.\n", 
+        "instructors": [
+            "Cheemeng Tan", 
+            "Natasa Miskov-Zivanov"
         ], 
         "awards_championship": [
             "Advance to Championship", 
-            "Best Information Processing Project"
+            "Best Foundational Advance Project"
         ], 
         "parts_range": [
-            "BBa_K934000", 
-            "BBa_K934999"
+            "BBa_K921000", 
+            "BBa_K921999"
         ], 
-        "project": "\"Romeo and Juliet\" by E.coli cell-cell communication", 
-        "students": [
-            "Nobuaki Yasuo", 
-            "Taku Nakayama", 
-            "Takuo Sugiyama", 
-            "Toshiki Hashimoto", 
-            "Mai Miura", 
-            "Naoki Tsukuda", 
-            "Liu Jinglin", 
-            "Xinran Tao", 
-            "Shiyue  Liu"
+        "awards_regional": [
+            "Regional Finalist, Americas East", 
+            "Best Experimental Measurement Approach, Americas East"
         ], 
-        "url": "http://igem.org/Team.cgi?id=934", 
         "year": 2012, 
         "medal": "gold", 
-        "abstract": "A love story contains several processes. Two people fall in love and their love burning wildly. However, no forever exists in the world, in most occasions, love will eventually burn to only a pile of ashes of the last remaining wind drift away. In our project, we have recreated the story of \"Romeo & Juliet\" by Shakespeare vividly by two kinds of Escherichia coli. We aim to generate a circuit involving regulatory mechanism of positive feedback rather than commonly-used negative feedback to control the fate of E.coli by signaling between two types of E.coli. \r\nBesides, Rose represents love. We will challenge to be the first iGEM group ever to synthesize PHA (a kind of bio-plastics) from glucose using the whole PHA gene sequence to represent rose.\n", 
-        "awards_regional": []
+        "name": "Carnegie Mellon", 
+        "url": "http://igem.org/Team.cgi?id=921", 
+        "region": "Americas East", 
+        "project": "Real-time quantitative measurement of RNA and protein levels using fluorogen-activated biosensors", 
+        "students": [
+            "Eric Pederson", 
+            "Jesse Salazar", 
+            "Peter Wei", 
+            "Yang Choo"
+        ]
     }, 
     {
         "wiki": "http://2012.igem.org/Team:Groningen", 
@@ -13392,6 +13409,37 @@
         ]
     }, 
     {
+        "wiki": "http://2011.igem.org/Team:Strathclyde_Glasgow", 
+        "advisors": [], 
+        "name": "Strathclyde Glasgow", 
+        "students": [
+            "Grant O'Neil", 
+            "Zenab Ali", 
+            "Beatrice Viviane Vetter", 
+            "Leo Iu", 
+            "Morag Hogg", 
+            "Thomas Parry", 
+            "Audrey Gillies", 
+            "Ahmed Ahmeidat", 
+            "Lauren Stewart", 
+            "Sienna Gray"
+        ], 
+        "region": "Europe", 
+        "instructors": [
+            "Paul Herron"
+        ], 
+        "awards_championship": [], 
+        "parts_range": [
+            "BBa_K521000", 
+            "BBa_K521999"
+        ], 
+        "project": "-- Not provided yet --", 
+        "url": "http://igem.org/Team.cgi?id=521", 
+        "awards_regional": [], 
+        "year": 2011, 
+        "abstract": "-- No abstract provided yet --\n"
+    }, 
+    {
         "wiki": "http://2011.igem.org/Team:McGill", 
         "advisors": [], 
         "name": "McGill", 
@@ -13455,6 +13503,38 @@
             "Vini Gautam", 
             "Sushant More", 
             "Shashank Kundu"
+        ]
+    }, 
+    {
+        "wiki": "http://2012.igem.org/Team:UTP-Software", 
+        "advisors": [], 
+        "track": "Software Tools", 
+        "abstract": "A program to help new IGEM teams with assembly standards selection, and site-directed mutagenesis for primers development in case of incompatibility, is this year UTP-Software team project. S2MT as we called it, applies “QuikChange Site-Directed Mutagenesis” [1] considerations for the design of mutagenic primers and gives users the resources to avoid restriction sites, making their designs compatible with IGEM standards.\r\nOur team is also interested in the development of a tool to help teams and researchers to work and study the production of bioenergy through synthetic biology. This will be done by analyzing metabolic routes from the substrates for the reactions, and then identify the responsible genes for each enzymatic reactions that could produce these biofuels.\n", 
+        "instructors": [
+            "Grimaldo  Elías Ureña M."
+        ], 
+        "awards_championship": [
+            "Advance to Software Jamboree"
+        ], 
+        "parts_range": [
+            "BBa_K951000", 
+            "BBa_K951999"
+        ], 
+        "awards_regional": [], 
+        "year": 2012, 
+        "medal": "silver", 
+        "name": "UTP-Software", 
+        "url": "http://igem.org/Team.cgi?id=951", 
+        "region": "Latin America", 
+        "project": "Bricks, Mutagenesis and Energy Software Tools", 
+        "students": [
+            "Arturo Nieves", 
+            "Emmanuel Garuz", 
+            "William Vong", 
+            "Edwin Toribio", 
+            "Jorge Lezcano", 
+            "Fotis Stringos", 
+            "Salomon A. Mitre B,"
         ]
     }, 
     {
@@ -15487,6 +15567,44 @@
         ]
     }, 
     {
+        "wiki": "http://2012.igem.org/Team:UC_Chile", 
+        "advisors": [
+            "Rolando Moraga", 
+            "Fernan Federici"
+        ], 
+        "track": "New Application", 
+        "abstract": "Synchronization of biological processes in populations is essential to achieve strong measurable and functional traits. Circadian rhythms are one of nature's most exquisite mechanisms to regulate and synchronize biological processes over time. Our team has taken advantage of the fine time control offered by the circadian clock machinery to construct a genetic circuit that allows robust oscillatory behavior in a synchronized and predictable manner. We have coupled the expression of genes of a bioluminescent pathway to the endogenous circadian clock of Synechocystis PCC 6803. The benefits of using Synechocystis as our chassis for practical applications include minimal production costs due to its autotrophic growth capacity and precise synchronization to time-dependent events using environmental cues such as light. As a direct application we designed the first self-rechargeable programmable bio-lamp. Secondary projects include a novel secretion system, the first spider-silk biobrick and an optimization of the Gibson assembly reaction for small parts.\n", 
+        "instructors": [
+            "Rodrigo A. Gutierrez", 
+            "Bernardo Pollak"
+        ], 
+        "awards_championship": [
+            "Advance to Championship"
+        ], 
+        "parts_range": [
+            "BBa_K743000", 
+            "BBa_K743999"
+        ], 
+        "awards_regional": [
+            "Best Poster, Latin America", 
+            "Best Presentation, Latin America", 
+            "Regional Finalist, Latin America"
+        ], 
+        "year": 2012, 
+        "medal": "gold", 
+        "name": "UC Chile", 
+        "url": "http://igem.org/Team.cgi?id=743", 
+        "region": "Latin America", 
+        "project": "Luxilla: a light rechargeable and programmable biolamp ", 
+        "students": [
+            "Juan Simón Álamos", 
+            "Maximiliano Felis", 
+            "Carla A. Vidal Silva", 
+            "Tamara Matute Torres", 
+            "Isaac Natan Núñez Quijada"
+        ]
+    }, 
+    {
         "wiki": "http://2010.igem.org/Team:Harvard", 
         "advisors": [], 
         "track": "Food & Energy", 
@@ -15659,20 +15777,19 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:Trieste", 
-        "instructors": [
-            "Guidalberto Manfioletti", 
-            "Marco Scocchi", 
-            "Vittorio Venturi"
-        ], 
-        "name": "Trieste", 
-        "track": "Food & Energy", 
-        "region": "Europe", 
         "advisors": [
             "giulia Devescovi", 
             "Luca Braga", 
             "Veronica Parisi", 
             "Giulio Bernardinelli", 
             "Francesca Arnoldi"
+        ], 
+        "track": "Food & Energy", 
+        "abstract": "Recent studies have evidenced that having a beneficial and healthy intestinal microflora is very important for human health. Our aim is to modify a bacteria normally found in human gut and create a safe, controllable and versatile molecular platform which can be used to produce a wide range of molecules  leading to a beneficial probiotic. For this purpose we have chosen the E. coli strain Nissle 1917 which has been used for many years as a probiotic. We designed a robust gene guard system regulated by a novel and easy to control inducible cumate switch that activates the production of a human antimicrobial peptide LL-37 that can kill the bacteria and also avoid horizontal transfer. \r\nThe safe probiotic constructed here can be used to produce nutritious, preventive or therapeutic molecules. For example, we have used it to produce an antibody against the emerging virus, Norovirus.\n", 
+        "instructors": [
+            "Guidalberto Manfioletti", 
+            "Marco Scocchi", 
+            "Vittorio Venturi"
         ], 
         "awards_championship": [
             "Advance to Championship"
@@ -15681,6 +15798,12 @@
             "BBa_K875000", 
             "BBa_K875999"
         ], 
+        "awards_regional": [], 
+        "year": 2012, 
+        "medal": "gold", 
+        "name": "Trieste", 
+        "url": "http://igem.org/Team.cgi?id=875", 
+        "region": "Europe", 
         "project": "The JOLLY JoCARE ", 
         "students": [
             "Giulia Corso", 
@@ -15690,12 +15813,7 @@
             "Giorgio Gargari", 
             "Marija Drikic", 
             "Aljaž Srebrnič"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=875", 
-        "year": 2012, 
-        "medal": "gold", 
-        "abstract": "Recent studies have evidenced that having a beneficial and healthy intestinal microflora is very important for human health. Our aim is to modify a bacteria normally found in human gut and create a safe, controllable and versatile molecular platform which can be used to produce a wide range of molecules  leading to a beneficial probiotic. For this purpose we have chosen the E. coli strain Nissle 1917 which has been used for many years as a probiotic. We designed a robust gene guard system regulated by a novel and easy to control inducible cumate switch that activates the production of a human antimicrobial peptide LL-37 that can kill the bacteria and also avoid horizontal transfer. \r\nThe safe probiotic constructed here can be used to produce nutritious, preventive or therapeutic molecules. For example, we have used it to produce an antibody against the emerging virus, Norovirus.\n", 
-        "awards_regional": []
+        ]
     }, 
     {
         "wiki": "http://2010.igem.org/Team:Missouri_Miners", 
@@ -15958,21 +16076,20 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:UIUC-Illinois", 
+        "advisors": [
+            "Kori Dunn", 
+            "Ahmet Badur", 
+            "Todd Freestone", 
+            "Brad Evans"
+        ], 
+        "track": "Foundational Advance", 
+        "abstract": "RNA has characteristics that are important in human gene expression (i.e. alternative splicing of mRNA, noncoding RNA). Therefore, a modular RNA binding protein is an invaluable tool for gene regulation. The PUF domain of human PUM1 gene contains eight tandem repeats, each recognizing one of the four nucleotide bases. In theory, a PUF protein can be programmed to recognize any 8-nt ssRNA sequence. Here we demonstrate that PUF can be tethered with other functional domains for applications in E. Coli. Specifically, we show that a PUF/endonuclease fusion protein acts as RNA scissors, silencing gene expression through site specific mRNA cleavage. PUF was also tethered to split GFP to test its ability to co-localize proteins using a RNA scaffold. PUF biobricks offer a wide range of possible functions including gene expression modulation and scaffolding of metabolic pathways.\n", 
         "instructors": [
             "Courtney Evans", 
             "Chris Rao", 
             "Kaustubh Bhalerao", 
             "Yong-Su Jin", 
             "Joanne Manaster"
-        ], 
-        "name": "UIUC-Illinois", 
-        "track": "Foundational Advance", 
-        "region": "Americas East", 
-        "advisors": [
-            "Kori Dunn", 
-            "Ahmet Badur", 
-            "Todd Freestone", 
-            "Brad Evans"
         ], 
         "awards_championship": [
             "Advance to Championship"
@@ -15981,6 +16098,12 @@
             "BBa_K865000", 
             "BBa_K865999"
         ], 
+        "awards_regional": [], 
+        "year": 2012, 
+        "medal": "silver", 
+        "name": "UIUC-Illinois", 
+        "url": "http://igem.org/Team.cgi?id=865", 
+        "region": "Americas East", 
         "project": "PUF, The Magic RNA Binding Protein: Programmable RNA Binding Protein with Custom Functions", 
         "students": [
             "Hsiao-Han Chen", 
@@ -15992,12 +16115,7 @@
             "Uros Kuzmanovic", 
             "Isiah Ramos", 
             "Aditya Malik"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=865", 
-        "year": 2012, 
-        "medal": "silver", 
-        "abstract": "RNA has characteristics that are important in human gene expression (i.e. alternative splicing of mRNA, noncoding RNA). Therefore, a modular RNA binding protein is an invaluable tool for gene regulation. The PUF domain of human PUM1 gene contains eight tandem repeats, each recognizing one of the four nucleotide bases. In theory, a PUF protein can be programmed to recognize any 8-nt ssRNA sequence. Here we demonstrate that PUF can be tethered with other functional domains for applications in E. Coli. Specifically, we show that a PUF/endonuclease fusion protein acts as RNA scissors, silencing gene expression through site specific mRNA cleavage. PUF was also tethered to split GFP to test its ability to co-localize proteins using a RNA scaffold. PUF biobricks offer a wide range of possible functions including gene expression modulation and scaffolding of metabolic pathways.\n", 
-        "awards_regional": []
+        ]
     }, 
     {
         "wiki": "http://2012.igem.org/Team:Northeastern", 
@@ -16029,16 +16147,15 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:Queens_Canada", 
-        "instructors": [
-            "Ian Chin-Sang", 
-            "William Bendena"
-        ], 
-        "name": "Queens Canada", 
-        "track": "Foundational Advance", 
-        "region": "Americas East", 
         "advisors": [
             "Kenton Ko", 
             "David Zechel"
+        ], 
+        "track": "Foundational Advance", 
+        "abstract": "This year, Queen’s iGEM team is using flagella to host heterologous proteins that will result in thousands of useful enzymes organized in an extensive scaffold, with the benefits of extracellular synthesis, degradation and arrangement. The fliC (flagellin) protein is known to spontaneously polymerizes to form the length of flagella in E.coli. By replacing the variable D3 domain of the fliC protein with proteins for binding, degradation, adhesion, and synthesis, we can increase the efficiency of bioremediation and biosynthesis, and facilitate the collection of products in situ or ex situ. This year we will also introduce dance as a presentation form and part of our human practices project. Known as SynthetiQ, we will be the first group ever to use dance to replace powerpoint slides at a research conference. \n", 
+        "instructors": [
+            "Ian Chin-Sang", 
+            "William Bendena"
         ], 
         "awards_championship": [
             "Advance to Championship"
@@ -16047,6 +16164,14 @@
             "BBa_K781000", 
             "BBa_K781999"
         ], 
+        "awards_regional": [
+            "Best Model, Americas East"
+        ], 
+        "year": 2012, 
+        "medal": "gold", 
+        "name": "Queens Canada", 
+        "url": "http://igem.org/Team.cgi?id=781", 
+        "region": "Americas East", 
         "project": "ChimeriQ x SynthetiQ: Chimeric flagella scaffold enhancing bioremediation and manufacturing, presented with dance!", 
         "students": [
             "Kevin Chen", 
@@ -16065,13 +16190,6 @@
             "Devon Ryan", 
             "Daniel Hughes", 
             "Eric Towers"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=781", 
-        "year": 2012, 
-        "medal": "gold", 
-        "abstract": "This year, Queen’s iGEM team is using flagella to host heterologous proteins that will result in thousands of useful enzymes organized in an extensive scaffold, with the benefits of extracellular synthesis, degradation and arrangement. The fliC (flagellin) protein is known to spontaneously polymerizes to form the length of flagella in E.coli. By replacing the variable D3 domain of the fliC protein with proteins for binding, degradation, adhesion, and synthesis, we can increase the efficiency of bioremediation and biosynthesis, and facilitate the collection of products in situ or ex situ. This year we will also introduce dance as a presentation form and part of our human practices project. Known as SynthetiQ, we will be the first group ever to use dance to replace powerpoint slides at a research conference. \n", 
-        "awards_regional": [
-            "Best Model, Americas East"
         ]
     }, 
     {
@@ -16973,36 +17091,49 @@
         ]
     }, 
     {
-        "wiki": "http://2012.igem.org/Team:UTP-Software", 
-        "instructors": [
-            "Grimaldo  Elías Ureña M."
+        "wiki": "http://2011.igem.org/Team:Fatih_Turkey", 
+        "advisors": [
+            "Cihan TAŞTAN", 
+            "Muradiye ACAR"
         ], 
-        "name": "UTP-Software", 
-        "track": "Software Tools", 
-        "region": "Latin America", 
-        "advisors": [], 
+        "track": "New Application", 
+        "abstract": "\"E. Coli is one of the gram-negative bacteria and most of their types are harmless. However some of E.Coli types such as enterohaemorrhagic E.Coli (EHEC) can cause serious disease.In our project we designed an innovative model to prevent gram-negative growth and infection. In our model, to prevent E.Coli growth we modified non-infectious gram-positive bacteria B.Subtilis by transforming it with a construct, which was designed to produce limulus anti-LPS factor (LALF) together with a signal peptide. LALF is expected to bind and neutralize Lipopolysaccharide (LPS) found in gram-negative bacteria cell wall. On the other hand, to show E.Coli growth inhibition, we prepared another construct, which carries reflectin sequence with a signal peptide sequence and transferred into E.Coli. Reflectin protein produces color by reflecting light in different wavelenghts. This ability helps us to detect whether E.Coli is dead or alive.\"\n", 
+        "instructors": [
+            "Esra Gunduz", 
+            "Kadir Demircan", 
+            "Husamettin ERDAMAR"
+        ], 
         "awards_championship": [
-            "Advance to Software Jamboree"
+            "Advance to Championship"
         ], 
         "parts_range": [
-            "BBa_K951000", 
-            "BBa_K951999"
+            "BBa_K541000", 
+            "BBa_K541999"
         ], 
-        "project": "Bricks, Mutagenesis and Energy Software Tools", 
+        "awards_regional": [
+            "Best New BioBrick Part, Natural, Europe (BBa_K541515)"
+        ], 
+        "year": 2011, 
+        "medal": "gold", 
+        "name": "Fatih Turkey", 
+        "url": "http://igem.org/Team.cgi?id=541", 
+        "region": "Europe", 
+        "project": "The Rainbow Graveyard", 
         "students": [
-            "Arturo Nieves", 
-            "Emmanuel Garuz", 
-            "William Vong", 
-            "Edwin Toribio", 
-            "Jorge Lezcano", 
-            "Fotis Stringos", 
-            "Salomon A. Mitre B,"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=951", 
-        "year": 2012, 
-        "medal": "silver", 
-        "abstract": "A program to help new IGEM teams with assembly standards selection, and site-directed mutagenesis for primers development in case of incompatibility, is this year UTP-Software team project. S2MT as we called it, applies “QuikChange Site-Directed Mutagenesis” [1] considerations for the design of mutagenic primers and gives users the resources to avoid restriction sites, making their designs compatible with IGEM standards.\r\nOur team is also interested in the development of a tool to help teams and researchers to work and study the production of bioenergy through synthetic biology. This will be done by analyzing metabolic routes from the substrates for the reactions, and then identify the responsible genes for each enzymatic reactions that could produce these biofuels.\n", 
-        "awards_regional": []
+            "Fazilet Guler", 
+            "Halenur Gungordu", 
+            "Alperen Güver", 
+            "ozan sami bayrak", 
+            "Secil Tashan", 
+            "betül günbey", 
+            "tülin serap yılmaz", 
+            "Hasan Yasin Soylu", 
+            "Yasin Çakar", 
+            "Mustafa Elitok", 
+            "Ozan Sami Bayrak", 
+            "kenan güzel", 
+            "burak simsek"
+        ]
     }, 
     {
         "wiki": "http://2010.igem.org/Team:USTC_Software", 
@@ -17096,60 +17227,39 @@
         "project": "-- Not provided yet --"
     }, 
     {
-        "wiki": "http://2012.igem.org/Team:Slovenia", 
+        "wiki": "http://2011.igem.org/Team:OUC-China", 
+        "advisors": [], 
+        "track": "Information Processing", 
+        "abstract": "Our work aims to illuminate the ancient Chinese philosophical theory called 'Wu Xing', also Theory of FIVE Elements, by artificially assembling a communication system between bacteria. This theory explains the composition and phenomena of the physical universe. In the system there exists close relationships classified as mutual promoting and restraining under certain conditions, by which functions of the various systems are coordinated and homeostasis of universe maintained. In our project, five modified nutritionally deficient bacteria represent the five elements in the theory. They talk to each other emitting and receiving specific signals called AHLs. Five pairs of signal receivers and producers, like luxR and luxI, are involved in achieving the process. Moreover, one will help another producing the essential nutrition for living while limit the production of a third member. Through such mechanism, the whole group survive and live in moderate coexistence, just like the effect of the philosophical theory.\n", 
         "instructors": [
-            "Roman Jerala", 
-            "Mojca Bencina", 
-            "Alja Oblak", 
-            "Andreja Majerle", 
-            "Matjaz Polak", 
-            "Nikolaj Zimic", 
-            "Miha Mraz"
+            "Zhenghong Sui", 
+            "Xiaohua Zhang", 
+            "Guanpin Yang"
         ], 
-        "name": "Slovenia", 
-        "track": "Health & Medicine", 
-        "region": "Europe", 
-        "advisors": [
-            "Rok Gaber", 
-            "Jan Lonzaric", 
-            "Anže Smole", 
-            "Tina Lebar", 
-            "Vida Forstnerič", 
-            "Miha Moskon"
-        ], 
-        "awards_championship": [
-            "Advance to Championship", 
-            "Best Health & Medicine Project", 
-            "Finalist", 
-            "Best Wiki", 
-            "Best Model", 
-            "First Runner Up"
-        ], 
+        "awards_championship": [], 
         "parts_range": [
-            "BBa_K782000", 
-            "BBa_K782999"
+            "BBa_K594000", 
+            "BBa_K594999"
         ], 
-        "project": "Switch-IT (Inducible therapeutics)", 
+        "awards_regional": [], 
+        "year": 2011, 
+        "medal": "bronze", 
+        "name": "OUC-China", 
+        "url": "http://igem.org/Team.cgi?id=594", 
+        "region": "Asia", 
+        "project": "Theory of Five Elements", 
         "students": [
-            "Martin Strazar", 
-            "Miha Jerala", 
-            "Urban Bezeljak", 
-            "Lucija Kadunc", 
-            "Dusan Vucko", 
-            "Anja Golob", 
-            "Uros Zupancic", 
-            "Maja Somrak", 
-            "Fedja Pavlovec", 
-            "Zala Luznik", 
-            "Bostjan Pirs"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=782", 
-        "year": 2012, 
-        "medal": "gold", 
-        "abstract": "Currently, biological drug-based therapies require periodic invasive application. Often, due to their systemic administration, adverse effects are observed. Furthermore, large quantities of these substances are needed because of their distribution throughout the body. This, coupled with expensive production and especially purification, imposes a great burden on health systems. We aim to develop a safe and cost-effective biological delivery system for biopharmaceuticals, which would increase the quality of patients' lives, because it would minimize the number of required procedures. This type of delivery system would increase patient compliance to the therapy while the local administration will reduce the side-effects associated with current treatments. We plan to design the mammalian cells-based delivery system to be regulated by the digital logic from the outside. \n", 
-        "awards_regional": [
-            "Regional Finalist, Europe", 
-            "Best Wiki, Europe"
+            "Wei Liu ", 
+            "Jiajun Wu", 
+            "Yang Liu", 
+            "Jun Zhang", 
+            "Yu Xiaoyan", 
+            "Zhou  Xuemeng", 
+            "Xing Yi", 
+            "Yuyan Zhang", 
+            "Zhang Qian", 
+            "zhang xiao xi", 
+            "Yong Peng"
         ]
     }, 
     {
@@ -17359,42 +17469,45 @@
         ]
     }, 
     {
-        "wiki": "http://2012.igem.org/Team:Carnegie_Mellon", 
+        "wiki": "http://2012.igem.org/Team:Tokyo_Tech", 
         "advisors": [
-            "Ge Yang", 
-            "Diana Marculescu", 
-            "Catalina Achim", 
-            "Aaron Mitchell"
+            "Hiroe KAWABATA", 
+            "Azusa Saika", 
+            "Manami Hyakutake"
         ], 
-        "track": "Foundational Advance", 
-        "abstract": "The design and implementation of synthetic biological systems often require quantitative information on both transcription and translation rates. However, quantitative information about the expression strength of a synthetic promoter has been difficult to obtain due to the lack of noninvasive and real-time approaches to measure the levels of both RNA and protein in cells. Here, we engineer a fluorogen-activated bio-sensor that can provide information on both transcription strength and translation efficiency. This biosensor is noninvasive, easily applied to a variety of promoters, and more efficient than existing technologies. To demonstrate the utility of our biosensor, we constructed and characterized several designed T7Lac hybrid promoters. Furthermore, we developed a mathematical model of our synthetic system to guide experiments and an open-source electronic kit that mimics experimental setup and well suited for education purposes. Our results could have a broad impact on the measurement and standardization of synthetic biological parts.\n", 
+        "track": "Information Processing", 
+        "abstract": "A love story contains several processes. Two people fall in love and their love burning wildly. However, no forever exists in the world, in most occasions, love will eventually burn to only a pile of ashes of the last remaining wind drift away. In our project, we have recreated the story of \"Romeo & Juliet\" by Shakespeare vividly by two kinds of Escherichia coli. We aim to generate a circuit involving regulatory mechanism of positive feedback rather than commonly-used negative feedback to control the fate of E.coli by signaling between two types of E.coli. \r\nBesides, Rose represents love. We will challenge to be the first iGEM group ever to synthesize PHA (a kind of bio-plastics) from glucose using the whole PHA gene sequence to represent rose.\n", 
         "instructors": [
-            "Cheemeng Tan", 
-            "Natasa Miskov-Zivanov"
+            "Masayuki Yamamura", 
+            "Daisuke Kiga", 
+            "Shotaro Ayukawa", 
+            "Takeharu Tsuge"
         ], 
         "awards_championship": [
             "Advance to Championship", 
-            "Best Foundational Advance Project"
+            "Best Information Processing Project"
         ], 
         "parts_range": [
-            "BBa_K921000", 
-            "BBa_K921999"
+            "BBa_K934000", 
+            "BBa_K934999"
         ], 
-        "awards_regional": [
-            "Regional Finalist, Americas East", 
-            "Best Experimental Measurement Approach, Americas East"
-        ], 
+        "awards_regional": [], 
         "year": 2012, 
         "medal": "gold", 
-        "name": "Carnegie Mellon", 
-        "url": "http://igem.org/Team.cgi?id=921", 
-        "region": "Americas East", 
-        "project": "Real-time quantitative measurement of RNA and protein levels using fluorogen-activated biosensors", 
+        "name": "Tokyo Tech", 
+        "url": "http://igem.org/Team.cgi?id=934", 
+        "region": "Asia", 
+        "project": "\"Romeo and Juliet\" by E.coli cell-cell communication", 
         "students": [
-            "Eric Pederson", 
-            "Jesse Salazar", 
-            "Peter Wei", 
-            "Yang Choo"
+            "Nobuaki Yasuo", 
+            "Taku Nakayama", 
+            "Takuo Sugiyama", 
+            "Toshiki Hashimoto", 
+            "Mai Miura", 
+            "Naoki Tsukuda", 
+            "Liu Jinglin", 
+            "Xinran Tao", 
+            "Shiyue  Liu"
         ]
     }, 
     {
@@ -18036,16 +18149,15 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:NYMU-Taipei", 
+        "advisors": [], 
+        "track": "Environment", 
+        "abstract": "Nowadays, pollution spreads through the world and our environment is deteriorating day by day. Our project is mainly about the removal of several pollutants, including nitrogen oxides, sulfur oxides and carbon oxides, from exhaust air and waste water. We planned to cultivate a special strain of genetically engineered cyanobacteria. With reductases metabolizing nitrogen, sulfur and carbon oxides, our organisms reduce three major pollutants in the modern day. Furthermore, we also focus on the removal of cadmium ions from soil. We tried to engineer E.coli to gain better capability of collecting cadmium ions. In fact, our engineered E.coli could stay inside of Dictyostelium discoideum, which allows us to build a biosafety system to make sure our GMOs won't become another threat to the environment. Combining our engineered cyanobacteria and the concept of endosymbiosis, we grant eukaryotes, ultimately human being, the ability to colonize Venus and expand our territory.\n", 
         "instructors": [
             "Chuan-Hsiung Chang", 
             "Chih-Hsien Yang", 
             "Pei-Hong Chen", 
             "Jesse Wu"
         ], 
-        "name": "NYMU-Taipei", 
-        "track": "Environment", 
-        "region": "Asia", 
-        "advisors": [], 
         "awards_championship": [
             "Advance to Championship"
         ], 
@@ -18053,6 +18165,14 @@
             "BBa_K896000", 
             "BBa_K896999"
         ], 
+        "awards_regional": [
+            "Best New BioBrick Part, Natural, Asia"
+        ], 
+        "year": 2012, 
+        "medal": "gold", 
+        "name": "NYMU-Taipei", 
+        "url": "http://igem.org/Team.cgi?id=896", 
+        "region": "Asia", 
         "project": "Venus Marvel", 
         "students": [
             "Hsieh Tien-Chan", 
@@ -18078,13 +18198,6 @@
             "Da-Jong Yuh", 
             "Tzu-Huan Lin", 
             "Li-Chung Hao"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=896", 
-        "year": 2012, 
-        "medal": "gold", 
-        "abstract": "Nowadays, pollution spreads through the world and our environment is deteriorating day by day. Our project is mainly about the removal of several pollutants, including nitrogen oxides, sulfur oxides and carbon oxides, from exhaust air and waste water. We planned to cultivate a special strain of genetically engineered cyanobacteria. With reductases metabolizing nitrogen, sulfur and carbon oxides, our organisms reduce three major pollutants in the modern day. Furthermore, we also focus on the removal of cadmium ions from soil. We tried to engineer E.coli to gain better capability of collecting cadmium ions. In fact, our engineered E.coli could stay inside of Dictyostelium discoideum, which allows us to build a biosafety system to make sure our GMOs won't become another threat to the environment. Combining our engineered cyanobacteria and the concept of endosymbiosis, we grant eukaryotes, ultimately human being, the ability to colonize Venus and expand our territory.\n", 
-        "awards_regional": [
-            "Best New BioBrick Part, Natural, Asia"
         ]
     }, 
     {
@@ -18341,52 +18454,46 @@
         ]
     }, 
     {
-        "wiki": "http://2012.igem.org/Team:Tokyo-NoKoGen", 
+        "wiki": "http://2012.igem.org/Team:TU-Delft", 
         "advisors": [
-            "Nasa SAVORY"
+            "Calin Plesa", 
+            "Aljoscha Wahl", 
+            "Ilya Tkachev", 
+            "Daniel Solis Escalante"
         ], 
-        "track": "New Application", 
-        "abstract": "We created an E. coli for long distance communication. This “Communicheria coli” was inspired by the Pony Express, a rapid mail delivery service in the American Wild West, where mail was relayed by horseback riders. Communicheria coli sends a message, in the form of light, to distant cells, which then relay the message to other distant cells.\r\nCommunicheria coli has light sensors constructed using the light receptor domain of bacterial sensory rhodopsin or the cyanobacterial green light sensor CcaS. In response to light signals, cells will induce their own lux operon to send the message to other distant cells, for example in a separate flask, which will in turn relay the message to other distant cells.\r\nTo improve the effectiveness of our new signal delivery system, we set out to enhance the light intensity, change the light color, and shorten the response time.\r\n\r\n\n", 
+        "track": "Information Processing", 
+        "abstract": "The aim of this year’s iGEM project will be the synthesis of an olfactory device for the purpose of characterization of volatile compound. Here, the aim is to introduce olfactory receptor gene fusions into Saccharomyces cerevisiae and linking these receptors to a transcription response. Aims:\r\n\tThe diagnostics of the presence of tuberculosis bacteria in the lungs by sensing chemical compound methyl nicotinate by S. cerevisiae. For diagnostics, the response to these molecules is light, generated by the Lux proteins (visible blue light) or GFP (fluorescent green).\r\n\t\tIntroducing receptors for sensing the presence of banana-smell (iso-amyl acetate). This is done to see whether communication between S. cerevisiae and E. coli is possible by this volatile intermediate.\r\n\t\tSupplying a toolkit which allows scientists to introduce olfactory receptors in yeast with minimal effort. Further we want to characterize the receptor parts submitted by the 2009 Hongkong university.\r\n\t", 
         "instructors": [
-            "Stefano Ferri", 
-            "Koji Sode", 
-            "Kazunori IKEBUKURO"
+            "Anne S. Meyer", 
+            "Esengül Yildirim", 
+            "Alessandro Abate", 
+            "Emrah Nikerel"
         ], 
-        "awards_championship": [], 
+        "awards_championship": [
+            "Advance to Championship"
+        ], 
         "parts_range": [
-            "BBa_K769000", 
-            "BBa_K769999"
+            "BBa_K775000", 
+            "BBa_K775999"
         ], 
         "awards_regional": [], 
         "year": 2012, 
-        "medal": "silver", 
-        "name": "Tokyo-NoKoGen", 
-        "url": "http://igem.org/Team.cgi?id=769", 
-        "region": "Asia", 
-        "project": "Coli express for long distance communication", 
+        "medal": "gold", 
+        "name": "TU-Delft", 
+        "url": "http://igem.org/Team.cgi?id=775", 
+        "region": "Europe", 
+        "project": "Snifferomyces", 
         "students": [
-            "kotone miyake", 
-            "Hikaru Sekiguchi", 
-            "Jinhee LEE", 
-            "Somin LEE", 
-            "Shouhei TAKAMATHU", 
-            "Sumiya KAWAI", 
-            "Hayato Tsuruta", 
-            "Madoka Nagata", 
-            "Takeshi Iida", 
-            "Miki Sanada", 
-            "satoshi YANOKUCHI", 
-            "Mayumi Nakamura", 
-            "Miho Narita", 
-            "Tomomi YOKOYAMA", 
-            "Genki Sakai", 
-            "Hiroto OKANO", 
-            "masahiro kawakita", 
-            "Yuki Uchikura", 
-            "Nanoha Suzuki", 
-            "Kyoko Yonemoto", 
-            "Saki Nakashima", 
-            "Moto Yamasaki"
+            "Isabelle Jacobs", 
+            "Stephanie Lubbers", 
+            "Marcel Langelaan", 
+            "Lakshmeesh Rao Mohre Maruthi", 
+            "Mark Weijers", 
+            "Yifan Pan", 
+            "Eftychia Thomaidou", 
+            "Sietske Grijseels", 
+            "Menno Witteveen", 
+            "Lizah van der Aart"
         ]
     }, 
     {
@@ -18430,38 +18537,6 @@
             "Amalia Martínez Segura", 
             "Aida Moreno Moral", 
             "Jesús Jiménez Sobrado"
-        ]
-    }, 
-    {
-        "wiki": "http://2012.igem.org/Team:Leicester", 
-        "advisors": [], 
-        "track": "Food & Energy", 
-        "abstract": "Objective - Naturally occurring organisms using polystyrene as their sole source of carbon have been recently identified, by analysing the occurrence of polystyrene breakdown products. However these metabolites accumulate very slowly, explaining why polystyrene is so persistent in the environment. Polystyrene can currently be recycled, but due to the low density of the majority of polystyrene products it is economically unfavourable, due to the high energy demands. If inexpensive biological degradation can be achieved this would assist recycling, but we also hope to use products of this reaction to make useful organic chemicals. \r\n\r\nAim - To construct BioBricks from the genes encoding enzymes involved in this pathway and manipulate their expression and properties to maximise the rate of polystyrene degradation. \r\n\r\nHypothesis - genes encoding the enzymes of the polystyrene breakdown pathway can be isolated and expressed in a host microorganism and the rate of the process increased by genetic manipulation.\r\n\n", 
-        "instructors": [
-            "Richard Badge", 
-            "Raymond Dalgleish"
-        ], 
-        "awards_championship": [], 
-        "parts_range": [
-            "BBa_K852000", 
-            "BBa_K852999"
-        ], 
-        "awards_regional": [], 
-        "year": 2012, 
-        "name": "Leicester", 
-        "url": "http://igem.org/Team.cgi?id=852", 
-        "region": "Europe", 
-        "project": "A Synthetic Biology Solution To Polystyrene Degradation.", 
-        "students": [
-            "Anthony I. Cox", 
-            "Christopher Robert Morton", 
-            "Nathan Hanna", 
-            "Luke Thompson", 
-            "Philip Higgs", 
-            "William Harrison", 
-            "Emily Halsey", 
-            "Reema Naran", 
-            "Mohammed Idres"
         ]
     }, 
     {
@@ -18697,16 +18772,15 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:Penn_State", 
+        "advisors": [
+            "Howard Salis"
+        ], 
+        "track": "Foundational Advance", 
+        "abstract": "The central dogma of molecular biology does not always accurately predict results acquired in the lab. A construct containing two adjacent start codons in different reading frames measures the E. coli DH10B ribosome’s proclivity for either one start codon or the other through a fluorescent protein reporter in each respective reading frame. Variations in RBS translation initiation rates and length between start codons provide additional data. Repeating sequences of non-degenerative threonine and alanine codons measure codon bias and determine E. coli DH10B’s ability to translate varying lengths of identical codons through the use of mCherry and GFP reporters. Promoters are tested for bidirectionality in protein translation by measuring the rate of forward expression through downstream GFP or reverse expression through upstream RFP. A ratio of fluorescence characterizes each tested promoter.\n", 
         "instructors": [
             "Tom Richard", 
             "Jyotsna Lavanya Pandey", 
             "Thomas McCarthy"
-        ], 
-        "name": "Penn State", 
-        "track": "Foundational Advance", 
-        "region": "Americas East", 
-        "advisors": [
-            "Howard Salis"
         ], 
         "awards_championship": [
             "Advance to Championship"
@@ -18715,6 +18789,12 @@
             "BBa_K933000", 
             "BBa_K933999"
         ], 
+        "awards_regional": [], 
+        "year": 2012, 
+        "medal": "gold", 
+        "name": "Penn State", 
+        "url": "http://igem.org/Team.cgi?id=933", 
+        "region": "Americas East", 
         "project": "Questioning the Central Dogma of Molecular Biology", 
         "students": [
             "Chris Cetnar", 
@@ -18722,12 +18802,7 @@
             "Hannah Jepsen-Burger", 
             "Victoria Heasley ", 
             "Kevin Thyne"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=933", 
-        "year": 2012, 
-        "medal": "gold", 
-        "abstract": "The central dogma of molecular biology does not always accurately predict results acquired in the lab. A construct containing two adjacent start codons in different reading frames measures the E. coli DH10B ribosome’s proclivity for either one start codon or the other through a fluorescent protein reporter in each respective reading frame. Variations in RBS translation initiation rates and length between start codons provide additional data. Repeating sequences of non-degenerative threonine and alanine codons measure codon bias and determine E. coli DH10B’s ability to translate varying lengths of identical codons through the use of mCherry and GFP reporters. Promoters are tested for bidirectionality in protein translation by measuring the rate of forward expression through downstream GFP or reverse expression through upstream RFP. A ratio of fluorescence characterizes each tested promoter.\n", 
-        "awards_regional": []
+        ]
     }, 
     {
         "wiki": "http://2009.igem.org/Team:CityColSanFrancisco", 
@@ -19473,35 +19548,44 @@
         ]
     }, 
     {
-        "wiki": "http://2011.igem.org/Team:Strathclyde_Glasgow", 
+        "wiki": "http://2011.igem.org/Team:ZJU-China", 
         "advisors": [], 
-        "name": "Strathclyde Glasgow", 
-        "students": [
-            "Grant O'Neil", 
-            "Zenab Ali", 
-            "Beatrice Viviane Vetter", 
-            "Leo Iu", 
-            "Morag Hogg", 
-            "Thomas Parry", 
-            "Audrey Gillies", 
-            "Ahmed Ahmeidat", 
-            "Lauren Stewart", 
-            "Sienna Gray"
-        ], 
-        "region": "Europe", 
+        "track": "New Application", 
+        "abstract": "Rainbofilm is a stratified expression system in biofilm, a self-organized module extensible for various needs. Researchers found a vertical oxygen gradient establishes in the biofilm. Such property allows us to use oxygen sensitive promoters to artificially induce differentiated functions through the spatial distribution of cells. Thus, the multi-step reaction can be processed within the different layers of the biofilm.The biofilm and its layered structure form spontaneously. Also biofilm has the natural resistance to high levels of toxin. These two properties render the Rainbofilm a convenient stable system for bio-production and bio-sensor. The system can cater to different needs simply by changing downstream genes. One possible application is ethanol production. The cellulose is degraded to monose from the bottom to the middle layer, and the ethanol is produced and secreted in the surface to minimize the toxicity to the inner cells.\n", 
         "instructors": [
-            "Paul Herron"
+            "Ming Chen"
         ], 
-        "awards_championship": [], 
+        "awards_championship": [
+            "Advance to Championship"
+        ], 
         "parts_range": [
-            "BBa_K521000", 
-            "BBa_K521999"
+            "BBa_K561000", 
+            "BBa_K561999"
         ], 
-        "project": "-- Not provided yet --", 
-        "url": "http://igem.org/Team.cgi?id=521", 
-        "awards_regional": [], 
+        "awards_regional": [
+            "Grand Prize Winner, Asia"
+        ], 
         "year": 2011, 
-        "abstract": "-- No abstract provided yet --\n"
+        "medal": "gold", 
+        "name": "ZJU-China", 
+        "url": "http://igem.org/Team.cgi?id=561", 
+        "region": "Asia", 
+        "project": "Rainbofilm", 
+        "students": [
+            "LI Ye", 
+            "Ma Lie", 
+            "Xia Yu", 
+            "HU Chenyue", 
+            "MA Keyue", 
+            "TIAN Luyi", 
+            "Hua Yijie ", 
+            "SUN Xiangqing", 
+            "YAO Xiaotong", 
+            "Chenling XU", 
+            "PI Ruoxi", 
+            "Xinlei Chen", 
+            "Xi Yakun"
+        ]
     }, 
     {
         "wiki": "http://2009.igem.org/Team:KULeuven", 
@@ -19558,6 +19642,12 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:SUSTC-Shenzhen-B", 
+        "advisors": [
+            "Zhu Chaoyang(Clive)", 
+            "Kang KANG"
+        ], 
+        "track": "Software Tools", 
+        "abstract": "Transcription terminator is an essential part of biobrick circuits, but is not well characterized. We studied the rho-independent transcription terminators using both theoretical modeling and experiment method. We first developed a theoretical model. This model calculate the free energy of RNA folding and can predict the secondary structure of terminators. From the secondary structure, we  proposed an algorithm that can calculate terminator efficiency. In the aspect of experiment, we construct 100 terminators. We measure the the terminator efficiency by measuring the GFP and RFP which are placed before and after terminators. The efficiency calculated from theoretical model fit quite well with experimental results.  We also created a software and a web surver  for people to calculate their terminators and also built a database of terminator efficiency which we believe to be the largest database of such kind. Our work is by far the most comprehensive study on terminator efficiency.\n", 
         "instructors": [
             "Jiankui He", 
             "Li haixiong", 
@@ -19566,13 +19656,6 @@
             "Junqi Wang", 
             "Yinglan Zhao"
         ], 
-        "name": "SUSTC-Shenzhen-B", 
-        "track": "Software Tools", 
-        "region": "Asia", 
-        "advisors": [
-            "Zhu Chaoyang(Clive)", 
-            "Kang KANG"
-        ], 
         "awards_championship": [
             "Advance to Software Jamboree"
         ], 
@@ -19580,6 +19663,12 @@
             "BBa_K827000", 
             "BBa_K827999"
         ], 
+        "awards_regional": [], 
+        "year": 2012, 
+        "medal": "gold", 
+        "name": "SUSTC-Shenzhen-B", 
+        "url": "http://igem.org/Team.cgi?id=827", 
+        "region": "Asia", 
         "project": "Theoretical modeling and experimental measurement of transcription terminator efficiency", 
         "students": [
             "Mengshi Zhang", 
@@ -19589,12 +19678,7 @@
             "Yao Chen", 
             "Liuxing Shen", 
             "Boyu Qie"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=827", 
-        "year": 2012, 
-        "medal": "gold", 
-        "abstract": "Transcription terminator is an essential part of biobrick circuits, but is not well characterized. We studied the rho-independent transcription terminators using both theoretical modeling and experiment method. We first developed a theoretical model. This model calculate the free energy of RNA folding and can predict the secondary structure of terminators. From the secondary structure, we  proposed an algorithm that can calculate terminator efficiency. In the aspect of experiment, we construct 100 terminators. We measure the the terminator efficiency by measuring the GFP and RFP which are placed before and after terminators. The efficiency calculated from theoretical model fit quite well with experimental results.  We also created a software and a web surver  for people to calculate their terminators and also built a database of terminator efficiency which we believe to be the largest database of such kind. Our work is by far the most comprehensive study on terminator efficiency.\n", 
-        "awards_regional": []
+        ]
     }, 
     {
         "wiki": "http://2012.igem.org/Team:Tsinghua-D", 
@@ -20686,15 +20770,14 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:USTC-Software", 
+        "advisors": [
+            "Haiyan Liu"
+        ], 
+        "track": "Software Tools", 
+        "abstract": "Traditional synthetic biological design creates or uses standardized parts such as BioBricks to build the genetic circuits, and uses mathematics to model the behavior. In this approach, biological design guides both experiments and mathematical modeling, but is it possible to use experimental data to reversely engineer the mathematical model and guide backwards the biological design? This project answers the question. We use reverse engineering techniques to get mathematical models such as ordinary differential equations(ODEs), directly from the experimental data and build the feasible designs according to the models. In this sense, we not only fully connect biology, experiments and mathematics, but also get feasible designs that have certain behaviors. To realize this idea, we build a suite of applications that provide researchers with efficient workflows.\n", 
         "instructors": [
             "Jiong Hong", 
             "Chen Liao"
-        ], 
-        "name": "USTC-Software", 
-        "track": "Software Tools", 
-        "region": "Asia", 
-        "advisors": [
-            "Haiyan Liu"
         ], 
         "awards_championship": [
             "Advance to Software Jamboree", 
@@ -20704,6 +20787,12 @@
             "BBa_K742000", 
             "BBa_K742999"
         ], 
+        "awards_regional": [], 
+        "year": 2012, 
+        "medal": "gold", 
+        "name": "USTC-Software", 
+        "url": "http://igem.org/Team.cgi?id=742", 
+        "region": "Asia", 
         "project": "Reverse Engineering for Biological Regulatory Networks", 
         "students": [
             "Kai Kang", 
@@ -20715,12 +20804,7 @@
             "Kaishuai Yang", 
             "Qi Hu", 
             "Sen Jiang"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=742", 
-        "year": 2012, 
-        "medal": "gold", 
-        "abstract": "Traditional synthetic biological design creates or uses standardized parts such as BioBricks to build the genetic circuits, and uses mathematics to model the behavior. In this approach, biological design guides both experiments and mathematical modeling, but is it possible to use experimental data to reversely engineer the mathematical model and guide backwards the biological design? This project answers the question. We use reverse engineering techniques to get mathematical models such as ordinary differential equations(ODEs), directly from the experimental data and build the feasible designs according to the models. In this sense, we not only fully connect biology, experiments and mathematics, but also get feasible designs that have certain behaviors. To realize this idea, we build a suite of applications that provide researchers with efficient workflows.\n", 
-        "awards_regional": []
+        ]
     }, 
     {
         "wiki": "http://2010.igem.org/Team:Wisconsin-Madison", 
@@ -20755,15 +20839,14 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:WHU-China", 
+        "advisors": [], 
+        "track": "Health & Medicine", 
+        "abstract": "Utilizing human microbiota to tackle diseases has long been the keen desire of scientists. This year, we WHU-China team engineered a probiotics “E. coslim” from Escherichia coli, hoping to provide a new approach for treating obesity. Specifically, three genetic devices were designed. The first two devices were assembled to sense and response to fatty acids and glucose. To achieve these goals, promoters repressed by FadR and CRP were devised and synthesized respectively. When functional genes are placed downstream of these promoters appropriately, the two devices are supposed to degrade fatty acids and convert glucose into cellulose rapidly, thus preventing excessive calorie intake as well as producing prebiotics. Meanwhile, the third device was designed to control the densities of “E. coslim” and forestall horizontal gene transfer in future applications. As a whole, by simulating, we are developing “E. coslim” to regulate the microbiome composition in intestine to reduce risks of obesity.\n", 
         "instructors": [
             "Zhixiong Xie", 
             "Jianbo Wang", 
             "Yu Chen"
         ], 
-        "name": "WHU-China", 
-        "track": "Health & Medicine", 
-        "region": "Asia", 
-        "advisors": [], 
         "awards_championship": [
             "Advance to Championship"
         ], 
@@ -20771,6 +20854,12 @@
             "BBa_K861000", 
             "BBa_K861999"
         ], 
+        "awards_regional": [], 
+        "year": 2012, 
+        "medal": "silver", 
+        "name": "WHU-China", 
+        "url": "http://igem.org/Team.cgi?id=861", 
+        "region": "Asia", 
         "project": "E. coslim: Synthetic Probiotics Help Defy Obesity", 
         "students": [
             "Kuanwei Sheng", 
@@ -20797,12 +20886,7 @@
             "Cheng Zhao ", 
             "Chao Huang", 
             "Yancheng Liu"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=861", 
-        "year": 2012, 
-        "medal": "silver", 
-        "abstract": "Utilizing human microbiota to tackle diseases has long been the keen desire of scientists. This year, we WHU-China team engineered a probiotics “E. coslim” from Escherichia coli, hoping to provide a new approach for treating obesity. Specifically, three genetic devices were designed. The first two devices were assembled to sense and response to fatty acids and glucose. To achieve these goals, promoters repressed by FadR and CRP were devised and synthesized respectively. When functional genes are placed downstream of these promoters appropriately, the two devices are supposed to degrade fatty acids and convert glucose into cellulose rapidly, thus preventing excessive calorie intake as well as producing prebiotics. Meanwhile, the third device was designed to control the densities of “E. coslim” and forestall horizontal gene transfer in future applications. As a whole, by simulating, we are developing “E. coslim” to regulate the microbiome composition in intestine to reduce risks of obesity.\n", 
-        "awards_regional": []
+        ]
     }, 
     {
         "wiki": "http://2007.igem.org/Team:Boston_University", 
@@ -21741,16 +21825,15 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:Purdue", 
+        "advisors": [
+            "Soo Jung Ha"
+        ], 
+        "track": "Environment", 
+        "abstract": "Polluted water is the world’s largest health risk, killing over three million people a year. Our project focused on enhancing biofilms used in water treatment. We designed a system to accelerate the adhesion of bacteria to surfaces. On biofilm aggregation, expression of silica-binding peptides works to build silica matrices on the surface of cells. These matrices act as a mechanical filter for large particles and a barrier between the biofilm and fluid shear, decreasing dislodgment of organisms that could otherwise lead to fouling. We envision these improved biofilms being used in municipal water treatment to help recycle and filter home waste water streams, a concept we implemented in lab-scale membrane bioreactors. Bringing awareness of synthetic biology closer to our community, we initiated a community bio-lab and a Girl Scout biotechnology badge. Ultimately, we hope to take synthetic biology from benchtop to park bench.\n", 
         "instructors": [
             "Jenna Rickus", 
             "Kari Clase", 
             "Mary Jane Brennan"
-        ], 
-        "name": "Purdue", 
-        "track": "Environment", 
-        "region": "Americas East", 
-        "advisors": [
-            "Soo Jung Ha"
         ], 
         "awards_championship": [
             "Advance to Championship"
@@ -21759,6 +21842,12 @@
             "BBa_K932000", 
             "BBa_K932999"
         ], 
+        "awards_regional": [], 
+        "year": 2012, 
+        "medal": "gold", 
+        "name": "Purdue", 
+        "url": "http://igem.org/Team.cgi?id=932", 
+        "region": "Americas East", 
         "project": "Synthetic Biology in the Community: Accessible Biotechnology for Water Treatment", 
         "students": [
             "Marcus Hosler", 
@@ -21778,12 +21867,7 @@
             "Christopher Soverns", 
             "Rubeena Pierre-Philippe", 
             "Haefa Mansour"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=932", 
-        "year": 2012, 
-        "medal": "gold", 
-        "abstract": "Polluted water is the world’s largest health risk, killing over three million people a year. Our project focused on enhancing biofilms used in water treatment. We designed a system to accelerate the adhesion of bacteria to surfaces. On biofilm aggregation, expression of silica-binding peptides works to build silica matrices on the surface of cells. These matrices act as a mechanical filter for large particles and a barrier between the biofilm and fluid shear, decreasing dislodgment of organisms that could otherwise lead to fouling. We envision these improved biofilms being used in municipal water treatment to help recycle and filter home waste water streams, a concept we implemented in lab-scale membrane bioreactors. Bringing awareness of synthetic biology closer to our community, we initiated a community bio-lab and a Girl Scout biotechnology badge. Ultimately, we hope to take synthetic biology from benchtop to park bench.\n", 
-        "awards_regional": []
+        ]
     }, 
     {
         "wiki": "http://2010.igem.org/Team:Cornell", 
@@ -21881,16 +21965,15 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:SYSU-Software", 
+        "advisors": [
+            "James Junzhi WEN"
+        ], 
+        "track": "Software Tools", 
+        "abstract": "BiArkit is a versatile toolkit that integrates different modules together and helps researchers approach \r\ninformation on synthetic biology. The first function is Genome Browser, which visualizes the genomes of some model microorganisms, locates the genes on the genome and make it easy to study the genome. Secondly, Regulator Designer helps the design of regulatory elements, mainly non-coding RNA,in which we firstly develop Riboswitch Designer. Thirdly, we optimize the methods of scanning and output of the existing database of pathways. Fourthly, to analyze the dynamic change in various metabolic networks, we present a simulator that help the researchers analyze the network in silico, with the application of flux balance \r\nanalysis (FBA). Further, to make it more convenient, the software is localized; that is to say, all functions mentioned above can be achieved without linkage to Internet.\n", 
         "instructors": [
             "JianHua Yang", 
             "Yongdong Zhang", 
             "Jian Ren"
-        ], 
-        "name": "SYSU-Software", 
-        "track": "Software Tools", 
-        "region": "Asia", 
-        "advisors": [
-            "James Junzhi WEN"
         ], 
         "awards_championship": [
             "Best Genome Compiler Based Design", 
@@ -21901,6 +21984,12 @@
             "BBa_K893000", 
             "BBa_K893999"
         ], 
+        "awards_regional": [], 
+        "year": 2012, 
+        "medal": "gold", 
+        "name": "SYSU-Software", 
+        "url": "http://igem.org/Team.cgi?id=893", 
+        "region": "Asia", 
         "project": "BiArkit, A Versatile Toolkit For Synthetic Biology ", 
         "students": [
             "Jiang Shan", 
@@ -21922,12 +22011,7 @@
             "Tangkun Zhao", 
             "Jiasheng Xu", 
             "Peng Mou"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=893", 
-        "year": 2012, 
-        "medal": "gold", 
-        "abstract": "BiArkit is a versatile toolkit that integrates different modules together and helps researchers approach \r\ninformation on synthetic biology. The first function is Genome Browser, which visualizes the genomes of some model microorganisms, locates the genes on the genome and make it easy to study the genome. Secondly, Regulator Designer helps the design of regulatory elements, mainly non-coding RNA,in which we firstly develop Riboswitch Designer. Thirdly, we optimize the methods of scanning and output of the existing database of pathways. Fourthly, to analyze the dynamic change in various metabolic networks, we present a simulator that help the researchers analyze the network in silico, with the application of flux balance \r\nanalysis (FBA). Further, to make it more convenient, the software is localized; that is to say, all functions mentioned above can be achieved without linkage to Internet.\n", 
-        "awards_regional": []
+        ]
     }, 
     {
         "wiki": "http://2008.igem.org/Team:IIT_Madras", 
@@ -22331,43 +22415,36 @@
         ]
     }, 
     {
-        "wiki": "http://2011.igem.org/Team:ZJU-China", 
-        "instructors": [
-            "Ming Chen"
-        ], 
-        "name": "ZJU-China", 
-        "track": "New Application", 
-        "region": "Asia", 
+        "wiki": "http://2011.igem.org/Team:Caltech", 
         "advisors": [], 
+        "track": "Environment", 
+        "abstract": "\"Endocrine disruptors, or substances that mimic estrogen in the body, have detrimental biological effects on the reproduction of several species of fish and birds; the Caltech team focuses on bioremediation of these toxins. Our goal is to create a system housed in E. coli that can be used to process water and remove endocrine disruptors on a large scale. We focus on isolating degradation systems for the common endocrine disruptors bisphenol A (BPA), DDT, nonylphenol and estradiol.  We synthesized known degradation enzymes DDT dehydrochlorinase, BisdA and BisdB, and characterized the behavior of these enzymes when acting on our target endocrine disruptors. In addition, we explored the potential of certain cytochrome p450s to initiate degradation of these chemicals, focusing on WT-F87A degradation of BPA. Finally, we characterized the functionality of E. coli protein processing when E. coli is deployed as an easily containable biofilm on various substances in aqueous environments.\"\n", 
+        "instructors": [
+            "Richard Murray", 
+            "Joseph T. Meyerowitz", 
+            "Emmanuel Lorenzo de los Santos", 
+            "Nathaniel Glasser"
+        ], 
         "awards_championship": [
             "Advance to Championship"
         ], 
         "parts_range": [
-            "BBa_K561000", 
-            "BBa_K561999"
+            "BBa_K620000", 
+            "BBa_K620999"
         ], 
-        "project": "Rainbofilm", 
-        "students": [
-            "LI Ye", 
-            "Ma Lie", 
-            "Xia Yu", 
-            "HU Chenyue", 
-            "MA Keyue", 
-            "TIAN Luyi", 
-            "Hua Yijie ", 
-            "SUN Xiangqing", 
-            "YAO Xiaotong", 
-            "Chenling XU", 
-            "PI Ruoxi", 
-            "Xinlei Chen", 
-            "Xi Yakun"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=561", 
+        "awards_regional": [], 
         "year": 2011, 
         "medal": "gold", 
-        "abstract": "Rainbofilm is a stratified expression system in biofilm, a self-organized module extensible for various needs. Researchers found a vertical oxygen gradient establishes in the biofilm. Such property allows us to use oxygen sensitive promoters to artificially induce differentiated functions through the spatial distribution of cells. Thus, the multi-step reaction can be processed within the different layers of the biofilm.The biofilm and its layered structure form spontaneously. Also biofilm has the natural resistance to high levels of toxin. These two properties render the Rainbofilm a convenient stable system for bio-production and bio-sensor. The system can cater to different needs simply by changing downstream genes. One possible application is ethanol production. The cellulose is degraded to monose from the bottom to the middle layer, and the ethanol is produced and secreted in the surface to minimize the toxicity to the inner cells.\n", 
-        "awards_regional": [
-            "Grand Prize Winner, Asia"
+        "name": "Caltech", 
+        "url": "http://igem.org/Team.cgi?id=620", 
+        "region": "Americas", 
+        "project": "Bioremediation of Endocrine Disruptors Using Genetically Modified Escherichia Coli", 
+        "students": [
+            "Julia Brown", 
+            "Amanda Shelton", 
+            "Puikei Cheng", 
+            "Ashley Su ", 
+            "Nicole Thadani"
         ]
     }, 
     {
@@ -22721,50 +22798,36 @@
         ]
     }, 
     {
-        "wiki": "http://2011.igem.org/Team:Nevada", 
+        "wiki": "http://2012.igem.org/Team:Alberta", 
         "advisors": [], 
-        "track": "Food & Energy", 
-        "abstract": "\"Traditional methods for obtaining biofuels have relied on the fermentation of agricultural crops. The problems are reduction in land available for food production, relatively low levels of CO2 biofixation, and large biomass requirements. Our project aims to overcome these problems by utilizing E. coli for the production of biodiesel (C-12 fatty acids) and bioethanol. There have been a number of examples of biofuel production in E. coli; however 30-40% of production cost is based on media costs. Our project will surmount these high production costs by engineering the cyanobacteria, Synechocystis PCC6803, to secrete large quantities of glucose that will feed our biofuel-producing E .coli. Cyanobacteria and E.coli will be co-cultivated to allow the mutual transfer of carbon to produce biofuels.  This project provides an efficient means for producing biofuels without a carbon source.  It will also create a novel cooperative system between bacterial species that may have further industrial implications.\"\n", 
+        "track": "Foundational Advance", 
+        "abstract": "As a young team composed of high schoolers and junior undergraduates, we selected a project aimed at giving ourselves a firm understanding in the fundamentals of genetic engineering and control. The end goal of our project was to create spatial color patterns using bacteria, such as a color wheel and a rainbow, that required control over several color outputs in response to spatial gradients of chemical inducers. Colour gradients were achieved using a high-copy plasmid that contained both an inducible colour gene and its corresponding repressor. Colour banding was achieved by a novel means of adjusting gene expression through plasmid copy number control that varied from 0 to ~1000 copies/cell as a function of inducer concentration. Note that the rapid loss of plasmid that occurs in the absence of inducer also constitutes a novel and extremely effective safety switch for genetically engineered organisms which might enter the environment.\n", 
         "instructors": [
-            "Christie Howard", 
-            "David Shintani"
+            "Douglas Ridgway", 
+            "Mike Ellison"
         ], 
         "awards_championship": [], 
         "parts_range": [
-            "BBa_K558000", 
-            "BBa_K558999"
+            "BBa_K879000", 
+            "BBa_K879999"
         ], 
         "awards_regional": [], 
-        "year": 2011, 
+        "year": 2012, 
         "medal": "gold", 
-        "name": "Nevada", 
-        "url": "http://igem.org/Team.cgi?id=558", 
-        "region": "Americas", 
-        "project": "So Happy Together: A Cooperative Relationship between Cyanobacteria and E. Coli for production of biofuels", 
+        "name": "Alberta", 
+        "url": "http://igem.org/Team.cgi?id=879", 
+        "region": "Americas West", 
+        "project": "Towards a microbial color wheel: spatial control of gene expression", 
         "students": [
-            "Jen Minor", 
-            "Elaine Bersaba", 
-            "Destiny Raikas", 
-            "Laura Colgin", 
-            "Marguerite Christian", 
-            "Ronald Truong", 
-            "Bryson A. Wheeler", 
-            "Dru Nelson", 
-            "Casey Lear", 
-            "Megan Tabor", 
-            "Jovanna Casas", 
-            "Matthew Kaminski", 
-            "Vadim Gladwill", 
-            "Matthew Hoff", 
-            "Samuel Dugan", 
-            "Matt Clifford", 
-            "Dafne Ordonez", 
-            "David R Koehn", 
-            "Kathleen Nicole Koh Black", 
-            "Lauren Thomas ", 
-            "Majid Beheshtian", 
-            "Chris Clifford", 
-            "Matt Bowden"
+            "Thomas Patrick", 
+            "Robert Spencer Short", 
+            "Easwaramurthyvasi Chidambaravasi ", 
+            "Nien-Tsu Tseng", 
+            "Peter West", 
+            "Torrin Lemire", 
+            "Aidan Burke", 
+            "Abdullah Farooq", 
+            "Sarah Haeubl"
         ]
     }, 
     {
@@ -23237,15 +23300,14 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:Penn", 
+        "advisors": [], 
+        "track": "Health & Medicine", 
+        "abstract": "   We are engineering E. coli bacteria which may enable highly targeted eradication of human epidermal growth factor receptor 2 (HER2) overexpressing cancer cells. Upon binding to HER2 overexpressing cells, bacterial cytotoxicity can be triggered with spatial and temporal precision by illumination with blue light, which activates overexpression and secretion of Cytolysin A (ClyA) under the control of the pDawn transcriptional module. \r\n   Furthermore, we are also investigating the feasibility of engineering bacterial biofilms that can act as antimicrobial surfaces. We are engineering E. coli bacteria to form non-pathogenic biofilms that express bacteriolytic proteins capable of inhibiting the formation of pathogenic biofilms that are potential sources of hospital acquired infections. These cells carry the a gene encoding lysostaphin (lss), which selectively destroys the cell walls of Streptococcus bacteria, a common pathogen in many hospital settings. \n", 
         "instructors": [
             "Casim Sarkar", 
             "Jordan Miller", 
             "Mark Goulian"
         ], 
-        "name": "Penn", 
-        "track": "Health & Medicine", 
-        "region": "Americas East", 
-        "advisors": [], 
         "awards_championship": [
             "Advance to Championship"
         ], 
@@ -23253,21 +23315,22 @@
             "BBa_K811000", 
             "BBa_K811999"
         ], 
+        "awards_regional": [
+            "Regional Finalist, Americas East", 
+            "Grand Prize Winner, Americas East", 
+            "Best New BioBrick Device, Engineered, Americas East"
+        ], 
+        "year": 2012, 
+        "medal": "gold", 
+        "name": "Penn", 
+        "url": "http://igem.org/Team.cgi?id=811", 
+        "region": "Americas East", 
         "project": "pDAWN Of A New Era: Engineering Bacterial Therapeutics", 
         "students": [
             "Avin Veerakumar", 
             "Michael Magaraci", 
             "Peter Qiao", 
             "Ashwin Amurthur"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=811", 
-        "year": 2012, 
-        "medal": "gold", 
-        "abstract": "   We are engineering E. coli bacteria which may enable highly targeted eradication of human epidermal growth factor receptor 2 (HER2) overexpressing cancer cells. Upon binding to HER2 overexpressing cells, bacterial cytotoxicity can be triggered with spatial and temporal precision by illumination with blue light, which activates overexpression and secretion of Cytolysin A (ClyA) under the control of the pDawn transcriptional module. \r\n   Furthermore, we are also investigating the feasibility of engineering bacterial biofilms that can act as antimicrobial surfaces. We are engineering E. coli bacteria to form non-pathogenic biofilms that express bacteriolytic proteins capable of inhibiting the formation of pathogenic biofilms that are potential sources of hospital acquired infections. These cells carry the a gene encoding lysostaphin (lss), which selectively destroys the cell walls of Streptococcus bacteria, a common pathogen in many hospital settings. \n", 
-        "awards_regional": [
-            "Regional Finalist, Americas East", 
-            "Grand Prize Winner, Americas East", 
-            "Best New BioBrick Device, Engineered, Americas East"
         ]
     }, 
     {
@@ -23553,13 +23616,12 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:Virginia", 
+        "advisors": [], 
+        "track": "Health & Medicine", 
+        "abstract": "Whooping cough, the infectious respiratory disease caused by Bordetella pertussis, is diagnosed in tens of millions of people and results in almost 300,000 deaths globally each year. Low-income and unvaccinated individuals as well as infants are especially susceptible. Current diagnostic procedures are complicated, costly, and can take up to a week, by which time the disease may have progressed or spread. The enormous impact of this disease urgently motivates the development of a faster, cheaper, and more reliable diagnostic test. Our epidemiology models suggest that earlier diagnosis could drastically reduce the incidence and impact of the disease. We propose an engineered bacteriophage diagnostic system for rapid clinical detection of pertussis. We first engineered T7 bacteriophage to demonstrate this approach in E. coli. Our modular diagnostic approach can be applied to the high-sensitivity detection of other bacteria.\n", 
         "instructors": [
             "Jason Papin"
         ], 
-        "name": "Virginia", 
-        "track": "Health & Medicine", 
-        "region": "Americas East", 
-        "advisors": [], 
         "awards_championship": [
             "Advance to Championship"
         ], 
@@ -23567,6 +23629,15 @@
             "BBa_K732000", 
             "BBa_K732999"
         ], 
+        "awards_regional": [
+            "Regional Finalist, Americas East", 
+            "Best Experimental Measurement Approach, Americas East"
+        ], 
+        "year": 2012, 
+        "medal": "silver", 
+        "name": "Virginia", 
+        "url": "http://igem.org/Team.cgi?id=732", 
+        "region": "Americas East", 
         "project": "Genetically engineered bacteriophage for diagnosis of whooping cough", 
         "students": [
             "Joshua Fass", 
@@ -23577,14 +23648,6 @@
             "Omar Raza", 
             "John Hubczak", 
             "Shaun Moshasha"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=732", 
-        "year": 2012, 
-        "medal": "silver", 
-        "abstract": "Whooping cough, the infectious respiratory disease caused by Bordetella pertussis, is diagnosed in tens of millions of people and results in almost 300,000 deaths globally each year. Low-income and unvaccinated individuals as well as infants are especially susceptible. Current diagnostic procedures are complicated, costly, and can take up to a week, by which time the disease may have progressed or spread. The enormous impact of this disease urgently motivates the development of a faster, cheaper, and more reliable diagnostic test. Our epidemiology models suggest that earlier diagnosis could drastically reduce the incidence and impact of the disease. We propose an engineered bacteriophage diagnostic system for rapid clinical detection of pertussis. We first engineered T7 bacteriophage to demonstrate this approach in E. coli. Our modular diagnostic approach can be applied to the high-sensitivity detection of other bacteria.\n", 
-        "awards_regional": [
-            "Regional Finalist, Americas East", 
-            "Best Experimental Measurement Approach, Americas East"
         ]
     }, 
     {
@@ -23816,17 +23879,16 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:UNITN-Trento", 
+        "advisors": [
+            "Laura Martini", 
+            "Roberta Lentini"
+        ], 
+        "track": "New Application", 
+        "abstract": "Statues and monuments all over the world are often covered in a disfiguring black crust caused by weather and pollution. Current methods to clean black crust are either too destructive or non-effective. The aim of our project is to develop a system to more gently restore statues and monuments. To achieve this goal, we engineered E. coli to eat the black crust. More specifically, we introduced an aerobic sulfate reducing pathway and a hydrogen sulfide producing pathway into E. coli. In this way, the sulfate component of the black crust is transformed into a gas, thereby degrading the offending substance without degrading the original material of the statue. In addition to our black crust project, we developed a ratiometric fluorescence platform to test transcriptional terminators and subsequently used the platform to compare the efficiencies of T7 and E. coli transcriptional terminators with T7 and E. coli RNA polymerases.\n", 
         "instructors": [
             "Olivier Jousson", 
             "Cristina Del Bianco", 
             "Sheref Mansy"
-        ], 
-        "name": "UNITN-Trento", 
-        "track": "New Application", 
-        "region": "Europe", 
-        "advisors": [
-            "Laura Martini", 
-            "Roberta Lentini"
         ], 
         "awards_championship": [
             "Advance to Championship"
@@ -23835,6 +23897,12 @@
             "BBa_K731000", 
             "BBa_K731999"
         ], 
+        "awards_regional": [], 
+        "year": 2012, 
+        "medal": "gold", 
+        "name": "UNITN-Trento", 
+        "url": "http://igem.org/Team.cgi?id=731", 
+        "region": "Europe", 
         "project": "Crust Away", 
         "students": [
             "Andrea Tassinari", 
@@ -23843,12 +23911,7 @@
             "Anna Depetris", 
             "Jason Fontana", 
             "Francesco Guzzonato"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=731", 
-        "year": 2012, 
-        "medal": "gold", 
-        "abstract": "Statues and monuments all over the world are often covered in a disfiguring black crust caused by weather and pollution. Current methods to clean black crust are either too destructive or non-effective. The aim of our project is to develop a system to more gently restore statues and monuments. To achieve this goal, we engineered E. coli to eat the black crust. More specifically, we introduced an aerobic sulfate reducing pathway and a hydrogen sulfide producing pathway into E. coli. In this way, the sulfate component of the black crust is transformed into a gas, thereby degrading the offending substance without degrading the original material of the statue. In addition to our black crust project, we developed a ratiometric fluorescence platform to test transcriptional terminators and subsequently used the platform to compare the efficiencies of T7 and E. coli transcriptional terminators with T7 and E. coli RNA polymerases.\n", 
-        "awards_regional": []
+        ]
     }, 
     {
         "wiki": "http://2010.igem.org/Team:KIT-Kyoto", 
@@ -24055,85 +24118,52 @@
         ]
     }, 
     {
-        "wiki": "http://2011.igem.org/Team:Fatih_Turkey", 
-        "advisors": [
-            "Cihan TAŞTAN", 
-            "Muradiye ACAR"
-        ], 
-        "track": "New Application", 
-        "abstract": "\"E. Coli is one of the gram-negative bacteria and most of their types are harmless. However some of E.Coli types such as enterohaemorrhagic E.Coli (EHEC) can cause serious disease.In our project we designed an innovative model to prevent gram-negative growth and infection. In our model, to prevent E.Coli growth we modified non-infectious gram-positive bacteria B.Subtilis by transforming it with a construct, which was designed to produce limulus anti-LPS factor (LALF) together with a signal peptide. LALF is expected to bind and neutralize Lipopolysaccharide (LPS) found in gram-negative bacteria cell wall. On the other hand, to show E.Coli growth inhibition, we prepared another construct, which carries reflectin sequence with a signal peptide sequence and transferred into E.Coli. Reflectin protein produces color by reflecting light in different wavelenghts. This ability helps us to detect whether E.Coli is dead or alive.\"\n", 
+        "wiki": "http://2012.igem.org/Team:KAIT_Japan", 
+        "advisors": [], 
+        "track": "Health & Medicine", 
+        "abstract": " We try to make E.coli which has ability to kill the cancer cell.\r\n\r\nRegulatory T cells move toward to cancer cells by which produced CCL22. Killer T cells and helper T cells are inactivated by reguratory T cells, so, the cancer cells elude from the immune system. We think to make use of this mecanism underhand. We will give E.coli three functions.\r\n\r\nFirst,we give E.coli the function to have the chemotaxis to cancer cells by recognision of CCL22 which is a chemokine produced from cancer cells.\r\n\r\nSecond, we give E.coli the function that they combine with cancer cells. Cancer cells express the MICA on their cell membranes. NKG2D  recepter from NK cells combine MICA.\r\n\r\nThird,We give E.coli function that they release the azurin to cancer cells. The azurin induced apoptosis in cancer cells by binding with p53.\r\n\r\nWe would like to be help the treatment of cancer .\n", 
         "instructors": [
-            "Esra Gunduz", 
-            "Kadir Demircan", 
-            "Husamettin ERDAMAR"
+            "Yasuhiro Iida"
         ], 
-        "awards_championship": [
-            "Advance to Championship"
-        ], 
+        "awards_championship": [], 
         "parts_range": [
-            "BBa_K541000", 
-            "BBa_K541999"
+            "BBa_K835000", 
+            "BBa_K835999"
         ], 
-        "awards_regional": [
-            "Best New BioBrick Part, Natural, Europe (BBa_K541515)"
-        ], 
-        "year": 2011, 
-        "medal": "gold", 
-        "name": "Fatih Turkey", 
-        "url": "http://igem.org/Team.cgi?id=541", 
-        "region": "Europe", 
-        "project": "The Rainbow Graveyard", 
-        "students": [
-            "Fazilet Guler", 
-            "Halenur Gungordu", 
-            "Alperen Güver", 
-            "ozan sami bayrak", 
-            "Secil Tashan", 
-            "betül günbey", 
-            "tülin serap yılmaz", 
-            "Hasan Yasin Soylu", 
-            "Yasin Çakar", 
-            "Mustafa Elitok", 
-            "Ozan Sami Bayrak", 
-            "kenan güzel", 
-            "burak simsek"
-        ]
-    }, 
-    {
-        "wiki": "http://2012.igem.org/Team:UT-Tokyo-Software", 
-        "instructors": [
-            "Craig Hamilton", 
-            "Daichi Tamaru"
-        ], 
-        "name": "UT-Tokyo-Software", 
-        "track": "Software Tools", 
-        "region": "Asia", 
-        "advisors": [
-            "Masahiko Shimizu"
-        ], 
-        "awards_championship": [
-            "Best Interaction with the Parts Registry", 
-            "Advance to Software Jamboree"
-        ], 
-        "parts_range": [
-            "BBa_K791000", 
-            "BBa_K791999"
-        ], 
-        "project": "Software tools for iGEMers: BioBrick/Project Search & Tutorials", 
-        "students": [
-            "Eiichi Matsumoto", 
-            "Eri Awazu", 
-            "Asahito Kaneko", 
-            "Kotaro Iwata", 
-            "Tsukasa Nakamura", 
-            "Masahiro Kiyota"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=791", 
+        "awards_regional": [], 
         "year": 2012, 
-        "medal": "gold", 
-        "abstract": "We developed new search and educational tools to assist iGEM\r\nteams. For many teams, the majority of team members are new-comers.\r\nOur primary goal therefore is to aid these beginners get used to iGEM\r\nearlier\r\nto make project initiation swift.  All of our tools are\r\nweb-based and have user-friendly interfaces enabling users to gain\r\nquick access to needed information.  Our project consists of the following four\r\ntools.\r\n“BioBrick Search” improves convenience in searching BioBrick parts by\r\na sophisticated interface and an ordering algorithm taking into acount the\r\nparts' frequency of use.\r\nWith “Past Project Search”, you can run a keyword search for all past\r\nprojects and access past teams' presentation material easily.\r\n“BioBrick Puzzle” and “Gene Network Game” are educational games intended\r\nfor beginners to acquire knowledge about BioBricks and gene networks,\r\nwhich aides them to plan their projects and conduct experiments.\n", 
-        "awards_regional": [
-            "Best Human Practices Advance, Asia"
+        "medal": "bronze", 
+        "name": "KAIT Japan", 
+        "url": "http://igem.org/Team.cgi?id=835", 
+        "region": "Asia", 
+        "project": "E.coli which has ability to kill the cancer cell.", 
+        "students": [
+            "Megumu Sakoda", 
+            "Yuki Oka", 
+            "Ayumi Kida", 
+            "Akane Watanabe", 
+            "Kohei Kondou", 
+            "Masanobu Nojima", 
+            "Azusa Nomura", 
+            "Kazuki Niikura", 
+            "Minoru Adahi", 
+            "Natsumi Nagasawa", 
+            "Yuya Fujie", 
+            "Masanori Ebina", 
+            "Yuki Shiraishi", 
+            "Kasumi Terajima", 
+            "Riho Maeda", 
+            "Atsushi Yoshida", 
+            "Fumika Toki", 
+            "Sho yamazaki", 
+            "Toshitaka Nishimura", 
+            "Yukina Abe", 
+            "Nozomi Suzuki", 
+            "Miyuki Saijo", 
+            "shota maeda", 
+            "yuki habu", 
+            "taichi ogawa", 
+            "kunihumi kanai"
         ]
     }, 
     {
@@ -24357,17 +24387,16 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:Utah_State", 
-        "instructors": [
-            "Charles Miller"
-        ], 
-        "name": "Utah State", 
-        "track": "Manufacturing", 
-        "region": "Americas West", 
         "advisors": [
             "Asif Rahman", 
             "Cameron Copeland", 
             "Joshua Ellis", 
             "Cody Tramp"
+        ], 
+        "track": "Manufacturing", 
+        "abstract": "Spider silk is the strongest known biomaterial, with a large variety of applications. These applications include artificial tendons and ligaments, biomedical sutures, athletic gear, parachute cords, air bags, and other yet discovered products which require a high tensile strength with amazing extendibility. Spiders however cannot be farmed because they are territorial and cannibalistic. Thus, an alternative to producing spider silk must be found. We aim to engineer spider silk genes into E. coli to produce this highly valuable product. Spider silk production in bacteria has been limited due to the highly repetitive nature of the spider silk amino acids in the protein. To overcome this obstacle we are using various synthetic biology techniques to boost spider silk protein production and increase cellular fitness. After successful production, spider silk protein is artificially spun into usable fibers and tested for physical properties.\n", 
+        "instructors": [
+            "Charles Miller"
         ], 
         "awards_championship": [
             "Advance to Championship", 
@@ -24377,6 +24406,15 @@
             "BBa_K844000", 
             "BBa_K844999"
         ], 
+        "awards_regional": [
+            "Best New BioBrick Device, Engineered, Americas West", 
+            "Regional Finalist, Americas West"
+        ], 
+        "year": 2012, 
+        "medal": "gold", 
+        "name": "Utah State", 
+        "url": "http://igem.org/Team.cgi?id=844", 
+        "region": "Americas West", 
         "project": "ArachniColi", 
         "students": [
             "Andrea Halling", 
@@ -24389,14 +24427,6 @@
             "Brian Smith", 
             "Elizabeth Martinez ", 
             "Swetha Chandrasekar"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=844", 
-        "year": 2012, 
-        "medal": "gold", 
-        "abstract": "Spider silk is the strongest known biomaterial, with a large variety of applications. These applications include artificial tendons and ligaments, biomedical sutures, athletic gear, parachute cords, air bags, and other yet discovered products which require a high tensile strength with amazing extendibility. Spiders however cannot be farmed because they are territorial and cannibalistic. Thus, an alternative to producing spider silk must be found. We aim to engineer spider silk genes into E. coli to produce this highly valuable product. Spider silk production in bacteria has been limited due to the highly repetitive nature of the spider silk amino acids in the protein. To overcome this obstacle we are using various synthetic biology techniques to boost spider silk protein production and increase cellular fitness. After successful production, spider silk protein is artificially spun into usable fibers and tested for physical properties.\n", 
-        "awards_regional": [
-            "Best New BioBrick Device, Engineered, Americas West", 
-            "Regional Finalist, Americas West"
         ]
     }, 
     {
@@ -25255,39 +25285,6 @@
         ]
     }, 
     {
-        "wiki": "http://2011.igem.org/Team:Caltech", 
-        "advisors": [], 
-        "track": "Environment", 
-        "abstract": "\"Endocrine disruptors, or substances that mimic estrogen in the body, have detrimental biological effects on the reproduction of several species of fish and birds; the Caltech team focuses on bioremediation of these toxins. Our goal is to create a system housed in E. coli that can be used to process water and remove endocrine disruptors on a large scale. We focus on isolating degradation systems for the common endocrine disruptors bisphenol A (BPA), DDT, nonylphenol and estradiol.  We synthesized known degradation enzymes DDT dehydrochlorinase, BisdA and BisdB, and characterized the behavior of these enzymes when acting on our target endocrine disruptors. In addition, we explored the potential of certain cytochrome p450s to initiate degradation of these chemicals, focusing on WT-F87A degradation of BPA. Finally, we characterized the functionality of E. coli protein processing when E. coli is deployed as an easily containable biofilm on various substances in aqueous environments.\"\n", 
-        "instructors": [
-            "Richard Murray", 
-            "Joseph T. Meyerowitz", 
-            "Emmanuel Lorenzo de los Santos", 
-            "Nathaniel Glasser"
-        ], 
-        "awards_championship": [
-            "Advance to Championship"
-        ], 
-        "parts_range": [
-            "BBa_K620000", 
-            "BBa_K620999"
-        ], 
-        "awards_regional": [], 
-        "year": 2011, 
-        "medal": "gold", 
-        "name": "Caltech", 
-        "url": "http://igem.org/Team.cgi?id=620", 
-        "region": "Americas", 
-        "project": "Bioremediation of Endocrine Disruptors Using Genetically Modified Escherichia Coli", 
-        "students": [
-            "Julia Brown", 
-            "Amanda Shelton", 
-            "Puikei Cheng", 
-            "Ashley Su ", 
-            "Nicole Thadani"
-        ]
-    }, 
-    {
         "wiki": "http://2011.igem.org/Team:UNAM-ITESM_Mexico_City", 
         "advisors": [
             "Gilberto Gomez Correa", 
@@ -25550,14 +25547,13 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:Wellesley_HCI", 
+        "advisors": [], 
+        "track": "Software Tools", 
+        "abstract": "Synthetic biology will require a multidisciplinary, collaborative design environment in order to engineer the complex biological systems of the future. Our team created a collection of software tools, which address specific technical synthetic biology challenges while advancing the way in which users interact with computing environments. We also utilize advances in human-computer interaction (HCI) to communicate core concepts of synthetic biology to the public. Synbio Search is an online tool that generates data sheets for biological parts by aggregating data from various publicly available resources. MoClo Planner visualizes the Golden Gate Modular Cloning process and facilitates hierarchical design and production of multi-gene constructs.  SynFlo is an interactive installation that utilizes tangible and tabletop HCI techniques to illustrate core concepts of synthetic biology in outreach programs. The application of novel HCI techniques to synthetic biology fosters the development of more effective, collaborative, and intuitive software tools, which enhance the design-build-test methodology.\n", 
         "instructors": [
             "Consuelo Valdes", 
             "Orit Shaer"
         ], 
-        "name": "Wellesley HCI", 
-        "track": "Software Tools", 
-        "region": "Americas East", 
-        "advisors": [], 
         "awards_championship": [
             "Best Requirements Engineering", 
             "Best Eugene Based Design", 
@@ -25568,6 +25564,12 @@
             "BBa_K816000", 
             "BBa_K816999"
         ], 
+        "awards_regional": [], 
+        "year": 2012, 
+        "medal": "gold", 
+        "name": "Wellesley HCI", 
+        "url": "http://igem.org/Team.cgi?id=816", 
+        "region": "Americas East", 
         "project": "Enhancing Bio-Design with Touch-Based Human-Computer Interaction ", 
         "students": [
             "Nahum Seifeselassie", 
@@ -25580,15 +25582,13 @@
             "Wendy Xu", 
             "Sirui Liu", 
             "Madeleine Barowsky"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=816", 
-        "year": 2012, 
-        "medal": "gold", 
-        "abstract": "Synthetic biology will require a multidisciplinary, collaborative design environment in order to engineer the complex biological systems of the future. Our team created a collection of software tools, which address specific technical synthetic biology challenges while advancing the way in which users interact with computing environments. We also utilize advances in human-computer interaction (HCI) to communicate core concepts of synthetic biology to the public. Synbio Search is an online tool that generates data sheets for biological parts by aggregating data from various publicly available resources. MoClo Planner visualizes the Golden Gate Modular Cloning process and facilitates hierarchical design and production of multi-gene constructs.  SynFlo is an interactive installation that utilizes tangible and tabletop HCI techniques to illustrate core concepts of synthetic biology in outreach programs. The application of novel HCI techniques to synthetic biology fosters the development of more effective, collaborative, and intuitive software tools, which enhance the design-build-test methodology.\n", 
-        "awards_regional": []
+        ]
     }, 
     {
         "wiki": "http://2012.igem.org/Team:Stanford-Brown", 
+        "advisors": [], 
+        "track": "New Application", 
+        "abstract": "Astrobiology revolves around three central questions: “Where do we come from?”, “Where are \r\nwe going?”, and “Are we alone?” The Stanford-Brown iGEM team explored synthetic biology’s untapped potential to address these questions. To approach the second question, the Hell Cell subgroup developed BioBricks that allow a cell to survive harsh extraterrestrial conditions. Such a toolset could create a space-ready synthetic organism to perform useful functions off-world. For example, the Biomining branch attempted to engineer bacteria to recycle used electronics by degenerating silica and extracting metal ions in situ. The Venus Life subproject grappled with the third key astrobiological question by exploring Carl Sagan’s theory that life could exist in Venusian clouds. To this end, Venus Life designed a cell-cycle reporter to test for growth in aerosol within an adapted Millikan apparatus. Through this triad of projects, Stanford-Brown iGEM aimed to illuminate synthetic biology’s value as a tool for astrobiology.\n", 
         "instructors": [
             "Lynn Rothschild", 
             "Gary Wessel", 
@@ -25596,10 +25596,6 @@
             "Jesse Palmer", 
             "Joseph Shih"
         ], 
-        "name": "Stanford-Brown", 
-        "track": "New Application", 
-        "region": "Americas West", 
-        "advisors": [], 
         "awards_championship": [
             "Advance to Championship"
         ], 
@@ -25607,6 +25603,14 @@
             "BBa_K847000", 
             "BBa_K847999"
         ], 
+        "awards_regional": [
+            "Best New BioBrick Part, Natural, Americas West"
+        ], 
+        "year": 2012, 
+        "medal": "gold", 
+        "name": "Stanford-Brown", 
+        "url": "http://igem.org/Team.cgi?id=847", 
+        "region": "Americas West", 
         "project": "The Transit of Synthetic Astrobiology", 
         "students": [
             "Benjamin Geilich", 
@@ -25621,13 +25625,6 @@
             "Michelle Yu", 
             "Gabriel Ben-Dor", 
             "Christopher  Jackson"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=847", 
-        "year": 2012, 
-        "medal": "gold", 
-        "abstract": "Astrobiology revolves around three central questions: “Where do we come from?”, “Where are \r\nwe going?”, and “Are we alone?” The Stanford-Brown iGEM team explored synthetic biology’s untapped potential to address these questions. To approach the second question, the Hell Cell subgroup developed BioBricks that allow a cell to survive harsh extraterrestrial conditions. Such a toolset could create a space-ready synthetic organism to perform useful functions off-world. For example, the Biomining branch attempted to engineer bacteria to recycle used electronics by degenerating silica and extracting metal ions in situ. The Venus Life subproject grappled with the third key astrobiological question by exploring Carl Sagan’s theory that life could exist in Venusian clouds. To this end, Venus Life designed a cell-cycle reporter to test for growth in aerosol within an adapted Millikan apparatus. Through this triad of projects, Stanford-Brown iGEM aimed to illuminate synthetic biology’s value as a tool for astrobiology.\n", 
-        "awards_regional": [
-            "Best New BioBrick Part, Natural, Americas West"
         ]
     }, 
     {
@@ -25901,18 +25898,17 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:XMU-China", 
-        "instructors": [
-            "Baishan Fang", 
-            "Grace I-Son Ng", 
-            "Zhaoshou Wang"
-        ], 
-        "name": "XMU-China", 
-        "track": "New Application", 
-        "region": "Asia", 
         "advisors": [
             "Xin Wu", 
             "Yuan He", 
             "Xuesong Zheng"
+        ], 
+        "track": "New Application", 
+        "abstract": "We haved constructed a fluorescent digital display device with synthetic logic gates, which is able to respond to signals by displaying and switching numbers. We put GFP equipped with degradation tags in downstream to illuminate our numbers and change them quickly as well. Considering our engineering background, we accordingly employ cell immobilization to build our device. Engineering bacteria have been embedded in intra-hallow calcium alginate microcapsules and in PDMDAAC-NaCS microcapsules, respectively. In addition, 3D CAD design is performed for a perfect device.\r\nOur genetic circuits vary in length and RBS strength, leading to different durations of time delay for GFP expression. This inspired us to extend our work last year. By altering the strength of RBS at five grades, another five circuits have been built. After the induction by arabinose, the duration of response time for GFP expression increases as the strength of RBS declines, bringing about a time-course display.\r\n\n", 
+        "instructors": [
+            "Baishan Fang", 
+            "Grace I-Son Ng", 
+            "Zhaoshou Wang"
         ], 
         "awards_championship": [
             "Advance to Championship"
@@ -25921,6 +25917,12 @@
             "BBa_K750000", 
             "BBa_K750999"
         ], 
+        "awards_regional": [], 
+        "year": 2012, 
+        "medal": "gold", 
+        "name": "XMU-China", 
+        "url": "http://igem.org/Team.cgi?id=750", 
+        "region": "Asia", 
         "project": "E.Lumoli: a shining synthetic device for digit or time-course display", 
         "students": [
             "Sifan Wang", 
@@ -25938,12 +25940,7 @@
             "Yizhen Yan", 
             "Mouzhe XIE", 
             "Xia Zhang"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=750", 
-        "year": 2012, 
-        "medal": "gold", 
-        "abstract": "We haved constructed a fluorescent digital display device with synthetic logic gates, which is able to respond to signals by displaying and switching numbers. We put GFP equipped with degradation tags in downstream to illuminate our numbers and change them quickly as well. Considering our engineering background, we accordingly employ cell immobilization to build our device. Engineering bacteria have been embedded in intra-hallow calcium alginate microcapsules and in PDMDAAC-NaCS microcapsules, respectively. In addition, 3D CAD design is performed for a perfect device.\r\nOur genetic circuits vary in length and RBS strength, leading to different durations of time delay for GFP expression. This inspired us to extend our work last year. By altering the strength of RBS at five grades, another five circuits have been built. After the induction by arabinose, the duration of response time for GFP expression increases as the strength of RBS declines, bringing about a time-course display.\r\n\n", 
-        "awards_regional": []
+        ]
     }, 
     {
         "wiki": "http://2008.igem.org/Team:NYMU-Taipei", 
@@ -26714,75 +26711,68 @@
         ]
     }, 
     {
-        "wiki": "http://2012.igem.org/Team:UC_Chile", 
-        "instructors": [
-            "Rodrigo A. Gutierrez", 
-            "Bernardo Pollak"
-        ], 
-        "name": "UC Chile", 
-        "track": "New Application", 
-        "region": "Latin America", 
-        "advisors": [
-            "Rolando Moraga", 
-            "Fernan Federici"
-        ], 
-        "awards_championship": [
-            "Advance to Championship"
-        ], 
-        "parts_range": [
-            "BBa_K743000", 
-            "BBa_K743999"
-        ], 
-        "project": "Luxilla: a light rechargeable and programmable biolamp ", 
-        "students": [
-            "Juan Simón Álamos", 
-            "Maximiliano Felis", 
-            "Carla A. Vidal Silva", 
-            "Tamara Matute Torres", 
-            "Isaac Natan Núñez Quijada"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=743", 
-        "year": 2012, 
-        "medal": "gold", 
-        "abstract": "Synchronization of biological processes in populations is essential to achieve strong measurable and functional traits. Circadian rhythms are one of nature's most exquisite mechanisms to regulate and synchronize biological processes over time. Our team has taken advantage of the fine time control offered by the circadian clock machinery to construct a genetic circuit that allows robust oscillatory behavior in a synchronized and predictable manner. We have coupled the expression of genes of a bioluminescent pathway to the endogenous circadian clock of Synechocystis PCC 6803. The benefits of using Synechocystis as our chassis for practical applications include minimal production costs due to its autotrophic growth capacity and precise synchronization to time-dependent events using environmental cues such as light. As a direct application we designed the first self-rechargeable programmable bio-lamp. Secondary projects include a novel secretion system, the first spider-silk biobrick and an optimization of the Gibson assembly reaction for small parts.\n", 
-        "awards_regional": [
-            "Best Poster, Latin America", 
-            "Best Presentation, Latin America", 
-            "Regional Finalist, Latin America"
-        ]
-    }, 
-    {
-        "wiki": "http://2012.igem.org/Team:Alberta", 
+        "wiki": "http://2012.igem.org/Team:Leicester", 
         "advisors": [], 
-        "track": "Foundational Advance", 
-        "abstract": "As a young team composed of high schoolers and junior undergraduates, we selected a project aimed at giving ourselves a firm understanding in the fundamentals of genetic engineering and control. The end goal of our project was to create spatial color patterns using bacteria, such as a color wheel and a rainbow, that required control over several color outputs in response to spatial gradients of chemical inducers. Colour gradients were achieved using a high-copy plasmid that contained both an inducible colour gene and its corresponding repressor. Colour banding was achieved by a novel means of adjusting gene expression through plasmid copy number control that varied from 0 to ~1000 copies/cell as a function of inducer concentration. Note that the rapid loss of plasmid that occurs in the absence of inducer also constitutes a novel and extremely effective safety switch for genetically engineered organisms which might enter the environment.\n", 
+        "track": "Food & Energy", 
+        "abstract": "Objective - Naturally occurring organisms using polystyrene as their sole source of carbon have been recently identified, by analysing the occurrence of polystyrene breakdown products. However these metabolites accumulate very slowly, explaining why polystyrene is so persistent in the environment. Polystyrene can currently be recycled, but due to the low density of the majority of polystyrene products it is economically unfavourable, due to the high energy demands. If inexpensive biological degradation can be achieved this would assist recycling, but we also hope to use products of this reaction to make useful organic chemicals. \r\n\r\nAim - To construct BioBricks from the genes encoding enzymes involved in this pathway and manipulate their expression and properties to maximise the rate of polystyrene degradation. \r\n\r\nHypothesis - genes encoding the enzymes of the polystyrene breakdown pathway can be isolated and expressed in a host microorganism and the rate of the process increased by genetic manipulation.\r\n\n", 
         "instructors": [
-            "Douglas Ridgway", 
-            "Mike Ellison"
+            "Richard Badge", 
+            "Raymond Dalgleish"
         ], 
         "awards_championship": [], 
         "parts_range": [
-            "BBa_K879000", 
-            "BBa_K879999"
+            "BBa_K852000", 
+            "BBa_K852999"
         ], 
         "awards_regional": [], 
         "year": 2012, 
-        "medal": "gold", 
-        "name": "Alberta", 
-        "url": "http://igem.org/Team.cgi?id=879", 
-        "region": "Americas West", 
-        "project": "Towards a microbial color wheel: spatial control of gene expression", 
+        "name": "Leicester", 
+        "url": "http://igem.org/Team.cgi?id=852", 
+        "region": "Europe", 
+        "project": "A Synthetic Biology Solution To Polystyrene Degradation.", 
         "students": [
-            "Thomas Patrick", 
-            "Robert Spencer Short", 
-            "Easwaramurthyvasi Chidambaravasi ", 
-            "Nien-Tsu Tseng", 
-            "Peter West", 
-            "Torrin Lemire", 
-            "Aidan Burke", 
-            "Abdullah Farooq", 
-            "Sarah Haeubl"
+            "Anthony I. Cox", 
+            "Christopher Robert Morton", 
+            "Nathan Hanna", 
+            "Luke Thompson", 
+            "Philip Higgs", 
+            "William Harrison", 
+            "Emily Halsey", 
+            "Reema Naran", 
+            "Mohammed Idres"
         ]
+    }, 
+    {
+        "wiki": "http://2012.igem.org/Team:Baskent-Meds", 
+        "advisors": [
+            "Didem Aksoy Körpe"
+        ], 
+        "name": "Baskent-Meds", 
+        "students": [
+            "Burak GÜLŞEN", 
+            "Berkhan GENÇ", 
+            "Cansu Celik", 
+            "Sevecen Kaplan", 
+            "Özgür Ozan CEYLAN", 
+            "Başak Alan", 
+            "Süleyman Mert Yiğitbaşı"
+        ], 
+        "region": "Europe", 
+        "instructors": [
+            "Prof.Dr. Feride I. Sahin", 
+            "Yunus Kasim Terzi", 
+            "Dr. Özlem Darcansoy İşeri"
+        ], 
+        "awards_championship": [], 
+        "parts_range": [
+            "BBa_K830000", 
+            "BBa_K830999"
+        ], 
+        "project": "-- Not provided yet --", 
+        "url": "http://igem.org/Team.cgi?id=830", 
+        "awards_regional": [], 
+        "year": 2012, 
+        "abstract": "-- No abstract provided yet --\n"
     }, 
     {
         "wiki": "http://2010.igem.org/Team:IIT_Madras", 
@@ -26933,49 +26923,51 @@
         ]
     }, 
     {
-        "wiki": "http://2012.igem.org/Team:University_College_London", 
+        "wiki": "http://2011.igem.org/Team:Nevada", 
+        "advisors": [], 
+        "track": "Food & Energy", 
+        "abstract": "\"Traditional methods for obtaining biofuels have relied on the fermentation of agricultural crops. The problems are reduction in land available for food production, relatively low levels of CO2 biofixation, and large biomass requirements. Our project aims to overcome these problems by utilizing E. coli for the production of biodiesel (C-12 fatty acids) and bioethanol. There have been a number of examples of biofuel production in E. coli; however 30-40% of production cost is based on media costs. Our project will surmount these high production costs by engineering the cyanobacteria, Synechocystis PCC6803, to secrete large quantities of glucose that will feed our biofuel-producing E .coli. Cyanobacteria and E.coli will be co-cultivated to allow the mutual transfer of carbon to produce biofuels.  This project provides an efficient means for producing biofuels without a carbon source.  It will also create a novel cooperative system between bacterial species that may have further industrial implications.\"\n", 
         "instructors": [
-            "Eli Keshavarz-Moore", 
-            "Darren N. Nesbeth"
+            "Christie Howard", 
+            "David Shintani"
         ], 
-        "name": "University College London", 
-        "track": "Environment", 
-        "region": "Europe", 
-        "advisors": [
-            "Yanika Borg", 
-            "Alex Templar", 
-            "Howard Boland", 
-            "Chris P Barnes"
-        ], 
-        "awards_championship": [
-            "Advance to Championship", 
-            "Best Presentation"
-        ], 
+        "awards_championship": [], 
         "parts_range": [
-            "BBa_K729000", 
-            "BBa_K729999"
+            "BBa_K558000", 
+            "BBa_K558999"
         ], 
-        "project": "Plastic Republic - Bioremediation of Marine Microplastic Waste  ", 
-        "students": [
-            "Yeping Lu", 
-            "Philipp Böing", 
-            "Bouran Sohrabi", 
-            "Aurelija Grigonyte", 
-            "Martina Sebastian", 
-            "James Rutley", 
-            "Bethan Wolfenden", 
-            "Erin Oerton", 
-            "Ting Chu En", 
-            "Leonard Wen Yan Leong", 
-            "Rhiannon Wilkinson", 
-            "Erick Miguel Ramos-Martinez", 
-            "Carina Tran"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=729", 
-        "year": 2012, 
+        "awards_regional": [], 
+        "year": 2011, 
         "medal": "gold", 
-        "abstract": "It is in the Great Pacific Garbage Patch that we are confronted with the real consequences of human plastic dependency: an immense mass of accumulating microplastic particles floating just beneath the surface of the North Pacific Ocean. Where attempts at physical removal and biodegradable plastics have failed to solve this pollution disaster, synthetic biology steps in. UCL’s project proposes the bioremediation of microplastic waste by two systems: degradation using a laccase enzyme or aggregation by controlled expression of curli. Ultimately we envisage the construction of habitable islands - turning waste into a resource. We used novel chassis: two marine bacteria, Oceanibulbus indoliflex  and Roseobacter denitrificans. In line with considering the viability of our project, we questioned the access ordinary citizens should have to these tools. Initiating a new partnership, UCL teamed up with a group of ‘biohackers’ (citizen scientists in molecular biology) to create the world’s first ‘Public BioBrick’.\n", 
-        "awards_regional": []
+        "name": "Nevada", 
+        "url": "http://igem.org/Team.cgi?id=558", 
+        "region": "Americas", 
+        "project": "So Happy Together: A Cooperative Relationship between Cyanobacteria and E. Coli for production of biofuels", 
+        "students": [
+            "Jen Minor", 
+            "Elaine Bersaba", 
+            "Destiny Raikas", 
+            "Laura Colgin", 
+            "Marguerite Christian", 
+            "Ronald Truong", 
+            "Bryson A. Wheeler", 
+            "Dru Nelson", 
+            "Casey Lear", 
+            "Megan Tabor", 
+            "Jovanna Casas", 
+            "Matthew Kaminski", 
+            "Vadim Gladwill", 
+            "Matthew Hoff", 
+            "Samuel Dugan", 
+            "Matt Clifford", 
+            "Dafne Ordonez", 
+            "David R Koehn", 
+            "Kathleen Nicole Koh Black", 
+            "Lauren Thomas ", 
+            "Majid Beheshtian", 
+            "Chris Clifford", 
+            "Matt Bowden"
+        ]
     }, 
     {
         "wiki": "http://2011.igem.org/Team:BCCS-Bristol", 
@@ -27284,17 +27276,16 @@
     }, 
     {
         "wiki": "http://2012.igem.org/Team:SUSTC-Shenzhen-A", 
+        "advisors": [
+            "carnby yang"
+        ], 
+        "track": "Software Tools", 
+        "abstract": "The era of Partsregistry on mobile phone has arrived! With BioSearch on your iPhone, you can now check biobricks and partsregistry in the seminar room; You can design your genetic circuits when you are waiting for a bus!\r\nBioSearch is fully interacting with Partsregistry( http://partsregistry.org ) and has all  parts information of Partsregistry database with enhanced user-friendly interface. BioSearch has a powerful search engine. Users can search parts and devices by type, by category, by keywords, etc. Our online survey shows that BioSearch has major improvement in search result ranking. In addition, our iPhone App has new functions including sharing, rating, adding bookmarks and downloading to local system. These new functions shall promote the commuting and sharing between synthetic biologists.\r\nThe BioSearch is going to be available on Apple Store and is free to use. \r\n\n", 
         "instructors": [
             "Jiankui He", 
             "Pu Li", 
             "Jing Zhang", 
             "Yinglan Zhao"
-        ], 
-        "name": "SUSTC-Shenzhen-A", 
-        "track": "Software Tools", 
-        "region": "Asia", 
-        "advisors": [
-            "carnby yang"
         ], 
         "awards_championship": [
             "Advance to Software Jamboree"
@@ -27303,6 +27294,12 @@
             "BBa_K767000", 
             "BBa_K767999"
         ], 
+        "awards_regional": [], 
+        "year": 2012, 
+        "medal": "silver", 
+        "name": "SUSTC-Shenzhen-A", 
+        "url": "http://igem.org/Team.cgi?id=767", 
+        "region": "Asia", 
         "project": "BioSearch-An iPhone App for Partsregistry", 
         "students": [
             "Fan Zili", 
@@ -27318,12 +27315,7 @@
             "Qijia Cheng", 
             "Xiao Tong", 
             "Deng Pan"
-        ], 
-        "url": "http://igem.org/Team.cgi?id=767", 
-        "year": 2012, 
-        "medal": "silver", 
-        "abstract": "The era of Partsregistry on mobile phone has arrived! With BioSearch on your iPhone, you can now check biobricks and partsregistry in the seminar room; You can design your genetic circuits when you are waiting for a bus!\r\nBioSearch is fully interacting with Partsregistry( http://partsregistry.org ) and has all  parts information of Partsregistry database with enhanced user-friendly interface. BioSearch has a powerful search engine. Users can search parts and devices by type, by category, by keywords, etc. Our online survey shows that BioSearch has major improvement in search result ranking. In addition, our iPhone App has new functions including sharing, rating, adding bookmarks and downloading to local system. These new functions shall promote the commuting and sharing between synthetic biologists.\r\nThe BioSearch is going to be available on Apple Store and is free to use. \r\n\n", 
-        "awards_regional": []
+        ]
     }, 
     {
         "wiki": "http://2012.igem.org/Team:West_Point", 
@@ -27393,55 +27385,6 @@
         ]
     }, 
     {
-        "wiki": "http://2012.igem.org/Team:KAIT_Japan", 
-        "advisors": [], 
-        "track": "Health & Medicine", 
-        "abstract": " We try to make E.coli which has ability to kill the cancer cell.\r\n\r\nRegulatory T cells move toward to cancer cells by which produced CCL22. Killer T cells and helper T cells are inactivated by reguratory T cells, so, the cancer cells elude from the immune system. We think to make use of this mecanism underhand. We will give E.coli three functions.\r\n\r\nFirst,we give E.coli the function to have the chemotaxis to cancer cells by recognision of CCL22 which is a chemokine produced from cancer cells.\r\n\r\nSecond, we give E.coli the function that they combine with cancer cells. Cancer cells express the MICA on their cell membranes. NKG2D  recepter from NK cells combine MICA.\r\n\r\nThird,We give E.coli function that they release the azurin to cancer cells. The azurin induced apoptosis in cancer cells by binding with p53.\r\n\r\nWe would like to be help the treatment of cancer .\n", 
-        "instructors": [
-            "Yasuhiro Iida"
-        ], 
-        "awards_championship": [], 
-        "parts_range": [
-            "BBa_K835000", 
-            "BBa_K835999"
-        ], 
-        "awards_regional": [], 
-        "year": 2012, 
-        "medal": "bronze", 
-        "name": "KAIT Japan", 
-        "url": "http://igem.org/Team.cgi?id=835", 
-        "region": "Asia", 
-        "project": "E.coli which has ability to kill the cancer cell.", 
-        "students": [
-            "Megumu Sakoda", 
-            "Yuki Oka", 
-            "Ayumi Kida", 
-            "Akane Watanabe", 
-            "Kohei Kondou", 
-            "Masanobu Nojima", 
-            "Azusa Nomura", 
-            "Kazuki Niikura", 
-            "Minoru Adahi", 
-            "Natsumi Nagasawa", 
-            "Yuya Fujie", 
-            "Masanori Ebina", 
-            "Yuki Shiraishi", 
-            "Kasumi Terajima", 
-            "Riho Maeda", 
-            "Atsushi Yoshida", 
-            "Fumika Toki", 
-            "Sho yamazaki", 
-            "Toshitaka Nishimura", 
-            "Yukina Abe", 
-            "Nozomi Suzuki", 
-            "Miyuki Saijo", 
-            "shota maeda", 
-            "yuki habu", 
-            "taichi ogawa", 
-            "kunihumi kanai"
-        ]
-    }, 
-    {
         "wiki": "http://2009.igem.org/Team:Tsinghua", 
         "advisors": [
             "Jin Yin", 
@@ -27486,6 +27429,63 @@
             "Liang Zheng", 
             "Jin Meiyan", 
             "ZHU Jiajun"
+        ]
+    }, 
+    {
+        "wiki": "http://2012.igem.org/Team:Slovenia", 
+        "advisors": [
+            "Rok Gaber", 
+            "Jan Lonzaric", 
+            "Anže Smole", 
+            "Tina Lebar", 
+            "Vida Forstnerič", 
+            "Miha Moskon"
+        ], 
+        "track": "Health & Medicine", 
+        "abstract": "Currently, biological drug-based therapies require periodic invasive application. Often, due to their systemic administration, adverse effects are observed. Furthermore, large quantities of these substances are needed because of their distribution throughout the body. This, coupled with expensive production and especially purification, imposes a great burden on health systems. We aim to develop a safe and cost-effective biological delivery system for biopharmaceuticals, which would increase the quality of patients' lives, because it would minimize the number of required procedures. This type of delivery system would increase patient compliance to the therapy while the local administration will reduce the side-effects associated with current treatments. We plan to design the mammalian cells-based delivery system to be regulated by the digital logic from the outside. \n", 
+        "instructors": [
+            "Roman Jerala", 
+            "Mojca Bencina", 
+            "Alja Oblak", 
+            "Andreja Majerle", 
+            "Matjaz Polak", 
+            "Nikolaj Zimic", 
+            "Miha Mraz"
+        ], 
+        "awards_championship": [
+            "Advance to Championship", 
+            "Best Health & Medicine Project", 
+            "Finalist", 
+            "Best Wiki", 
+            "Best Model", 
+            "First Runner Up"
+        ], 
+        "parts_range": [
+            "BBa_K782000", 
+            "BBa_K782999"
+        ], 
+        "awards_regional": [
+            "Regional Finalist, Europe", 
+            "Best Wiki, Europe"
+        ], 
+        "year": 2012, 
+        "medal": "gold", 
+        "name": "Slovenia", 
+        "url": "http://igem.org/Team.cgi?id=782", 
+        "region": "Europe", 
+        "project": "Switch-IT (Inducible therapeutics)", 
+        "students": [
+            "Martin Strazar", 
+            "Miha Jerala", 
+            "Urban Bezeljak", 
+            "Lucija Kadunc", 
+            "Dusan Vucko", 
+            "Anja Golob", 
+            "Uros Zupancic", 
+            "Maja Somrak", 
+            "Fedja Pavlovec", 
+            "Zala Luznik", 
+            "Bostjan Pirs"
         ]
     }, 
     {

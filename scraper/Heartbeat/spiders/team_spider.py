@@ -8,6 +8,7 @@ class TeamSpider(BaseSpider):
     name = 'TeamSpider'
 
     def __init__(self):
+        BaseSpider.__init__(self)
         self.seenTeams = set() # avoid duplicates when teams are listed both for continent and championship
 
     def start_requests(self):
