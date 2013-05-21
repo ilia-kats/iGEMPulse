@@ -13,6 +13,7 @@ class TeamItem(HeartbeatItem):
     region = Field()
     project = Field()
     abstract = Field()
+    track = Field()
     instructors = Field()
     students = Field()
     advisors = Field()

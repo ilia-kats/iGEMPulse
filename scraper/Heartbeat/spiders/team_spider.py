@@ -29,6 +29,9 @@ class TeamSpider(BaseSpider):
             item['region'] = hxs.select("//table[@id='table_info']/tr[td[1]/text()='Region:']/td[2]/text()").extract()[0]
             item['project'] = "".join(hxs.select("//table[@id='table_abstract']/tr[1]/td[1]//text()").extract())
             item['abstract'] = "".join(hxs.select("//table[@id='table_abstract']/tr[2]/td[1]//text()").extract())
+            track = hxs.select("//table[@id='table_tracks']//td/text()").extract()[0]
+            if track.startswith("Assigned Track:"):
+                item['track'] = track[15:].strip()
             item['instructors'] = hxs.select("//table[@id='table_roster'][1]//tr/td[2]/text()").extract()
             item['students'] = hxs.select("//table[@id='table_roster'][2]//tr/td[2]/text()").extract()
             item['advisors'] = hxs.select("//table[@id='table_roster'][3]//tr/td[2]/text()").extract()
