@@ -14,8 +14,9 @@ DATParametersFromJSON <- data.frame()
 
 #### Go through all teams and write parameters to dataframe
 #### Add queries for single value parameters here
-for (i in 2:length(JSONList)) {
-  name <- JSONList[[i]]$name
+for (i in 1:length(JSONList)) {
+	name <- paste(JSONList[[i]]$name, JSONList[[i]]$year, sep = "")
+	DATParametersFromJSON[name, "name"] <- JSONList[[i]]$name
 	DATParametersFromJSON[name, "year"] <- JSONList[[i]]$year
 	DATParametersFromJSON[name, "region"] <- JSONList[[i]]$region
 	DATParametersFromJSON[name, "students_count"] <- length(JSONList[[i]]$students)
@@ -35,7 +36,7 @@ DATContentsFromJSON <- list()
 #### Add queries for multiple value parameters here
 #### Watch out for empty parameters!
 for (i in 1:length(JSONList)) {
-	name <- JSONList[[i]]$name
+	name <- paste(JSONList[[i]]$name, JSONList[[i]]$year, sep = "")
 	DATContentsFromJSON[[name]][["year"]] <- JSONList[[i]]$year
 	if (length(JSONList[[i]]$awards_regional) == 0) DATContentsFromJSON[[name]][["awards_regional"]] <- ""
 	else DATContentsFromJSON[[name]]["awards_regional"] <- JSONList[[i]]["awards_regional"]
