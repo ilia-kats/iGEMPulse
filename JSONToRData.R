@@ -6,8 +6,9 @@
 #### Requires package RJSONIO + methods
 ###########################################################
 
+require(RJSONIO)
 #### Import from .json file (Change to appropriate filename
-JSONList <- fromJSON("test.json")
+JSONList <- fromJSON("scraper/test.json")
 
 #### Produce empty Parameters data frame
 DATParametersFromJSON <- data.frame()
@@ -17,7 +18,7 @@ DATParametersFromJSON <- data.frame()
 for (i in 1:length(JSONList)) {
 	name <- paste(JSONList[[i]]$name, JSONList[[i]]$year, sep = "")
 	DATParametersFromJSON[name, "name"] <- JSONList[[i]]$name
-	DATParametersFromJSON[name, "year"] <- JSONList[[i]]$year
+	DATParametersFromJSON[name, "year"] <- as.character(JSONList[[i]]$year)
 	DATParametersFromJSON[name, "region"] <- JSONList[[i]]$region
 	DATParametersFromJSON[name, "students_count"] <- length(JSONList[[i]]$students)
 	DATParametersFromJSON[name, "advisors_count"] <- length(JSONList[[i]]$advisors)
