@@ -3,14 +3,22 @@
 <head>
   <script src="shared/jquery.js" type="text/javascript"></script>
   <script src="shared/shiny.js" type="text/javascript"></script>
-  <link rel="stylesheet" type="text/css" href="shared/shiny.css"/> 
+  <link rel="stylesheet" type="text/css" href="shared/shiny.css"/>
+  <link rel="stylesheet" type="text/css" href="shared/slider/css/jquery.slider.min.css"/>
+  <script src="shared/slider/js/jquery.slider.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="shared/bootstrap/css/bootstrap.min.css"/>
+  <script src="shared/bootstrap/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" type="text/css" href="shared/bootstrap/css/bootstrap-responsive.min.css"/>
+  <script src="polycharts/js/polychart2.standalone.js" type="text/javascript"></script>
 </head>
- 
+
 <body>
 
 	<h1>Statistical details about iGEM</h1>
 
 	<div style="width:500px; float:left">
+	<form class="well">
 		<p>
 			<label>Choose X</label></br>
 			<select id="x">
@@ -18,7 +26,7 @@
 				<option value="students_count">Students count</option>
 			</select>
 		</p>
-		
+
 		<p>
 			<label>Choose Y</label></br>
 			<select id="y">
@@ -26,11 +34,12 @@
 				<option value="students_count">Students count</option>
 			</select>
 		</p>
+    </form>
 	</div>
-	
-	<div id="myChart" class="shiny-plot-output" style="width: 500px; height: 400px; float:right;">
-	</div> 
-	
+
+	<div id="myChart" class="shiny-html-output polycharts" style="width: 500px; height: 400px; float:right;">
+	</div>
+
 </body>
 
 </html>

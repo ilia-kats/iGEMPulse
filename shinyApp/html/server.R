@@ -1,14 +1,14 @@
 require(rCharts)
 load("DataFromJSON.RData")
 shinyServer(function(input, output) {
-		
-	output$myChart <- renderPlot({
-		p1 <- plot(	DATParametersFromJSON[[input$x]],
-				DATParametersFromJSON[[input$y]],
-				xlim=c(0,max(DATParametersFromJSON[[input$x]])),
-				ylim=c(0,max(DATParametersFromJSON[[input$y]])),
-				type = "p",
-				pch = 19)
-		return(p1)
-	})
+  lib <- "polycharts"
+  LIB <- get_lib(lib)
+ singleton(addResourcePath(LIB$name, LIB$url))
+  output$myChart <- renderChart({
+    #names(iris) = gsub("\\.", "", names(iris))
+    p1 <- rPlot(input$x, input$y, data = DATParametersFromJSON, color = "year",
+      type = 'point')
+    p1$addParams(dom = 'myChart')
+    return(p1)
+  })
 })
