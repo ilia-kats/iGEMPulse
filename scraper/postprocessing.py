@@ -37,8 +37,6 @@ stemmed = {}
 
 i = 0
 for team in data:
-    if team['wiki'] == "http://2012.igem.org/Team:NYC_Hunter":
-        print i
     tokenized = word_tokenize(team['abstract'])
     stemmed[(team['year'], team['name'])] = TokenSearcher(stemmer.stem(w) for w in tokenized)
     found = {}
