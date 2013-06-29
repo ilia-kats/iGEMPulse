@@ -7,6 +7,7 @@ import json
 from nltk.tokenize import word_tokenize
 from nltk.stem.porter import PorterStemmer
 from nltk.text import TokenSearcher
+from nltk.corpus import stopwords
 
 parser = OptionParser()
 parser.add_option("-i", "--infile", dest="infile", help="Read JSON from FILE", metavar="FILE", default="-")
@@ -34,8 +35,9 @@ data = json.load(inputfile, "utf-8")
 inputfile.close()
 
 stemmed = {}
+stopwords_en = set(stopwords.words('english'))
 
-i = 0
+i = 1
 for team in data:
     tokenized = word_tokenize(team['abstract'])
     stemmed[(team['year'], team['name'])] = TokenSearcher(stemmer.stem(w) for w in tokenized)
@@ -48,6 +50,11 @@ for team in data:
         mesh_sorted = found.keys()
         mesh_sorted.sort(lambda x,y: cmp(found[x], found[y]))
         team['meshterms'] = {meshterm : found[meshterm] for meshterm in mesh_sorted[0:options.number] if found[meshterm] > 0}
+    information = 0
+    for w in tokenized:
+        if w not in stopwords_en:
+            information += 1
+    team['information_content'] = information / float(len(tokenized))
     print >> sys.stderr, "\r%d / %d" % (i, len(data)),
     i += 1
 
