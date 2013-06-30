@@ -5,14 +5,14 @@
 			<!--
 				* {border:1px dotted; margin:0px; padding:0px;}
 				#center-wrapper {text-align:center; background-color:#c6af8d; min-height:100%;}
-				#center {display:inline-block; width:800px; min-height:100%; margin:40px; background-color:olive; padding:10px;}
+				#center {display:inline-block; min-width:800px; min-height:100%; width:75%; margin:40px; background-color:olive; padding:10px;}
 				#page-header {margin:10px; height:100px; padding:5px;}
 				#main-menubar {background-color:#c6af8d;}
 				.menubar {list-style:none; display:inline-block;}
-				.menubar li {float:left; min-width:100px; margin:5px;}
+				.menubar li {float:left; min-width:80px; margin:5px;}
 				#page-footer {height:100px;}
 				.shiny-app {margin:5px; padding:10px; height:600px; background-color:white; clear:both;}
-				.shiny-app iframe {min-width:100%; min-height:100%;}
+				.shiny-app iframe {width:100%;min-height:100%;height:auto !important;height:600px;}
 			-->
 		</style>
 	</head>
@@ -34,8 +34,9 @@
 
 			<div id="main-menubar">
 				<ul class="menubar">
-					<li>About this project</li>
-					<li>Facts and figures</li>
+					<li><a href="about.html" target="center-frame">About this project</a></li>
+					<li><a href="apps/factsfigures/" target="center-frame">Scatterplot</a></li>
+					<li><a href="apps/timeline/" target="center-frame">Timeline</a></li>
 					<li>Topics</li>
 					<li>Methods</li>
 					<li>Quick info</li>
@@ -46,11 +47,11 @@
 
 			<div class="shiny-app">
 
-				<iframe src="apps/factsfigures/"></iframe>
+				<iframe name="center-frame" src="about.html"></iframe>
 
 			</div>
 
-			<div id="page-footer">&nbsp;</div>
+			<div id="page-footer">external links etc.</div>
 
 		</div>
 
