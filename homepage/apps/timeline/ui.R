@@ -19,7 +19,7 @@ shinyUI(
                 selected = "Teams")
             ),
             div(class="row-fluid",
-                mainPanel(
+                div(class="span4",
                     showOutput("myChart","nvd3")
                 )
             )
