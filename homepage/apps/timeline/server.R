@@ -7,24 +7,7 @@ load("../../data/DataFromJSON.RData")
 dat <- DATParametersFromJSON
 
 ## Filter dataframe for all different options.
-MatchNamesIDs <- list(	year = "FILyear_min",
-						year = "FILyear_max",
-						region = "FILregion",
-						track = "FILtrack",
-						score = "FILscore_min",
-						score = "FILscore_max",
-						biobrick_count = "FILbiobrick_count_min",
-						biobrick_count = "FILbiobrick_count_max",
-						awards_regional = "FILawards_regional",
-						awards_championship = "FILawards_championship",
-						students_count = "FILstudents_count_min",
-						students_count = "FILstudents_count_max",
-						advisors_count = "FILadvisors_count_min",
-						advisors_count = "FILadvisors_count_max",
-						instructors_count = "FILinstructors_count_min",
-						instructors_count = "FILinstructors_count_max",
-						name = "FILname" )
-dat <- dat[-which(dat$year < input$FILyear_min | dat$year > input$FILyear_max),]
+
 dat$region <- gsub("Canada", "America", dat$region)
 dat$region <- gsub("US", "America", dat$region)
 dat$region <- gsub("Americas East", "America", dat$region)
