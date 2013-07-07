@@ -70,24 +70,25 @@ FilterForBiobrick_count <- function(data) {
 	else data <- data[-which(data$biobrick_count < input$FILbiobrick_count_min | data$biobrick_count > input$FILbiobrick_count_max),]
 	return(data)
 }
-FilterForRegionalAwards <- function(data) {
-	matchRegionalAw <- rep(0, times=length(data$awards_regional))
-	for (i in 1:length(input$FILawards_regional)) {
-		matchRegionalAw[which(data$awards_regional == input$FILawards_regional[i])] <- 1
-	}
-	data <- data[-which(matchRegionalAw == 0),]
-	rm(matchRegionalAw)
-	return(data)
-}
-FilterForChampionshipAwards <- function(data) {
-	matchChampionshipAw <- rep(0, times=length(data$awards_championship))
-	for (i in 1:length(input$FILawards_championship)) {
-		matchChampionshipAw[which(data$awards_championship == input$FILawards_championship[i])] <- 1
-	}
-	data <- data[-which(matchChampionshipAw == 0),]
-	rm(matchChampionshipAw)
-	return(data)
-}
+## Championship filters have to be more complicated
+#FilterForRegionalAwards <- function(data) {
+#	matchRegionalAw <- rep(0, times=length(data$awards_regional))
+#	for (i in 1:length(input$FILawards_regional)) {
+#		matchRegionalAw[which(data$awards_regional == input$FILawards_regional[i])] <- 1
+#	}
+#	data <- data[-which(matchRegionalAw == 0),]
+#	rm(matchRegionalAw)
+#	return(data)
+#}
+#FilterForChampionshipAwards <- function(data) {
+#	matchChampionshipAw <- rep(0, times=length(data$awards_championship))
+#	for (i in 1:length(input$FILawards_championship)) {
+#		matchChampionshipAw[which(data$awards_championship == input$FILawards_championship[i])] <- 1
+#	}
+#	data <- data[-which(matchChampionshipAw == 0),]
+#	rm(matchChampionshipAw)
+#	return(data)
+#}
 
 #### Part for ui.R:
 ## List of choices for Filtering options:
@@ -99,8 +100,8 @@ myChoicesForRegion <- levels(as.factor(DATParametersFromJSON$region))
 myChoicesForInstructors_count <- c(0, 2, 5, 10, 15, ">15")
 myChoicesForBB_count <- c(0, 5, 10, 20, 50, 100, 200, ">200")
 myChoicesForTrack <- levels(as.factor(DATParametersFromJSON$track))
-myChoicesForRegional_awards <- levels(as.factor(DATParametersFromJSON$awards_regional))
-myChoicesForChampionship_awards <- levels(as.factor(DATParametersFromJSON$awards_championship))
+myChoicesForRegional_awards <- levels(as.factor(DATContentsFromJSON$awards_regional))
+myChoicesForChampionship_awards <- levels(as.factor(DATContentsFromJSON$awards_championship))
 
 ## ui html elements:
 			div(class="container-fluid",
@@ -172,7 +173,8 @@ myChoicesForChampionship_awards <- levels(as.factor(DATParametersFromJSON$awards
 						label="maximum biobricks submitted",
 						choices=myChoicesForBB_count,
 						selected=">200" ))
-				)
+				),
+				"Only those with abstract"
 			),
 			div(class="container-fluid",
 				"Filter team composition",
