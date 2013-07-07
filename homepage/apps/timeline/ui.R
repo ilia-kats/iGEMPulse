@@ -1,8 +1,6 @@
 require(rCharts)
 
-myChoices = c('Students',
-      'Teams', 'Instructors', 'Advisors', 'ChampionshipAwards')
-
+myChoicesForX = c("Students", "Teams", "Instructors", "Advisors", "ChampionshipAwards")
 
 shinyUI(
     bootstrapPage(
@@ -15,7 +13,7 @@ shinyUI(
             div(class="row-fluid",
                 selectInput(inputId = "x",
                 label = "Choose Variable",
-                choices = myChoices,
+                choices = myChoicesForX,
                 selected = "Teams")
             ),
             div(class="row-fluid",
