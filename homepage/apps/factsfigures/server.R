@@ -1,5 +1,3 @@
-require(rCharts)
-load("../../data/DataFromJSON.RData")
 shinyServer(function(input, output) {
   output$myChart <- renderChart({
     #names(iris) = gsub("\\.", "", names(iris))
