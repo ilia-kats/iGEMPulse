@@ -1,0 +1,47 @@
+Method
+	Preprocessing
+		Fusion Proteins
+		Primer Design
+		cloning
+		preparation of DNA
+		Restriction Digestion
+		Insert preparation
+		cell fractionation
+		cell counting
+	Processing
+		DNA sequencing
+		PCR
+		Microarray (DNA)
+		arrays
+		interaction chromatography
+		purification
+		Gel extraction
+		Ligation
+		Transformation
+		FRET
+		DNA extraction
+		patch clamp
+	Analysis
+		Northern Blot
+		Southern Blot
+		Western blotting
+		Bioinformatics
+		ELISA
+		Chromatography
+		flow cytometry
+		X-Ray-crystallography
+		NMR
+		Electron microscopy
+		Molecular dynamics
+		coimmunoprecipitation
+		Electrophoretic mobility shift assay
+		southwestern blotting
+		size determination
+		gel electrophoresis
+		macromolecule blotting and probing
+		assays (immuno)
+		phenotypic analysis
+		imaging
+		spectroscopy
+		spectrometry
+		
