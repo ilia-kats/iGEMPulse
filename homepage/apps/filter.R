@@ -7,19 +7,19 @@ MatchNamesIDs <- list(	year = "FILyear_min",
 						students_count = "FILstudents_count_max",
 						advisors_count = "FILadvisors_count_min",
 						advisors_count = "FILadvisors_count_max",
-						score = "FILscore_min",
-						score = "FILscore_max",
 						instructors_count = "FILinstructors_count_min",
 						instructors_count = "FILinstructors_count_max",
+						score = "FILscore_min",
+						score = "FILscore_max",
 						biobrick_count = "FILbiobrick_count_min",
 						biobrick_count = "FILbiobrick_count_max",
-						name = "FILname",
 						awards_regional = "FILawards_regional",
 						awards_championship = "FILawards_championship" )
 
 #### Part for server.R:
 load("../../data/DataFromJSON.RData")
-datafiltered <- DATParametersFromJSON
+## enter "datafiltered <- FilterForXY(previousdataset)" for filtering the dataset
+## filtering functions:
 FilterForYear <- function(data) {
 	data <- data[-which(data$year < input$FILyear_min | data$year > input$FILyear_max),]
 	return(data)
@@ -42,6 +42,53 @@ FilterForTrack <- function(data) {
 	rm(matchTrack)
 	return(data)
 }
+FilterForStudents_count <- function(data) {
+	if (input$FILstudents_count_min == ">20") data <- data[-which(data$students_count < 20),]
+	else if (input$FILstudents_count_max == ">20") data <- data[-which(data$students_count < input$FILstudents_count_min),]
+	else data <- data[-which(data$students_count < input$FILstudents_count_min | data$students_count > input$FILstudents_count_max),]
+	return(data)
+}
+FilterForAdvisors_count <- function(data) {
+	if (input$FILadvisors_count_min == ">15") data <- data[-which(data$advisors_count < 15),]
+	else if (input$FILadvisors_count_max == ">15") data <- data[-which(data$advisors_count < input$FILadvisors_count_min),]
+	else data <- data[-which(data$advisors_count < input$FILadvisors_count_min | data$advisors_count > input$FILadvisors_count_max),]
+	return(data)
+}
+FilterForInstructors_count <- function(data) {
+	if (input$FILinstructors_count_min == ">15") data <- data[-which(data$instructors_count < 15),]
+	else if (input$FILinstructors_count_max == ">15") data <- data[-which(data$instructors_count < input$FILinstructors_count_min),]
+	else data <- data[-which(data$instructors_count < input$FILinstructors_count_min | data$instructors_count > input$FILinstructors_count_max),]
+	return(data)
+}
+FilterForScore <- function(data) {
+	data <- data[-which(data$score < input$FILscore_min | data$score > input$FILscore_max),]
+	return(data)
+}
+FilterForBiobrick_count <- function(data) {
+	if (input$FILbiobrick_count_min == ">200") data <- data[-which(data$biobrick_count < 200),]
+	else if (input$FILbiobrick_count_max == ">200") data <- data[-which(data$biobrick_count < input$FILbiobrick_count_min),]
+	else data <- data[-which(data$biobrick_count < input$FILbiobrick_count_min | data$biobrick_count > input$FILbiobrick_count_max),]
+	return(data)
+}
+FilterForRegionalAwards <- function(data) {
+	matchRegionalAw <- rep(0, times=length(data$awards_regional))
+	for (i in 1:length(input$FILawards_regional)) {
+		matchRegionalAw[which(data$awards_regional == input$FILawards_regional[i])] <- 1
+	}
+	data <- data[-which(matchRegionalAw == 0),]
+	rm(matchRegionalAw)
+	return(data)
+}
+FilterForChampionshipAwards <- function(data) {
+	matchChampionshipAw <- rep(0, times=length(data$awards_championship))
+	for (i in 1:length(input$FILawards_championship)) {
+		matchChampionshipAw[which(data$awards_championship == input$FILawards_championship[i])] <- 1
+	}
+	data <- data[-which(matchChampionshipAw == 0),]
+	rm(matchChampionshipAw)
+	return(data)
+}
+
 #### Part for ui.R:
 ## List of choices for Filtering options:
 myChoicesForStudents_count <- c(0, 5, 10, 15, 20, ">20")
@@ -55,7 +102,8 @@ myChoicesForTrack <- levels(as.factor(DATParametersFromJSON$track))
 myChoicesForRegional_awards <- levels(as.factor(DATParametersFromJSON$awards_regional))
 myChoicesForChampionship_awards <- levels(as.factor(DATParametersFromJSON$awards_championship))
 
-div(class="container-fluid",
+## ui html elements:
+			div(class="container-fluid",
 				"General filter options",
 				div(class="row-fluid",
 					div(class="span3", selectInput(
