@@ -9,6 +9,7 @@
 require(RJSONIO)
 #### Import from .json file (Change to appropriate filename
 JSONList <- fromJSON("../scraper/data/test.json")
+names(JSONList[[2]])
 
 #### Produce empty Parameters data frame
 DATParametersFromJSON <- data.frame()
@@ -20,7 +21,8 @@ for (i in 1:length(JSONList)) {
 	DATParametersFromJSON[name, "name"] <- JSONList[[i]]$name
 	DATParametersFromJSON[name, "year"] <- as.numeric(JSONList[[i]]$year)
 	DATParametersFromJSON[name, "region"] <- JSONList[[i]]$region
-	DATParametersFromJSON[name, "track"] <- JSONList[[i]]$track
+	if(length(JSONList[[i]]$track) == 0) DATParametersFromJSON[name, "track"] <- ""
+	else DATParametersFromJSON[name, "track"] <- JSONList[[i]]$track
 	DATParametersFromJSON[name, "students_count"] <- length(JSONList[[i]]$students)
 	DATParametersFromJSON[name, "advisors_count"] <- length(JSONList[[i]]$advisors)
 	DATParametersFromJSON[name, "instructors_count"] <- length(JSONList[[i]]$instructors)
@@ -28,7 +30,7 @@ for (i in 1:length(JSONList)) {
 	DATParametersFromJSON[name, "url"] <- JSONList[[i]]$url
 	DATParametersFromJSON[name, "awards_regional_count"] <- length(JSONList[[i]]$awards_regional)
 	DATParametersFromJSON[name, "awards_championship_count"] <- length(JSONList[[i]]$awards_championship)
-	DATParametersFromJSON[name, "biobrick_count"] <- length(JSONList[[i]]$parts_range)
+	DATParametersFromJSON[name, "biobrick_count"] <- length(JSONList[[i]]$parts)
 	DATParametersFromJSON[name, "information_content"] <- as.numeric(JSONList[[i]]$information_content)
 }
 
@@ -47,6 +49,8 @@ for (i in 1:length(JSONList)) {
 	else DATContentsFromJSON[[name]]["awards_championship"] <- JSONList[[i]]["awards_championship"]
 	if (length(JSONList[[i]]$parts_range) == 0) DATContentsFromJSON[[name]][["parts_range"]] <- ""
 	else DATContentsFromJSON[[name]]["parts_range"] <- JSONList[[i]]["parts_range"]
+	if (length(JSONList[[i]]$parts) == 0) DATContentsFromJSON[[name]][["parts"]] <- ""
+	else DATContentsFromJSON[[name]][["parts"]] <- JSONList[[i]]$parts
 	DATContentsFromJSON[[name]]["advisors"] <- JSONList[[i]]["advisors"]
 	DATContentsFromJSON[[name]]["project"] <- JSONList[[i]]["project"]
 	DATContentsFromJSON[[name]]["abstract"] <- JSONList[[i]]["abstract"]

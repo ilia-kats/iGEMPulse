@@ -1,15 +1,3 @@
-## List of choices for Filtering options:
-myChoicesForStudents_count <- c(0, 5, 10, 15, 20, ">20")
-myChoicesForAdvisors_count <- c(0, 2, 5, 10, 15, ">15")
-myChoicesForScore <- c(0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
-myChoicesForYear <- levels(as.factor(DATParametersFromJSON$year))
-myChoicesForRegion <- levels(as.factor(DATParametersFromJSON$region))
-myChoicesForInstructors_count <- c(0, 2, 5, 10, 15, ">15")
-myChoicesForBB_count <- c(0, 5, 10, 20, 50, 100, 200, ">200")
-myChoicesForTrack <- levels(as.factor(DATParametersFromJSON$track))
-myChoicesForRegional_awards <- levels(as.factor(DATParametersFromJSON$awards_regional))
-myChoicesForChampionship_awards <- levels(as.factor(DATParametersFromJSON$awards_championship))
-
 ## List of names matching IDs
 MatchNamesIDs <- list(	year = "FILyear_min",
 						year = "FILyear_max",
@@ -28,6 +16,44 @@ MatchNamesIDs <- list(	year = "FILyear_min",
 						name = "FILname",
 						awards_regional = "FILawards_regional",
 						awards_championship = "FILawards_championship" )
+
+#### Part for server.R:
+load("../../data/DataFromJSON.RData")
+datafiltered <- DATParametersFromJSON
+FilterForYear <- function(data) {
+	data <- data[-which(data$year < input$FILyear_min | data$year > input$FILyear_max),]
+	return(data)
+}
+FilterForRegion <- function(data) {
+	matchRegion <- rep(0, times=length(data$region))
+	for (i in 1:length(input$FILregion)) {
+		matchRegion[which(data$region == input$FILregion[i])] <- 1
+	}
+	data <- data[-which(matchRegion == 0),]
+	rm(matchRegion)
+	return(data)
+}
+FilterForTrack <- function(data) {
+	matchTrack <- rep(0, times=length(data$track))
+	for (i in 1:length(input$FILtrack)) {
+		matchTrack[which(data$track == input$FILtrack[i])] <- 1
+	}
+	data <- data[-which(matchTrack == 0),]
+	rm(matchTrack)
+	return(data)
+}
+#### Part for ui.R:
+## List of choices for Filtering options:
+myChoicesForStudents_count <- c(0, 5, 10, 15, 20, ">20")
+myChoicesForAdvisors_count <- c(0, 2, 5, 10, 15, ">15")
+myChoicesForScore <- c(0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
+myChoicesForYear <- levels(as.factor(DATParametersFromJSON$year))
+myChoicesForRegion <- levels(as.factor(DATParametersFromJSON$region))
+myChoicesForInstructors_count <- c(0, 2, 5, 10, 15, ">15")
+myChoicesForBB_count <- c(0, 5, 10, 20, 50, 100, 200, ">200")
+myChoicesForTrack <- levels(as.factor(DATParametersFromJSON$track))
+myChoicesForRegional_awards <- levels(as.factor(DATParametersFromJSON$awards_regional))
+myChoicesForChampionship_awards <- levels(as.factor(DATParametersFromJSON$awards_championship))
 
 div(class="container-fluid",
 				"General filter options",
