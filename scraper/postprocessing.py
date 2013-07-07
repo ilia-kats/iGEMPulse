@@ -10,9 +10,30 @@ from nltk.text import TokenSearcher
 from nltk.corpus import stopwords
 from nltk.probability import FreqDist
 
+def stem_term(term, stemmer=PorterStemmer()):
+    stripped = term.strip()
+    tokenized = word_tokenize(stripped)
+    stemmed = [[stemmer.stem(w) for w in tokenized]]
+    stemmed.append("<%s>" % "> <".join(stemmed[0]))
+    return (stripped, stemmed)
+
+def find_terms(needle, haystack, num=None):
+    found = {}
+    for (term, processed) in needle.iteritems():
+        length = len(haystack.findall(processed[1]))
+        if length > 0:
+            found[term] = length
+    if len(found) > 0:
+        needle_sorted = found.keys()
+        needle_sorted.sort(lambda x,y: cmp(found[x], found[y]))
+        return {term : found[term] for term in needle_sorted[0:num] if found[term] > 0}
+    else:
+        return {}
+
 parser = OptionParser()
 parser.add_option("-i", "--infile", dest="infile", help="Read JSON from FILE", metavar="FILE", default="-")
-parser.add_option("-m", "--meshfile", dest="meshfile", help="Read MESH terms from FILE", metavar="FILE", default="")
+parser.add_option("-t", "--termsfile", dest="termsfile", help="Read MESH terms from FILE", metavar="FILE", default="")
+parser.add_option("-m", "--methodsfile", dest="methodsfile", help="Read methods from FILE", metavar="FILE", default="")
 parser.add_option("-o", "--outfile", dest="outfile", help="Write JSON output to FILE", metavar="FILE", default="infile")
 parser.add_option("-n", "--numbermesh", dest="numbermesh", help="Retain top N MESH terms", metavar="N", default=5)
 parser.add_option("-k", "--numberwords", dest="numberwords", help="Retain top N words", metavar="N", default=5)
@@ -20,14 +41,20 @@ options = parser.parse_args()[0]
 
 stemmer = PorterStemmer()
 meshterms = {}
+methods = {}
 
-meshfile = open(options.meshfile, 'r')
-for meshterm in meshfile:
-    stripped = meshterm.strip()
-    mesh_tokenized = word_tokenize(stripped)
-    meshterms[stripped] = [[stemmer.stem(w) for w in mesh_tokenized]]
-    meshterms[stripped].append("<%s>" % "> <".join(meshterms[stripped][0]))
-meshfile.close()
+termsfile = open(options.termsfile, 'r')
+for meshterm in termsfile:
+    stemmed = stem_term(meshterm, stemmer)
+    meshterms[stemmed[0]] = stemmed[1]
+termsfile.close()
+
+methodsfile = open(options.methodsfile, 'r')
+for method in methodsfile:
+    if method.startswith("\t\t"):
+        stemmed = stem_term(method, stemmer)
+        methods[stemmed[0]] = stemmed[1]
+methodsfile.close()
 
 if options.infile == '-':
     inputfile = sys.stdin
@@ -47,15 +74,8 @@ for team in data:
     tokenized_filtered = [w.lower() for w in tokenized if w.lower() not in stopwords_en and w.isalnum() and len(w) > 1]
     stemmed = [stemmer.stem(w) for w in tokenized_filtered]
     searcher = TokenSearcher(stemmed)
-    found = {}
-    for (term, processed) in meshterms.iteritems():
-        length = len(searcher.findall(processed[1]))
-        if length > 0:
-            found[term] = length
-    if len(found) > 0:
-        mesh_sorted = found.keys()
-        mesh_sorted.sort(lambda x,y: cmp(found[x], found[y]))
-        team['meshterms'] = {meshterm : found[meshterm] for meshterm in mesh_sorted[0:options.numbermesh] if found[meshterm] > 0}
+    team['meshterms'] = find_terms(meshterms, searcher, options.numbermesh)
+    team['methods'] = find_terms(methods, searcher)
     information = 0
     team['information_content'] = len(tokenized_filtered) / float(len(tokenized))
     fdist = FreqDist(tokenized_filtered)

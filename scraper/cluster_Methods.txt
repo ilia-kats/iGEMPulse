@@ -11,7 +11,7 @@ Method
 	Processing
 		DNA sequencing
 		PCR
-		Microarray (DNA)
+		DNA Microarray
 		arrays
 		interaction chromatography
 		purification
@@ -39,9 +39,8 @@ Method
 		size determination
 		gel electrophoresis
 		macromolecule blotting and probing
-		assays (immuno)
+		immuno assays
 		phenotypic analysis
 		imaging
 		spectroscopy
 		spectrometry
-		
