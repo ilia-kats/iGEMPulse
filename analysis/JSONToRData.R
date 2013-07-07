@@ -20,6 +20,7 @@ for (i in 1:length(JSONList)) {
 	DATParametersFromJSON[name, "name"] <- JSONList[[i]]$name
 	DATParametersFromJSON[name, "year"] <- as.numeric(JSONList[[i]]$year)
 	DATParametersFromJSON[name, "region"] <- JSONList[[i]]$region
+	DATParametersFromJSON[name, "track"] <- JSONList[[i]]$track
 	DATParametersFromJSON[name, "students_count"] <- length(JSONList[[i]]$students)
 	DATParametersFromJSON[name, "advisors_count"] <- length(JSONList[[i]]$advisors)
 	DATParametersFromJSON[name, "instructors_count"] <- length(JSONList[[i]]$instructors)
