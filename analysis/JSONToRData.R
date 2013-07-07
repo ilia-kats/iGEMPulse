@@ -8,7 +8,7 @@
 
 require(RJSONIO)
 #### Import from .json file (Change to appropriate filename
-JSONList <- fromJSON("scraper/test.json")
+JSONList <- fromJSON("../scraper/data/test.json")
 
 #### Produce empty Parameters data frame
 DATParametersFromJSON <- data.frame()
@@ -18,7 +18,7 @@ DATParametersFromJSON <- data.frame()
 for (i in 1:length(JSONList)) {
 	name <- paste(JSONList[[i]]$name, JSONList[[i]]$year, sep = "")
 	DATParametersFromJSON[name, "name"] <- JSONList[[i]]$name
-	DATParametersFromJSON[name, "year"] <- as.character(JSONList[[i]]$year)
+	DATParametersFromJSON[name, "year"] <- as.numeric(JSONList[[i]]$year)
 	DATParametersFromJSON[name, "region"] <- JSONList[[i]]$region
 	DATParametersFromJSON[name, "students_count"] <- length(JSONList[[i]]$students)
 	DATParametersFromJSON[name, "advisors_count"] <- length(JSONList[[i]]$advisors)
@@ -28,6 +28,7 @@ for (i in 1:length(JSONList)) {
 	DATParametersFromJSON[name, "awards_regional_count"] <- length(JSONList[[i]]$awards_regional)
 	DATParametersFromJSON[name, "awards_championship_count"] <- length(JSONList[[i]]$awards_championship)
 	DATParametersFromJSON[name, "biobrick_count"] <- length(JSONList[[i]]$parts_range)
+	DATParametersFromJSON[name, "information_content"] <- as.numeric(JSONList[[i]]$information_content)
 }
 
 #### Produce empty Parameters data frame
@@ -48,7 +49,10 @@ for (i in 1:length(JSONList)) {
 	DATContentsFromJSON[[name]]["advisors"] <- JSONList[[i]]["advisors"]
 	DATContentsFromJSON[[name]]["project"] <- JSONList[[i]]["project"]
 	DATContentsFromJSON[[name]]["abstract"] <- JSONList[[i]]["abstract"]
+	## Meshterms is named numeric vector of term-counts
+	if (length(JSONList[[i]]$meshterms) == 0) DATContentsFromJSON[[name]]["meshterms"] <- c()
+	else DATContentsFromJSON[[name]]["meshterms"] <- JSONList[[i]]["meshterms"]
 }
 
 #### Write dataframe and list to one .RData file
-save(DATParametersFromJSON, DATContentsFromJSON, file = "DataFromJSON.RData")
+save(DATParametersFromJSON, DATContentsFromJSON, file = "../homepage/data/DataFromJSON.RData")
