@@ -20,8 +20,12 @@ class TeamItem(HeartbeatItem):
     url = Field()
     wiki = Field()
     parts_range = Field()
+    parts = Field()
 
 class ResultItem(HeartbeatItem):
     medal = Field()
     awards_regional = Field()
     awards_championship = Field()
+
+class PartsList(Item):
+    parts = Field()

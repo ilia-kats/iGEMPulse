@@ -6,6 +6,8 @@
 #     http://doc.scrapy.org/topics/settings.html
 #
 
+import re
+
 BOT_NAME = 'Heartbeat'
 BOT_VERSION = '1.0'
 
@@ -28,5 +30,9 @@ LOG_LEVEL='INFO'
 YEARS = [2007, 2008, 2009, 2010, 2011, 2012]
 TEAM_LIST = "http://igem.org/Team_List?year=%d"
 RESULTS = "http://igem.org/Results?year=%d&region=All&division=igem"
+PARTSREGISTRY_PART_FORMAT = "%s%06d"
+PARTSREGISTRY_PART = "http://parts.igem.org/das/parts/features/?segment=%s"
+
+BIOBRICK_PATTERN = re.compile("^(BBa_[A-Za-z])(\d+)$")
 
 SPIDERS = ['ResultSpider','TeamSpider']
