@@ -24,7 +24,7 @@ shinyUI(
 						inputId="FILregion",
 						label="select regions (hold ctrl for multiple)",
 						choices=myChoicesForRegion,
-						selected=myChoicesForRegion,
+						selected=c("Europe","America","Asia"),
 						multiple=TRUE )),
 					div(class="span3", selectInput(
 						inputId="FILtrack",
