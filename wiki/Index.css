@@ -1,0 +1,61 @@
+#verlauf {
+width: 100%;
+height: 100%;
+background-image: -moz-radial-gradient(center, 
+                            circle farthest-corner, 
+                            white 0%,
+                            grey 70%,
+			    black 99%
+                            );
+background-image: -ms-radial-gradient(center, 
+                            circle farthest-corner, 
+                            white 0%,
+                            grey 70%,
+			    black 99%
+                            );
+background-image: -webkit-radial-gradient(center, 
+                            circle farthest-corner, 
+                            white 0%,
+                            grey 70%,
+			    black 99%
+                            );
+background-image: -o-radial-gradient(center, 
+                            circle farthest-corner, 
+                            white 0%,
+                            grey 70%,
+			    black 99%
+                            );
+background-attachment:-moz-fixed;
+background-repeat:-moz-no-repeat;
+background-size:-moz-100% auto;
+background-attachment:-ms-fixed;
+background-repeat:-ms-no-repeat;
+background-size:-ms-100% auto;
+background-attachment:-webkit-fixed;
+background-repeat:-webkit-no-repeat;
+background-size:-webkit-100% auto;
+background-attachment:-o-fixed;
+background-repeat:-o-no-repeat;
+background-size:-o-100% auto;
+
+
+}
+
+
+#parent {position: relative;}
+
+#child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    margin: -15% 0 0 -25%;
+	width: 100%;
+}
+#childs{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    height: 30%;
+    margin: -15% 0 0 -15%;
+}
