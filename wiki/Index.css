@@ -51,43 +51,40 @@ body {
     position: absolute;
     top: 60%;
     left: 50%;
-    height: 30%;
-	width:10%;
-}
+	width:10%;}
 #project-pos{
     position: absolute;
-    top: 60%;
-    left: 50%;
-    height: 30%;}
+    top: 40%;
+    left: 67%;}
 
 #parts-pos{
     position: absolute;
-    top: 60%;
-    left: 50%;
-    height: 30%;}
+    top: 75%;
+    left: 60%;}
 	
 
 #team-pos{
     position: absolute;
-    top: 60%;
-    left: 50%;
-    height: 30%;}
+    top: 95%;
+    left: 40%;}
 
 #notebook-pos{
     position: absolute;
-    top: 60%;
-    left: 50%;
-    height: 30%;}
+    top: 100%;
+    left: 10%;}
 
 #hp-pos{
     position: absolute;
-    top: 60%;
-    left: 50%;
-    height: 30%;}
+    top: 85%;
+    left: -25%;}
 	
 #attrib-pos{
     position: absolute;
-    top: 60%;
-    left: 50%;
-    height: 30%;}	
+    top: 93%;
+    left: -15%;}
+	
+#model-pos{
+	position: absolute;
+	top: 73%;
+	left: -20%}
 	
