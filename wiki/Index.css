@@ -1,105 +1,93 @@
-#parent {
-text-align:center;
-background-image: -moz-radial-gradient(center, 
-                            circle farthest-corner, 
-                            white 0%,
-                            grey 70%,
-			    black 99%
-                            );
-background-image: -ms-radial-gradient(center, 
-                            circle farthest-corner, 
-                            white 0%,
-                            grey 70%,
-			    black 99%
-                            );
-background-image: -webkit-radial-gradient(center, 
-                            circle farthest-corner, 
-                            white 0%,
-                            grey 70%,
-			    black 99%
-                            );
-background-image: -o-radial-gradient(center, 
-                            circle farthest-corner, 
-                            white 0%,
-                            grey 70%,
-			    black 99%
-                            );
-background-attachment:fixed;
-background-repeat:no-repeat;
--moz-background-size:100% auto;
-background-attachment:-ms-fixed;
-background-repeat:-ms-no-repeat;
-background-size:-ms-100% auto;
-background-attachment:-webkit-fixed;
-background-repeat:-webkit-no-repeat;
--webkit-background-size:100% auto;
-background-attachment:-o-fixed;
-background-repeat:-o-no-repeat;
-background-size:-o-100% auto;
-min-height:100%;
-
-
-}
-
 body {
 	height:100%;
+	margin:0px;
+	padding:0px;
 }
 
-#child {
-    display:inline-block;
+#background{
+	text-align:center;
+	background-image: -moz-radial-gradient(center, 
+								circle farthest-corner, 
+								white 0%,
+								grey 70%,
+								black 99%);
+	background-image: -ms-radial-gradient(center, 
+								circle farthest-corner, 
+								white 0%,
+								grey 70%,
+								black 99%);
+	background-image: -webkit-radial-gradient(center, 
+								circle farthest-corner, 
+								white 0%,
+								grey 70%,
+								black 99%);
+	background-image: -o-radial-gradient(center, 
+								circle farthest-corner, 
+								white 0%,
+								grey 70%,
+								black 99%);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	-moz-background-size:100% auto;
+	background-attachment:-ms-fixed;
+	background-repeat:-ms-no-repeat;
+	background-size:-ms-100% auto;
+	background-attachment:-webkit-fixed;
+	background-repeat:-webkit-no-repeat;
+	-webkit-background-size:100% auto;
+	background-attachment:-o-fixed;
+	background-repeat:-o-no-repeat;
+	background-size:-o-100% auto;
 	min-height:100%;
-	width:75%;
-	margin:40px;
-	padding:10px;
-	border-radius:20px;
+	margin:0px;
+	padding:0px;
 }
-#childs{
+
+#arrow {
+    display:inline-block;
+	width:75%;
+}
+#logo{
     position: absolute;
     top: 60%;
     left: 50%;
     height: 30%;
-    margin: -15% 0 0 -15%;
+	width:10%;
 }
 #project-pos{
     position: absolute;
     top: 60%;
     left: 50%;
-    height: 30%;
-    margin: -15% 0 0 -8%;}
+    height: 30%;}
 
 #parts-pos{
     position: absolute;
     top: 60%;
     left: 50%;
-    height: 30%;
-    margin: -5% 0 0 -4%;}
+    height: 30%;}
 	
 
 #team-pos{
     position: absolute;
     top: 60%;
     left: 50%;
-    height: 30%;
-    margin: 2% 0 0 -9.5%;}
+    height: 30%;}
 
 #notebook-pos{
     position: absolute;
     top: 60%;
     left: 50%;
-    height: 30%;
-    margin: 8% 0 0 -25%;}
+    height: 30%;}
 
 #hp-pos{
     position: absolute;
     top: 60%;
     left: 50%;
-    height: 30%;
-    margin: 5% 0 0 -45%;}
+    height: 30%;}
 	
 #attrib-pos{
     position: absolute;
     top: 60%;
     left: 50%;
-    height: 30%;
-    margin: 5% 0 0 -55%;}	
+    height: 30%;}	
 	
