@@ -76,6 +76,9 @@ margin-left: 0;
     right: 0;
     top: 0;
     width: 100%;
+	font-size: 1.2em;
+	color: ffcc00;
+	font-weight: bold;
 }
 #logo{
     position: absolute;
@@ -92,7 +95,7 @@ margin-left: 0;
 #parts-pos{
     position: absolute;
     top: 55%;
-    left: 30%;
+    left: 31%;
 	width: 50%;
 	text-align: right;}
 	
@@ -101,14 +104,14 @@ margin-left: 0;
     position: absolute;
 	width: 40%;
     top: 65%;
-    left: 33%;
+    left: 35%;
 	text-align: right;}
 
 #notebook-pos{
     position: absolute;
 	width: 35%;
-	top: 68%;
-    left: 37%;}
+	top: 66%;
+    left: 35%;}
 
 #hp-pos{
     position: absolute;
