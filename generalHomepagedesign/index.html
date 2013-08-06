@@ -2,21 +2,30 @@
 	<head>
 		<title>Browser title</title>
 		<link rel="stylesheet" type="text/css" href="./css/index.css">
+		<script type="text/javascript">
+			function hide_show_menu() {
+				var main_menu = document.getElementById('main-menu');
+				var height = main_menu.offsetHeight;
+				if(height == 200){
+					main_menu.style.height = "2px";
+				} else {
+					main_menu.style.height = "200px";
+				}
+			}
+		</script>
 	</head>
 	
 	<body>
 		<div id="widescreen-background">
 			<div id="center-wrapper">
 			
-				<div id="top-matter" class="center-vert">
+				<div id="top-matter">
 					<div id="main-menu">
 						put main navigation (and logo) here
 					</div>
-					<div id="top-headline">
-						put title (and logos) here
-					</div>
 					<div id="top-separator">
 						put current navigation here
+						<input type="button" value="hide/show menu" onclick="hide_show_menu()"/>
 					</div>
 				</div>
 				

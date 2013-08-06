@@ -23,18 +23,27 @@
 .center-vert {
 	display:inline-block;
 	width:100%;
+	position:relative;
+	top:220px;
+	color:#000000;
+	z-index:1;
 }
-
+#top-matter {
+position:fixed;
+z-index:2;
+}
 #main-menu {
-	height:100px;
-	background-color:#303030;
+	width:1024;
+	height:200px;
+	background-image:url(../png/mainMenuTest.png);
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-attachment:scrolled;
 	color:#F5B800;
-}
-#top-headline {
-	height:50px;
 }
 #top-separator {
 	background-color:#F5B800;
+	height:20px;
 }
 
 .content-hori {
