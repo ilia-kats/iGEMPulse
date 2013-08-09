@@ -1,0 +1,738 @@
+/* Combined css code we are forced to either hack or keep */
+/**********************************************************/
+
+
+/* main.css */
+/************/
+
+body {}
+#globalWrapper {}
+.visualClear {}
+#top-section {}
+#p-logo {}
+#p-logo h5 {}
+#p-logo a,
+#p-logo a:hover {}
+#search-controls {}
+input.searchButton {}
+input.searchButton:hover {}
+#searchInput {}
+#searchGoButton {}
+
+
+#menubar {}
+.left-menu, .left-menu a {}
+.left-menu:hover {}
+.right-menu, .right-menu a {}
+#menubar ul {}
+#menubar li {}
+.left-menu li a {}
+.left-menu .selected {}
+#.left-menu .selected:hover {}
+.left-menu:hover a {}
+.right-menu li {}
+.right-menu li a {}
+.right-menu li a:hover {}
+
+#footer-box {}
+#footer {}
+#footer li {}
+
+/* Sponsors box */
+#sponsor-box {}
+#f-poweredbyico {}
+#f-copyrightico {}
+
+/* Pulldown menu boxes */
+
+.hidden  {}
+.visible {}
+.menubox {}
+.bridge1 {}
+.shadow1 {}
+.shadow2 {}
+.shadow3 {}
+
+/*  IGEM RIGHT SIDEBAR STYLING */
+#right-sidebar {}
+.right-box {}
+.right-box:first-child {}
+.right-heading {}
+.right-box ul {}
+.right-box li {}
+
+/*****************************************************************************************************
+ * The content div contains all of the contents of the page - provided by mediawiki
+ ****************************************************************************************************/
+#content {}
+#column-one {}
+/* the left column width is specified in class .portlet */
+/* general styles */
+table {}
+a {}
+a:visited {}
+a:active {}
+a:hover {}
+a.stub {}
+/*  a.new, #p-personal a.new {}
+a.new:visited, #p-personal a.new:visited {}
+
+img {}
+p {}
+p img {}
+hr {}
+h1, h2, h3, h4, h5, h6 {}
+h1 {}
+h2 {}
+h3, h4, h5, h6 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+ul {}
+ol {}
+li {}
+dt {}
+dl {}
+dd {}
+fieldset {}
+legend {}
+form {}
+textarea {}
+input.historysubmit {}
+select {}
+abbr, acronym, .explain {}
+q {}
+/* disabled for now
+blockquote {}*/
+code {}
+pre {}
+
+#siteSub {}
+#contentSub {}
+span.subpages {}
+
+/* Some space under the headers in the content area */
+#bodyContent h1, #bodyContent h2 {}
+#bodyContent h3, #bodyContent h4, #bodyContent h5 {}
+.firstHeading {}
+/* user notification thing */
+.usermessage {}
+#siteNotice {}
+#siteNotice p {}
+.error {}
+#catlinks {}
+/* currently unused, intended to be used by a metadata box
+in the bottom-right corner of the content area */
+.documentDescription {}
+.documentByLine {}
+
+/* emulate center */
+.center {}
+*.center * {}
+/* small for tables and similar */
+.small, .small * {}
+table.small {}
+
+#toc,
+.toc {}
+#toc h2,
+.toc h2 {}
+#toc #toctitle,
+.toc #toctitle,
+#toc .toctitle,
+.toc .toctitle {}
+#toc ul,
+.toc ul {}
+#toc ul ul,
+.toc ul ul {}
+#toc .toctoggle,
+.toc .toctoggle {}
+
+/* images */
+div.floatright, table.floatright {}
+div.floatright p {}
+div.floatleft, table.floatleft {}
+div.floatleft p {}
+/* thumbnails */
+div.thumb {}
+div.thumb div {}
+div.thumb div a img {}
+div.thumb div div.thumbcaption {}
+div.magnify {}
+div.magnify a, div.magnify img {}
+div.tright {}
+div.tleft {}
+
+.hiddenStructure {}
+img.tex {}
+span.texhtml {}
+
+table.rimage {}
+.toccolours {}
+div.townBox {}
+div.townBox dl {}
+div.townBox dl dt {}
+div.townBox dl dd {}
+
+.special li {}
+
+.autocomment {}
+#pagehistory span.user {}
+#pagehistory span.minor {}
+#pagehistory li {}
+#pagehistory li.selected {}
+
+table.diff, td.diff-otitle, td.diff-ntitle {}
+td.diff-addedline {}
+td.diff-deletedline {}
+td.diff-context {}
+span.diffchange {}
+
+#bodyContent a[href ^="http://"],
+#bodyContent a[href ^="gopher://"] {}
+#bodyContent a[href ^="https://"],
+.link-https {}
+#bodyContent a[href ^="mailto:"],
+.link-mailto {}
+#bodyContent a[href ^="news://"] {}
+#bodyContent a[href ^="ftp://"],
+.link-ftp {}
+#bodyContent a[href ^="irc://"],
+.link-irc {}
+/* disable interwiki styling */
+#bodyContent a.extiw,
+#bodyContent a.extiw:active {}
+/* this can be used in the content area to switch off
+special external link styling */
+#bodyContent .plainlinks a {}
+
+li#pt-userpage,
+li#pt-anonuserpage,
+li#pt-login {}
+
+head:first-child+body #footer li {}
+
+/* js pref toc */
+#preftoc {}
+#preftoc li {}
+#preftoc li.selected {}
+#preftoc a,
+#preftoc a:active {}
+#prefcontrol {}
+div.prefsectiontip {}
+fieldset.operaprefsection {}
+
+/*
+** IE/Mac fixes, hope to find a validating way to move this
+** to a separate stylesheet. This would work but doesn't validate:
+** @import("IEMacFixes.css");
+*/
+/* tabs: border on the a, not the div */
+* > html #p-cactions li {}
+* > html #p-cactions li a {}
+
+/* * > html #p-cactions li.selected a {}  */
+/* footer icons need a fixed width */
+* > html #f-poweredbyico,
+/* * > html #f-copyrightico {} */
+* > html #bodyContent,
+* > html #bodyContent pre {}
+
+/* more IE fixes */
+/* float/negative margin brokenness */
+* html #footer {}
+* html #column-content {}
+* html div.editsection {}
+#pagehistory li.selected {}
+
+/* Mac IE 5.0 fix; floated content turns invisible */
+* > html #column-content {}
+* > html #column-one {}
+* > html #footer {}
+.redirectText {}
+
+.printfooter {}
+
+.not-patrolled {}
+div.patrollink {}
+span.newpage, span.minor, span.searchmatch {}
+span.unpatrolled {}
+
+span.searchmatch {}
+.sharedUploadNotice {}
+
+span.updatedmarker {}
+span.newpageletter {}
+span.minoreditletter {}
+
+table.gallery {}
+table.gallery tr {}
+table.gallery td {}
+div.gallerybox {}
+div.gallerybox div.thumb {}
+div.gallerytext {}
+span.comment {}
+span.changedby {}
+
+.previewnote {}
+.editExternally {}
+.editExternallyHelp {}
+
+li span.deleted {}
+.toggle {}
+
+/* Classes for EXIF data display */
+table.metadata {}
+table.metadata caption {}
+table.metadata th {}
+table.metadata td {}
+table.metadata {}
+table.metadata td, table.metadata th {}
+table.metadata th {}
+table.metadata td {}
+
+/* filetoc */
+ul#filetoc {}
+#filetoc li {}
+
+/* @bug 1714 */
+input#wpSave, input#wpDiff {}
+
+/* Classes for article validation */
+table.revisionform_default {}
+table.revisionform_focus {}
+tr.revision_tr_default {}
+tr.revision_tr_first {}
+p.revision_saved {}
+#mw_trackbacks {}
+
+/* Allmessages table */
+#allmessagestable th {}
+#allmessagestable tr.orig {}
+#allmessagestable tr.new {}
+#allmessagestable tr.def {}
+
+
+/* shared.css */
+/**************/
+
+/* Colored watchlist and recent changes numbers */
+.mw-plusminus-pos {} /* dark green */
+.mw-plusminus-neg {} /* dark red */
+.mw-plusminus-null {} /* gray */
+
+/* Comment and username portions of RC entries */
+span.comment {}
+span.changedby {}
+/* Math */
+.texvc {}
+img.tex {}
+span.texhtml {}
+#wikiPreview.ontop {}
+#editform, #toolbar, #wpTextbox1 {}
+div#mw-js-message {}
+.editsection {}
+h2#filehistory {}
+
+table.filehistory th,
+table.filehistory td {}
+table.filehistory th {}
+table.filehistory td.mw-imagepage-filesize,
+table.filehistory th.mw-imagepage-filesize {}
+table.filehistory td.filehistory-selected {}
+
+li span.deleted, span.history-deleted {}
+
+.not-patrolled {}
+.unpatrolled {}
+div.patrollink {}
+
+body.ltr td.mw-label {}
+body.ltr td.mw-input {}
+body.ltr td.mw-submit {}
+body.rtl td.mw-label {}
+body.rtl td.mw-input {}
+body.rtl td.mw-submit {}
+
+td.mw-label {}
+.prefsection td.mw-label {}
+.prefsection table {}
+td.mw-submit {}
+table.mw-htmlform-nolabel td.mw-label {}
+
+body.rtl .thumbcaption {}
+body.rtl .magnify {}
+body.ltr .thumbcaption {}
+body.ltr .magnify {}
+
+.mw-hidden-cats-hidden {}
+.catlinks-allhidden {}
+
+/* Convenience links to edit block, delete and protect reasons */
+p.mw-ipb-conveniencelinks, p.mw-protect-editreasons,
+p.mw-filedelete-editreasons, p.mw-delete-editreasons,
+p.mw-revdel-editreasons {}
+
+/* Search results */
+.searchresults {}
+.searchresults p {}
+div.searchresult {}
+.mw-search-results {}
+.mw-search-results li {}
+.mw-search-results li a {}
+.mw-search-result-data {}
+.mw-search-formheader {}
+.mw-search-formheader div.search-types {}
+.rtl .mw-search-formheader div.search-types {}
+.mw-search-formheader div.search-types ul {}
+.mw-search-formheader div.search-types ul li {}
+.mw-search-formheader div.search-types ul li a {}
+.mw-search-formheader div.search-types ul li.current a {}
+.mw-search-formheader div.search-types ul li.current a:hover {}
+.mw-search-formheader div.results-info {}
+.mw-search-formheader div.results-info ul {}
+.mw-search-formheader div.results-info ul li {}
+fieldset#mw-searchoptions {}
+fieldset#mw-searchoptions legend {}
+fieldset#mw-searchoptions h4 {}
+.rtl fieldset#mw-searchoptions h4 {}
+fieldset#mw-searchoptions div#mw-search-togglebox {}
+.rtl fieldset#mw-searchoptions div#mw-search-togglebox {}
+
+fieldset#mw-searchoptions div#mw-search-togglebox label {}
+fieldset#mw-searchoptions div#mw-search-togglebox input {}
+fieldset#mw-searchoptions table {}
+fieldset#mw-searchoptions table td {}
+.rtl fieldset#mw-searchoptions table td {}
+body.rtl fieldset#mw-searchoptions table {}
+fieldset#mw-searchoptions div.divider {}
+
+td#mw-search-menu {}
+div#mw-search-interwiki {}
+.rtl div#mw-search-interwiki {}
+div#mw-search-interwiki li {}
+.mw-search-interwiki-more {}
+.rtl .mw-search-interwiki-more {}
+div#mw-search-interwiki-caption {}
+.mw-search-interwiki-project {}
+.rtl .mw-search-interwiki-project {}
+span.searchalttitle {}
+div.searchdidyoumean {}
+div.searchdidyoumean em {}
+.searchmatch {}
+table#mw-search-top-table {}
+
+td#mw-search-togglebox {}
+table#mw-search-powertable {}
+form#powersearch {}
+
+.mw-userrights-disabled {}
+table.mw-userrights-groups * td,table.mw-userrights-groups * th {}
+
+.os-suggest {}
+table.os-suggest-results {}
+.os-suggest-result, .os-suggest-result-hl {}
+.os-suggest-result-hl,
+.os-suggest-result-hl-webkit {}
+.os-suggest-result-hl {}
+.os-suggest-toggle {}
+.os-suggest-toggle-def {}
+
+/* Page history styling */
+/* the auto-generated edit comments */
+.autocomment {}
+#pagehistory .history-user {}
+#pagehistory span.minor {}
+#pagehistory li {}
+#pagehistory li.selected {}
+
+/** Generic minor/bot/newpage styling */
+.newpage, .minor, .bot {}
+
+/* Special:Contributions styling */
+.mw-uctop {}
+
+/* Special:ListGroupRights styling */
+table.mw-listgrouprights-table tr  {}
+.listgrouprights-revoked {}
+
+/* Special:Statistics styling */
+td.mw-statistics-numbers {}
+
+/* Special:SpecialPages styling */
+h4.mw-specialpagesgroup {}
+.mw-specialpagerestricted {}
+#shared-image-dup, #shared-image-conflict {}
+
+/* Special:EmailUser styling */
+table.mw-emailuser-table {}
+td#mw-emailuser-sender, td#mw-emailuser-recipient {}
+
+/* Special:Allpages styling */
+table.allpageslist {}
+table.mw-allpages-table-form, table.mw-allpages-table-chunk {}
+td.mw-allpages-alphaindexline {}
+td.mw-allpages-nav, p.mw-allpages-nav {}
+table.mw-allpages-table-form tr  {}
+
+/* Special:Prefixindex styling */
+table#mw-prefixindex-list-table,
+table#mw-prefixindex-nav-table {}
+td#mw-prefixindex-nav-form  {}
+
+div.mw-warning-with-logexcerpt {}
+div.mw-warning-with-logexcerpt ul li {}
+
+/* (show/hide) revision deletion links */
+span.mw-revdelundel-link,
+strong.mw-revdelundel-link {}
+span.mw-revdelundel-hidden,
+input.mw-revdelundel-hidden {}
+
+td.mw-revdel-checkbox, th.mw-revdel-checkbox {}
+
+a.feedlink {}
+.plainlinks a {}
+
+/* wikitable class for skinning normal tables */
+table.wikitable {}
+.wikitable th, .wikitable td {}
+.wikitable th {}
+.wikitable caption {}
+
+/* hide initially collapsed collapsable tables */
+table.collapsed tr.collapsable {}
+
+/* success and error messages */
+.success {}
+.error {}
+.errorbox, .successbox {}
+.errorbox {}
+.successbox {}
+.errorbox h2, .successbox h2 {}
+
+.visualClear {}
+#mw_trackbacks {}
+
+.TablePager {}
+.TablePager_nav a {}
+.TablePager {}
+.TablePager, .TablePager td, .TablePager th {}
+.TablePager th {}
+.TablePager td {}
+.TablePager tr:hover td {}
+
+.imagelist td, .imagelist th {}
+.imagelist .TablePager_col_links {}
+.imagelist .TablePager_col_img_description {}
+.imagelist th.TablePager_sort {}
+
+#mw-allmessagestable .allmessages-customised td.am_default {}
+
+#mw-allmessagestable tr.allmessages-customised:hover td.am_default {}
+
+#mw-allmessagestable td.am_actual {}
+
+#mw-allmessagestable tr.allmessages-customised:hover + tr.allmessages-customised td.am_actual {}
+
+/* filetoc */
+ul#filetoc {}
+
+#filetoc li {}
+
+/* Classes for EXIF data display */
+table.mw_metadata {}
+table.mw_metadata caption {}
+table.mw_metadata th {}
+table.mw_metadata td {}
+table.mw_metadata {}
+table.mw_metadata td, table.mw_metadata th {}
+table.mw_metadata th {}
+table.mw_metadata td {}
+
+/* Galleries */
+table.gallery {}
+table.gallery tr {}
+table.gallery td {}
+table.gallery caption {}
+div.gallerybox {}
+div.gallerybox div.thumb {}
+div.gallerytext {}
+table.mw-enhanced-rc {}
+td.mw-enhanced-rc {}
+#mw-addcategory-prompt {}
+#mw-addcategory-prompt input {}
+.mw-remove-category {}
+.mw-ajax-addcategory {}
+.mw-ajax-loader {}
+.mw-small-spinner {}
+
+/* Sort arrows added by SortableTables */
+a.sortheader {}
+
+
+/* commonPrint.css */
+/*******************/
+
+/* Thanks to A List Apart (http://alistapart.com/) for useful extras */
+a.stub,
+a.new{}
+
+#toc {}
+.tocindent {}
+.tocline {}
+
+/* images */
+div.floatright {}
+div.floatright p {} 
+div.floatleft {}
+div.floatleft p {} 
+/* thumbnails */
+div.thumb {}
+div.thumbinner {}
+html .thumbimage {}
+html .thumbcaption {}
+div.magnify {}
+div.tright {}
+div.tleft {}
+img.thumbborder {}
+
+/* table standards */
+table.rimage {}
+
+body {}
+
+.noprint,
+div#jump-to-nav,
+div.top,
+div#column-one,
+#colophon,
+.editsection,
+.toctoggle,
+.tochidden,
+div#f-poweredbyico,
+div#f-copyrightico,
+li#viewcount,
+li#about,
+li#disclaimer,
+li#privacy,
+#mw-hidden-catlinks {}
+
+ul {}
+
+#content {}
+#footer {}
+
+h1, h2, h3, h4, h5, h6 {}
+p, .documentDescription {}
+
+.tocindent p {}
+pre {}
+table.listing,
+table.listing td {}
+a {}
+a:link, a:visited {}
+#content a.external.text:after, #content a.external.autonumber:after {}
+#globalWrapper {}
+#content {}
+#column-content {}
+#column-content #content {}
+/* MSIE/Win doesn't understand 'inherit' */
+a, a.external, a.new, a.stub {}
+
+/* Continue ... */
+a, a.external, a.new, a.stub {}
+img {}
+img.tex {}
+span.texhtml {}
+
+#siteNotice {}
+div.gallerybox {}
+div.gallerytext {}       
+
+table.diff {}
+td.diff-otitle {}
+td.diff-ntitle {}
+td.diff-addedline {}
+td.diff-deletedline {}
+td.diff-context {}
+.diffchange {}
+
+
+/* forum_styles.css */
+/********************/
+
+.error_div {}
+.forum_onpage_div {}
+#forum_outer_div {}
+.all_forums {}
+.page_all_forums {}
+.forum_footer_div {}
+#footer_comments_div {}
+#post_outer_div {}
+.outer_div_header {}
+.outer_div_header .view_all {}
+.posted_date {}
+.counts {}
+.page_control {}
+.page_control ul {}
+.page_control li {}
+.page_control a {}
+.page_control a:hover {}
+.page_control .selected {}
+#post_table{}
+#post_table td {}
+#post_table .comment_table {}
+#post_table .comment_table td {} 
+#post_table .comment_table tr:first-child td {}
+#post_table .comment_table .content {}
+.full_name {}
+.report_link{}
+.report_link:hover{}
+#forum_table {}
+#forum_table tr:first-child td {}
+#forum_table td {}
+#forum_table .content {}
+.new_item_div {}
+.return_to_list {}
+.return_to_list a {}
+.mouse_tracks {}
+.mousetrack a:hover {}
+.add_comment_0 {}
+.add_comment_1 {}
+.add_comment_1:hover {}
+
+.add_comment, .add_comment_login, .add_comment_subtle, .add_comment_subtle_count {}
+.add_comment:hover, .add_comment_login:hover, .add_comment_subtle:hover, .add_comment_subtle_count:hover {}
+	
+
+.x_add_comment {}
+.x_add_comment_login {}
+.x_add_comment_subtle {}
+.x_add_comment_subtle_count {}
+
+
+/* style.css */
+/*************/
+
+/* tables */
+table.tablesorter {}
+table.tablesorter thead th {}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {}
+table.tablesorter thead tr .header {}
+table.tablesorter tbody td {}
+table.tablesorter tbody tr.odd td {}
+table.tablesorter thead tr .headerSortUp {}
+table.tablesorter thead tr .headerSortDown {}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {}
+.heart13 {}
+
+
+/* table_styles.css */
+/********************/
+
+/*  Part table styles */
+table.pgrouptable {}
+table.pgrouptable thead th {}
+table.pgrouptable td {}
