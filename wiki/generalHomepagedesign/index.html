@@ -5,11 +5,30 @@
 		<script type="text/javascript">
 			function hide_show_menu() {
 				var main_menu = document.getElementById('main-menu');
+				var menu_items = document.getElementsByClassName('menu-item');
+				var center_vert = document.getElementsByClassName('center-vert');
 				var height = main_menu.offsetHeight;
+				var element = null;
 				if(height == 200){
 					main_menu.style.height = "2px";
+					for (var i = 0; i < menu_items.length; i++) {
+						element = menu_items[i];
+						element.style.display = "none";
+					}
+					for (var i = 0; i < center_vert.length; i++) {
+						element = center_vert[i];
+						element.style.top = "22px";
+					}
 				} else {
 					main_menu.style.height = "200px";
+					for (var i = 0; i < menu_items.length; i++) {
+						element = menu_items[i];
+						element.style.display = "block";
+					}
+					for (var i = 0; i < center_vert.length; i++) {
+						element = center_vert[i];
+						element.style.top = "220px";
+					}
 				}
 			}
 		</script>
@@ -21,22 +40,15 @@
 			
 				<div id="top-matter">
 					<div id="main-menu">
-						<img src="./png/Imagemap_Menue.svg" />
-						<div id="point1" class="main-navigation">
-							<input type="button" value="navi"/>
-							<input type="button" value="navi"/>
-							<input type="button" value="navi"/>
+						<div id="menu-team" class="menu-item">
+							<a id="link-team" class="menu-link">%nbsp;</a>
+							<ul>
+								<li>Members</li>
+								<li>Advisors</li>
+								<li>Instructors</li>
+							</ul>
 						</div>
-						<div id="point2" class="main-navigation">
-							<input type="button" value="navi"/>
-							<input type="button" value="navi"/>
-							<input type="button" value="navi"/>
-						</div>
-						<div id="point3" class="main-navigation">
-							<input type="button" value="navi"/>
-							<input type="button" value="navi"/>
-							<input type="button" value="navi"/>
-						</div>
+						<div class="visualClear"></div>
 					</div>
 					<div id="top-separator">
 						put current navigation here

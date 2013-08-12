@@ -28,45 +28,48 @@
 	color:#000000;
 	z-index:1;
 }
+
+.visualClear {
+	clear:both;
+}
+
 #top-matter {
-position:fixed;
-z-index:2;
+	position:fixed;
+	z-index:2;
 }
 #main-menu {
 	width:1024;
 	height:200px;
-	background-color:transparent;
-}
-#main-menu img {
 	position:relative;
-	z-index:20;
-	background-color:transparent;
+	top:0px;
+	background-image:url(../png/Imagemap_Menue_schrift_angepasst.jpg);
+	background-repeat:no-repeat;
+	background-color:white;
 }
-.main-navigation {
-	position:relative;
-	top:-100px;
-	height:60px;
-	width:100px;
-	border:1pt solid;
+.menu-item {
 	float:left;
-	background-color:red;
 }
-#point1 {
-	left:100px;
-	z-index:30;
+.menu-item a {
+display:block;
 }
-#point2 {
-	left:300px;
-	z-index:40;
+.menu-item ul {
+display:none;
 }
-#point3 {
-	left:500px;
+#menu-team {
+	position:relative;
+	left:30px;
 }
-.main-navigation input:hover {
-	color:green;
+#link-team {
+	background-image:url(../png/Team_all.png);
+	background-position:0px 0px;
+	width:75px;
+	height:100px;
 }
-.main-navigation input:active {
-	color:blue;
+#menu-team:hover a {
+	background-position:0px 100px;
+}
+#menu-team:hover ul{
+	display:inline-block;
 }
 
 #top-separator {
