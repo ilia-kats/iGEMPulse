@@ -4,10 +4,9 @@
 	font-family:calibri;
 }
 
-#widescreen-background {
+body {
 	text-align:center;
 	background-color:#606060;
-	min-height:100%;
 }
 
 #center-wrapper {
@@ -27,6 +26,7 @@
 	top:220px;
 	color:#000000;
 	z-index:1;
+	background-color:white;
 }
 
 .visualClear {
@@ -48,12 +48,17 @@
 }
 .menu-item {
 	float:left;
+	z-index:999;
 }
 .menu-item a {
 display:block;
+border:none;
 }
 .menu-item ul {
 display:none;
+background-color:#93ADAE;
+list-style:none;
+border:none;
 }
 #menu-team {
 	position:relative;
@@ -62,14 +67,35 @@ display:none;
 #link-team {
 	background-image:url(../png/Team_all.png);
 	background-position:0px 0px;
-	width:75px;
 	height:100px;
+}
+#link-team, #link-team  + ul {
+	width:75px;
 }
 #menu-team:hover a {
 	background-position:0px 100px;
 }
 #menu-team:hover ul{
 	display:inline-block;
+}
+#team-logo{
+	position:absolute;
+	top:135px;
+	left:76px;
+	z-index:4;
+}
+#PS {
+	position:absolute;
+	height:30px;
+	top:165px;
+	left:139px;
+	z-index:3;
+}
+#igem-2013 {
+	position:absolute;
+	top:135px;
+	right:76px;
+	z-index:5;
 }
 
 #top-separator {
@@ -79,11 +105,13 @@ display:none;
 
 .content-hori {
 	float:left;
-	min-height:600px;
+	min-height:1000px;
 	padding:3px;
 }
 
 #navigation-bar {
 	border-right-style:solid;
 	border-right-color:#606060;
+	width:130px;
 }
+
