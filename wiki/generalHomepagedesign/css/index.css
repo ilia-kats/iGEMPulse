@@ -49,6 +49,7 @@ body {
 .menu-item {
 	float:left;
 	z-index:999;
+	top:-3px;
 }
 .menu-item a {
 	display:block;
@@ -65,132 +66,126 @@ body {
 }
 #menu-team {
 	position:absolute;
-	left:33px;
+	left:44px;
 }
 #link-team {
 	background-image:url(../png/Team_all.png);
 	background-position:0px 0px;
-	height:100px;
+	height:105px;
 }
 #link-team, #link-team  + ul {
-	width:75px;
+	width:65px;
 }
 #menu-team:hover a {
-	background-position:0px 100px;
+	background-position:0px 105px;
 }
 #menu-team:hover ul{
 	display:inline-block;
 }
 #menu-project {
 	position:absolute;
-	top:30px;
 	left:110px;
 }
 #link-project {
 	background-image:url(../png/Project_all.png);
 	background-position:0px 0px;
-	height:100px;
+	height:141px;
 }
 #link-project, #link-project  + ul {
-	width:77px;
+	width:76px;
 }
 #menu-project:hover a {
-	background-position:0px 100px;
+	background-position:0px 141px;
 }
 #menu-project:hover ul{
 	display:inline-block;
 }
 #menu-modelling {
 	position:absolute;
-	top:59px;
-	left:210px;
+	left:214px;
 }
 #link-modelling {
 	background-image:url(../png/Modelling_all.png);
 	background-position:0px 0px;
-	height:100px;
+	height:173px;
 }
 #link-modelling, #link-modelling  + ul {
-	width:93px;
+	width:86px;
 }
 #menu-modelling:hover a {
-	background-position:0px 100px;
+	background-position:0px 173px;
 }
 #menu-modelling:hover ul{
 	display:inline-block;
 }
 #menu-parts {
 	position:absolute;
-	top:70;
 	left:343px;
 }
 #link-parts {
 	background-image:url(../png/SubmittedParts_all.png);
 	background-position:0px 0px;
-	height:100px;
+	height:173px;
 }
 #link-parts, #link-parts  + ul {
-	width:152px;
+	width:153px;
 }
 #menu-parts:hover a {
-	background-position:0px 100px;
+	background-position:0px 173px;
 }
 #menu-parts:hover ul{
 	display:inline-block;
 }
 #menu-notebook {
 	position:absolute;
-	top:70;
-	left:530px;
+	left:532px;
 }
 #link-notebook {
 	background-image:url(../png/Notebook_all.png);
 	background-position:0px 0px;
-	height:100px;
+	height:173px;
 }
 #link-notebook, #link-notebook  + ul {
-	width:103px;
+	width:105px;
 }
 #menu-notebook:hover a {
-	background-position:0px 100px;
+	background-position:0px 173px;
 }
 #menu-notebook:hover ul{
 	display:inline-block;
 }
 #menu-human {
 	position:absolute;
-	top:60px;
-	left:673px;
+	left:677px;
 }
 #link-human {
 	background-image:url(../png/HumanPractice_all.png);
 	background-position:0px 0px;
-	height:100px;
+	height:173px;
 }
 #link-human, #link-human  + ul {
 	width:155px;
 }
 #menu-human:hover a {
-	background-position:0px 100px;
+	background-position:0px 173px;
 }
 #menu-human:hover ul{
 	display:inline-block;
 }
 #menu-safety {
 	position:absolute;
-	top:30px;
-	left:833px;
+	left:837px;
 }
 #link-safety {
 	background-image:url(../png/Safety_all.png);
 	background-position:0px 0px;
-	height:100px;
+	height:126px;
 }
 #link-safety, #link-safety  + ul {
-	width:82px;
+	width:74px;
 }
 #menu-safety:hover a {
-	background-position:0px 100px;
+	background-position:0px 126px;
 }
 #menu-safety:hover ul{
 	display:inline-block;
