@@ -50,10 +50,12 @@ body {
 	float:left;
 	z-index:999;
 	top:-3px;
+	background-color:transparent;
 }
 .menu-item a {
 	display:block;
 	border:none;
+	background-color:transparent;
 }
 .menu-item ul {
 	display:none;
@@ -225,5 +227,11 @@ body {
 	border-right-style:solid;
 	border-right-color:#606060;
 	width:130px;
+}
+
+#goto-top {
+	position:fixed;
+	bottom:20px;
+	margin-left:800px;
 }
 
