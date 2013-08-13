@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024"
+   height="500"
+   id="svg2984"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="Imagemap_Menue_flach.svg">
+  <defs
+     id="defs2986" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.1777344"
+     inkscape:cx="506.66409"
+     inkscape:cy="273.60607"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg2984"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="716"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       position="0,0"
+       orientation="0,1024"
+       id="guide3020" />
+    <sodipodi:guide
+       position="1024,0"
+       orientation="-500,0"
+       id="guide3022" />
+    <sodipodi:guide
+       position="1024,500"
+       orientation="0,-1024"
+       id="guide3024" />
+    <sodipodi:guide
+       position="0,500"
+       orientation="500,0"
+       id="guide3026" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata2989">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     style="fill:#000000;fill-opacity:1"
+     d="m 1129.784,0.451501 c 0,61.117663 -276.77023,110.663319 -618.18367,110.663319 -342.35551,0 -618.18372,-49.545656 -618.18372,-110.663319 0,-61.117664 276.77028,-110.663321 618.18372,-110.663321 341.41344,0 618.18367,49.545657 618.18367,110.663321 z"
+     id="path3000"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="sssss" />
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot3078"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#b9cde5;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+     transform="matrix(0.98001075,0.19894451,-0.19894451,0.98001075,-57.372001,-83.317687)"
+     inkscape:transform-center-y="5.0945274"><flowRegion
+       id="flowRegion3080"><rect
+         id="rect3082"
+         width="226.09753"
+         height="69.713409"
+         x="116.81705"
+         y="113.75005"
+         style="fill:#b9cde5;font-family:Arial;-inkscape-font-specification:Arial;fill-opacity:1" /></flowRegion><flowPara
+       id="flowPara3084"
+       style="font-size:20px;fill:#b9cde5;fill-opacity:1">Team</flowPara></flowRoot>  <flowRoot
+     transform="matrix(1.1105668,0.09276638,-0.09276638,1.1105668,39.127751,-65.200753)"
+     xml:space="preserve"
+     id="flowRoot3078-1"
+     style="font-size:17.04900741999999900px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#b9cde5;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+     inkscape:transform-center-y="-11.481994"
+     inkscape:transform-center-x="0.70844702"><flowRegion
+       id="flowRegion3080-7"><rect
+         id="rect3082-4"
+         width="226.09753"
+         height="69.713409"
+         x="116.81705"
+         y="113.75005"
+         style="font-size:17.04900741999999900px;fill:#b9cde5;font-family:Arial;-inkscape-font-specification:Arial;fill-opacity:1" /></flowRegion><flowPara
+       id="flowPara3084-0"
+       style="font-size:17.04900741999999900px;fill:#b9cde5;fill-opacity:1">Project</flowPara></flowRoot>  <flowRoot
+     transform="matrix(0.99781364,0.06609042,-0.06609042,0.99781364,193.44592,-38.363673)"
+     xml:space="preserve"
+     id="flowRoot3078-9"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#b9cde5;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"><flowRegion
+       id="flowRegion3080-4"><rect
+         id="rect3082-8"
+         width="226.09753"
+         height="69.713409"
+         x="116.81705"
+         y="113.75005"
+         style="fill:#b9cde5;font-family:Arial;-inkscape-font-specification:Arial;fill-opacity:1" /></flowRegion><flowPara
+       id="flowPara3084-8"
+       style="font-size:20px;fill:#b9cde5;fill-opacity:1">Notebook</flowPara></flowRoot>  <flowRoot
+     transform="matrix(0.99992859,0.0119504,-0.0119504,0.99992859,317.97874,-25.967794)"
+     xml:space="preserve"
+     id="flowRoot3078-2"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#b9cde5;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"><flowRegion
+       id="flowRegion3080-45"><rect
+         id="rect3082-5"
+         width="226.09753"
+         height="69.713409"
+         x="116.81705"
+         y="113.75005"
+         style="fill:#b9cde5;font-family:Arial;-inkscape-font-specification:Arial;fill-opacity:1" /></flowRegion><flowPara
+       id="flowPara3084-1"
+       style="font-size:20px;fill:#b9cde5;fill-opacity:1">Submitted Parts</flowPara></flowRoot>  <flowRoot
+     transform="matrix(0.99844997,-0.05565652,0.05565652,0.99844997,495.29319,-17.305313)"
+     xml:space="preserve"
+     id="flowRoot3078-7"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#b9cde5;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"><flowRegion
+       id="flowRegion3080-1"><rect
+         id="rect3082-1"
+         width="226.09753"
+         height="69.713409"
+         x="116.81705"
+         y="113.75005"
+         style="fill:#b9cde5;font-family:Arial;-inkscape-font-specification:Arial;fill-opacity:1" /></flowRegion><flowPara
+       id="flowPara3084-5"
+       style="font-size:20px;fill:#b9cde5;fill-opacity:1">Modelling</flowPara></flowRoot>  <flowRoot
+     transform="matrix(0.98530154,-0.17082411,0.17082411,0.98530154,744.4545,-23.462478)"
+     xml:space="preserve"
+     id="flowRoot3078-27"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#b9cde5;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"><flowRegion
+       id="flowRegion3080-6"><rect
+         id="rect3082-14"
+         width="226.09753"
+         height="69.713409"
+         x="116.81705"
+         y="113.75005"
+         style="fill:#b9cde5;font-family:Arial;-inkscape-font-specification:Arial;fill-opacity:1" /></flowRegion><flowPara
+       id="flowPara3084-2"
+       style="font-size:20px;fill:#b9cde5;fill-opacity:1">Beyond Science</flowPara></flowRoot>  <flowRoot
+     transform="matrix(0.99700061,-0.07739369,0.07739369,0.99700061,648.18703,-24.540469)"
+     xml:space="preserve"
+     id="flowRoot3078-3"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#b9cde5;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+     inkscape:transform-center-y="-11.402306"
+     inkscape:transform-center-x="-1.0686292"><flowRegion
+       id="flowRegion3080-2"><rect
+         id="rect3082-2"
+         width="226.09753"
+         height="69.713409"
+         x="116.81705"
+         y="113.75005"
+         style="fill:#b9cde5;font-family:Arial;-inkscape-font-specification:Arial;fill-opacity:1" /></flowRegion><flowPara
+       id="flowPara3084-16"
+       style="font-size:20px;fill:#b9cde5;fill-opacity:1">Safety</flowPara></flowRoot>  <text
+     xml:space="preserve"
+     style="font-size:30px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffcc00;fill-opacity:1;stroke:none;font-family:Lithos Pro Regular;-inkscape-font-specification:Lithos Pro Regular"
+     x="306.9917"
+     y="29.058044"
+     id="text3189"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3191"
+       x="306.9917"
+       y="29.058044"
+       style="font-size:30px;font-family:arial;-inkscape-font-specification:arial"><tspan
+         style="font-size:30px;fill:#ffffff"
+         id="tspan3193">iGEM</tspan><tspan
+         style="font-size:30px;fill:#c3d69b;fill-opacity:1"
+         id="tspan3963"> 2013</tspan><tspan
+         style="font-size:30px;fill:#ffffff"
+         id="tspan3965"> Team</tspan><tspan
+         style="font-size:30px;fill:#b9cde5;fill-opacity:1"
+         id="tspan3967"> Heidelberg</tspan></tspan></text>
+</svg>
