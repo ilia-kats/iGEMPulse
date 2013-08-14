@@ -1,0 +1,217 @@
+* {
+	margin:0px;
+	padding:0px;
+	font-family:calibri;
+}
+
+body {
+	text-align:center;
+	background-color:#606060;
+}
+
+#center-wrapper {
+	display:inline-block;
+	width:1024px;
+	background-color:#FFFFFF;
+	border-right-style:solid;
+	border-right-color:#606060;
+	border-left-style:solid;
+	border-left-color:#606060;
+}
+
+.center-vert {
+	display:inline-block;
+	width:100%;
+	position:relative;
+	top:220px;
+	color:#000000;
+	z-index:1;
+	background-color:white;
+}
+
+.visualClear {
+	clear:both;
+}
+
+#top-matter {
+	position:fixed;
+	width:1024px;
+	height:220px;
+	z-index:2;
+}
+#main-menu {
+	width:1024;
+	height:200px;
+	position:relative;
+	top:0px;
+	background-image:url(../png/Imagemap_Menue_schrift_angepasst.jpg);
+	background-repeat:no-repeat;
+	background-color:white;
+}
+.menu-item {
+	position:absolute;
+	float:left;
+	z-index:999;
+	top:-3px;
+	background-color:transparent;
+}
+.menu-item a {
+	display:block;
+	border:none;
+	background-color:transparent;
+}
+.menu-item ul {
+	display:none;
+	background-color:#93ADAE;
+	list-style:none;
+	border:none;
+}
+.menu-item ul li {
+	border-bottom: 1pt solid;
+}
+#menu-team {	left:44px;}
+#link-team {
+	background-image:url(../png/Team_all.png);
+	background-position:0px 0px;
+	height:105px;
+}
+#link-team, #link-team  + ul {	width:65px;}
+#menu-team:hover a {	background-position:0px 105px;}
+#menu-team:hover ul {	display:inline-block;}
+
+#menu-project {	left:110px;}
+#link-project {
+	background-image:url(../png/Project_all.png);
+	background-position:0px 0px;
+	height:141px;
+}
+#link-project, #link-project  + ul {	width:76px;}
+#menu-project:hover a {	background-position:0px 141px;}
+#menu-project:hover ul{	display:inline-block;}
+
+#menu-modelling {	left:214px;}
+#link-modelling {
+	background-image:url(../png/Modelling_all.png);
+	background-position:0px 0px;
+	height:173px;
+}
+#link-modelling, #link-modelling  + ul {	width:86px;}
+#menu-modelling:hover a {	background-position:0px 173px;}
+#menu-modelling:hover ul{	display:inline-block;}
+
+#menu-parts {	left:343px;}
+#link-parts {
+	background-image:url(../png/SubmittedParts_all.png);
+	background-position:0px 0px;
+	height:173px;
+}
+#link-parts, #link-parts  + ul {	width:153px;}
+#menu-parts:hover a {	background-position:0px 173px;}
+#menu-parts:hover ul{	display:inline-block;}
+
+#menu-notebook {	left:532px;}
+#link-notebook {
+	background-image:url(../png/Notebook_all.png);
+	background-position:0px 0px;
+	height:173px;
+}
+#link-notebook, #link-notebook  + ul {	width:105px;}
+#menu-notebook:hover a {	background-position:0px 173px;}
+#menu-notebook:hover ul{	display:inline-block;}
+
+#menu-human {	left:677px;}
+#link-human {
+	background-image:url(../png/HumanPractice_all.png);
+	background-position:0px 0px;
+	height:173px;
+}
+#link-human, #link-human  + ul {	width:155px;}
+#menu-human:hover a {	background-position:0px 173px;}
+#menu-human:hover ul{	display:inline-block;}
+
+#menu-safety {	left:837px;}
+#link-safety {
+	background-image:url(../png/Safety_all.png);
+	background-position:0px 0px;
+	height:126px;
+}
+#link-safety, #link-safety  + ul {	width:74px;}
+#menu-safety:hover a {	background-position:0px 126px;}
+#menu-safety:hover ul{	display:inline-block;}
+
+#team-logo{
+	position:absolute;
+	top:135px;
+	left:76px;
+	z-index:4;
+}
+#PS {
+	position:absolute;
+	height:30px;
+	top:165px;
+	left:139px;
+	z-index:3;
+}
+#igem-2013 {
+	position:absolute;
+	top:135px;
+	right:76px;
+	z-index:5;
+}
+
+#top-separator {
+	background-color:#F5B800;
+	height:20px;
+}
+
+.content-hori {
+	float:left;
+	min-height:1000px;
+	padding:3px;
+}
+
+#navigation-bar {
+	border-right-style:solid;
+	border-right-color:#606060;
+	width:130px;
+}
+
+#goto-top {
+	position:fixed;
+	bottom:20px;
+	margin-left:800px;
+}
+#map {
+position: relative;
+}
+
+#map ul {
+margin: 0;
+padding: 0;
+list-style: none;
+} 
+#map a {
+position: absolute;
+text-indent: -1000em;
+} 
+#map .back a {
+    height: 70%;
+    left: 0;
+    top: 33px;
+    width: 33%;
+}
+
+
+#map .stay a {
+    height: 60%;
+    left: 33%;
+    top: 30%;
+    width: 33%;
+}
+
+#map .fw a {
+    height: 70%;
+    left: 70%;
+    top: 25%;
+    width: 33%;
+}
