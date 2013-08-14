@@ -10,8 +10,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="270"
-   height="1052.3622"
+   width="1025"
+   height="112.09375"
    id="svg2984"
    version="1.1"
    inkscape:version="0.48.4 r9939"
@@ -68,33 +68,43 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.1777344"
-     inkscape:cx="512"
-     inkscape:cy="428.78512"
+     inkscape:zoom="0.83278398"
+     inkscape:cx="511.97405"
+     inkscape:cy="222.3738"
      inkscape:document-units="px"
      inkscape:current-layer="svg2984"
      showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="716"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1">
+     inkscape:window-width="1280"
+     inkscape:window-height="968"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
     <sodipodi:guide
-       position="0,0"
+       position="0.5,-388.39343"
        orientation="0,1024"
        id="guide3020" />
     <sodipodi:guide
-       position="1024,0"
+       position="1024.5,-388.39343"
        orientation="-500,0"
        id="guide3022" />
     <sodipodi:guide
-       position="1024,500"
+       position="1024.5,111.60657"
        orientation="0,-1024"
        id="guide3024" />
     <sodipodi:guide
-       position="0,500"
+       position="0.5,111.60657"
        orientation="500,0"
        id="guide3026" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="537.86649,0.48881738"
+       id="guide3127" />
   </sodipodi:namedview>
   <metadata
      id="metadata2989">
@@ -110,14 +120,14 @@
   </metadata>
   <path
      style="fill:#000000;fill-opacity:1"
-     d="m 1129.784,552.81368 c 0,61.11767 -276.77023,110.66332 -618.18367,110.66332 -342.35551,0 -618.18372,-49.54565 -618.18372,-110.66332 0,-61.11766 276.77028,-110.66332 618.18372,-110.66332 341.41344,0 618.18367,49.54566 618.18367,110.66332 z"
+     d="m 1130.284,0.93868 c 0,61.11767 -276.77023,110.66332 -618.18367,110.66332 -342.35551,0 -618.18372,-49.54565 -618.18372,-110.66332 0,-61.11766 276.77028,-110.66332 618.18372,-110.66332 341.41344,0 618.18367,49.54566 618.18367,110.66332 z"
      id="path3000"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="sssss" />
   <g
      style="font-size:30px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffcc00;fill-opacity:1;stroke:none;font-family:Lithos Pro Regular;-inkscape-font-specification:Lithos Pro Regular"
      id="text3189"
-     transform="translate(0,552.36218)">
+     transform="translate(0.5,0.48718)">
     <path
        d="m 313.56161,18.588179 c 0.003,-1.618092 0.02,-3.174321 0.0525,-4.66869 0.0325,-1.494339 0.065,-2.398076 0.0975,-2.711215 l -2.90996,0 c 0.0207,0.27131 0.0426,0.962041 0.0656,2.072195 0.0229,1.110185 0.0426,2.212022 0.0589,3.305513 0.0163,1.093516 0.0248,1.750915 0.0256,1.972198 l 0,2.759964 c -1e-5,0.282782 -0.003,0.967216 -0.01,2.053307 -0.007,1.086101 -0.0167,2.197197 -0.03,3.33329 -0.0133,1.136097 -0.03,1.920531 -0.05,2.353303 l 2.81996,0 c -0.0109,-0.236849 -0.0257,-0.803137 -0.0444,-1.698867 -0.0187,-0.895727 -0.0358,-1.899787 -0.0511,-3.012184 -0.0154,-1.112387 -0.0235,-2.112002 -0.0245,-2.998849 z"
        style="fill:#ffffff;font-family:Lithos Pro Regular;-inkscape-font-specification:Lithos Pro Regular"
@@ -230,7 +240,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="matrix(0.98240832,0.18674555,-0.18674555,0.98240832,-10.813132,550.36218)"
+     transform="matrix(0.98240832,0.18674555,-0.18674555,0.98240832,-10.313132,-1.51282)"
      style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#b9cdff;fill-opacity:1;stroke:none;font-family:Lithos Pro Regular;-inkscape-font-specification:Lithos Pro Regular"
      id="text3020">
     <path
@@ -255,7 +265,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="matrix(0.99274836,0.12021103,-0.12021103,0.99274836,-7.4581263,552.36218)"
+     transform="matrix(0.99274836,0.12021103,-0.12021103,0.99274836,-6.9581263,0.48718)"
      style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#b9cdff;fill-opacity:1;stroke:none;font-family:Lithos Pro Regular;-inkscape-font-specification:Lithos Pro Regular"
      id="text3020-1">
     <path
@@ -295,7 +305,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="matrix(0.99750645,0.07057537,-0.07057537,0.99750645,-2.0021228,552.36218)"
+     transform="matrix(0.99750645,0.07057537,-0.07057537,0.99750645,-1.5021228,0.48718)"
      style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#b9cdff;fill-opacity:1;stroke:none;font-family:Lithos Pro Regular;-inkscape-font-specification:Lithos Pro Regular"
      id="text3020-4">
     <path
@@ -340,7 +350,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="matrix(0.99981728,0.0191156,-0.0191156,0.99981728,2.5717671,552.36218)"
+     transform="matrix(0.99981728,0.0191156,-0.0191156,0.99981728,3.0717671,0.48718)"
      style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#b9cdff;fill-opacity:1;stroke:none;font-family:Lithos Pro Regular;-inkscape-font-specification:Lithos Pro Regular"
      id="text3020-9">
     <path
@@ -415,7 +425,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="matrix(0.99942839,-0.03380681,0.03380681,0.99942839,7.4489293,552.36218)"
+     transform="matrix(0.99942839,-0.03380681,0.03380681,0.99942839,7.9489293,0.48718)"
      style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#b9cdff;fill-opacity:1;stroke:none;font-family:Lithos Pro Regular;-inkscape-font-specification:Lithos Pro Regular"
      id="text3020-8">
     <path
@@ -465,7 +475,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="matrix(0.99603132,-0.08900348,0.08900348,0.99603132,12.521704,552.36218)"
+     transform="matrix(0.99603132,-0.08900348,0.08900348,0.99603132,13.021704,0.48718)"
      style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#b9cdff;fill-opacity:1;stroke:none;font-family:Lithos Pro Regular;-inkscape-font-specification:Lithos Pro Regular"
      id="text3020-2">
     <path
@@ -500,7 +510,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="matrix(0.9850173,-0.17245554,0.17245554,0.9850173,15.636991,567.88773)"
+     transform="matrix(0.9850173,-0.17245554,0.17245554,0.9850173,16.136991,16.01273)"
      style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#b9cdff;fill-opacity:1;stroke:none;font-family:Lithos Pro Regular;-inkscape-font-specification:Lithos Pro Regular"
      id="text3020-5">
     <path
@@ -570,7 +580,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="matrix(0.5315055,0,0,0.5315055,9.8423093,61.159253)"
+     transform="matrix(0.5315055,0,0,0.5315055,10.342309,-490.71575)"
      id="layer1"
      inkscape:label="Ebene 1">
     <path
@@ -590,7 +600,7 @@
        style="fill:#ffcc00;fill-opacity:1;fill-rule:nonzero" />
   </g>
   <g
-     transform="matrix(0.41751405,0,0,0.41751405,129.10468,179.91071)"
+     transform="matrix(0.41751405,0,0,0.41751405,129.60468,-371.96429)"
      id="layer1-4"
      inkscape:label="Ebene 1">
     <path
@@ -692,7 +702,7 @@
        style="fill:#ffcc00;fill-opacity:1;fill-rule:nonzero" />
   </g>
   <g
-     transform="matrix(0.52884481,0,0,0.52884481,251.78438,98.148533)"
+     transform="matrix(0.52884481,0,0,0.52884481,252.28438,-453.72647)"
      id="layer1-9"
      inkscape:label="Ebene 1">
     <path
@@ -713,7 +723,7 @@
        style="fill:#ffcc00;fill-opacity:1;fill-rule:nonzero" />
   </g>
   <g
-     transform="matrix(0.50645394,0,0,0.50645394,421.9402,110.25478)"
+     transform="matrix(0.50645394,0,0,0.50645394,422.4402,-441.62022)"
      id="layer1-8"
      inkscape:label="Ebene 1">
     <path
@@ -733,7 +743,7 @@
        style="fill:#ffcc00;fill-opacity:1;fill-rule:nonzero" />
   </g>
   <g
-     transform="matrix(0.37314613,0,0,0.37314613,626.21824,252.6126)"
+     transform="matrix(0.37314613,0,0,0.37314613,626.71824,-299.2624)"
      id="layer1-2"
      inkscape:label="Ebene 1">
     <path
@@ -744,7 +754,7 @@
        style="fill:#ffcc00;fill-opacity:1;fill-rule:nonzero" />
   </g>
   <g
-     transform="matrix(0.42952864,0,0,0.42952864,754.92619,187.07164)"
+     transform="matrix(0.42952864,0,0,0.42952864,755.42619,-364.80336)"
      id="layer1-5"
      inkscape:label="Ebene 1">
     <path
@@ -765,7 +775,7 @@
        style="fill:#ffcd00;fill-opacity:1;fill-rule:nonzero" />
   </g>
   <g
-     transform="matrix(0.53551266,0,0,0.53551266,886.19445,67.630593)"
+     transform="matrix(0.53551266,0,0,0.53551266,886.69445,-484.24441)"
      id="layer1-1"
      inkscape:label="Ebene 1">
     <path
