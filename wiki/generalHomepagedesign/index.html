@@ -11,17 +11,32 @@
 			function check_size() {
 				var viewportWidth = document.documentElement.clientWidth;
 				var top = document.getElementById("top-matter");
-				var goTop = document.getElementById("goto-top");
+				var goto_top = document.getElementById("goto-top");
+				var tour_navi = document.getElementById("tour-navi");
 				if (viewportWidth >= 1024) {
 					top.style.position = "fixed";
-					goTop.style.marginLeft = "800px";
+					goto_top.style.marginLeft = "800px";
+					tour_navi.style.marginLeft = "650px";
 				} else {
 					top.style.position = "absolute";
-					goTop.style.marginLeft = (viewportWidth - 220) + "px";
+					goto_top.style.marginLeft = (viewportWidth - 220) + "px";
+					tour_navi.style.marginLeft = (viewportWidth - 370) + "px";
 				}
 			}
-			window.onload = check_size;
+			window.onload =	check_size;
 			window.onresize = check_size;
+			function start_tour() {
+				var tour_navi = document.getElementById("tour-navi");
+				if (tour_navi.style.display !== "block") {
+					tour_navi.style.display = "block";
+				}
+			}
+			function stop_tour() {
+				var tour_navi = document.getElementById("tour-navi");
+				if (tour_navi.style.display !== "none") {
+					tour_navi.style.display = "none";
+				}
+			}
 			function hide_show_menu() {
 				var main_menu = document.getElementById('main-menu');
 				var team_logo = document.getElementById('team-logo');
@@ -128,6 +143,7 @@
 					<div class="visualClear"></div>
 					<img id="team-logo" src="./png/logo.png" alt="team-logo" width="60" height="60" />
 					<h2 id="PS">PHILOSOPHER'S STONE</h2>
+					<a href="#" onclick="start_tour();return false"><img id="flubber" src="./png/Flubber_animated1.gif" alt="ask flubber" width="60" height="60" /></a>
 					<a href="http://2013.igem.org/Main_Page"><img id="igem-2013" src="./png/wiki.png" alt="igem-2013" width="72" height="60" /></a>
 				</div>
 				<div id="top-separator">
@@ -142,7 +158,17 @@
 					buttons
 				</div>
 				<div id="main-content" class="content-hori">
-					<a href="#top" id="goto-top">Go to top</a>
+						<div id="tour-navi">
+							<ul>
+								<li id="tour-rev"><a href="#">&nbsp;</a></li>
+								<li class="tour-text">back</li>
+								<li id="tour-pause"><a href="#" onclick="stop_tour();return false">&nbsp;</a></li>
+								<li class="tour-text">pause</li>
+								<li id="tour-fwd"><a href="#">&nbsp;</a></li>
+								<li class="tour-text">forward</li>
+							</ul>
+						</div>
+						<a href="#top" id="goto-top">Go to top</a>
 					Our page
 				</div>
 			</div>

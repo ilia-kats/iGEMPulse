@@ -147,7 +147,7 @@ body {
 #team-logo{
 	position:absolute;
 	top:95px;
-	left:76px;
+	left:40px;
 	z-index:4;
 }
 #PS {
@@ -157,10 +157,17 @@ body {
 	left:139px;
 	z-index:3;
 }
+#flubber {
+	position:absolute;
+	height:60px;
+	top:95px;
+	right:139px;
+	z-index:6;
+}
 #igem-2013 {
 	position:absolute;
 	top:95px;
-	right:76px;
+	right:40px;
 	z-index:5;
 }
 
