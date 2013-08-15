@@ -68,16 +68,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.83278398"
-     inkscape:cx="511.97405"
-     inkscape:cy="222.3738"
+     inkscape:zoom="1.1765854"
+     inkscape:cx="512.5"
+     inkscape:cy="95.682139"
      inkscape:document-units="px"
      inkscape:current-layer="svg2984"
      showgrid="false"
-     inkscape:window-width="1280"
-     inkscape:window-height="968"
-     inkscape:window-x="-4"
-     inkscape:window-y="-4"
+     inkscape:window-width="1366"
+     inkscape:window-height="716"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -580,7 +580,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="matrix(0.5315055,0,0,0.5315055,10.342309,-490.71575)"
+     transform="matrix(0.46401274,0,0,0.46401274,10.407996,-422.75456)"
      id="layer1"
      inkscape:label="Ebene 1">
     <path
@@ -600,7 +600,7 @@
        style="fill:#ffcc00;fill-opacity:1;fill-rule:nonzero" />
   </g>
   <g
-     transform="matrix(0.41751405,0,0,0.41751405,129.60468,-371.96429)"
+     transform="matrix(0.33401124,0,0,0.33401124,129.79932,-284.84163)"
      id="layer1-4"
      inkscape:label="Ebene 1">
     <path
@@ -702,7 +702,7 @@
        style="fill:#ffcc00;fill-opacity:1;fill-rule:nonzero" />
   </g>
   <g
-     transform="matrix(0.52884481,0,0,0.52884481,252.28438,-453.72647)"
+     transform="matrix(0.46168991,0,0,0.46168991,252.31829,-386.35087)"
      id="layer1-9"
      inkscape:label="Ebene 1">
     <path
@@ -723,7 +723,7 @@
        style="fill:#ffcc00;fill-opacity:1;fill-rule:nonzero" />
   </g>
   <g
-     transform="matrix(0.50645394,0,0,0.50645394,422.4402,-441.62022)"
+     transform="matrix(0.40516315,0,0,0.40516315,422.53893,-335.70693)"
      id="layer1-8"
      inkscape:label="Ebene 1">
     <path
@@ -743,7 +743,7 @@
        style="fill:#ffcc00;fill-opacity:1;fill-rule:nonzero" />
   </g>
   <g
-     transform="matrix(0.37314613,0,0,0.37314613,626.71824,-299.2624)"
+     transform="matrix(0.29851691,0,0,0.29851691,627.0213,-221.35039)"
      id="layer1-2"
      inkscape:label="Ebene 1">
     <path
@@ -754,7 +754,7 @@
        style="fill:#ffcc00;fill-opacity:1;fill-rule:nonzero" />
   </g>
   <g
-     transform="matrix(0.42952864,0,0,0.42952864,755.42619,-364.80336)"
+     transform="matrix(0.34362291,0,0,0.34362291,755.51478,-274.8628)"
      id="layer1-5"
      inkscape:label="Ebene 1">
     <path
@@ -775,7 +775,7 @@
        style="fill:#ffcd00;fill-opacity:1;fill-rule:nonzero" />
   </g>
   <g
-     transform="matrix(0.53551266,0,0,0.53551266,886.69445,-484.24441)"
+     transform="matrix(0.46751105,0,0,0.46751105,886.80459,-415.00766)"
      id="layer1-1"
      inkscape:label="Ebene 1">
     <path
