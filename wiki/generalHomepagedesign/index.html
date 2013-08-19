@@ -10,21 +10,46 @@
 			<!--
 			function check_size() {
 				var viewportWidth = document.documentElement.clientWidth;
+				var viewportHeight = document.documentElement.clientHeight;
 				var top = document.getElementById("top-matter");
 				var goto_top = document.getElementById("goto-top");
 				var tour_navi = document.getElementById("tour-navi");
-				if (viewportWidth >= 1024) {
+				var navi_left = document.getElementById("navigation-bar");
+				var main = document.getElementById("main");
+				main.style.minHeight = (viewportHeight + 250) + "px";
+				if (viewportWidth >= 1024 && viewportHeight >= 300) {
 					top.style.position = "fixed";
-					goto_top.style.marginLeft = "800px";
-					tour_navi.style.marginLeft = "650px";
+					navi_left.style.position = "fixed";
+					goto_top.style.marginLeft = "665px";
+					tour_navi.style.marginLeft = "515px";
+					navi_left.style.height = (viewportHeight - 250) + "px";
 				} else {
 					top.style.position = "absolute";
-					goto_top.style.marginLeft = (viewportWidth - 220) + "px";
-					tour_navi.style.marginLeft = (viewportWidth - 370) + "px";
+					navi_left.style.position = "absolute";
+					goto_top.style.marginLeft = (viewportWidth - 85) + "px";
+					tour_navi.style.marginLeft = (viewportWidth - 235) + "px";
+					navi_left.style.height = "100%";
 				}
 			}
-			window.onload =	check_size;
-			window.onresize = check_size;
+			window.onload =	function() {
+				
+				var drop_lists = document.getElementsByClassName("drop-navi-left");
+				for (var i = 0; i < drop_lists.length; i++) {
+					var item = drop_lists[i];
+					while (item.tagName !== "UL") {
+						var item = item.nextSibling;
+					}
+					item.style.display = "none";
+				}
+				var navi_links = document.getElementById("navigation-bar").getElementsByTagName("A");
+				for (var i = 0; i < navi_links.length; i++) {
+					if (document.documentURI.indexOf(navi_links[i].href) !== -1) {
+						navi_links[i].className = "navi-highlight";
+						break;
+					}
+				}
+			}
+			
 			function start_tour() {
 				var tour_navi = document.getElementById("tour-navi");
 				if (tour_navi.style.display !== "block") {
@@ -35,6 +60,32 @@
 				var tour_navi = document.getElementById("tour-navi");
 				if (tour_navi.style.display !== "none") {
 					tour_navi.style.display = "none";
+				}
+			}
+			function expand_left_navi(drop_list) {
+				var list = drop_list;
+				while (list.tagName !== "UL") {
+					var list = list.nextSibling;
+				}
+				var visible = list.style.display;
+				var drop_lists = document.getElementsByClassName("drop-navi-left");
+				for (var i = 0; i < drop_lists.length; i++) {
+					var item = drop_lists[i];
+					while (item.tagName !== "UL") {
+						var item = item.nextSibling;
+					}
+					item.style.display = "none";
+				}
+				if (visible == "none") {
+					list.style.display = "block";
+				} else {
+					list.style.display = "none";
+				}
+			}
+			function change_font(font) {
+				var elems = document.body.getElementsByTagName("*");
+				for (var i = 0; i < elems.length; i++) {
+					elems[i].style.fontFamily = font;
 				}
 			}
 			function hide_show_menu() {
@@ -86,7 +137,7 @@
 			<div id="top-matter">
 				<div id="main-menu">
 					<div id="menu-team" class="menu-item">
-						<a href="#" id="link-team" class="menu-link">&nbsp;</a>
+						<a href="#" id="link-team" class="menu-link">Team</a>
 						<ul>
 							<li>Members</li>
 							<li>Advisors</li>
@@ -94,7 +145,7 @@
 						</ul>
 					</div>
 					<div id="menu-project" class="menu-item">
-						<a id="link-project" class="menu-link">&nbsp;</a>
+						<a id="link-project" class="menu-link">Project</a>
 						<ul>
 							<li>Module shuffling - Tyrocidine</li>
 							<li>Domain shufling - Indigoidine</li>
@@ -102,14 +153,14 @@
 						</ul>
 					</div>
 					<div id="menu-modelling" class="menu-item">
-						<a id="link-modelling" class="menu-link">&nbsp;</a>
+						<a id="link-modelling" class="menu-link">Modelling</a>
 						<ul>
 							<li>iGEM 42</li>
 							<li>NRPS designer</li>
 						</ul>
 					</div>
 					<div id="menu-parts" class="menu-item">
-						<a id="link-parts" class="menu-link">&nbsp;</a>
+						<a id="link-parts" class="menu-link">Parts</a>
 						<ul>
 							<li>Domains</li>
 							<li>Modules</li>
@@ -117,7 +168,7 @@
 						</ul>
 					</div>
 					<div id="menu-notebook" class="menu-item">
-						<a id="link-notebook" class="menu-link">&nbsp;</a>
+						<a id="link-notebook" class="menu-link">Notebook</a>
 						<ul>
 							<li>Indigoidine</li>
 							<li>Delftibactin</li>
@@ -126,7 +177,7 @@
 						</ul>
 					</div>
 					<div id="menu-human" class="menu-item">
-						<a id="link-human" class="menu-link">&nbsp;</a>
+						<a id="link-human" class="menu-link">Human Practice</a>
 						<ul>
 							<li>Panel discussion</li>
 							<li>Cooperation</li>
@@ -134,17 +185,19 @@
 						</ul>
 					</div>
 					<div id="menu-safety" class="menu-item">
-						<a id="link-safety" class="menu-link">&nbsp;</a>
+						<a id="link-safety" class="menu-link">Safety</a>
 						<ul>
 							<li>General issues</li>
 							<li>D. acidovorans</li>
 						</ul>
 					</div>
 					<div class="visualClear"></div>
-					<img id="team-logo" src="./png/logo.png" alt="team-logo" width="60" height="60" />
+				</div>
+				<div id="title-line">
+					<img id="team-logo" src="./png/logo.png" alt="team-logo"/>
 					<h2 id="PS">PHILOSOPHER'S STONE</h2>
-					<a href="#" onclick="start_tour();return false"><img id="flubber" src="./png/Flubber_animated1.gif" alt="ask flubber" width="60" height="60" /></a>
-					<a href="http://2013.igem.org/Main_Page"><img id="igem-2013" src="./png/wiki.png" alt="igem-2013" width="72" height="60" /></a>
+					<a href="#" onclick="start_tour();return false"><img id="flubber" src="./png/Flubber_animated1.gif" alt="ask flubber"/></a>
+					<a href="http://2013.igem.org/Main_Page"><img id="igem-2013" src="./png/wiki.png" alt="igem-2013"/></a>
 				</div>
 				<div id="top-separator">
 					put current navigation here
@@ -154,22 +207,88 @@
 			
 			<div id="main" class="center-vert">
 				<div id="navigation-bar" class="content-hori">
-					Navigation
-					buttons
+				
+					<ul>
+						<li class="drop-navi-left"><a href="" onclick="expand_left_navi(this.parentNode);return false">Members</a></li>
+						<ul>
+							<li>Ralf Beer</li>
+							<li>Tania Christiansen</li>
+							<li>Konrad Herbst</li>
+							<li>Nikos Ignatiadis</li>
+							<li>Ilia Kats</li>
+							<li>Johanna Meichner</li>
+							<li>Nils Kurzawa</li>
+							<li>Sophie Rabe</li>
+							<li>Anja Riedel</li>
+							<li>Joshua Sachs</li>
+							<li>Julia Schessner</li>
+							<li>Florian Schmidt</li>
+							<li>Philipp Walch</li>
+						</ul>
+						<li class="drop-navi-left"><a href="" onclick="expand_left_navi(this.parentNode);return false">Instructors</a></li>
+						<ul>
+							<li> Prof. Dr. Roland Eils </li>
+							<li> Dr. Barbara DiVentura</li>
+						</ul>
+						<li class="drop-navi-left"><a href="" onclick="expand_left_navi(this.parentNode);return false">Supervisors</a></li>
+						<ul>
+							<li>Lorenz Adlung</li>
+							<li>Katharina Genreith</li>
+							<li>Fanny Georgi</li>
+							<li>Tim Heineman</li>
+							<li>Charles Imbusch</li>
+							<li>Dominik Niopek</li>
+						</ul>
+					</ul>
+					
+
 				</div>
 				<div id="main-content" class="content-hori">
-						<div id="tour-navi">
-							<ul>
-								<li id="tour-rev"><a href="#">&nbsp;</a></li>
-								<li class="tour-text">back</li>
-								<li id="tour-pause"><a href="#" onclick="stop_tour();return false">&nbsp;</a></li>
-								<li class="tour-text">pause</li>
-								<li id="tour-fwd"><a href="#">&nbsp;</a></li>
-								<li class="tour-text">forward</li>
-							</ul>
-						</div>
-						<a href="#top" id="goto-top">Go to top</a>
+					<div id="tour-navi">
+						<ul>
+							<li id="tour-rev"><a href="#">&nbsp;</a></li>
+							<li class="tour-text">back</li>
+							<li id="tour-pause"><a href="#" onclick="stop_tour();return false">&nbsp;</a></li>
+							<li class="tour-text">pause</li>
+							<li id="tour-fwd"><a href="#">&nbsp;</a></li>
+							<li class="tour-text">forward</li>
+						</ul>
+					</div>
+					<a href="#top" id="goto-top">Go to top</a>
 					Our page
+					<input type="button" value="serif" onclick="change_font('serif')" />
+					<input type="button" value="sans-serif" onclick="change_font('sans-serif')" />
+					<input type="button" value="fantasy" onclick="change_font('fantasy')" />
+					<input type="button" value="monospace" onclick="change_font('monospace')" />
+					<input type="button" value="cursive" onclick="change_font('cursive')" /><br />
+					<input type="button" value="Arial" onclick="change_font('Arial')" />
+					<input type="button" value="Tahoma" onclick="change_font('Tahoma')" />
+					<input type="button" value="Helvetica" onclick="change_font('Helvetica')" />
+					<input type="button" value="Trebuchet MS" onclick="change_font('Trebuchet MS')" />
+					<input type="button" value="Bibstream Vera Sans" onclick="change_font('Bibstream Vera Sans')" />
+					<input type="button" value="Georgia" onclick="change_font('Georgia')" />
+					<ul>
+	<li><a href="http://2013.igem.org/Team:Heidelberg/Templates/StartPage">StartPage</a></li>
+	<ul>
+		<li>Use: In the beginning of every page in order to set styles, reactivities, navigation, etc.</li>
+		<li>Argument 1: Title displayed in the organge headline</li>
+		<li>Argument 2: Navigation template to use on the left side of the page</li>
+	</ul>
+	<li><a href="http://2013.igem.org/Team:Heidelberg/Templates/EndPage">EndPage</a></li>
+	<ul>
+		<li>Use: At the end of each page to close all opened divs and to include the sponsors</li>
+		<li>No arguments</li>
+	</ul>
+	<li><a href="http://2013.igem.org/Team:Heidelberg/Templates/TopNavigation">TopNavigation</a></li>
+	<ul>
+		<li>Use: Included in the StartPage template -> no manual use!</li>
+		<li>No arguments</li>
+	</ul>
+	<li><a href="http://2013.igem.org/Team:Heidelberg/Templates/Navi_left_Team">Navi_left_Team</a></li>
+	<ul>
+		<li>Use: Navigation template for Team page</li>
+	</ul>
+</ul>
 				</div>
 			</div>
 			

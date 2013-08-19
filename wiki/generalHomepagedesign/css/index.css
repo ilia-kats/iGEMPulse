@@ -1,7 +1,7 @@
 * {
 	margin:0px;
 	padding:0px;
-	font-family:calibri;
+	font-family:sans-serif;
 }
 
 body {
@@ -11,67 +11,99 @@ body {
 
 #center-wrapper {
 	display:inline-block;
-	width:1024px;
+	min-width:800px;
+	width:90%;
+	max-width:3000px;
 	background-color:#FFFFFF;
-	border-right-style:solid;
-	border-right-color:#606060;
-	border-left-style:solid;
-	border-left-color:#606060;
 }
 
 .center-vert {
-	display:inline-block;
+	display:block;
 	width:100%;
-	position:relative;
-	top:220px;
 	color:#000000;
 	background-color:white;
 }
-
 .visualClear {
 	clear:both;
 }
-
 #top-matter {
-	position:fixed;
-	width:1024px;
-	height:220px;
+	width:100%;
 	z-index:2;
 }
 #main-menu {
-	width:1024;
-	height:200px;
-	position:relative;
-	top:0px;
-	background-image:url(../png/Imagemap_Menue_schrift_angepasst.jpg);
-	background-repeat:no-repeat;
-	background-color:white;
-}
-.menu-item {
-	position:absolute;
-	float:left;
+	height:50px;
+	width:100%;
 	z-index:999;
-	top:-3px;
+	background-color:#AAA;
+}
+#title-line {
+	width:100%;
+	z-index:888;
+	padding:1%;
+	text-align:left;
+}
+#title-line * {
+	display:inline-block;
+}
+#title-line a {
+	width:5%;
+	margin-right:5%;
+}
+#top-separator {
+	background-color:#F5B800;
+	height:20px;
+}
+#main {
+	width:100%;
+}
+#main div {
+	display:inline-block;
+	vertical-align:top;
+}
+#main-content {
+	width:89%;
+	text-align:left;
+	padding:1px;
+	border-left-style:solid;
+	border-left-width:0.5%;
+	border-left-color:#606060;
+}
+#navigation-bar {
+	width:9.5%;
+}
+ul {
+margin-left:1em;
+}
+
+.menu-item {
+	display:inline-block;
+	vertical-align:top;
+	z-index:999;
+	position:relative;
+	top:10%;
+	width:10%;
 	background-color:transparent;
 }
 .menu-item a {
 	display:block;
 	border:none;
-	background-color:transparent;
-	font-size:0pt;
-}
-.menu-item a:active {
-	text-decoration:none;
+	width:100%;
 }
 .menu-item ul {
+	width:100%;
 	display:none;
 	background-color:#93ADAE;
 	list-style:none;
 	border:none;
+	margin:0pt;
 }
 .menu-item ul li {
 	border-bottom: 1pt solid;
 }
+.menu-item a:hover + ul {
+	display:block;
+}
+/*
 #menu-team {	left:44px;}
 #link-team {
 	background-image:url(../png/Team_all.png);
@@ -140,64 +172,38 @@ body {
 }
 #link-safety, #link-safety  + ul {	width:74px;}
 #menu-safety:hover a {	background-position:0px 126px;}
-#menu-safety:hover ul{	display:inline-block;}
+#menu-safety:hover ul{	display:inline-block;}*/
 
 #team-logo{
-	position:absolute;
-	top:135px;
-	left:40px;
+	margin-left:5%;
+	width:5%;
 	z-index:4;
 }
 #PS {
-	position:absolute;
-	height:30px;
-	top:165px;
-	left:139px;
+	width:30%;
+	margin-right:35%;
 	z-index:3;
 }
 #flubber {
-	position:absolute;
-	height:60px;
-	top:135px;
-	right:139px;
+	width:100%;
 	z-index:6;
 }
 #igem-2013 {
-	position:absolute;
-	top:135px;
-	right:40px;
+	width:100%;
 	z-index:5;
 }
-
-#top-separator {
-	background-color:#F5B800;
-	height:20px;
-}
-
-.content-hori {
-	float:left;
-	min-height:1000px;
-	padding:3px;
-}
-
-#navigation-bar {
-	border-right-style:solid;
-	border-right-color:#606060;
-	width:130px;
-}
-
 #goto-top {
 	position:fixed;
 	z-index:999;
-	bottom:20px;
-	margin-left:800px;
+	bottom:5%;
+	margin-left:70%;
 }
 
 #tour-navi {
 	position:fixed;
 	z-index:999;
-	bottom:10px;
-	margin-left:650px;
+	bottom:5%;
+	margin-left:60%;
 	width:100px;
 	height:50px;
 	display:none;
@@ -233,4 +239,8 @@ body {
 
 #tour-navi #tour-fwd:hover + li, #tour-navi #tour-pause:hover + li, #tour-navi #tour-rev:hover + li {
 	display:block;
+}
+
+#bottom-matter {
+	height:30px;
 }
