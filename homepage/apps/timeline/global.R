@@ -32,16 +32,16 @@ myChoicesForInstructors_count <- c(0, 2, 5, 10, 15, ">15")
 
 # big ass filter
 bbqSauceFilter <- function(data, input){
-    data <- FilterForRegion(data)
-    data <- FilterForTrack(data)
-	data <- FilterForScore(data)
-	data <- FilterForBiobrick_count(data)
-	data <- FilterForStudents_count(data)
-	data <- FilterForAdvisors_count(data)
-	data <- FilterForInstructors_count(data)
+    data <- FilterForRegion(data, input)
+    data <- FilterForTrack(data, input)
+	data <- FilterForScore(data, input)
+	data <- FilterForBiobrick_count(data, input)
+	data <- FilterForStudents_count(data, input)
+	data <- FilterForAdvisors_count(data, input)
+	data <- FilterForInstructors_count(data, input)
 	return(data)
 }
-FilterForRegion <- function(data) {
+FilterForRegion <- function(data, input) {
 	matchRegion <- rep(0, times=length(data$region))
 	for (i in 1:length(input$FILregion)) {
 		matchRegion[which(data$region == input$FILregion[i])] <- 1
@@ -52,7 +52,7 @@ FilterForRegion <- function(data) {
 	rm(delete)
 	return(data)
 }
-FilterForTrack <- function(data) {
+FilterForTrack <- function(data, input) {
 	matchTrack <- rep(0, times=length(data$track))
 	for (i in 1:length(input$FILtrack)) {
 		matchTrack[which(data$track == input$FILtrack[i])] <- 1
@@ -63,41 +63,41 @@ FilterForTrack <- function(data) {
 	rm(delete)
 	return(data)
 }
-FilterForStudents_count <- function(data) {
+FilterForStudents_count <- function(data, input) {
 	if (input$FILstudents_count_min == ">20") data <- data[-which(data$students_count < 20),]
 	else if (input$FILstudents_count_max == ">20" & input$FILstudents_count_min != "0") data <- data[-which(data$students_count < as.numeric(input$FILstudents_count_min)),]
 	else if (input$FILstudents_count_max == ">20" & input$FILstudents_count_min == "0") return(data)
 	else data <- data[-which(data$students_count < as.numeric(input$FILstudents_count_min) | data$students_count > as.numeric(input$FILstudents_count_max)),]
 	return(data)
 }
-FilterForAdvisors_count <- function(data) {
+FilterForAdvisors_count <- function(data, input) {
 	if (input$FILadvisors_count_min == ">15") data <- data[-which(data$advisors_count < 15),]
 	else if (input$FILadvisors_count_max == ">15" & input$FILadvisors_count_min != "0") data <- data[-which(data$advisors_count < as.numeric(input$FILadvisors_count_min)),]
 	else if (input$FILadvisors_count_max == ">15" & input$FILadvisors_count_min == "0") return(data)
 	else data <- data[-which(data$advisors_count < as.numeric(input$FILadvisors_count_min) | data$advisors_count > as.numeric(input$FILadvisors_count_max)),]
 	return(data)
 }
-FilterForInstructors_count <- function(data) {
+FilterForInstructors_count <- function(data, input) {
 	if (input$FILinstructors_count_min == ">15") data <- data[-which(data$instructors_count < 15),]
 	else if (input$FILinstructors_count_max == ">15" & input$FILinstructors_count_min != "0") data <- data[-which(data$instructors_count < as.numeric(input$FILinstructors_count_min)),]
 	else if (input$FILinstructors_count_max == ">15" & input$FILinstructors_count_min == "0") return(data)
 	else data <- data[-which(data$instructors_count < as.numeric(input$FILinstructors_count_min) | data$instructors_count > as.numeric(input$FILinstructors_count_max)),]
 	return(data)
 }
-FilterForScore <- function(data) {
+FilterForScore <- function(data, input) {
 	delete <- which(data$score < input$FILscore_min | data$score > input$FILscore_max)
 	if (length(delete) != 0) data <- data[-delete,]
 	rm(delete)
 	return(data)
 }
-FilterForBiobrick_count <- function(data) {
+FilterForBiobrick_count <- function(data, input) {
 	if (input$FILbiobrick_count_min == ">200") data <- data[-which(data$biobrick_count < 200),]
 	else if (input$FILbiobrick_count_max == ">200" & input$FILbiobrick_count_min != "0") data <- data[-which(data$biobrick_count < as.numeric(input$FILbiobrick_count_min)),]
 	else if (input$FILbiobrick_count_max == ">200" & input$FILbiobrick_count_min == "0") return(data)
 	else data <- data[-which(data$biobrick_count < as.numeric(input$FILbiobrick_count_min) | data$biobrick_count > as.numeric(input$FILbiobrick_count_max)),]
 	return(data)
 }
-FilterForRegionalAwards <- function(data) {
+FilterForRegionalAwards <- function(data, input) {
 	keepteams <- c()
 	Contents <- DATContentsFromJSON
 	for (i in 1:length(input$FILawards_regional)) {
@@ -117,7 +117,7 @@ FilterForRegionalAwards <- function(data) {
 	rm(deleteindex)
 	return(data)
 }
-FilterForChampionshipAwards <- function(data) {
+FilterForChampionshipAwards <- function(data, input) {
 	keepteams <- c()
 	Contents <- DATContentsFromJSON
 	for (i in 1:length(input$FILawards_championship)) {
