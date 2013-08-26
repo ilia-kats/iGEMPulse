@@ -42,7 +42,7 @@ FilterForTrack <- function(data) {
 	for (i in 1:length(input$FILtrack)) {
 		matchTrack[which(data$track == input$FILtrack[i])] <- 1
 	}
-	delelte <- which(matchTrack == 0)
+	delete <- which(matchTrack == 0)
 	if (length(delete) != 0) data <- data[-delete,]
 	rm(matchTrack)
 	rm(delete)
@@ -50,23 +50,23 @@ FilterForTrack <- function(data) {
 }
 FilterForStudents_count <- function(data) {
 	if (input$FILstudents_count_min == ">20") data <- data[-which(data$students_count < 20),]
-	else if (input$FILstudents_count_max == ">20" & input$Filstudents_count_min != "0") data <- data[-which(data$students_count < input$FILstudents_count_min),]
-	else if (input$FILstudents_count_max == ">20" & input$Filstudents_count_min == "0") return(data)
-	else data <- data[-which(data$students_count < input$FILstudents_count_min | data$students_count > input$FILstudents_count_max),]
+	else if (input$FILstudents_count_max == ">20" & input$FILstudents_count_min != "0") data <- data[-which(data$students_count < as.numeric(input$FILstudents_count_min)),]
+	else if (input$FILstudents_count_max == ">20" & input$FILstudents_count_min == "0") return(data)
+	else data <- data[-which(data$students_count < as.numeric(input$FILstudents_count_min) | data$students_count > as.numeric(input$FILstudents_count_max)),]
 	return(data)
 }
 FilterForAdvisors_count <- function(data) {
 	if (input$FILadvisors_count_min == ">15") data <- data[-which(data$advisors_count < 15),]
-	else if (input$FILadvisors_count_max == ">15" & input$FILadvisors_count_min != "0") data <- data[-which(data$advisors_count < input$FILadvisors_count_min),]
+	else if (input$FILadvisors_count_max == ">15" & input$FILadvisors_count_min != "0") data <- data[-which(data$advisors_count < as.numeric(input$FILadvisors_count_min)),]
 	else if (input$FILadvisors_count_max == ">15" & input$FILadvisors_count_min == "0") return(data)
-	else data <- data[-which(data$advisors_count < input$FILadvisors_count_min | data$advisors_count > input$FILadvisors_count_max),]
+	else data <- data[-which(data$advisors_count < as.numeric(input$FILadvisors_count_min) | data$advisors_count > as.numeric(input$FILadvisors_count_max)),]
 	return(data)
 }
 FilterForInstructors_count <- function(data) {
 	if (input$FILinstructors_count_min == ">15") data <- data[-which(data$instructors_count < 15),]
-	else if (input$FILinstructors_count_max == ">15" & input$FILinstructors_count_min != "0") data <- data[-which(data$instructors_count < input$FILinstructors_count_min),]
+	else if (input$FILinstructors_count_max == ">15" & input$FILinstructors_count_min != "0") data <- data[-which(data$instructors_count < as.numeric(input$FILinstructors_count_min)),]
 	else if (input$FILinstructors_count_max == ">15" & input$FILinstructors_count_min == "0") return(data)
-	else data <- data[-which(data$instructors_count < input$FILinstructors_count_min | data$instructors_count > input$FILinstructors_count_max),]
+	else data <- data[-which(data$instructors_count < as.numeric(input$FILinstructors_count_min) | data$instructors_count > as.numeric(input$FILinstructors_count_max)),]
 	return(data)
 }
 FilterForScore <- function(data) {
@@ -77,9 +77,9 @@ FilterForScore <- function(data) {
 }
 FilterForBiobrick_count <- function(data) {
 	if (input$FILbiobrick_count_min == ">200") data <- data[-which(data$biobrick_count < 200),]
-	else if (input$FILbiobrick_count_max == ">200" & input$FILbiobrick_count_min != "0") data <- data[-which(data$biobrick_count < input$FILbiobrick_count_min),]
+	else if (input$FILbiobrick_count_max == ">200" & input$FILbiobrick_count_min != "0") data <- data[-which(data$biobrick_count < as.numeric(input$FILbiobrick_count_min)),]
 	else if (input$FILbiobrick_count_max == ">200" & input$FILbiobrick_count_min == "0") return(data)
-	else data <- data[-which(data$biobrick_count < input$FILbiobrick_count_min | data$biobrick_count > input$FILbiobrick_count_max),]
+	else data <- data[-which(data$biobrick_count < as.numeric(input$FILbiobrick_count_min) | data$biobrick_count > as.numeric(input$FILbiobrick_count_max)),]
 	return(data)
 }
 ## Championship filters have to be more complicated
@@ -96,8 +96,8 @@ FilterForRegionalAwards <- function(data) {
 		}
 		Contents <- Contents[-deleteindex]
 	}
-	print(keepteams)
 	if (length(keepteams) != 0) data <- data[keepteams,]
+	if (length(grep("NA", row.names(data))) != 0 ) data <- data[-grep("NA", row.names(data)),]
 	rm(keepteams)
 	rm(Contents)
 	rm(deleteindex)
@@ -116,10 +116,10 @@ FilterForChampionshipAwards <- function(data) {
 		}
 		Contents <- Contents[-deleteindex]
 	}
-	print(keepteams)
 	if (length(keepteams) != 0) data <- data[keepteams,]
-	data <- data[-grep("NA", row.names(data)),]
+	if (length(grep("NA", row.names(data))) != 0 ) data <- data[-grep("NA", row.names(data)),]
 	rm(keepteams)
+	rm(Contents)
 	rm(deleteindex)
 	return(data)
 }
