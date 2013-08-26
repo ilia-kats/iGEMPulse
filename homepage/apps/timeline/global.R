@@ -5,7 +5,7 @@ require(plyr)
 ## Load Data:
 load("../../data/DataFromJSON.RData")
 
-# fix regional stuff
+# fix region specifications
 dat <- DATParametersFromJSON
 dat$region <- gsub("Canada", "America", dat$region)
 dat$region <- gsub("US", "America", dat$region)
