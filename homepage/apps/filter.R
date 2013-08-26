@@ -21,7 +21,9 @@ load("../../data/DataFromJSON.RData")
 ## enter "datafiltered <- FilterForXY(previousdataset)" for filtering the dataset
 ## filtering functions:
 FilterForYear <- function(data) {
-	data <- data[-which(data$year < input$FILyear_min | data$year > input$FILyear_max),]
+	delete <- which(data$year < input$FILyear_min | data$year > input$FILyear_max)
+	if (length(delete) != 0) data <- data[-delete,]
+	rm(delete)
 	return(data)
 }
 FilterForRegion <- function(data) {
@@ -29,8 +31,10 @@ FilterForRegion <- function(data) {
 	for (i in 1:length(input$FILregion)) {
 		matchRegion[which(data$region == input$FILregion[i])] <- 1
 	}
-	data <- data[-which(matchRegion == 0),]
+	delete <- which(matchRegion == 0)
+	if (length(delete) != 0) data <- data[-delete,]
 	rm(matchRegion)
+	rm(delete)
 	return(data)
 }
 FilterForTrack <- function(data) {
@@ -38,57 +42,87 @@ FilterForTrack <- function(data) {
 	for (i in 1:length(input$FILtrack)) {
 		matchTrack[which(data$track == input$FILtrack[i])] <- 1
 	}
-	data <- data[-which(matchTrack == 0),]
+	delelte <- which(matchTrack == 0)
+	if (length(delete) != 0) data <- data[-delete,]
 	rm(matchTrack)
+	rm(delete)
 	return(data)
 }
 FilterForStudents_count <- function(data) {
 	if (input$FILstudents_count_min == ">20") data <- data[-which(data$students_count < 20),]
-	else if (input$FILstudents_count_max == ">20") data <- data[-which(data$students_count < input$FILstudents_count_min),]
+	else if (input$FILstudents_count_max == ">20" & input$Filstudents_count_min != "0") data <- data[-which(data$students_count < input$FILstudents_count_min),]
+	else if (input$FILstudents_count_max == ">20" & input$Filstudents_count_min == "0") return(data)
 	else data <- data[-which(data$students_count < input$FILstudents_count_min | data$students_count > input$FILstudents_count_max),]
 	return(data)
 }
 FilterForAdvisors_count <- function(data) {
 	if (input$FILadvisors_count_min == ">15") data <- data[-which(data$advisors_count < 15),]
-	else if (input$FILadvisors_count_max == ">15") data <- data[-which(data$advisors_count < input$FILadvisors_count_min),]
+	else if (input$FILadvisors_count_max == ">15" & input$FILadvisors_count_min != "0") data <- data[-which(data$advisors_count < input$FILadvisors_count_min),]
+	else if (input$FILadvisors_count_max == ">15" & input$FILadvisors_count_min == "0") return(data)
 	else data <- data[-which(data$advisors_count < input$FILadvisors_count_min | data$advisors_count > input$FILadvisors_count_max),]
 	return(data)
 }
 FilterForInstructors_count <- function(data) {
 	if (input$FILinstructors_count_min == ">15") data <- data[-which(data$instructors_count < 15),]
-	else if (input$FILinstructors_count_max == ">15") data <- data[-which(data$instructors_count < input$FILinstructors_count_min),]
+	else if (input$FILinstructors_count_max == ">15" & input$FILinstructors_count_min != "0") data <- data[-which(data$instructors_count < input$FILinstructors_count_min),]
+	else if (input$FILinstructors_count_max == ">15" & input$FILinstructors_count_min == "0") return(data)
 	else data <- data[-which(data$instructors_count < input$FILinstructors_count_min | data$instructors_count > input$FILinstructors_count_max),]
 	return(data)
 }
 FilterForScore <- function(data) {
-	data <- data[-which(data$score < input$FILscore_min | data$score > input$FILscore_max),]
+	delete <- which(data$score < input$FILscore_min | data$score > input$FILscore_max)
+	if (length(delete) != 0) data <- data[-delete,]
+	rm(delete)
 	return(data)
 }
 FilterForBiobrick_count <- function(data) {
 	if (input$FILbiobrick_count_min == ">200") data <- data[-which(data$biobrick_count < 200),]
-	else if (input$FILbiobrick_count_max == ">200") data <- data[-which(data$biobrick_count < input$FILbiobrick_count_min),]
+	else if (input$FILbiobrick_count_max == ">200" & input$FILbiobrick_count_min != "0") data <- data[-which(data$biobrick_count < input$FILbiobrick_count_min),]
+	else if (input$FILbiobrick_count_max == ">200" & input$FILbiobrick_count_min == "0") return(data)
 	else data <- data[-which(data$biobrick_count < input$FILbiobrick_count_min | data$biobrick_count > input$FILbiobrick_count_max),]
 	return(data)
 }
 ## Championship filters have to be more complicated
-#FilterForRegionalAwards <- function(data) {
-#	matchRegionalAw <- rep(0, times=length(data$awards_regional))
-#	for (i in 1:length(input$FILawards_regional)) {
-#		matchRegionalAw[which(data$awards_regional == input$FILawards_regional[i])] <- 1
-#	}
-#	data <- data[-which(matchRegionalAw == 0),]
-#	rm(matchRegionalAw)
-#	return(data)
-#}
-#FilterForChampionshipAwards <- function(data) {
-#	matchChampionshipAw <- rep(0, times=length(data$awards_championship))
-#	for (i in 1:length(input$FILawards_championship)) {
-#		matchChampionshipAw[which(data$awards_championship == input$FILawards_championship[i])] <- 1
-#	}
-#	data <- data[-which(matchChampionshipAw == 0),]
-#	rm(matchChampionshipAw)
-#	return(data)
-#}
+FilterForRegionalAwards <- function(data) {
+	keepteams <- c()
+	Contents <- DATContentsFromJSON
+	for (i in 1:length(input$FILawards_regional)) {
+		deleteindex <- c()
+		for (j in 1:length(names(Contents))) {
+			if (length(grep(input$FILawards_regional[i], Contents[[j]]$awards_regional)) != 0) {
+				keepteams <- c(keepteams, names(Contents)[j])
+				deleteindex <- c(deleteindex, j)
+			}
+		}
+		Contents <- Contents[-deleteindex]
+	}
+	print(keepteams)
+	if (length(keepteams) != 0) data <- data[keepteams,]
+	rm(keepteams)
+	rm(Contents)
+	rm(deleteindex)
+	return(data)
+}
+FilterForChampionshipAwards <- function(data) {
+	keepteams <- c()
+	Contents <- DATContentsFromJSON
+	for (i in 1:length(input$FILawards_championship)) {
+		deleteindex <- c()
+		for (j in 1:length(names(Contents))) {
+			if (length(grep(input$FILawards_championship[i], Contents[[j]]$awards_championship)) != 0) {
+				keepteams <- c(keepteams, names(Contents)[j])
+				deleteindex <- c(deleteindex, j)
+			}
+		}
+		Contents <- Contents[-deleteindex]
+	}
+	print(keepteams)
+	if (length(keepteams) != 0) data <- data[keepteams,]
+	data <- data[-grep("NA", row.names(data)),]
+	rm(keepteams)
+	rm(deleteindex)
+	return(data)
+}
 
 #### Part for ui.R:
 ## List of choices for Filtering options:
