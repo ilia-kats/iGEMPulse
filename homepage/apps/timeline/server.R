@@ -1,6 +1,7 @@
-shinyServer(function(input, output) {
+
 ## get all stuff in global up and running
 source("global.R")
+shinyServer(function(input, output) {
 
 # big function, which takes as input the split data.frames by ddply and returns different summary statistics
 timelineDatGenerator <- function(x) {
