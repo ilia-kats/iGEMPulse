@@ -13,7 +13,14 @@ class ResultSpider(BaseSpider):
 
     def start_requests(self):
         for year in self.crawler.settings['YEARS']:
-            yield self.make_requests_from_url(self.crawler.settings['RESULTS'] % year)
+            try:
+                yearspider = self.crawler.spiders.create(self.crawler.settings['YEAR_SPIDERS'][year])
+                for r in yearspider.start_requests():
+                    if r.callback is None:
+                        r.callback = yearspider.parse
+                    yield r
+            except KeyError:
+                yield self.make_requests_from_url(self.crawler.settings['RESULTS'] % year)
 
     def parse(self, response):
         hxs = HtmlXPathSelector(response)

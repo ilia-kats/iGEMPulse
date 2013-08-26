@@ -36,3 +36,4 @@ PARTSREGISTRY_PART = "http://parts.igem.org/das/parts/features/?segment=%s"
 BIOBRICK_PATTERN = re.compile("^(BBa_[A-Za-z])(\d+)$")
 
 SPIDERS = ['ResultSpider','TeamSpider']
+YEAR_SPIDERS = {2007: 'ResultSpider2007'}

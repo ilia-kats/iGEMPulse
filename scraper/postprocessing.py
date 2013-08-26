@@ -70,32 +70,38 @@ freq_dist_background_sum = 0
 
 i = 1
 for team in data:
-    tokenized = wordpunct_tokenize(team['abstract'])
-    tokenized_filtered = [w.lower() for w in tokenized if w.lower() not in stopwords_en and w.isalnum() and len(w) > 1]
-    stemmed = [stemmer.stem(w) for w in tokenized_filtered]
-    searcher = TokenSearcher(stemmed)
-    team['meshterms'] = find_terms(meshterms, searcher, options.numbermesh)
-    team['methods'] = find_terms(methods, searcher)
-    information = 0
-    team['information_content'] = len(tokenized_filtered) / float(len(tokenized))
-    fdist = FreqDist(tokenized_filtered)
-    freq_dists[(team['name'], team['year'])] = fdist
-    for (word, count) in fdist.iteritems():
-        if word not in freq_dist_background:
-            freq_dist_background[word] = count
-        else:
-            freq_dist_background[word] += count
-        freq_dist_background_sum += count
+    try:
+        tokenized = wordpunct_tokenize(team['abstract'])
+        tokenized_filtered = [w.lower() for w in tokenized if w.lower() not in stopwords_en and w.isalnum() and len(w) > 1]
+        stemmed = [stemmer.stem(w) for w in tokenized_filtered]
+        searcher = TokenSearcher(stemmed)
+        team['meshterms'] = find_terms(meshterms, searcher, options.numbermesh)
+        team['methods'] = find_terms(methods, searcher)
+        information = 0
+        team['information_content'] = len(tokenized_filtered) / float(len(tokenized))
+        fdist = FreqDist(tokenized_filtered)
+        freq_dists[(team['name'], team['year'])] = fdist
+        for (word, count) in fdist.iteritems():
+            if word not in freq_dist_background:
+                freq_dist_background[word] = count
+            else:
+                freq_dist_background[word] += count
+            freq_dist_background_sum += count
+    except KeyError:
+        pass
     print >> sys.stderr, "\r%d / %d" % (i, len(data)),
     i += 1
 
 for team in data:
-    fdist = freq_dists[(team['name'], team['year'])]
-    for w in fdist.iterkeys():
-        fdist[w] = (fdist[w] / float(fdist.N())) / (freq_dist_background[w] / float(freq_dist_background_sum))
-    words = fdist.keys()
-    words.sort(lambda x,y: cmp(fdist[x], fdist[y]))
-    team['topwords'] = {word : fdist[word] for word in words[0:options.numberwords]}
+    try:
+        fdist = freq_dists[(team['name'], team['year'])]
+        for w in fdist.iterkeys():
+            fdist[w] = (fdist[w] / float(fdist.N())) / (freq_dist_background[w] / float(freq_dist_background_sum))
+        words = fdist.keys()
+        words.sort(lambda x,y: cmp(fdist[x], fdist[y]))
+        team['topwords'] = {word : fdist[word] for word in words[0:options.numberwords]}
+    except KeyError:
+        pass
 
 print >> sys.stderr, "\n",
 

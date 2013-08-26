@@ -67,7 +67,7 @@
             "XU, Jiajing", 
             "Terrenz Kelly", 
             "CAI Wenxuan", 
-            "HO Yuan Heng Trevor", 
+            "Trevor Y.H. HO", 
             "TANG Jing", 
             "Nathaniel Zhin-Loong Lim"
         ], 
@@ -775,63 +775,9 @@
         "methods": {}
     }, 
     {
-        "wiki": "http://2012.igem.org/Team:Nanjing-China", 
-        "instructors": [
-            "Zhi Hong", 
-            "Xi Chen", 
-            "Lin Zhang"
-        ], 
-        "name": "Nanjing-China", 
-        "track": "Health & Medicine", 
-        "abstract": "Exogenous RNAs are flowing and working in our body, and food carries them besides traditional nutrients. Evidence shows that natural plant miRNAs can be ingested into mammal bodies and target specific genes. Such discoveries show us a promising approach to perform cross-kingdom information transpotation and gene regulation. \r\nWe propose a method of controlling animal gene expression and helping cure disease by creating vegetable that produces artificial siRNAs targeting critical genes for some disease. This time, we chosed PGC-1 alpha gene, which is over-expressed in fatty liver and contributes to insulin resistance, as the target. This concept can provide us a better perception of our daily diet and a new way of curing disease. \r\nOn the other hand, we expand the boarder of iGEM by working on green plant. Firstly standardized binary vector is constructed. Also, we designed a brand divece for transgenic plant to help solving potential safety problems.", 
-        "advisors": [], 
-        "topwords": {
-            "specific": 0.46920019949421415, 
-            "new": 0.2594843624058476, 
-            "igem": 0.33487488919416736, 
-            "expression": 0.25801235596859357, 
-            "time": 0.48075511510455315
-        }, 
-        "awards_championship": [], 
-        "information_content": 0.5705882352941176, 
-        "parts_range": [
-            "BBa_K788000", 
-            "BBa_K788999"
-        ], 
-        "project": "si-Veg", 
-        "url": "http://igem.org/Team.cgi?id=788", 
-        "parts": [
-            "BBa_K788000", 
-            "BBa_K788001", 
-            "BBa_K788002", 
-            "BBa_K788003", 
-            "BBa_K788004", 
-            "BBa_K788005", 
-            "BBa_K788006", 
-            "BBa_K788007", 
-            "BBa_K788008", 
-            "BBa_K788009", 
-            "BBa_K788010", 
-            "BBa_K788011", 
-            "BBa_K788012"
-        ], 
-        "students": [
-            "jiawei gu", 
-            "Xiaoyang You", 
-            "Yuechen Liu", 
-            "Jia-Bao Chen", 
-            "Xinyue LUO", 
-            "JIAN GAO", 
-            "Qing Qing Zhou"
-        ], 
-        "awards_regional": [], 
-        "year": 2012, 
-        "meshterms": {
-            "gene expression": 2, 
-            "gene regulation": 1
-        }, 
-        "region": "Asia", 
-        "methods": {}
+        "medal": "Bronze", 
+        "name": "Wisconson", 
+        "year": 2007
     }, 
     {
         "wiki": "http://2008.igem.org/Team:ETH_Zurich", 
@@ -1097,8 +1043,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I717000", 
             "BBa_I717999"
@@ -1118,10 +1063,9 @@
             "Pilapitiya", 
             "Emily DeLalla"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Gold", 
         "region": "US", 
         "methods": {}
     }, 
@@ -2457,8 +2401,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I748000", 
             "BBa_I748999"
@@ -2476,10 +2419,9 @@
             "Autumn Wassmuth", 
             "Ray Uchida"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Gold", 
         "region": "US", 
         "methods": {}
     }, 
@@ -2540,132 +2482,9 @@
         "methods": {}
     }, 
     {
-        "wiki": "http://2007.igem.org/Team:Davidson_Missouri_W", 
-        "instructors": [
-            "Malcolm Campbell", 
-            "Laurie Heyer", 
-            "Todd Eckdahl", 
-            "Karmella Haynes", 
-            "Jeff Poet"
-        ], 
-        "name": "Davidson Missouri W", 
-        "track": "Information Processing", 
-        "abstract": "-- No abstract provided yet --", 
-        "advisors": [], 
-        "topwords": {
-            "provided": 2.8261848568023136, 
-            "abstract": 77.07425742574257, 
-            "yet": 2.685298798570208
-        }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
-        "parts_range": [
-            "BBa_I715000", 
-            "BBa_I715999"
-        ], 
-        "project": "-- Not provided yet --", 
-        "url": "http://igem.org/Team.cgi?id=15", 
-        "parts": [
-            "BBa_I715000", 
-            "BBa_I715001", 
-            "BBa_I715002", 
-            "BBa_I715003", 
-            "BBa_I715004", 
-            "BBa_I715005", 
-            "BBa_I715006", 
-            "BBa_I715007", 
-            "BBa_I715008", 
-            "BBa_I715009", 
-            "BBa_I715010", 
-            "BBa_I715011", 
-            "BBa_I715012", 
-            "BBa_I715013", 
-            "BBa_I715014", 
-            "BBa_I715015", 
-            "BBa_I715016", 
-            "BBa_I715017", 
-            "BBa_I715018", 
-            "BBa_I715019", 
-            "BBa_I715020", 
-            "BBa_I715021", 
-            "BBa_I715022", 
-            "BBa_I715023", 
-            "BBa_I715024", 
-            "BBa_I715025", 
-            "BBa_I715026", 
-            "BBa_I715027", 
-            "BBa_I715028", 
-            "BBa_I715029", 
-            "BBa_I715030", 
-            "BBa_I715031", 
-            "BBa_I715032", 
-            "BBa_I715033", 
-            "BBa_I715034", 
-            "BBa_I715035", 
-            "BBa_I715036", 
-            "BBa_I715037", 
-            "BBa_I715038", 
-            "BBa_I715039", 
-            "BBa_I715040", 
-            "BBa_I715041", 
-            "BBa_I715042", 
-            "BBa_I715043", 
-            "BBa_I715044", 
-            "BBa_I715045", 
-            "BBa_I715046", 
-            "BBa_I715047", 
-            "BBa_I715048", 
-            "BBa_I715049", 
-            "BBa_I715050", 
-            "BBa_I715051", 
-            "BBa_I715052", 
-            "BBa_I715053", 
-            "BBa_I715054", 
-            "BBa_I715055", 
-            "BBa_I715056", 
-            "BBa_I715057", 
-            "BBa_I715058", 
-            "BBa_I715059", 
-            "BBa_I715060", 
-            "BBa_I715061", 
-            "BBa_I715062", 
-            "BBa_I715063", 
-            "BBa_I715064", 
-            "BBa_I715065", 
-            "BBa_I715066", 
-            "BBa_I715067", 
-            "BBa_I715068", 
-            "BBa_I715069", 
-            "BBa_I715070", 
-            "BBa_I715071", 
-            "BBa_I715072", 
-            "BBa_I715073", 
-            "BBa_I715074", 
-            "BBa_I715075", 
-            "BBa_I715076"
-        ], 
-        "students": [
-            "Will DeLoache", 
-            "Jordan Baumgardner", 
-            "Jessica Treece", 
-            "Oyinade Adefuye", 
-            "Nickolaus Morton", 
-            "Jim Dickson ", 
-            "Amber Shoecraft", 
-            "Andrew Martens", 
-            "Ryan Chilcoat", 
-            "Michael Waters", 
-            "Tom Crowley", 
-            "matthew unzicker", 
-            "Michelle Ritter", 
-            "Amanda Valencia "
-        ], 
-        "awards_regional": [], 
-        "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
-        "region": "US", 
-        "methods": {}
+        "medal": "Gold", 
+        "name": "MIT", 
+        "year": 2007
     }, 
     {
         "wiki": "http://2012.igem.org/Team:UConn", 
@@ -2792,8 +2611,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I713000", 
             "BBa_I713999"
@@ -2811,10 +2629,9 @@
             "Peng Dong", 
             "Chen Chen"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Gold", 
         "region": "Asia", 
         "methods": {}
     }, 
@@ -3125,7 +2942,9 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
+        "awards_championship": [
+            "Health & Medicine"
+        ], 
         "information_content": 0.5, 
         "parts_range": [
             "BBa_I712000", 
@@ -3145,10 +2964,9 @@
             "Katja Kolar", 
             "Andrej Ondracka"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
         "meshterms": {}, 
-        "medal": "blocked", 
+        "medal": "Gold", 
         "region": "--Specify Region--", 
         "methods": {}
     }, 
@@ -3172,8 +2990,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I745000", 
             "BBa_I745999"
@@ -3215,10 +3032,9 @@
             "Katia Sherman", 
             "Devin Cooper"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Gold", 
         "region": "US", 
         "methods": {}
     }, 
@@ -3568,7 +3384,9 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
+        "awards_championship": [
+            "Best Presentation"
+        ], 
         "information_content": 0.5, 
         "parts_range": [
             "BBa_I739000", 
@@ -3591,10 +3409,9 @@
             "Katerina Dikaiou", 
             "Christian Kemmer"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
         "meshterms": {}, 
-        "medal": "blocked", 
+        "medal": "Gold", 
         "region": "Europe", 
         "methods": {}
     }, 
@@ -4490,8 +4307,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I711000", 
             "BBa_I711999"
@@ -4522,10 +4338,9 @@
             "Ranjan Khan", 
             "Emre Ruhi"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Silver", 
         "region": "US", 
         "methods": {}
     }, 
@@ -4684,116 +4499,9 @@
         "methods": {}
     }, 
     {
-        "wiki": "http://2010.igem.org/Team:Utah_State", 
-        "instructors": [
-            "Charles Miller"
-        ], 
-        "name": "Utah State", 
-        "track": "Manufacturing", 
-        "abstract": "The future of synthetic biology lies in expanding our ability to engineer genes in new organisms. Our project develops a system to engineer the genome of the photosynthetic cyanobacterium Synechocystis sp. PCC6803, establishes expression standards for this species, and adds a set of characterized Synechocystis promoters and ribosome binding sites to the BioBrick toolbox. We developed a BioBrick vector that can be used to assemble parts and devices in E. coli. Upon transformation into Synechocystis, it integrates the device directly into the genome through homologous recombination. We utilized genes that were activated under a variety of conditions, from those responding to heat stress to ones oscillating under a circadian rhythm. The promoters and ribosome binding sites were converted into BioBrick-compatible parts, and subsequently characterized. Our success will enable the use of existing parts in new species, and will expand the range of devices that can be built.", 
-        "advisors": [
-            "Ronald C Sims"
-        ], 
-        "topwords": {
-            "synthetic": 0.21486163923228752, 
-            "project": 0.2890609000917074, 
-            "used": 0.3350506149766849, 
-            "system": 0.12634125362799178, 
-            "coli": 0.2757051942900667
-        }, 
-        "awards_championship": [], 
-        "information_content": 0.5121951219512195, 
-        "parts_range": [
-            "BBa_K390000", 
-            "BBa_K390999"
-        ], 
-        "project": "CyanoBricks: Genomic Engineering Tools for the Photosynthetic Cyanobacterium Synechocystis", 
-        "url": "http://igem.org/Team.cgi?id=390", 
-        "parts": [
-            "BBa_K390000", 
-            "BBa_K390001", 
-            "BBa_K390002", 
-            "BBa_K390003", 
-            "BBa_K390004", 
-            "BBa_K390005", 
-            "BBa_K390006", 
-            "BBa_K390007", 
-            "BBa_K390008", 
-            "BBa_K390009", 
-            "BBa_K390010", 
-            "BBa_K390011", 
-            "BBa_K390012", 
-            "BBa_K390013", 
-            "BBa_K390014", 
-            "BBa_K390015", 
-            "BBa_K390016", 
-            "BBa_K390017", 
-            "BBa_K390018", 
-            "BBa_K390019", 
-            "BBa_K390020", 
-            "BBa_K390021", 
-            "BBa_K390022", 
-            "BBa_K390023", 
-            "BBa_K390024", 
-            "BBa_K390025", 
-            "BBa_K390026", 
-            "BBa_K390027", 
-            "BBa_K390028", 
-            "BBa_K390029", 
-            "BBa_K390030", 
-            "BBa_K390031", 
-            "BBa_K390032", 
-            "BBa_K390033", 
-            "BBa_K390034", 
-            "BBa_K390035", 
-            "BBa_K390036", 
-            "BBa_K390037", 
-            "BBa_K390038", 
-            "BBa_K390039", 
-            "BBa_K390040", 
-            "BBa_K390041", 
-            "BBa_K390042", 
-            "BBa_K390043", 
-            "BBa_K390044", 
-            "BBa_K390045", 
-            "BBa_K390046", 
-            "BBa_K390047", 
-            "BBa_K390048", 
-            "BBa_K390049", 
-            "BBa_K390050", 
-            "BBa_K390051", 
-            "BBa_K390052", 
-            "BBa_K390053", 
-            "BBa_K390054", 
-            "BBa_K390055", 
-            "BBa_K390056", 
-            "BBa_K390057", 
-            "BBa_K390058", 
-            "BBa_K390059", 
-            "BBa_K390060", 
-            "BBa_K390061", 
-            "BBa_K390062", 
-            "BBa_K390063", 
-            "BBa_K390064"
-        ], 
-        "students": [
-            "Cody Tramp", 
-            "Cole Peterson", 
-            "Alex Hatch", 
-            "Shujie Shen", 
-            "Brad Henrie", 
-            "Eduardo A Monzon", 
-            "Abiezer Tejeda"
-        ], 
-        "awards_regional": [], 
-        "year": 2010, 
-        "meshterms": {
-            "synthetic biology": 1, 
-            "homologous recombination": 1
-        }, 
-        "medal": "gold", 
-        "region": "US", 
-        "methods": {}
+        "medal": "Gold", 
+        "name": "St. Petersberg", 
+        "year": 2007
     }, 
     {
         "wiki": "http://2011.igem.org/Team:METU-BIN_Ankara", 
@@ -5084,45 +4792,77 @@
         "methods": {}
     }, 
     {
-        "wiki": "http://2010.igem.org/Team:Gaston_Day_School", 
-        "instructors": [
-            "Anne Byford"
+        "wiki": "http://2007.igem.org/Team:Berkeley_UC", 
+        "advisors": [
+            "Adam Arkin", 
+            "John Dueber", 
+            "rickey bonds"
         ], 
-        "name": "Gaston Day School", 
-        "track": "Environment", 
-        "abstract": "Our team's project was to create a biological iron detector using techniques and procedures available to an ordinary high school laboratory that replicate methods used in university research laboratories. We constructed our reporter by combining an iron-sensitive promoter with a red fluorescent protein (RFP) coding sequence. We chose RFP because of its high visibility and easy detection. Although the assembly was successful, the resulting detector is leaky with measurable RFP even in conditions with no iron present. In our lab environment, we found that it was necessary to work with relatively high concentrations of bacteria and DNA. We developed simplified procedures for transformations, digests, and ligations, but we continue to face problems with DNA visualization and measuring the pigments from the bacteria.", 
-        "advisors": [], 
-        "topwords": {
-            "project": 0.2564314695045722, 
-            "using": 0.22557134067647855, 
-            "protein": 0.21801142684223457, 
-            "used": 0.28820365298146167, 
-            "team": 0.34592864769960174
-        }, 
-        "awards_championship": [], 
-        "information_content": 0.5323741007194245, 
-        "parts_range": [
-            "BBa_K308000", 
-            "BBa_K308999"
-        ], 
-        "project": "Construction of a Biological Iron Detector in a Secondary School Environment", 
-        "url": "http://igem.org/Team.cgi?id=308", 
-        "parts": [], 
-        "students": [
-            "Alexander Hall", 
-            "Will Harris", 
-            "taylor rey garrido", 
-            "Spencer Bradley Jones", 
-            "Noor Kaur", 
-            "Joey Sloand", 
-            "Ivana Chan", 
-            "Amir Feinberg", 
-            "Augustine Eze"
-        ], 
-        "awards_regional": [], 
-        "year": 2010, 
-        "meshterms": {}, 
+        "name": "Berkeley UC", 
+        "track": "Medical", 
         "region": "US", 
+        "instructors": [
+            "Chris Anderson"
+        ], 
+        "topwords": {
+            "provided": 2.8261848568023136, 
+            "abstract": 77.07425742574257, 
+            "yet": 2.685298798570208
+        }, 
+        "meshterms": {}, 
+        "parts_range": [
+            "BBa_I716000", 
+            "BBa_I716999"
+        ], 
+        "project": "-- Not provided yet --", 
+        "students": [
+            "David Tulga", 
+            "Vaibhavi Umesh", 
+            "Samantha Liang", 
+            "Austin Day", 
+            "Arthur Yu", 
+            "Hannah Cole", 
+            "Kristin Doan", 
+            "Kristin Fuller", 
+            "vincent parker", 
+            "nhu nguyen"
+        ], 
+        "parts": [
+            "BBa_I716000", 
+            "BBa_I716001", 
+            "BBa_I716002", 
+            "BBa_I716003", 
+            "BBa_I716004", 
+            "BBa_I716005", 
+            "BBa_I716006", 
+            "BBa_I716007", 
+            "BBa_I716008", 
+            "BBa_I716009", 
+            "BBa_I716010", 
+            "BBa_I716011", 
+            "BBa_I716012", 
+            "BBa_I716013", 
+            "BBa_I716014", 
+            "BBa_I716015", 
+            "BBa_I716016", 
+            "BBa_I716017", 
+            "BBa_I716018", 
+            "BBa_I716019", 
+            "BBa_I716020", 
+            "BBa_I716021", 
+            "BBa_I716022", 
+            "BBa_I716023", 
+            "BBa_I716024", 
+            "BBa_I716025", 
+            "BBa_I716026", 
+            "BBa_I716027", 
+            "BBa_I716028", 
+            "BBa_I716029"
+        ], 
+        "url": "http://igem.org/Team.cgi?id=16", 
+        "year": 2007, 
+        "information_content": 0.5, 
+        "abstract": "-- No abstract provided yet --", 
         "methods": {}
     }, 
     {
@@ -5674,8 +5414,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I729000", 
             "BBa_I729999"
@@ -5705,10 +5444,9 @@
             "Marina Gushiken", 
             "Akinori Katabami"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Bronze", 
         "region": "Asia", 
         "methods": {}
     }, 
@@ -5779,7 +5517,9 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
+        "awards_championship": [
+            "Environmental Sensing"
+        ], 
         "information_content": 0.5, 
         "parts_range": [
             "BBa_I723000", 
@@ -5805,10 +5545,9 @@
             "Scott Ramsay", 
             "Lynsey McLeay"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
         "meshterms": {}, 
-        "medal": "blocked", 
+        "medal": "Gold", 
         "region": "--Specify Region--", 
         "methods": {}
     }, 
@@ -8302,8 +8041,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I758000", 
             "BBa_I758999"
@@ -8319,10 +8057,9 @@
             "Cory Li", 
             "Aamir Husain"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Bronze", 
         "region": "US", 
         "methods": {}
     }, 
@@ -8940,7 +8677,7 @@
             "Kelly Merchant", 
             "Matthew Bickford", 
             "William Smith", 
-            "rachel louie", 
+            "Rachel Louie", 
             "Ariel Whatley", 
             "Whitney Crain"
         ], 
@@ -9618,8 +9355,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I752000", 
             "BBa_I752999"
@@ -9638,10 +9374,9 @@
             "LeeAnna Tavernini", 
             "Scott Linton"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Gold", 
         "region": "Canada", 
         "methods": {}
     }, 
@@ -11828,8 +11563,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I738000", 
             "BBa_I738999"
@@ -11848,10 +11582,9 @@
             "Dan Sheik", 
             "Sarah Reed"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Bronze", 
         "region": "US", 
         "methods": {}
     }, 
@@ -12812,8 +12545,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I722000", 
             "BBa_I722999"
@@ -12848,10 +12580,9 @@
             "sunjingjing", 
             "Wei Zhu"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Gold", 
         "region": "Asia", 
         "methods": {}
     }, 
@@ -12969,7 +12700,7 @@
             "Lingli Ni", 
             "Yapeng Su", 
             "Andi Wangzhou", 
-            "WEI YUFEI", 
+            "Yufei Wei", 
             "Chao Li"
         ], 
         "awards_regional": [
@@ -13442,13 +13173,13 @@
     }, 
     {
         "wiki": "http://2011.igem.org/Team:Arizona_State", 
+        "advisors": [], 
+        "name": "Arizona State", 
+        "track": "New Application", 
+        "region": "Americas", 
         "instructors": [
             "Xiao Wang"
         ], 
-        "name": "Arizona State", 
-        "track": "New Application", 
-        "abstract": "\"Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR) are a genomic feature of many prokaryotic and archeal species. CRISPR functions as an adaptive immune system, targeting exogenous sequences that match spacers integrated into the genome. Our project focuses on developing a set of tools for synthetic control over the CRISPR pathway. This includes a method for creating polymers of repeat-spacer-repeat units, the development of CRISPR biobricks (CAS genes, leader sequences) for several CRISPR subtypes (E. coli, B. halodurans, and L. innocua), testing these components on plasmids containing GFP, and a software tool to collect and display CRISPR information, as well as select spacers from a particular sequence. Given the relatively recent progress in the scientific understanding of this system, we see the potential for a wide range of biotechnological applications of CRISPR in the future. \"", 
-        "advisors": [], 
         "topwords": {
             "synthetic": 0.14356000778904476, 
             "project": 0.1954199620552663, 
@@ -13463,8 +13194,6 @@
             "BBa_K578999"
         ], 
         "project": "CRISPR Assisted Genetic Engineering", 
-        "url": "http://igem.org/Team.cgi?id=578", 
-        "parts": [], 
         "students": [
             "Keith Dyson", 
             "Nisarg Patel", 
@@ -13477,7 +13206,9 @@
             "Ryan Muller", 
             "Abhinav Markus"
         ], 
-        "awards_regional": [], 
+        "parts": [], 
+        "url": "http://igem.org/Team.cgi?id=578", 
+        "methods": {}, 
         "year": 2011, 
         "meshterms": {
             "biotechnological applications": 1, 
@@ -13486,8 +13217,8 @@
             "biotechnology": 1
         }, 
         "medal": "bronze", 
-        "region": "Americas", 
-        "methods": {}
+        "abstract": "\"Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR) are a genomic feature of many prokaryotic and archeal species. CRISPR functions as an adaptive immune system, targeting exogenous sequences that match spacers integrated into the genome. Our project focuses on developing a set of tools for synthetic control over the CRISPR pathway. This includes a method for creating polymers of repeat-spacer-repeat units, the development of CRISPR biobricks (CAS genes, leader sequences) for several CRISPR subtypes (E. coli, B. halodurans, and L. innocua), testing these components on plasmids containing GFP, and a software tool to collect and display CRISPR information, as well as select spacers from a particular sequence. Given the relatively recent progress in the scientific understanding of this system, we see the potential for a wide range of biotechnological applications of CRISPR in the future. \"", 
+        "awards_regional": []
     }, 
     {
         "wiki": "http://2012.igem.org/Team:ULB-Brussels", 
@@ -13757,8 +13488,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I762000", 
             "BBa_I762999"
@@ -13776,10 +13506,9 @@
             "Tadeo Velazquez", 
             "ALIN ACUÑA ALONZO"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Bronze", 
         "region": "Latin America", 
         "methods": {}
     }, 
@@ -14253,28 +13982,26 @@
     }, 
     {
         "wiki": "http://2007.igem.org/Team:CPU", 
+        "advisors": [], 
+        "name": "CPU", 
+        "students": [], 
+        "region": "Asia", 
         "instructors": [
             "Tian Hong"
         ], 
-        "name": "CPU", 
-        "students": [], 
-        "abstract": "-- No abstract provided yet --", 
-        "advisors": [], 
         "topwords": {
             "provided": 2.8261848568023136, 
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [], 
         "project": "-- Not provided yet --", 
         "url": "http://igem.org/Team.cgi?id=73", 
         "parts": [], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "region": "Asia", 
+        "information_content": 0.5, 
+        "abstract": "-- No abstract provided yet --", 
         "methods": {}
     }, 
     {
@@ -14803,35 +14530,32 @@
     }, 
     {
         "wiki": "http://2007.igem.org/Team:Prairie_View", 
+        "advisors": [], 
+        "name": "Prairie View", 
+        "track": "Environment", 
+        "region": "US", 
         "instructors": [
             "Raul Cuero "
         ], 
-        "name": "Prairie View", 
-        "track": "Environment", 
-        "abstract": "-- No abstract provided yet --", 
-        "advisors": [], 
         "topwords": {
             "provided": 2.8261848568023136, 
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I743000", 
             "BBa_I743999"
         ], 
         "project": "-- Not provided yet --", 
-        "url": "http://igem.org/Team.cgi?id=43", 
-        "parts": [], 
         "students": [
             "Laina Magaya"
         ], 
-        "awards_regional": [], 
+        "parts": [], 
+        "url": "http://igem.org/Team.cgi?id=43", 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
-        "region": "US", 
+        "information_content": 0.5, 
+        "abstract": "-- No abstract provided yet --", 
         "methods": {}
     }, 
     {
@@ -15980,30 +15704,28 @@
     }, 
     {
         "wiki": "http://2007.igem.org/Team:UMD", 
-        "instructors": [
-            "David O"
-        ], 
+        "advisors": [], 
         "name": "UMD", 
         "students": [
             "Christina Donnelly"
         ], 
-        "abstract": "-- No abstract provided yet --", 
-        "advisors": [], 
+        "region": "--Specify Region--", 
+        "instructors": [
+            "David O"
+        ], 
         "topwords": {
             "provided": 2.8261848568023136, 
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [], 
         "project": "-- Not provided yet --", 
         "url": "http://igem.org/Team.cgi?id=71", 
         "parts": [], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "region": "--Specify Region--", 
+        "information_content": 0.5, 
+        "abstract": "-- No abstract provided yet --", 
         "methods": {}
     }, 
     {
@@ -16538,7 +16260,10 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
+        "awards_championship": [
+            "Grand Prize", 
+            "Information Processing"
+        ], 
         "information_content": 0.5, 
         "parts_range": [
             "BBa_I714000", 
@@ -16575,10 +16300,9 @@
             "wangmingcong", 
             "Ma Tao"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
         "meshterms": {}, 
-        "medal": "blocked", 
+        "medal": "Gold", 
         "region": "Asia", 
         "methods": {}
     }, 
@@ -16921,8 +16645,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I756000", 
             "BBa_I756999"
@@ -16978,12 +16701,16 @@
             "Omar Khan", 
             "Chian Gong"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Silver", 
         "region": "US", 
         "methods": {}
+    }, 
+    {
+        "medal": "Gold", 
+        "name": "Davidson_Missouri", 
+        "year": 2007
     }, 
     {
         "wiki": "http://2010.igem.org/Team:LMU-Munich", 
@@ -18341,53 +18068,164 @@
         "methods": {}
     }, 
     {
-        "wiki": "http://2007.igem.org/Team:UCSF", 
+        "wiki": "http://2012.igem.org/Team:Nanjing-China", 
         "instructors": [
-            "Wendell Lim", 
-            "Sergio Peisajovich", 
-            "Nili Sommovilla", 
-            "David Pincus", 
-            "Angela Won"
+            "Zhi Hong", 
+            "Xi Chen", 
+            "Lin Zhang"
         ], 
-        "name": "UCSF", 
+        "name": "Nanjing-China", 
+        "track": "Health & Medicine", 
+        "abstract": "Exogenous RNAs are flowing and working in our body, and food carries them besides traditional nutrients. Evidence shows that natural plant miRNAs can be ingested into mammal bodies and target specific genes. Such discoveries show us a promising approach to perform cross-kingdom information transpotation and gene regulation. \r\nWe propose a method of controlling animal gene expression and helping cure disease by creating vegetable that produces artificial siRNAs targeting critical genes for some disease. This time, we chosed PGC-1 alpha gene, which is over-expressed in fatty liver and contributes to insulin resistance, as the target. This concept can provide us a better perception of our daily diet and a new way of curing disease. \r\nOn the other hand, we expand the boarder of iGEM by working on green plant. Firstly standardized binary vector is constructed. Also, we designed a brand divece for transgenic plant to help solving potential safety problems.", 
+        "advisors": [], 
+        "topwords": {
+            "specific": 0.46920019949421415, 
+            "new": 0.2594843624058476, 
+            "igem": 0.33487488919416736, 
+            "expression": 0.25801235596859357, 
+            "time": 0.48075511510455315
+        }, 
+        "awards_championship": [], 
+        "information_content": 0.5705882352941176, 
+        "parts_range": [
+            "BBa_K788000", 
+            "BBa_K788999"
+        ], 
+        "project": "si-Veg", 
+        "url": "http://igem.org/Team.cgi?id=788", 
+        "parts": [
+            "BBa_K788000", 
+            "BBa_K788001", 
+            "BBa_K788002", 
+            "BBa_K788003", 
+            "BBa_K788004", 
+            "BBa_K788005", 
+            "BBa_K788006", 
+            "BBa_K788007", 
+            "BBa_K788008", 
+            "BBa_K788009", 
+            "BBa_K788010", 
+            "BBa_K788011", 
+            "BBa_K788012"
+        ], 
+        "students": [
+            "jiawei gu", 
+            "Xiaoyang You", 
+            "Yuechen Liu", 
+            "Jia-Bao Chen", 
+            "Xinyue LUO", 
+            "JIAN GAO", 
+            "Qing Qing Zhou"
+        ], 
+        "awards_regional": [], 
+        "year": 2012, 
+        "meshterms": {
+            "gene expression": 2, 
+            "gene regulation": 1
+        }, 
+        "region": "Asia", 
+        "methods": {}
+    }, 
+    {
+        "wiki": "http://2007.igem.org/Team:USTC", 
+        "instructors": [
+            "Zhan Jian", 
+            "Haiyan Liu"
+        ], 
+        "name": "USTC", 
         "track": "Information Processing", 
         "abstract": "-- No abstract provided yet --", 
         "advisors": [
-            "reid williams", 
-            "Ryan Ritterson"
+            "Jiarui Wu", 
+            "Zhonghuai Hou"
         ], 
         "topwords": {
             "provided": 2.8261848568023136, 
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
+        "awards_championship": [
+            "Best Foundational Tech."
+        ], 
         "information_content": 0.5, 
         "parts_range": [
-            "BBa_I766000", 
-            "BBa_I766999"
+            "BBa_I732000", 
+            "BBa_I732999"
         ], 
         "project": "-- Not provided yet --", 
-        "url": "http://igem.org/Team.cgi?id=66", 
+        "url": "http://igem.org/Team.cgi?id=32", 
         "parts": [
-            "BBa_I766000", 
-            "BBa_I766001", 
-            "BBa_I766002"
+            "BBa_I732000", 
+            "BBa_I732001", 
+            "BBa_I732002", 
+            "BBa_I732003", 
+            "BBa_I732004", 
+            "BBa_I732005", 
+            "BBa_I732006", 
+            "BBa_I732007", 
+            "BBa_I732008", 
+            "BBa_I732009", 
+            "BBa_I732010", 
+            "BBa_I732011", 
+            "BBa_I732012", 
+            "BBa_I732013", 
+            "BBa_I732014", 
+            "BBa_I732015", 
+            "BBa_I732016", 
+            "BBa_I732017", 
+            "BBa_I732018", 
+            "BBa_I732019", 
+            "BBa_I732020", 
+            "BBa_I732021", 
+            "BBa_I732022", 
+            "BBa_I732023", 
+            "BBa_I732024", 
+            "BBa_I732025", 
+            "BBa_I732026", 
+            "BBa_I732027", 
+            "BBa_I732028", 
+            "BBa_I732029", 
+            "BBa_I732030", 
+            "BBa_I732031", 
+            "BBa_I732032", 
+            "BBa_I732033", 
+            "BBa_I732034", 
+            "BBa_I732035", 
+            "BBa_I732036", 
+            "BBa_I732037", 
+            "BBa_I732038", 
+            "BBa_I732039", 
+            "BBa_I732040", 
+            "BBa_I732041", 
+            "BBa_I732042", 
+            "BBa_I732043", 
+            "BBa_I732044", 
+            "BBa_I732045", 
+            "BBa_I732046", 
+            "BBa_I732047", 
+            "BBa_I732048", 
+            "BBa_I732049", 
+            "BBa_I732050", 
+            "BBa_I732051", 
+            "BBa_I732052", 
+            "BBa_I732053", 
+            "BBa_I732054", 
+            "BBa_I732055", 
+            "BBa_I732056", 
+            "BBa_I732057", 
+            "BBa_I732058"
         ], 
         "students": [
-            "Michael Chen", 
-            "Jimmy Jie Min Huang", 
-            "Eric Meltzer", 
-            "Eric Chou", 
-            "alexander ng", 
-            "Lauren Jann", 
-            "Robert Ovadia"
+            "Bo Ding", 
+            "Zhao Yun", 
+            "LiuZiqing", 
+            "Xiaofeng Su", 
+            "Ma Xiaoyu"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
         "meshterms": {}, 
-        "medal": "blocked", 
-        "region": "US", 
+        "medal": "Gold", 
+        "region": "Asia", 
         "methods": {}
     }, 
     {
@@ -18519,41 +18357,38 @@
     }, 
     {
         "wiki": "http://2007.igem.org/Team:Wisconsin", 
-        "instructors": [
-            "Franco Cerrina"
-        ], 
-        "name": "Wisconsin", 
-        "track": "Foundational Research", 
-        "abstract": "-- No abstract provided yet --", 
         "advisors": [
             "Doug Weibel", 
             "James Laudon"
+        ], 
+        "name": "Wisconsin", 
+        "track": "Foundational Research", 
+        "region": "US", 
+        "instructors": [
+            "Franco Cerrina"
         ], 
         "topwords": {
             "provided": 2.8261848568023136, 
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I767000", 
             "BBa_I767999"
         ], 
         "project": "-- Not provided yet --", 
-        "url": "http://igem.org/Team.cgi?id=67", 
-        "parts": [], 
         "students": [
             "Nathan Klapoetke", 
             "Sean McMaster", 
             "Sixing Liang", 
             "David Peterson"
         ], 
-        "awards_regional": [], 
+        "parts": [], 
+        "url": "http://igem.org/Team.cgi?id=67", 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
-        "region": "US", 
+        "information_content": 0.5, 
+        "abstract": "-- No abstract provided yet --", 
         "methods": {}
     }, 
     {
@@ -19127,8 +18962,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I741000", 
             "BBa_I741999"
@@ -19172,10 +19006,9 @@
             "samhita banavar", 
             "George Khoury"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Gold", 
         "region": "US", 
         "methods": {}
     }, 
@@ -19389,8 +19222,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I751000", 
             "BBa_I751999"
@@ -19407,10 +19239,9 @@
             "hajime", 
             "Hiroki Kawahara"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Gold", 
         "region": "Asia", 
         "methods": {}
     }, 
@@ -20006,8 +19837,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I737000", 
             "BBa_I737999"
@@ -20037,10 +19867,9 @@
             "Dave Curran", 
             "Paul Adamiak"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Gold", 
         "region": "Canada", 
         "methods": {}
     }, 
@@ -20137,8 +19966,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I721000", 
             "BBa_I721999"
@@ -20171,10 +19999,9 @@
             "Tito Jankowski", 
             "Tito Jankowski"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Gold", 
         "region": "US", 
         "methods": {}
     }, 
@@ -20725,7 +20552,9 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
+        "awards_championship": [
+            "Foundational Research"
+        ], 
         "information_content": 0.5, 
         "parts_range": [
             "BBa_I718000", 
@@ -20772,10 +20601,9 @@
             "David Puyraimond", 
             "Rayna S"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
         "meshterms": {}, 
-        "medal": "blocked", 
+        "medal": "Gold", 
         "region": "Europe", 
         "methods": {}
     }, 
@@ -20918,6 +20746,11 @@
         "medal": "gold", 
         "region": "Americas West", 
         "methods": {}
+    }, 
+    {
+        "medal": "Bronze", 
+        "name": "Boston U", 
+        "year": 2007
     }, 
     {
         "wiki": "http://2009.igem.org/Team:Tianjin", 
@@ -21498,6 +21331,11 @@
         "methods": {}
     }, 
     {
+        "medal": "Bronze", 
+        "name": "Mississippi", 
+        "year": 2007
+    }, 
+    {
         "wiki": "http://2009.igem.org/Team:LCG-UNAM-Mexico", 
         "instructors": [
             "Osbaldo Resendis", 
@@ -21812,49 +21650,27 @@
         "methods": {}
     }, 
     {
-        "wiki": "http://2011.igem.org/Team:McGill", 
-        "instructors": [
-            "Michel L. Tremblay"
-        ], 
-        "name": "McGill", 
-        "students": [
-            "Christopher Buccitelli", 
-            "Alexandre Lussier", 
-            "Rayya Assaf", 
-            "Roohi Vinaik", 
-            "Adam Li", 
-            "Elie Kostantin", 
-            "Pier-Luc Clermont", 
-            "Pinky Langat", 
-            "Piratip Pratumsuwan", 
-            "Yaakov Stern"
-        ], 
-        "abstract": "Optogenetics involves the use of light to remotely control cellular function via light responsive proteins. It is a promising tool for engineering optical regulation of cellular behavior. Unlike most stimuli, light signals have the advantage of being highly precise with regards to temporal and spatial action as well as having readily tunable intensity. Within cells, a variety of effectors can be controlled using light, including DNA binding proteins, enzymes and mediators in signal transduction. Specifically, our projects focus on building light-responsive biobricks for control of mammalian cells by fusing photo-switchable domains found in plant, algal and fungal light sensing proteins to such effectors. Mammalian biochemistry is complex and well regulated, necessitating synthetic effectors that can be easily and dynamically adjusted to meet the needs of the application. Photo-switchable systems provide this versatility.", 
+        "wiki": "http://2007.igem.org/Team:Cape_Peninsula", 
         "advisors": [], 
-        "topwords": {
-            "synthetic": 0.16906411128239052, 
-            "using": 0.20363183943619156, 
-            "use": 0.29759831196477066, 
-            "sensing": 0.47755453282956484, 
-            "systems": 0.36223729842259655
-        }, 
-        "awards_championship": [], 
-        "information_content": 0.5921052631578947, 
-        "parts_range": [
-            "BBa_K666000", 
-            "BBa_K666999"
+        "name": "Cape Peninsula", 
+        "students": [], 
+        "region": "--Specify Region--", 
+        "instructors": [
+            "Miles Jacobs"
         ], 
-        "project": "All You Need is LOV: Photoswitchable dimerization in mammalian cells", 
-        "url": "http://igem.org/Team.cgi?id=666", 
-        "parts": [], 
-        "awards_regional": [], 
-        "year": 2011, 
-        "meshterms": {
-            "biochemistry": 1, 
-            "signal transduction": 1, 
-            "mammalian cells": 1
+        "topwords": {
+            "provided": 2.8261848568023136, 
+            "abstract": 77.07425742574257, 
+            "yet": 2.685298798570208
         }, 
-        "region": "Americas", 
+        "meshterms": {}, 
+        "parts_range": [], 
+        "project": "-- Not provided yet --", 
+        "url": "http://igem.org/Team.cgi?id=55", 
+        "parts": [], 
+        "year": 2007, 
+        "information_content": 0.5, 
+        "abstract": "-- No abstract provided yet --", 
         "methods": {}
     }, 
     {
@@ -21877,7 +21693,9 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
+        "awards_championship": [
+            "Best Modeling / Sim."
+        ], 
         "information_content": 0.5, 
         "parts_range": [
             "BBa_I726000", 
@@ -21902,37 +21720,81 @@
             "Sushant More", 
             "Shashank Kundu"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
         "meshterms": {}, 
-        "medal": "blocked", 
+        "medal": "Gold", 
         "region": "Asia", 
         "methods": {}
     }, 
     {
+        "wiki": "http://2012.igem.org/Team:UTP-Software", 
+        "advisors": [], 
+        "name": "UTP-Software", 
+        "track": "Software Tools", 
+        "region": "Latin America", 
+        "instructors": [
+            "Grimaldo  Elías Ureña M."
+        ], 
+        "topwords": {
+            "synthetic": 0.17568786486246343, 
+            "project": 0.25726759904315744, 
+            "biology": 0.45072460919347956, 
+            "production": 0.31038249019281594, 
+            "new": 0.3773467723771002
+        }, 
+        "awards_championship": [
+            "Advance to Software Jamboree"
+        ], 
+        "information_content": 0.5185185185185185, 
+        "parts_range": [
+            "BBa_K951000", 
+            "BBa_K951999"
+        ], 
+        "project": "Bricks, Mutagenesis and Energy Software Tools", 
+        "students": [
+            "Arturo Nieves", 
+            "Emmanuel Garuz", 
+            "William Vong", 
+            "Edwin Toribio", 
+            "Jorge Lezcano", 
+            "Fotis Stringos", 
+            "Salomon A. Mitre B,"
+        ], 
+        "parts": [], 
+        "url": "http://igem.org/Team.cgi?id=951", 
+        "methods": {}, 
+        "year": 2012, 
+        "meshterms": {
+            "synthetic biology": 1, 
+            "bioenergy": 1, 
+            "biofuels": 1
+        }, 
+        "medal": "silver", 
+        "abstract": "A program to help new IGEM teams with assembly standards selection, and site-directed mutagenesis for primers development in case of incompatibility, is this year UTP-Software team project. S2MT as we called it, applies “QuikChange Site-Directed Mutagenesis” [1] considerations for the design of mutagenic primers and gives users the resources to avoid restriction sites, making their designs compatible with IGEM standards.\r\nOur team is also interested in the development of a tool to help teams and researchers to work and study the production of bioenergy through synthetic biology. This will be done by analyzing metabolic routes from the substrates for the reactions, and then identify the responsible genes for each enzymatic reactions that could produce these biofuels.", 
+        "awards_regional": []
+    }, 
+    {
         "wiki": "http://2007.igem.org/Team:chicago", 
+        "advisors": [], 
+        "name": "chicago", 
+        "students": [], 
+        "region": "US", 
         "instructors": [
             "Jordan Kanter"
         ], 
-        "name": "chicago", 
-        "students": [], 
-        "abstract": "-- No abstract provided yet --", 
-        "advisors": [], 
         "topwords": {
             "provided": 2.8261848568023136, 
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [], 
         "project": "-- Not provided yet --", 
         "url": "http://igem.org/Team.cgi?id=72", 
         "parts": [], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "region": "US", 
+        "information_content": 0.5, 
+        "abstract": "-- No abstract provided yet --", 
         "methods": {}
     }, 
     {
@@ -22729,28 +22591,33 @@
     }, 
     {
         "wiki": "http://2007.igem.org/Team:Michigan", 
+        "advisors": [], 
+        "name": "Michigan", 
+        "track": "Foundational Research", 
+        "region": "US", 
         "instructors": [
             "Peter Woolf", 
             "Alex Ninfa", 
             "domitilla del vecchio"
         ], 
-        "name": "Michigan", 
-        "track": "Foundational Research", 
-        "abstract": "-- No abstract provided yet --", 
-        "advisors": [], 
         "topwords": {
             "provided": 2.8261848568023136, 
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I720000", 
             "BBa_I720999"
         ], 
         "project": "-- Not provided yet --", 
-        "url": "http://igem.org/Team.cgi?id=20", 
+        "students": [
+            "Jessie Alperin", 
+            "Andrew Cheng", 
+            "Amrit Misra", 
+            "Shelly Leung", 
+            "Amritha Rammohan"
+        ], 
         "parts": [
             "BBa_I720000", 
             "BBa_I720001", 
@@ -22764,18 +22631,10 @@
             "BBa_I720009", 
             "BBa_I720010"
         ], 
-        "students": [
-            "Jessie Alperin", 
-            "Andrew Cheng", 
-            "Amrit Misra", 
-            "Shelly Leung", 
-            "Amritha Rammohan"
-        ], 
-        "awards_regional": [], 
+        "url": "http://igem.org/Team.cgi?id=20", 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
-        "region": "US", 
+        "information_content": 0.5, 
+        "abstract": "-- No abstract provided yet --", 
         "methods": {}
     }, 
     {
@@ -23158,27 +23017,24 @@
     }, 
     {
         "wiki": "http://2007.igem.org/Team:Mississippi_State", 
+        "advisors": [], 
+        "name": "Mississippi State", 
+        "track": "Energy", 
+        "region": "US", 
         "instructors": [
             "Filip To"
         ], 
-        "name": "Mississippi State", 
-        "track": "Energy", 
-        "abstract": "-- No abstract provided yet --", 
-        "advisors": [], 
         "topwords": {
             "provided": 2.8261848568023136, 
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I740000", 
             "BBa_I740999"
         ], 
         "project": "-- Not provided yet --", 
-        "url": "http://igem.org/Team.cgi?id=40", 
-        "parts": [], 
         "students": [
             "Lauren Beatty", 
             "Samuel Pote", 
@@ -23187,43 +23043,37 @@
             "Joseph Chen", 
             "Scott Chi Tran"
         ], 
-        "awards_regional": [], 
+        "parts": [], 
+        "url": "http://igem.org/Team.cgi?id=40", 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
-        "region": "US", 
+        "information_content": 0.5, 
+        "abstract": "-- No abstract provided yet --", 
         "methods": {}
     }, 
     {
         "wiki": "http://2007.igem.org/Team:Saint_Petersburg", 
+        "advisors": [
+            "Tatiana Moiseeva"
+        ], 
+        "name": "Saint Petersburg", 
+        "track": "Environment", 
+        "region": "US", 
         "instructors": [
             "Evgeny Zatulovskiy", 
             "Vasiliy Romanov", 
             "Alexej Skvortsov"
-        ], 
-        "name": "Saint Petersburg", 
-        "track": "Environment", 
-        "abstract": "-- No abstract provided yet --", 
-        "advisors": [
-            "Tatiana Moiseeva"
         ], 
         "topwords": {
             "provided": 2.8261848568023136, 
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I760000", 
             "BBa_I760999"
         ], 
         "project": "-- Not provided yet --", 
-        "url": "http://igem.org/Team.cgi?id=60", 
-        "parts": [
-            "BBa_I760000", 
-            "BBa_I760001"
-        ], 
         "students": [
             "Tatiana N. Moiseeva", 
             "Alexey Shalygin", 
@@ -23234,11 +23084,14 @@
             "Paul Afanas'ev", 
             "Anton Sabantsev"
         ], 
-        "awards_regional": [], 
+        "parts": [
+            "BBa_I760000", 
+            "BBa_I760001"
+        ], 
+        "url": "http://igem.org/Team.cgi?id=60", 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
-        "region": "US", 
+        "information_content": 0.5, 
+        "abstract": "-- No abstract provided yet --", 
         "methods": {}
     }, 
     {
@@ -23319,8 +23172,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I731000", 
             "BBa_I731999"
@@ -23358,10 +23210,9 @@
             "Alexander Pickett", 
             "George Xu"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Gold", 
         "region": "US", 
         "methods": {}
     }, 
@@ -24309,8 +24160,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I719000", 
             "BBa_I719999"
@@ -24340,10 +24190,9 @@
             "Alexander Wong", 
             "Dirk van Swaay"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Gold", 
         "region": "Europe", 
         "methods": {}
     }, 
@@ -24402,7 +24251,7 @@
             "Shek Chin Hong", 
             "CAI Wenxuan", 
             "XU, Jiajing", 
-            "HO Yuan Heng Trevor", 
+            "Trevor Y.H. HO", 
             "LIU JIN", 
             "Choi Chi Kwan", 
             "DENG, Yisong", 
@@ -24774,20 +24623,19 @@
     }, 
     {
         "wiki": "http://2007.igem.org/Team:Dundee", 
+        "advisors": [], 
+        "name": "Dundee", 
+        "students": [], 
+        "region": "--Specify Region--", 
         "instructors": [
             "raghav"
         ], 
-        "name": "Dundee", 
-        "students": [], 
-        "abstract": "-- No abstract provided yet --", 
-        "advisors": [], 
         "topwords": {
             "provided": 2.8261848568023136, 
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I768000", 
             "BBa_I768999"
@@ -24795,10 +24643,9 @@
         "project": "-- Not provided yet --", 
         "url": "http://igem.org/Team.cgi?id=68", 
         "parts": [], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "region": "--Specify Region--", 
+        "information_content": 0.5, 
+        "abstract": "-- No abstract provided yet --", 
         "methods": {}
     }, 
     {
@@ -24840,104 +24687,51 @@
         "methods": {}
     }, 
     {
-        "wiki": "http://2007.igem.org/Team:USTC", 
+        "wiki": "http://2007.igem.org/Team:UCSF", 
         "instructors": [
-            "Zhan Jian", 
-            "Haiyan Liu"
+            "Wendell Lim", 
+            "Sergio Peisajovich", 
+            "Nili Sommovilla", 
+            "David Pincus", 
+            "Angela Won"
         ], 
-        "name": "USTC", 
+        "name": "UCSF", 
         "track": "Information Processing", 
         "abstract": "-- No abstract provided yet --", 
         "advisors": [
-            "Jiarui Wu", 
-            "Zhonghuai Hou"
+            "reid williams", 
+            "Ryan Ritterson"
         ], 
         "topwords": {
             "provided": 2.8261848568023136, 
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
-            "BBa_I732000", 
-            "BBa_I732999"
+            "BBa_I766000", 
+            "BBa_I766999"
         ], 
         "project": "-- Not provided yet --", 
-        "url": "http://igem.org/Team.cgi?id=32", 
+        "url": "http://igem.org/Team.cgi?id=66", 
         "parts": [
-            "BBa_I732000", 
-            "BBa_I732001", 
-            "BBa_I732002", 
-            "BBa_I732003", 
-            "BBa_I732004", 
-            "BBa_I732005", 
-            "BBa_I732006", 
-            "BBa_I732007", 
-            "BBa_I732008", 
-            "BBa_I732009", 
-            "BBa_I732010", 
-            "BBa_I732011", 
-            "BBa_I732012", 
-            "BBa_I732013", 
-            "BBa_I732014", 
-            "BBa_I732015", 
-            "BBa_I732016", 
-            "BBa_I732017", 
-            "BBa_I732018", 
-            "BBa_I732019", 
-            "BBa_I732020", 
-            "BBa_I732021", 
-            "BBa_I732022", 
-            "BBa_I732023", 
-            "BBa_I732024", 
-            "BBa_I732025", 
-            "BBa_I732026", 
-            "BBa_I732027", 
-            "BBa_I732028", 
-            "BBa_I732029", 
-            "BBa_I732030", 
-            "BBa_I732031", 
-            "BBa_I732032", 
-            "BBa_I732033", 
-            "BBa_I732034", 
-            "BBa_I732035", 
-            "BBa_I732036", 
-            "BBa_I732037", 
-            "BBa_I732038", 
-            "BBa_I732039", 
-            "BBa_I732040", 
-            "BBa_I732041", 
-            "BBa_I732042", 
-            "BBa_I732043", 
-            "BBa_I732044", 
-            "BBa_I732045", 
-            "BBa_I732046", 
-            "BBa_I732047", 
-            "BBa_I732048", 
-            "BBa_I732049", 
-            "BBa_I732050", 
-            "BBa_I732051", 
-            "BBa_I732052", 
-            "BBa_I732053", 
-            "BBa_I732054", 
-            "BBa_I732055", 
-            "BBa_I732056", 
-            "BBa_I732057", 
-            "BBa_I732058"
+            "BBa_I766000", 
+            "BBa_I766001", 
+            "BBa_I766002"
         ], 
         "students": [
-            "Bo Ding", 
-            "Zhao Yun", 
-            "LiuZiqing", 
-            "Xiaofeng Su", 
-            "Ma Xiaoyu"
+            "Michael Chen", 
+            "Jimmy Jie Min Huang", 
+            "Eric Meltzer", 
+            "Eric Chou", 
+            "alexander ng", 
+            "Lauren Jann", 
+            "Robert Ovadia"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
-        "region": "Asia", 
+        "information_content": 0.5, 
+        "medal": "Gold", 
+        "region": "US", 
         "methods": {}
     }, 
     {
@@ -25696,6 +25490,131 @@
         }, 
         "medal": "gold", 
         "region": "Europe", 
+        "methods": {}
+    }, 
+    {
+        "wiki": "http://2007.igem.org/Team:Davidson_Missouri_W", 
+        "advisors": [], 
+        "name": "Davidson Missouri W", 
+        "track": "Information Processing", 
+        "region": "US", 
+        "instructors": [
+            "Malcolm Campbell", 
+            "Laurie Heyer", 
+            "Todd Eckdahl", 
+            "Karmella Haynes", 
+            "Jeff Poet"
+        ], 
+        "topwords": {
+            "provided": 2.8261848568023136, 
+            "abstract": 77.07425742574257, 
+            "yet": 2.685298798570208
+        }, 
+        "meshterms": {}, 
+        "parts_range": [
+            "BBa_I715000", 
+            "BBa_I715999"
+        ], 
+        "project": "-- Not provided yet --", 
+        "students": [
+            "Will DeLoache", 
+            "Jordan Baumgardner", 
+            "Jessica Treece", 
+            "Oyinade Adefuye", 
+            "Nickolaus Morton", 
+            "Jim Dickson ", 
+            "Amber Shoecraft", 
+            "Andrew Martens", 
+            "Ryan Chilcoat", 
+            "Michael Waters", 
+            "Tom Crowley", 
+            "matthew unzicker", 
+            "Michelle Ritter", 
+            "Amanda Valencia "
+        ], 
+        "parts": [
+            "BBa_I715000", 
+            "BBa_I715001", 
+            "BBa_I715002", 
+            "BBa_I715003", 
+            "BBa_I715004", 
+            "BBa_I715005", 
+            "BBa_I715006", 
+            "BBa_I715007", 
+            "BBa_I715008", 
+            "BBa_I715009", 
+            "BBa_I715010", 
+            "BBa_I715011", 
+            "BBa_I715012", 
+            "BBa_I715013", 
+            "BBa_I715014", 
+            "BBa_I715015", 
+            "BBa_I715016", 
+            "BBa_I715017", 
+            "BBa_I715018", 
+            "BBa_I715019", 
+            "BBa_I715020", 
+            "BBa_I715021", 
+            "BBa_I715022", 
+            "BBa_I715023", 
+            "BBa_I715024", 
+            "BBa_I715025", 
+            "BBa_I715026", 
+            "BBa_I715027", 
+            "BBa_I715028", 
+            "BBa_I715029", 
+            "BBa_I715030", 
+            "BBa_I715031", 
+            "BBa_I715032", 
+            "BBa_I715033", 
+            "BBa_I715034", 
+            "BBa_I715035", 
+            "BBa_I715036", 
+            "BBa_I715037", 
+            "BBa_I715038", 
+            "BBa_I715039", 
+            "BBa_I715040", 
+            "BBa_I715041", 
+            "BBa_I715042", 
+            "BBa_I715043", 
+            "BBa_I715044", 
+            "BBa_I715045", 
+            "BBa_I715046", 
+            "BBa_I715047", 
+            "BBa_I715048", 
+            "BBa_I715049", 
+            "BBa_I715050", 
+            "BBa_I715051", 
+            "BBa_I715052", 
+            "BBa_I715053", 
+            "BBa_I715054", 
+            "BBa_I715055", 
+            "BBa_I715056", 
+            "BBa_I715057", 
+            "BBa_I715058", 
+            "BBa_I715059", 
+            "BBa_I715060", 
+            "BBa_I715061", 
+            "BBa_I715062", 
+            "BBa_I715063", 
+            "BBa_I715064", 
+            "BBa_I715065", 
+            "BBa_I715066", 
+            "BBa_I715067", 
+            "BBa_I715068", 
+            "BBa_I715069", 
+            "BBa_I715070", 
+            "BBa_I715071", 
+            "BBa_I715072", 
+            "BBa_I715073", 
+            "BBa_I715074", 
+            "BBa_I715075", 
+            "BBa_I715076"
+        ], 
+        "url": "http://igem.org/Team.cgi?id=15", 
+        "year": 2007, 
+        "information_content": 0.5, 
+        "abstract": "-- No abstract provided yet --", 
         "methods": {}
     }, 
     {
@@ -27673,51 +27592,62 @@
         "methods": {}
     }, 
     {
-        "wiki": "http://2012.igem.org/Team:UTP-Software", 
-        "advisors": [], 
-        "name": "UTP-Software", 
-        "track": "Software Tools", 
-        "region": "Latin America", 
+        "wiki": "http://2011.igem.org/Team:Fatih_Turkey", 
         "instructors": [
-            "Grimaldo  Elías Ureña M."
+            "Esra Gunduz", 
+            "Kadir Demircan", 
+            "Husamettin ERDAMAR"
+        ], 
+        "name": "Fatih Turkey", 
+        "track": "New Application", 
+        "abstract": "\"E. Coli is one of the gram-negative bacteria and most of their types are harmless. However some of E.Coli types such as enterohaemorrhagic E.Coli (EHEC) can cause serious disease.In our project we designed an innovative model to prevent gram-negative growth and infection. In our model, to prevent E.Coli growth we modified non-infectious gram-positive bacteria B.Subtilis by transforming it with a construct, which was designed to produce limulus anti-LPS factor (LALF) together with a signal peptide. LALF is expected to bind and neutralize Lipopolysaccharide (LPS) found in gram-negative bacteria cell wall. On the other hand, to show E.Coli growth inhibition, we prepared another construct, which carries reflectin sequence with a signal peptide sequence and transferred into E.Coli. Reflectin protein produces color by reflecting light in different wavelenghts. This ability helps us to detect whether E.Coli is dead or alive.\"", 
+        "advisors": [
+            "Cihan TAŞTAN", 
+            "Muradiye ACAR"
         ], 
         "topwords": {
-            "synthetic": 0.17568786486246343, 
-            "project": 0.25726759904315744, 
-            "biology": 0.45072460919347956, 
-            "production": 0.31038249019281594, 
-            "new": 0.3773467723771002
+            "project": 0.19052227723435797, 
+            "cell": 0.2602773959765147, 
+            "protein": 0.16186447008573102, 
+            "one": 0.4067845989387185, 
+            "light": 0.27845032950084536
         }, 
         "awards_championship": [
-            "Advance to Software Jamboree"
+            "Advance to Championship"
         ], 
-        "information_content": 0.5185185185185185, 
+        "information_content": 0.4946236559139785, 
         "parts_range": [
-            "BBa_K951000", 
-            "BBa_K951999"
+            "BBa_K541000", 
+            "BBa_K541999"
         ], 
-        "project": "Bricks, Mutagenesis and Energy Software Tools", 
+        "project": "The Rainbow Graveyard", 
+        "url": "http://igem.org/Team.cgi?id=541", 
+        "parts": [
+            "BBa_K541000"
+        ], 
         "students": [
-            "Arturo Nieves", 
-            "Emmanuel Garuz", 
-            "William Vong", 
-            "Edwin Toribio", 
-            "Jorge Lezcano", 
-            "Fotis Stringos", 
-            "Salomon A. Mitre B,"
+            "Fazilet Guler", 
+            "Halenur Gungordu", 
+            "Alperen Güver", 
+            "ozan sami bayrak", 
+            "Secil Tashan", 
+            "betül günbey", 
+            "tülin serap yılmaz", 
+            "Hasan Yasin Soylu", 
+            "Yasin Çakar", 
+            "Mustafa Elitok", 
+            "Ozan Sami Bayrak", 
+            "kenan güzel", 
+            "burak simsek"
         ], 
-        "parts": [], 
-        "url": "http://igem.org/Team.cgi?id=951", 
-        "methods": {}, 
-        "year": 2012, 
-        "meshterms": {
-            "synthetic biology": 1, 
-            "bioenergy": 1, 
-            "biofuels": 1
-        }, 
-        "medal": "silver", 
-        "abstract": "A program to help new IGEM teams with assembly standards selection, and site-directed mutagenesis for primers development in case of incompatibility, is this year UTP-Software team project. S2MT as we called it, applies “QuikChange Site-Directed Mutagenesis” [1] considerations for the design of mutagenic primers and gives users the resources to avoid restriction sites, making their designs compatible with IGEM standards.\r\nOur team is also interested in the development of a tool to help teams and researchers to work and study the production of bioenergy through synthetic biology. This will be done by analyzing metabolic routes from the substrates for the reactions, and then identify the responsible genes for each enzymatic reactions that could produce these biofuels.", 
-        "awards_regional": []
+        "awards_regional": [
+            "Best New BioBrick Part, Natural, Europe (BBa_K541515)"
+        ], 
+        "year": 2011, 
+        "meshterms": {}, 
+        "medal": "gold", 
+        "region": "Europe", 
+        "methods": {}
     }, 
     {
         "wiki": "http://2010.igem.org/Team:USTC_Software", 
@@ -28108,8 +28038,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I763000", 
             "BBa_I763999"
@@ -28168,10 +28097,9 @@
             "Michela Mirri", 
             "Iros Barozzi"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Gold", 
         "region": "--Specify Region--", 
         "methods": {}
     }, 
@@ -28501,8 +28429,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I746000", 
             "BBa_I746999"
@@ -28527,10 +28454,9 @@
             "Yue Miao", 
             "Xinxuan Soh"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Gold", 
         "region": "Europe", 
         "methods": {}
     }, 
@@ -29283,72 +29209,115 @@
         "methods": {}
     }, 
     {
-        "wiki": "http://2012.igem.org/Team:Missouri_Miners", 
+        "wiki": "http://2010.igem.org/Team:Utah_State", 
         "instructors": [
-            "Katie Shannon", 
-            "Dave Westenberg"
+            "Charles Miller"
         ], 
-        "name": "Missouri Miners", 
-        "track": "Foundational Advance", 
-        "abstract": "There are a plethora of enzymes that occur in the natural world which perform reactions that could be immensely useful to humans. Unfortunately, the efficiency of some of these reactions may render their applications logistically unrealistic. The cellulosome scaffolding protein produced by Clostridium thermocellum has been shown to significantly increase the efficiency of cellulose degradation. The scaffolding protein can be reduced in size and adapted for the cell surface of Escherichia coli. Different cohesion sites on the new cell surface display protein can also be introduced to allow for attachment of desired enzymes. Future applications would include producing a collection of distinct versions of the scaffolding protein for unique arrangements and concentrations of enzymes, enabling construction of an extra-cellular assembly line for a variety of multi-enzymatic reactions. This would lay the foundation for making previously infeasible applications of reactions possible through increased efficiency.", 
-        "advisors": [], 
+        "name": "Utah State", 
+        "track": "Manufacturing", 
+        "abstract": "The future of synthetic biology lies in expanding our ability to engineer genes in new organisms. Our project develops a system to engineer the genome of the photosynthetic cyanobacterium Synechocystis sp. PCC6803, establishes expression standards for this species, and adds a set of characterized Synechocystis promoters and ribosome binding sites to the BioBrick toolbox. We developed a BioBrick vector that can be used to assemble parts and devices in E. coli. Upon transformation into Synechocystis, it integrates the device directly into the genome through homologous recombination. We utilized genes that were activated under a variety of conditions, from those responding to heat stress to ones oscillating under a circadian rhythm. The promoters and ribosome binding sites were converted into BioBrick-compatible parts, and subsequently characterized. Our success will enable the use of existing parts in new species, and will expand the range of devices that can be built.", 
+        "advisors": [
+            "Ronald C Sims"
+        ], 
         "topwords": {
-            "also": 0.7692999553204838, 
-            "new": 0.3102541577224732, 
-            "different": 0.5225038071552136, 
-            "could": 0.6298526390051916, 
-            "coli": 0.16371941872658213
+            "synthetic": 0.21486163923228752, 
+            "project": 0.2890609000917074, 
+            "used": 0.3350506149766849, 
+            "system": 0.12634125362799178, 
+            "coli": 0.2757051942900667
         }, 
         "awards_championship": [], 
-        "information_content": 0.5705128205128205, 
+        "information_content": 0.5121951219512195, 
         "parts_range": [
-            "BBa_K877000", 
-            "BBa_K877999"
+            "BBa_K390000", 
+            "BBa_K390999"
         ], 
-        "project": "Adjustable Multi-Enzyme to Cell Surface Anchoring Protein", 
-        "url": "http://igem.org/Team.cgi?id=877", 
+        "project": "CyanoBricks: Genomic Engineering Tools for the Photosynthetic Cyanobacterium Synechocystis", 
+        "url": "http://igem.org/Team.cgi?id=390", 
         "parts": [
-            "BBa_K877000", 
-            "BBa_K877001"
+            "BBa_K390000", 
+            "BBa_K390001", 
+            "BBa_K390002", 
+            "BBa_K390003", 
+            "BBa_K390004", 
+            "BBa_K390005", 
+            "BBa_K390006", 
+            "BBa_K390007", 
+            "BBa_K390008", 
+            "BBa_K390009", 
+            "BBa_K390010", 
+            "BBa_K390011", 
+            "BBa_K390012", 
+            "BBa_K390013", 
+            "BBa_K390014", 
+            "BBa_K390015", 
+            "BBa_K390016", 
+            "BBa_K390017", 
+            "BBa_K390018", 
+            "BBa_K390019", 
+            "BBa_K390020", 
+            "BBa_K390021", 
+            "BBa_K390022", 
+            "BBa_K390023", 
+            "BBa_K390024", 
+            "BBa_K390025", 
+            "BBa_K390026", 
+            "BBa_K390027", 
+            "BBa_K390028", 
+            "BBa_K390029", 
+            "BBa_K390030", 
+            "BBa_K390031", 
+            "BBa_K390032", 
+            "BBa_K390033", 
+            "BBa_K390034", 
+            "BBa_K390035", 
+            "BBa_K390036", 
+            "BBa_K390037", 
+            "BBa_K390038", 
+            "BBa_K390039", 
+            "BBa_K390040", 
+            "BBa_K390041", 
+            "BBa_K390042", 
+            "BBa_K390043", 
+            "BBa_K390044", 
+            "BBa_K390045", 
+            "BBa_K390046", 
+            "BBa_K390047", 
+            "BBa_K390048", 
+            "BBa_K390049", 
+            "BBa_K390050", 
+            "BBa_K390051", 
+            "BBa_K390052", 
+            "BBa_K390053", 
+            "BBa_K390054", 
+            "BBa_K390055", 
+            "BBa_K390056", 
+            "BBa_K390057", 
+            "BBa_K390058", 
+            "BBa_K390059", 
+            "BBa_K390060", 
+            "BBa_K390061", 
+            "BBa_K390062", 
+            "BBa_K390063", 
+            "BBa_K390064"
         ], 
         "students": [
-            "John Plihal", 
-            "David Pohlman", 
-            "Emily Puleo", 
-            "Sarah Rommelfanger", 
-            "Hannah Frye", 
-            "Catherine Kinchen", 
-            "Jesse Townsend", 
-            "Chester Gregg", 
-            "Timothy Schieffer", 
-            "Alie R. Abele", 
-            "Amanda Foster", 
-            "Levi Palmer", 
-            "Nicholas Jentsch", 
-            "Erica McFarland", 
-            "Nicholas Staufenbiel", 
-            "Elizabeth Wilkins", 
-            "April Pummill", 
-            "Nathan Boys", 
-            "Kevin Clark", 
-            "Mike Marsh", 
-            "Serena Austin", 
-            "Kelsey Crossen", 
-            "emilio navarro cruz", 
-            "Ava Hughes", 
-            "Aaron Jankelow", 
-            "Brieanna Kroeger", 
-            "Dylan Courtney", 
-            "Matthew Lindner", 
-            "Azriel Domingo"
+            "Cody Tramp", 
+            "Cole Peterson", 
+            "Alex Hatch", 
+            "Shujie Shen", 
+            "Brad Henrie", 
+            "Eduardo A Monzon", 
+            "Abiezer Tejeda"
         ], 
         "awards_regional": [], 
-        "year": 2012, 
+        "year": 2010, 
         "meshterms": {
-            "future applications": 1
+            "synthetic biology": 1, 
+            "homologous recombination": 1
         }, 
-        "medal": "bronze", 
-        "region": "Americas East", 
+        "medal": "gold", 
+        "region": "US", 
         "methods": {}
     }, 
     {
@@ -29558,8 +29527,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I747000", 
             "BBa_I747999"
@@ -29571,10 +29539,9 @@
             "laura vibert", 
             "Liam Wang"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Bronze", 
         "region": "--Specify Region--", 
         "methods": {}
     }, 
@@ -29693,8 +29660,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I757000", 
             "BBa_I757999"
@@ -29727,10 +29693,9 @@
             "Corinna Gruber", 
             "Dinah Mattay"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Gold", 
         "region": "Europe", 
         "methods": {}
     }, 
@@ -30563,6 +30528,10 @@
     }, 
     {
         "wiki": "http://2007.igem.org/Team:Colombia_Israel", 
+        "advisors": [], 
+        "name": "Colombia Israel", 
+        "track": "Environment", 
+        "region": "Latin America", 
         "instructors": [
             "Raul Cuero", 
             "Lina Clemencia Sanchez Bustamante", 
@@ -30571,39 +30540,17 @@
             "Shimon Barel", 
             "Ortal Barel"
         ], 
-        "name": "Colombia Israel", 
-        "track": "Environment", 
-        "abstract": "-- No abstract provided yet --", 
-        "advisors": [], 
         "topwords": {
             "provided": 2.8261848568023136, 
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I765000", 
             "BBa_I765999"
         ], 
         "project": "-- Not provided yet --", 
-        "url": "http://igem.org/Team.cgi?id=65", 
-        "parts": [
-            "BBa_I765000", 
-            "BBa_I765001", 
-            "BBa_I765002", 
-            "BBa_I765003", 
-            "BBa_I765004", 
-            "BBa_I765005", 
-            "BBa_I765006", 
-            "BBa_I765007", 
-            "BBa_I765008", 
-            "BBa_I765009", 
-            "BBa_I765010", 
-            "BBa_I765011", 
-            "BBa_I765012", 
-            "BBa_I765013"
-        ], 
         "students": [
             "Sandra Milena García Blanco", 
             "Juliana Maria Navia", 
@@ -30627,11 +30574,26 @@
             "Rinat Shtrasburg", 
             "Shely Sahar"
         ], 
-        "awards_regional": [], 
+        "parts": [
+            "BBa_I765000", 
+            "BBa_I765001", 
+            "BBa_I765002", 
+            "BBa_I765003", 
+            "BBa_I765004", 
+            "BBa_I765005", 
+            "BBa_I765006", 
+            "BBa_I765007", 
+            "BBa_I765008", 
+            "BBa_I765009", 
+            "BBa_I765010", 
+            "BBa_I765011", 
+            "BBa_I765012", 
+            "BBa_I765013"
+        ], 
+        "url": "http://igem.org/Team.cgi?id=65", 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
-        "region": "Latin America", 
+        "information_content": 0.5, 
+        "abstract": "-- No abstract provided yet --", 
         "methods": {}
     }, 
     {
@@ -31009,8 +30971,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I759000", 
             "BBa_I759999"
@@ -31074,10 +31035,9 @@
             "Tania Bandyopadhyay", 
             "Deborah Jiang"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Gold", 
         "region": "US", 
         "methods": {}
     }, 
@@ -32864,29 +32824,49 @@
         "methods": {}
     }, 
     {
-        "wiki": "http://2007.igem.org/Team:Cape_Peninsula", 
+        "wiki": "http://2011.igem.org/Team:McGill", 
         "instructors": [
-            "Miles Jacobs"
+            "Michel L. Tremblay"
         ], 
-        "name": "Cape Peninsula", 
-        "students": [], 
-        "abstract": "-- No abstract provided yet --", 
+        "name": "McGill", 
+        "students": [
+            "Christopher Buccitelli", 
+            "Alexandre Lussier", 
+            "Rayya Assaf", 
+            "Roohi Vinaik", 
+            "Adam Li", 
+            "Elie Kostantin", 
+            "Pier-Luc Clermont", 
+            "Pinky Langat", 
+            "Piratip Pratumsuwan", 
+            "Yaakov Stern"
+        ], 
+        "abstract": "Optogenetics involves the use of light to remotely control cellular function via light responsive proteins. It is a promising tool for engineering optical regulation of cellular behavior. Unlike most stimuli, light signals have the advantage of being highly precise with regards to temporal and spatial action as well as having readily tunable intensity. Within cells, a variety of effectors can be controlled using light, including DNA binding proteins, enzymes and mediators in signal transduction. Specifically, our projects focus on building light-responsive biobricks for control of mammalian cells by fusing photo-switchable domains found in plant, algal and fungal light sensing proteins to such effectors. Mammalian biochemistry is complex and well regulated, necessitating synthetic effectors that can be easily and dynamically adjusted to meet the needs of the application. Photo-switchable systems provide this versatility.", 
         "advisors": [], 
         "topwords": {
-            "provided": 2.8261848568023136, 
-            "abstract": 77.07425742574257, 
-            "yet": 2.685298798570208
+            "synthetic": 0.16906411128239052, 
+            "using": 0.20363183943619156, 
+            "use": 0.29759831196477066, 
+            "sensing": 0.47755453282956484, 
+            "systems": 0.36223729842259655
         }, 
         "awards_championship": [], 
-        "information_content": 0.5, 
-        "parts_range": [], 
-        "project": "-- Not provided yet --", 
-        "url": "http://igem.org/Team.cgi?id=55", 
+        "information_content": 0.5921052631578947, 
+        "parts_range": [
+            "BBa_K666000", 
+            "BBa_K666999"
+        ], 
+        "project": "All You Need is LOV: Photoswitchable dimerization in mammalian cells", 
+        "url": "http://igem.org/Team.cgi?id=666", 
         "parts": [], 
         "awards_regional": [], 
-        "year": 2007, 
-        "meshterms": {}, 
-        "region": "--Specify Region--", 
+        "year": 2011, 
+        "meshterms": {
+            "biochemistry": 1, 
+            "signal transduction": 1, 
+            "mammalian cells": 1
+        }, 
+        "region": "Americas", 
         "methods": {}
     }, 
     {
@@ -33791,45 +33771,42 @@
     }, 
     {
         "wiki": "http://2007.igem.org/Team:Boston_University", 
-        "instructors": [
-            "Timothy Gardner"
-        ], 
-        "name": "Boston University", 
-        "track": "Energy", 
-        "abstract": "-- No abstract provided yet --", 
         "advisors": [
             "Daniel Bellin", 
             "Stephen Schneider"
+        ], 
+        "name": "Boston University", 
+        "track": "Energy", 
+        "region": "--Specify Region--", 
+        "instructors": [
+            "Timothy Gardner"
         ], 
         "topwords": {
             "provided": 2.8261848568023136, 
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I753000", 
             "BBa_I753999"
         ], 
         "project": "-- Not provided yet --", 
-        "url": "http://igem.org/Team.cgi?id=53", 
+        "students": [
+            "David Shi", 
+            "Rahul Ahuja", 
+            "Christian Ling"
+        ], 
         "parts": [
             "BBa_I753000", 
             "BBa_I753001", 
             "BBa_I753002", 
             "BBa_I753003"
         ], 
-        "students": [
-            "David Shi", 
-            "Rahul Ahuja", 
-            "Christian Ling"
-        ], 
-        "awards_regional": [], 
+        "url": "http://igem.org/Team.cgi?id=53", 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
-        "region": "--Specify Region--", 
+        "information_content": 0.5, 
+        "abstract": "-- No abstract provided yet --", 
         "methods": {}
     }, 
     {
@@ -34088,8 +34065,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I754000", 
             "BBa_I754999"
@@ -34110,10 +34086,9 @@
             "elif cevik", 
             "Bekir Altas"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Bronze", 
         "region": "--Specify Region--", 
         "methods": {}
     }, 
@@ -34520,6 +34495,11 @@
         }
     }, 
     {
+        "medal": "Gold", 
+        "name": "Berkeley", 
+        "year": 2007
+    }, 
+    {
         "wiki": "http://2011.igem.org/Team:Cornell", 
         "instructors": [
             "Xiling Shen"
@@ -34616,7 +34596,7 @@
     {
         "wiki": "http://2012.igem.org/Team:CINVESTAV-IPN-UNAM_MX", 
         "instructors": [
-            "Agustino Martínez-Antonio", 
+            "Agustino Martinez-Antonio", 
             "Fernando Suaste Olmos", 
             "Paola Berenice Zárate Segura", 
             "Nuria Sanchez-Puig", 
@@ -35064,8 +35044,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I727000", 
             "BBa_I727999"
@@ -35106,10 +35085,9 @@
             "Andre Masella", 
             "Shira Davis"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Silver", 
         "region": "Canada", 
         "methods": {}
     }, 
@@ -35362,8 +35340,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I733000", 
             "BBa_I733999"
@@ -35410,10 +35387,9 @@
             "Daniel Wong", 
             "Yusuf Majumder"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Silver", 
         "region": "Canada", 
         "methods": {}
     }, 
@@ -36683,7 +36659,9 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
+        "awards_championship": [
+            "Energy"
+        ], 
         "information_content": 0.5, 
         "parts_range": [
             "BBa_I725000", 
@@ -36717,10 +36695,9 @@
             "Veronica Houston", 
             "Justin Pahara"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
         "meshterms": {}, 
-        "medal": "blocked", 
+        "medal": "Gold", 
         "region": "Canada", 
         "methods": {}
     }, 
@@ -37528,6 +37505,11 @@
         "methods": {}
     }, 
     {
+        "medal": "Bronze", 
+        "name": "Michigan ", 
+        "year": 2007
+    }, 
+    {
         "wiki": "http://2009.igem.org/Team:Wash_U", 
         "instructors": [
             "Robert Blankenship", 
@@ -37641,20 +37623,19 @@
     }, 
     {
         "wiki": "http://2007.igem.org/Team:Minnesota", 
+        "advisors": [], 
+        "name": "Minnesota", 
+        "students": [], 
+        "region": "US", 
         "instructors": [
             "Yiannis Kaznessis"
         ], 
-        "name": "Minnesota", 
-        "students": [], 
-        "abstract": "-- No abstract provided yet --", 
-        "advisors": [], 
         "topwords": {
             "provided": 2.8261848568023136, 
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I736000", 
             "BBa_I736999"
@@ -37662,10 +37643,9 @@
         "project": "-- Not provided yet --", 
         "url": "http://igem.org/Team.cgi?id=36", 
         "parts": [], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "region": "US", 
+        "information_content": 0.5, 
+        "abstract": "-- No abstract provided yet --", 
         "methods": {}
     }, 
     {
@@ -37984,79 +37964,44 @@
         "methods": {}
     }, 
     {
-        "wiki": "http://2007.igem.org/Team:Berkeley_UC", 
+        "wiki": "http://2010.igem.org/Team:Gaston_Day_School", 
         "instructors": [
-            "Chris Anderson"
+            "Anne Byford"
         ], 
-        "name": "Berkeley UC", 
-        "track": "Medical", 
-        "abstract": "-- No abstract provided yet --", 
-        "advisors": [
-            "Adam Arkin", 
-            "John Dueber", 
-            "rickey bonds"
-        ], 
+        "name": "Gaston Day School", 
+        "track": "Environment", 
+        "abstract": "Our team's project was to create a biological iron detector using techniques and procedures available to an ordinary high school laboratory that replicate methods used in university research laboratories. We constructed our reporter by combining an iron-sensitive promoter with a red fluorescent protein (RFP) coding sequence. We chose RFP because of its high visibility and easy detection. Although the assembly was successful, the resulting detector is leaky with measurable RFP even in conditions with no iron present. In our lab environment, we found that it was necessary to work with relatively high concentrations of bacteria and DNA. We developed simplified procedures for transformations, digests, and ligations, but we continue to face problems with DNA visualization and measuring the pigments from the bacteria.", 
+        "advisors": [], 
         "topwords": {
-            "provided": 2.8261848568023136, 
-            "abstract": 77.07425742574257, 
-            "yet": 2.685298798570208
+            "project": 0.2564314695045722, 
+            "using": 0.22557134067647855, 
+            "protein": 0.21801142684223457, 
+            "used": 0.28820365298146167, 
+            "team": 0.34592864769960174
         }, 
         "awards_championship": [], 
-        "information_content": 0.5, 
+        "information_content": 0.5323741007194245, 
         "parts_range": [
-            "BBa_I716000", 
-            "BBa_I716999"
+            "BBa_K308000", 
+            "BBa_K308999"
         ], 
-        "project": "-- Not provided yet --", 
-        "url": "http://igem.org/Team.cgi?id=16", 
-        "parts": [
-            "BBa_I716000", 
-            "BBa_I716001", 
-            "BBa_I716002", 
-            "BBa_I716003", 
-            "BBa_I716004", 
-            "BBa_I716005", 
-            "BBa_I716006", 
-            "BBa_I716007", 
-            "BBa_I716008", 
-            "BBa_I716009", 
-            "BBa_I716010", 
-            "BBa_I716011", 
-            "BBa_I716012", 
-            "BBa_I716013", 
-            "BBa_I716014", 
-            "BBa_I716015", 
-            "BBa_I716016", 
-            "BBa_I716017", 
-            "BBa_I716018", 
-            "BBa_I716019", 
-            "BBa_I716020", 
-            "BBa_I716021", 
-            "BBa_I716022", 
-            "BBa_I716023", 
-            "BBa_I716024", 
-            "BBa_I716025", 
-            "BBa_I716026", 
-            "BBa_I716027", 
-            "BBa_I716028", 
-            "BBa_I716029"
-        ], 
+        "project": "Construction of a Biological Iron Detector in a Secondary School Environment", 
+        "url": "http://igem.org/Team.cgi?id=308", 
+        "parts": [], 
         "students": [
-            "David Tulga", 
-            "Vaibhavi Umesh", 
-            "Samantha Liang", 
-            "Austin Day", 
-            "Arthur Yu", 
-            "Hannah Cole", 
-            "Kristin Doan", 
-            "Kristin Fuller", 
-            "vincent parker", 
-            "nhu nguyen"
+            "Alexander Hall", 
+            "Will Harris", 
+            "taylor rey garrido", 
+            "Spencer Bradley Jones", 
+            "Noor Kaur", 
+            "Joey Sloand", 
+            "Ivana Chan", 
+            "Amir Feinberg", 
+            "Augustine Eze"
         ], 
         "awards_regional": [], 
-        "year": 2007, 
+        "year": 2010, 
         "meshterms": {}, 
-        "medal": "blocked", 
         "region": "US", 
         "methods": {}
     }, 
@@ -38281,8 +38226,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I749000", 
             "BBa_I749999"
@@ -38299,10 +38243,9 @@
             "Laina Magaya", 
             "Joyce HiuNam Chan"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Bronze", 
         "region": "US", 
         "methods": {}
     }, 
@@ -39058,64 +39001,6 @@
         "methods": {}
     }, 
     {
-        "wiki": "http://2011.igem.org/Team:Fatih_Turkey", 
-        "instructors": [
-            "Esra Gunduz", 
-            "Kadir Demircan", 
-            "Husamettin ERDAMAR"
-        ], 
-        "name": "Fatih Turkey", 
-        "track": "New Application", 
-        "abstract": "\"E. Coli is one of the gram-negative bacteria and most of their types are harmless. However some of E.Coli types such as enterohaemorrhagic E.Coli (EHEC) can cause serious disease.In our project we designed an innovative model to prevent gram-negative growth and infection. In our model, to prevent E.Coli growth we modified non-infectious gram-positive bacteria B.Subtilis by transforming it with a construct, which was designed to produce limulus anti-LPS factor (LALF) together with a signal peptide. LALF is expected to bind and neutralize Lipopolysaccharide (LPS) found in gram-negative bacteria cell wall. On the other hand, to show E.Coli growth inhibition, we prepared another construct, which carries reflectin sequence with a signal peptide sequence and transferred into E.Coli. Reflectin protein produces color by reflecting light in different wavelenghts. This ability helps us to detect whether E.Coli is dead or alive.\"", 
-        "advisors": [
-            "Cihan TAŞTAN", 
-            "Muradiye ACAR"
-        ], 
-        "topwords": {
-            "project": 0.19052227723435797, 
-            "cell": 0.2602773959765147, 
-            "protein": 0.16186447008573102, 
-            "one": 0.4067845989387185, 
-            "light": 0.27845032950084536
-        }, 
-        "awards_championship": [
-            "Advance to Championship"
-        ], 
-        "information_content": 0.4946236559139785, 
-        "parts_range": [
-            "BBa_K541000", 
-            "BBa_K541999"
-        ], 
-        "project": "The Rainbow Graveyard", 
-        "url": "http://igem.org/Team.cgi?id=541", 
-        "parts": [
-            "BBa_K541000"
-        ], 
-        "students": [
-            "Fazilet Guler", 
-            "Halenur Gungordu", 
-            "Alperen Güver", 
-            "ozan sami bayrak", 
-            "Secil Tashan", 
-            "betül günbey", 
-            "tülin serap yılmaz", 
-            "Hasan Yasin Soylu", 
-            "Yasin Çakar", 
-            "Mustafa Elitok", 
-            "Ozan Sami Bayrak", 
-            "kenan güzel", 
-            "burak simsek"
-        ], 
-        "awards_regional": [
-            "Best New BioBrick Part, Natural, Europe (BBa_K541515)"
-        ], 
-        "year": 2011, 
-        "meshterms": {}, 
-        "medal": "gold", 
-        "region": "Europe", 
-        "methods": {}
-    }, 
-    {
         "wiki": "http://2012.igem.org/Team:KAIT_Japan", 
         "instructors": [
             "Yasuhiro Iida"
@@ -39296,7 +39181,7 @@
             "Wenhan Luo", 
             "XIAO QIN", 
             "Handuo SHI", 
-            "Weiyue JI", 
+            "JI Weiyue ", 
             "YanRong Ma", 
             "Deng Linna", 
             "Jingchen Feng", 
@@ -39333,8 +39218,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I735000", 
             "BBa_I735999"
@@ -39363,10 +39247,9 @@
             "roberta bergamasco", 
             "Maria Aurelia Ricci"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Silver", 
         "region": "--Specify Region--", 
         "methods": {}
     }, 
@@ -40079,8 +39962,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I761000", 
             "BBa_I761999"
@@ -40119,10 +40001,9 @@
             "Ying-Chun, Lo", 
             "Chun-Ju Yang"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Gold", 
         "region": "--Specify Region--", 
         "methods": {}
     }, 
@@ -40365,8 +40246,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I742000", 
             "BBa_I742999"
@@ -40384,10 +40264,9 @@
             "Da Yin", 
             "Joe Rokicki"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Gold", 
         "region": "Europe", 
         "methods": {}
     }, 
@@ -40801,8 +40680,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I764000", 
             "BBa_I764999"
@@ -40822,10 +40700,9 @@
             "Morgan Schiermeier", 
             "Herman Armstrong"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Bronze", 
         "region": "--Specify Region--", 
         "methods": {}
     }, 
@@ -41540,8 +41417,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I724000", 
             "BBa_I724999"
@@ -41574,10 +41450,9 @@
             "Justin Ang", 
             "C. Scott Gallagher"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Silver", 
         "region": "Canada", 
         "methods": {}
     }, 
@@ -41911,8 +41786,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I730000", 
             "BBa_I730999"
@@ -41947,10 +41821,9 @@
             "Raul soriano", 
             "Olga Cuenca"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Gold", 
         "region": "Europe", 
         "methods": {}
     }, 
@@ -43409,8 +43282,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I744000", 
             "BBa_I744999"
@@ -43425,10 +43297,9 @@
             "Thomas Segall-Shapiro", 
             "Huiting Chen"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Gold", 
         "region": "US", 
         "methods": {}
     }, 
@@ -43703,8 +43574,7 @@
             "abstract": 77.07425742574257, 
             "yet": 2.685298798570208
         }, 
-        "awards_championship": [], 
-        "information_content": 0.5, 
+        "meshterms": {}, 
         "parts_range": [
             "BBa_I750000", 
             "BBa_I750999"
@@ -43737,10 +43607,9 @@
             "Craig Hamilton", 
             "Christopher Loo"
         ], 
-        "awards_regional": [], 
         "year": 2007, 
-        "meshterms": {}, 
-        "medal": "blocked", 
+        "information_content": 0.5, 
+        "medal": "Gold", 
         "region": "Asia", 
         "methods": {}
     }, 
@@ -43982,6 +43851,75 @@
         }, 
         "medal": "gold", 
         "region": "Americas", 
+        "methods": {}
+    }, 
+    {
+        "wiki": "http://2012.igem.org/Team:Missouri_Miners", 
+        "instructors": [
+            "Katie Shannon", 
+            "Dave Westenberg"
+        ], 
+        "name": "Missouri Miners", 
+        "track": "Foundational Advance", 
+        "abstract": "There are a plethora of enzymes that occur in the natural world which perform reactions that could be immensely useful to humans. Unfortunately, the efficiency of some of these reactions may render their applications logistically unrealistic. The cellulosome scaffolding protein produced by Clostridium thermocellum has been shown to significantly increase the efficiency of cellulose degradation. The scaffolding protein can be reduced in size and adapted for the cell surface of Escherichia coli. Different cohesion sites on the new cell surface display protein can also be introduced to allow for attachment of desired enzymes. Future applications would include producing a collection of distinct versions of the scaffolding protein for unique arrangements and concentrations of enzymes, enabling construction of an extra-cellular assembly line for a variety of multi-enzymatic reactions. This would lay the foundation for making previously infeasible applications of reactions possible through increased efficiency.", 
+        "advisors": [], 
+        "topwords": {
+            "also": 0.7692999553204838, 
+            "new": 0.3102541577224732, 
+            "different": 0.5225038071552136, 
+            "could": 0.6298526390051916, 
+            "coli": 0.16371941872658213
+        }, 
+        "awards_championship": [], 
+        "information_content": 0.5705128205128205, 
+        "parts_range": [
+            "BBa_K877000", 
+            "BBa_K877999"
+        ], 
+        "project": "Adjustable Multi-Enzyme to Cell Surface Anchoring Protein", 
+        "url": "http://igem.org/Team.cgi?id=877", 
+        "parts": [
+            "BBa_K877000", 
+            "BBa_K877001"
+        ], 
+        "students": [
+            "John Plihal", 
+            "David Pohlman", 
+            "Emily Puleo", 
+            "Sarah Rommelfanger", 
+            "Hannah Frye", 
+            "Catherine Kinchen", 
+            "Jesse Townsend", 
+            "Chester Gregg", 
+            "Timothy Schieffer", 
+            "Alie R. Abele", 
+            "Amanda Foster", 
+            "Levi Palmer", 
+            "Nicholas Jentsch", 
+            "Erica McFarland", 
+            "Nicholas Staufenbiel", 
+            "Elizabeth Wilkins", 
+            "April Pummill", 
+            "Nathan Boys", 
+            "Kevin Clark", 
+            "Mike Marsh", 
+            "Serena Austin", 
+            "Kelsey Crossen", 
+            "emilio navarro cruz", 
+            "Ava Hughes", 
+            "Aaron Jankelow", 
+            "Brieanna Kroeger", 
+            "Dylan Courtney", 
+            "Matthew Lindner", 
+            "Azriel Domingo"
+        ], 
+        "awards_regional": [], 
+        "year": 2012, 
+        "meshterms": {
+            "future applications": 1
+        }, 
+        "medal": "bronze", 
+        "region": "Americas East", 
         "methods": {}
     }, 
     {
@@ -44429,6 +44367,11 @@
         "medal": "gold", 
         "region": "Americas", 
         "methods": {}
+    }, 
+    {
+        "medal": "Bronze", 
+        "name": "Colombia_Israel", 
+        "year": 2007
     }, 
     {
         "wiki": "http://2009.igem.org/Team:Tsinghua", 
