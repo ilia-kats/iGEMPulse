@@ -1,6 +1,6 @@
-
 ## get all stuff in global up and running
 source("global.R")
+
 shinyServer(function(input, output) {
 
 # big function, which takes as input the split data.frames by ddply and returns different summary statistics
@@ -19,12 +19,13 @@ timelineNvd3Gen <- function(x) {
 	#now another hack to make sure even teams/categories not present in all years can be represented by nvd3
 	for (year in unique(timelineDat$year)) {
 		for (region in unique(timelineDat$region)) {
-			if (max(timelineDat$year == year & timelineDat$region == region) == 0) {
+			if (length(which(timelineDat$year == year & timelineDat$region == region)) == 0) {
 				newEntry = data.frame(year = year, region = region, Teams= 0, Students= 0, Advisors = 0, Instructors = 0, ChampionshipAwards=0)
 				timelineDat = rbind(timelineDat, newEntry)
 			}
 		}
 	}
+	timelineDat = timelineDat[order(timelineDat$year),]
 	timelineDat
 }
 
@@ -32,12 +33,9 @@ timelineNvd3Gen <- function(x) {
 dat2 <- reactive({bbqSauceFilter(dat, input)})
 timelineDat <- reactive({timelineNvd3Gen(dat2())})
 
-
-  output$myChart <- renderChart({
-  	
-
-    timelinePlot <- nPlot(as.formula(paste0(input$x,"~year")),
-    	 group =  "region", data = timelineDat(), type = "stackedAreaChart", id = "chart", dom = "myChart")
-    return(timelinePlot)
-  })
+output$myChart <- renderChart({
+	timelinePlot <- nPlot(as.formula(paste0(input$x,"~year")), group =  "region", data = timelineDat(), type = "stackedAreaChart", id = "chart", dom = "myChart")
+	return(timelinePlot)
+})
+#end shinyServer
 })

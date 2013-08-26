@@ -160,13 +160,13 @@ shinyUI(
                     div(class="span3", selectInput(
                         inputId="FILadvisors_count_min",
                         label="minimum advisors number",
-                        choices=myChoicesForStudents_count,
+                        choices=myChoicesForAdvisors_count,
                         selected="0" )),
                     div(class="span3", selectInput(
                         inputId="FILadvisors_count_max",
                         label="maximum advisors number",
-                        choices=myChoicesForStudents_count,
-                        selected=">15" ))
+                        choices=myChoicesForAdvisors_count,
+                        selected=">14" ))
                 ),
                 div(class="row-fluid",
                     div(class="span3", selectInput(

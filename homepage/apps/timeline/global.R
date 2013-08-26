@@ -19,21 +19,24 @@ dat$region <- gsub("--Specify Region--", "No region specified", dat$region)
 
 ## Layout choice lists:
 myChoicesForX = c("Students", "Teams", "Instructors", "Advisors", "ChampionshipAwards")
+myChoicesForSort = c("Region", "Track")
 myChoicesForRegion <- levels(as.factor(dat$region))
 myChoicesForTrack <- levels(as.factor(DATParametersFromJSON$track))
 myChoicesForScore <- c(0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
-myChoicesForRegional_awards <- levels(as.factor(DATContentsFromJSON$awards_regional))
-myChoicesForChampionship_awards <- levels(as.factor(DATContentsFromJSON$awards_championship))
+myChoicesForRegional_awards <- c("", "Grand Prize", "Best Wiki", "Best Poster", "Best Presentation", "Best Human Practice Advance", "Best Experimental Measurement Approach", "Best Foundational Advance", "Best New BioBrick Part, Natural", "Best New BioBrick Device, Synthetic", "Best Model", "Best New Standard", "Safety Commendation")
+myChoicesForChampionship_awards <- c("", "Grand Prize", "1st runner up", "2nd runner up", "Advance to Championship", "Finalist", "Best Wiki", "Best Poster", "Best Presentation", "Best Human Practice Advance", "Best Experimental Measurement Approach", "Best Foundational Advance", "Best New BioBrick Part, Natural", "Best New BioBrick Device, Synthetic", "Best Model", "Best New Standard", "Safety Commendation", "Best Food or Energy Project", "Best New Application Project", "Best Environment Project", "Best Health or Medicine Project", "Best Manufacturing Project", "Best Software", "Best Requirements Engineering", "Best Eugene Based Design", "Best SBOL Based Tool", "Best Genome Compiler Based Design", "Best Clotho App", "Best Information Processing Project", "Best Interaction with the Parts Registry")
 myChoicesForBB_count <- c(0, 5, 10, 20, 50, 100, 200, ">200")
 myChoicesForStudents_count <- c(0, 5, 10, 15, 20, ">20")
 myChoicesForStudents_count <- c(0, 5, 10, 15, 20, ">20")
-myChoicesForAdvisors_count <- c(0, 2, 5, 10, 15, ">15")
+myChoicesForAdvisors_count <- c(0, 2, 4, 6, 8, 10, 12, 14, ">14")
 myChoicesForInstructors_count <- c(0, 2, 5, 10, 15, ">15")
 
 # big ass filter
 bbqSauceFilter <- function(data, input){
-    data <- FilterForRegion(data, input)
-    data <- FilterForTrack(data, input)
+	data <- FilterForRegionalAwards(data, input)
+	data <- FilterForChampionshipAwards(data, input)
+	data <- FilterForRegion(data, input)
+	data <- FilterForTrack(data, input)
 	data <- FilterForScore(data, input)
 	data <- FilterForBiobrick_count(data, input)
 	data <- FilterForStudents_count(data, input)
@@ -71,9 +74,9 @@ FilterForStudents_count <- function(data, input) {
 	return(data)
 }
 FilterForAdvisors_count <- function(data, input) {
-	if (input$FILadvisors_count_min == ">15") data <- data[-which(data$advisors_count < 15),]
-	else if (input$FILadvisors_count_max == ">15" & input$FILadvisors_count_min != "0") data <- data[-which(data$advisors_count < as.numeric(input$FILadvisors_count_min)),]
-	else if (input$FILadvisors_count_max == ">15" & input$FILadvisors_count_min == "0") return(data)
+	if (input$FILadvisors_count_min == ">14") data <- data[-which(data$advisors_count < 14),]
+	else if (input$FILadvisors_count_max == ">14" & input$FILadvisors_count_min != "0") data <- data[-which(data$advisors_count < as.numeric(input$FILadvisors_count_min)),]
+	else if (input$FILadvisors_count_max == ">14" & input$FILadvisors_count_min == "0") return(data)
 	else data <- data[-which(data$advisors_count < as.numeric(input$FILadvisors_count_min) | data$advisors_count > as.numeric(input$FILadvisors_count_max)),]
 	return(data)
 }
@@ -85,7 +88,7 @@ FilterForInstructors_count <- function(data, input) {
 	return(data)
 }
 FilterForScore <- function(data, input) {
-	delete <- which(data$score < input$FILscore_min | data$score > input$FILscore_max)
+	delete <- which(data$score < as.numeric(input$FILscore_min)/100 | data$score > as.numeric(input$FILscore_max)/100)
 	if (length(delete) != 0) data <- data[-delete,]
 	rm(delete)
 	return(data)
@@ -102,16 +105,27 @@ FilterForRegionalAwards <- function(data, input) {
 	Contents <- DATContentsFromJSON
 	for (i in 1:length(input$FILawards_regional)) {
 		deleteindex <- c()
-		for (j in 1:length(names(Contents))) {
-			if (length(grep(input$FILawards_regional[i], Contents[[j]]$awards_regional)) != 0) {
-				keepteams <- c(keepteams, names(Contents)[j])
-				deleteindex <- c(deleteindex, j)
+		if (input$FILawards_regional[i] == "") {
+			for (j in 1:length(names(Contents))) {
+				if (Contents[[j]]$awards_regional[1] == "") {
+					keepteams <- c(keepteams, names(Contents)[j])
+					deleteindex <- c(deleteindex, j)
+				}
 			}
+			if (length(deleteindex) != 0) Contents <- Contents[-deleteindex]
+		} else {
+			for (j in 1:length(names(Contents))) {
+				if (length(grep(input$FILawards_regional[i], Contents[[j]]$awards_regional)) != 0) {
+					keepteams <- c(keepteams, names(Contents)[j])
+					deleteindex <- c(deleteindex, j)
+				}
+			}
+			if (length(deleteindex) != 0) Contents <- Contents[-deleteindex]
 		}
-		Contents <- Contents[-deleteindex]
 	}
 	if (length(keepteams) != 0) data <- data[keepteams,]
-	if (length(grep("NA", row.names(data))) != 0 ) data <- data[-grep("NA", row.names(data)),]
+	if (length(grep("NA.", row.names(data))) != 0 ) data <- data[-grep("NA.", row.names(data)),]
+	if (length(match("NA", row.names(data))) != 0) data <- data[-which(length(match("NA", row.names(data))) != 0),]
 	rm(keepteams)
 	rm(Contents)
 	rm(deleteindex)
@@ -122,16 +136,27 @@ FilterForChampionshipAwards <- function(data, input) {
 	Contents <- DATContentsFromJSON
 	for (i in 1:length(input$FILawards_championship)) {
 		deleteindex <- c()
-		for (j in 1:length(names(Contents))) {
-			if (length(grep(input$FILawards_championship[i], Contents[[j]]$awards_championship)) != 0) {
-				keepteams <- c(keepteams, names(Contents)[j])
-				deleteindex <- c(deleteindex, j)
+		if (input$FILawards_championship[i] == "") {
+			for (j in 1:length(names(Contents))) {
+				if (Contents[[j]]$awards_championship[1] == "") {
+					keepteams <- c(keepteams, names(Contents)[j])
+					deleteindex <- c(deleteindex, j)
+				}
 			}
+			if (length(deleteindex) != 0) Contents <- Contents[-deleteindex]
+		} else {
+			for (j in 1:length(names(Contents))) {
+				if (length(grep(input$FILawards_championship[i], Contents[[j]]$awards_championship)) != 0) {
+					keepteams <- c(keepteams, names(Contents)[j])
+					deleteindex <- c(deleteindex, j)
+				}
+			}
+			if (length(deleteindex) != 0) Contents <- Contents[-deleteindex]
 		}
-		Contents <- Contents[-deleteindex]
 	}
 	if (length(keepteams) != 0) data <- data[keepteams,]
-	if (length(grep("NA", row.names(data))) != 0 ) data <- data[-grep("NA", row.names(data)),]
+	if (length(grep("NA.", row.names(data))) != 0 ) data <- data[-grep("NA.", row.names(data)),]
+	if (row.names(data)[1] == "NA") data <- data[-1,]
 	rm(keepteams)
 	rm(Contents)
 	rm(deleteindex)

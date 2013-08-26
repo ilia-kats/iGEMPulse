@@ -1,22 +1,29 @@
 shinyUI(
     bootstrapPage(
         # basic application container divs
-        div(
-            class="container-fluid",
+        div(class="container-fluid",
             div(class="row-fluid",
                 headerPanel("iGEM42 TimeLine")
             ),
-            div(class="row-fluid",
-                selectInput(inputId = "x",
-                label = "Choose Variable",
-                choices = myChoicesForX,
-                selected = "Teams")
-            ),
-            div(class="row-fluid",
-                div(class="span4",
-                    showOutput("myChart","nvd3")
-                )
-            ),
+			div(class="row-fluid",
+				div(class="span3",
+					div(class="row-fluid",
+						selectInput(inputId = "x",
+						label = "Choose Variable",
+						choices = myChoicesForX,
+						selected = "Teams")
+					),
+					div(class="row-fluid",
+						selectInput(inputId = "Sort",
+						label = "Choose Categories",
+						choices = myChoicesForSort,
+						selected = "Region")
+					)
+				),
+				div(class="span5",
+					showOutput("myChart","nvd3")
+				)
+			),
 			div(class="container-fluid",
 				"General filter options",
 				div(class="row-fluid",
@@ -24,7 +31,7 @@ shinyUI(
 						inputId="FILregion",
 						label="select regions (hold ctrl for multiple)",
 						choices=myChoicesForRegion,
-						selected=c("Europe","America","Asia"),
+						selected=myChoicesForRegion,
 						multiple=TRUE )),
 					div(class="span3", selectInput(
 						inputId="FILtrack",
@@ -37,20 +44,20 @@ shinyUI(
 			),
 			div(class="container-fluid",
 				"Filter team success",
-				#div(class="row-fluid",
-				#	div(class="span4", selectInput(
-				#		inputId="FILawards_regional",
-				#		label="select regional awards (hold ctrl for multiple)",
-				#		choices=myChoicesForRegional_awards,
-				#		selected=myChoicesForRegional_awards,
-				#		multiple=TRUE )),
-				#	div(class="span4", selectInput(
-				#		inputId="FILawards_championship",
-				#		label="select championship awards (hold ctrl for multiple)",
-				#		choices=myChoicesForChampionship_awards,
-				#		selected=myChoicesForChampionship_awards,
-				#		multiple=TRUE ))
-				#),
+				div(class="row-fluid",
+					div(class="span4", selectInput(
+						inputId="FILawards_regional",
+						label="select regional awards (hold ctrl for multiple)",
+						choices=myChoicesForRegional_awards,
+						selected=myChoicesForRegional_awards,
+						multiple=TRUE )),
+					div(class="span4", selectInput(
+						inputId="FILawards_championship",
+						label="select championship awards (hold ctrl for multiple)",
+						choices=myChoicesForChampionship_awards,
+						selected=myChoicesForChampionship_awards,
+						multiple=TRUE ))
+				),
 				div(class="row-fluid",
 					div(class="span3", selectInput(
 						inputId="FILscore_min",
@@ -92,17 +99,17 @@ shinyUI(
 						selected=">20" ))
 				),
 				div(class="row-fluid",
-					div(class="span3", selectInput(
-						inputId="FILadvisors_count_min",
-						label="minimum advisors number",
-						choices=myChoicesForStudents_count,
-						selected="0" )),
-					div(class="span3", selectInput(
-						inputId="FILadvisors_count_max",
-						label="maximum advisors number",
-						choices=myChoicesForStudents_count,
-						selected=">15" ))
-				),
+                    div(class="span3", selectInput(
+                        inputId="FILadvisors_count_min",
+                        label="minimum advisors number",
+                        choices=myChoicesForAdvisors_count,
+                        selected="0" )),
+                    div(class="span3", selectInput(
+                        inputId="FILadvisors_count_max",
+                        label="maximum advisors number",
+                        choices=myChoicesForAdvisors_count,
+                        selected=">14" ))
+                ),
 				div(class="row-fluid",
 					div(class="span3", selectInput(
 						inputId="FILinstructors_count_min",
