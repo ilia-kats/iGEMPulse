@@ -29,7 +29,7 @@ timelineNvd3Gen <- function(x) {
 }
 
 # ok time for some reactive ACTION
-dat2 <- reactive({bbqSauceFilter(dat)})
+dat2 <- reactive({bbqSauceFilter(dat, input)})
 timelineDat <- reactive({timelineNvd3Gen(dat2())})
 
 

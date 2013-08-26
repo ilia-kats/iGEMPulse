@@ -31,7 +31,7 @@ myChoicesForAdvisors_count <- c(0, 2, 5, 10, 15, ">15")
 myChoicesForInstructors_count <- c(0, 2, 5, 10, 15, ">15")
 
 # big ass filter
-bbqSauceFilter <- function(data){
+bbqSauceFilter <- function(data, input){
     data <- FilterForRegion(data)
     data <- FilterForTrack(data)
 	data <- FilterForScore(data)
