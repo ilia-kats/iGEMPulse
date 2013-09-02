@@ -40,6 +40,7 @@ body {
 	border-style:1pt solid;
 	border-bottom-left-radius:50%;
 	border-bottom-right-radius:50%;
+	box-shadow:0px 0px 5px 7px #CCC;
 }
 #title-line {
 	width:100%;
@@ -61,7 +62,7 @@ body {
 #main {
 	width:100%;
 }
-#main div {
+.content-hori {
 	display:block;
 	vertical-align:top;
 }

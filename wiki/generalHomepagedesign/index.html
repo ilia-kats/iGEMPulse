@@ -6,6 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="./css/index.css">
 		<link rel="alternate stylesheet" type="text/css" href="./css/index_flach.css" title="flat menu normal">
 		<link rel="alternate stylesheet" type="text/css" href="./css/index_flach2.css" title="flat menu old font">
+
 		<script type="text/javascript">
 			<!--
 			function check_size() {
@@ -127,6 +128,9 @@
 					}
 				}
 			}
+			
+			var Slider = function() { this.initialize.apply(this, arguments) }
+			
 			-->
 		</script>
 	</head>
@@ -257,28 +261,341 @@
 					<a href="#top" id="goto-top">Go to top</a>
 					Our page
 					<p></p>
-					<ul>
-	<li><a href="http://2013.igem.org/Team:Heidelberg/Templates/StartPage">StartPage</a></li>
-	<ul>
-		<li>Use: In the beginning of every page in order to set styles, reactivities, navigation, etc.</li>
-		<li>Argument 1: Title displayed in the organge headline</li>
-		<li>Argument 2: Navigation template to use on the left side of the page</li>
+					
+<!-- Beginning of Sliders -->
+
+<!-- Beginning of Slider 1 -->
+
+<script>
+var Slider = function() {this.initialize.apply(this, arguments)}
+Slider.prototype = {
+ 
+	initialize: function(slider) {
+		this.ul = slider.children[0]
+		this.li = this.ul.children
+	
+		// make <ul> as large as all <li>’s
+		this.ul.style.width = (this.li[0].clientWidth * this.li.length) + 'px'
+	
+		this.currentIndex = 0
+		this.clock()
+	},
+	goTo: function(index) {
+		clearTimeout(this.Interval)
+		// circle through indices
+		if (index < 0) index = this.li.length - 1;
+		else if (index > this.li.length - 1) index = 0;
+ 
+		// move <ul> left
+		this.ul.style.left = '-' + (100 * index) + '%'
+		this.clock()
+		this.currentIndex = index	
+	},
+	goToPrev: function() {
+		this.goTo(this.currentIndex - 1)
+	},
+	goToNext: function() {
+		this.goTo(this.currentIndex + 1)
+	},
+	clock: function() {
+		var self = this;
+		this.Interval = setInterval(function() {self.goToNext()}, 2500);
+	}
+}
+</script>
+
+<div id="SliderWrap">
+<div id="SliderPrev"><a href="#" onclick="sliderMain.goToPrev();return(false);">&#x25C0;</a></div><!--
+--><div id="Slider" onmouseover="clearTimeout(sliderMain.Interval)" onmouseout="sliderMain.clock()">
+
+	<ul id="SliderUl">
+		
+		<li>
+			<div>
+				<h2>Link to Project Page</h2>
+			</div>
+		</li>
+		<li>
+			<div>
+				<h2>We did lot's  of funny stuff</h2>
+			</div>
+		</li>
+		<li>
+			<div>
+				<h2>And we want to thank all our sponsors!</h2>
+			</div>
+		</li>
+		
 	</ul>
-	<li><a href="http://2013.igem.org/Team:Heidelberg/Templates/EndPage">EndPage</a></li>
-	<ul>
-		<li>Use: At the end of each page to close all opened divs and to include the sponsors</li>
-		<li>No arguments</li>
+
+</div><!--
+--><div id="SliderNext"><a href="#" onclick="sliderMain.goToNext();return(false);">&nbsp;</a></div>
+</div>
+<script>
+	var sliderMain = new Slider(document.getElementById("Slider"));
+</script>
+<style>
+#SliderWrap {
+	width:80%;
+}
+#Slider, #SliderNext, #SliderPrev {
+	display:inline-block;
+	vertical-align:middle;
+	overflow:hidden;
+}
+#SliderNext a, #SliderPrev a {
+	text-decoration:none;
+	display:block;
+	width:100%;
+	font-weight:bold;
+	font-size:150%;
+}
+#SliderNext, #SliderPrev {
+	width:1.5em;
+	text-align:center;
+	position:relative;
+}
+#SliderNext {
+	border-top-left-radius:1em;
+	border-bottom-left-radius:1em;
+	left:-1.5em;
+	height:2em;
+	z-index:3;
+}
+#SliderNext a {
+	height:100%;
+	background-image:url(http://2013.igem.org/wiki/images/d/da/Heidelberg_slider_Arrrow_next.png);
+	background-position:0% 100%;
+	background-size: 130% auto;
+}
+#SliderNext a:hover {
+	background-position:0% 0%;
+}
+#SliderPrev {
+	border-top-right-radius:1em;
+	border-bottom-right-radius:1em;
+	left:1.3em;
+	z-index:2;
+	border-left:1px solid #555;
+	box-shadow:0px 1px 2px 1px #555
+}
+#SliderPrev a {
+	background-color:#FFCC44;
+	color:#888;
+	line-height:1.5em;
+}
+#SliderPrev a:hover {
+	background-color:#FFCC00;
+	color:#292929;
+}
+#Slider {
+	width:40em;
+	height:14em;
+	display:auto;
+	border:1px solid #292929;
+	border-radius:0.5em;
+	background-color:#DDD;
+	box-shadow:0px 2px 4px 5px #909090;
+	z-index:1;
+	margin:1.5em 0em;
+}
+#SliderUl {
+	list-style:none;
+	position:relative;
+	margin:0px;
+	padding:0px; 
+	-webkit-transition: 0.5s left;
+	-moz-transition: 0.5s left;
+	-ms-transition: 0.5s left;
+	-o-transition: 0.5s left;
+}
+#SliderUl li {
+	float:left;
+	width:40em;
+	height:14em;
+}
+#SliderUl img, #SliderUl div {
+	height:100%;
+}
+</style>
+<!-- End of Slider 1 -->
+
+<!-- Beginning of Slider 2 -->
+
+<script>
+var Slider2 = function() {this.initialize.apply(this, arguments)}
+Slider2.prototype = {
+ 
+	initialize: function(slider) {
+		this.ul = slider.children[0]
+		this.li = this.ul.children
+	
+		// make <ul> as large as all <li>’s
+		this.ul.style.width = (this.li[0].clientWidth * this.li.length) + 'px'
+	
+		this.currentIndex = 0
+		this.clock()
+	},
+	goTo: function(index) {
+		clearTimeout(this.Interval)
+		// circle through indices
+		if (index < 0) 
+			index = this.li.length - 1
+		else if (index > this.li.length - 1) {
+			this.ul.style.left = "10em";
+			this.clock();
+			this.currentIndex = 0;
+			return;
+		}
+		
+		// move <ul> left
+		this.ul.style.left = '-' + ((20 * index)-10) + 'em'
+		this.clock()
+		this.currentIndex = index	
+	},
+	goToPrev: function() {
+		this.goTo(this.currentIndex - 1)
+	},
+	goToNext: function() {
+		this.goTo(this.currentIndex + 1)
+	},
+	clock: function() {
+		var self = this;
+		this.Interval = setInterval(function() {self.goToNext()}, 2500);
+	}
+}
+</script>
+
+<div id="Slider2Wrap">
+<div id="SliderPrev2"><a href="#" onclick="sliderMain2.goToPrev();return(false);">&#x25C0;</a></div><!--
+--><div id="Slider2" onmouseover="clearTimeout(sliderMain2.Interval)" onmouseout="sliderMain2.clock()">
+
+	<ul id="SliderUl2">
+		
+		<li>
+			<div>
+				<h2>Link to Project Page</h2>
+			</div>
+		</li>
+		<li>
+			<div>
+				<h2>We did lot's  of funny stuff</h2>
+			</div>
+		</li>
+		<li>
+			<div>
+				<h2>And we want to thank all our sponsors!</h2>
+			</div>
+		</li>
+		
 	</ul>
-	<li><a href="http://2013.igem.org/Team:Heidelberg/Templates/TopNavigation">TopNavigation</a></li>
-	<ul>
-		<li>Use: Included in the StartPage template -> no manual use!</li>
-		<li>No arguments</li>
-	</ul>
-	<li><a href="http://2013.igem.org/Team:Heidelberg/Templates/Navi_left_Team">Navi_left_Team</a></li>
-	<ul>
-		<li>Use: Navigation template for Team page</li>
-	</ul>
-</ul>
+	<div id="Sliderleft"></div>
+	<div id="Sliderright"></div>
+</div><!--
+--><div id="SliderNext2"><a href="#" onclick="sliderMain2.goToNext();return(false);">&nbsp;</a></div>
+</div>
+<script>
+	var sliderMain2 = new Slider2(document.getElementById("Slider2"));
+</script>
+<style>
+#Sliderleft, #Sliderright {
+	width:10em;
+	height:14em;
+	position:relative;
+	top:-14em;
+	background-color:rgba(100,100,100,0.5)
+}
+#Sliderleft { float:left; }
+#Sliderright { float:right; }
+#Slider2Wrap {
+	width:80%;
+}
+#Slider2, #SliderNext2, #SliderPrev2 {
+	display:inline-block;
+	vertical-align:middle;
+	overflow:hidden;
+}
+#SliderNext2 a, #SliderPrev2 a {
+	text-decoration:none;
+	display:block;
+	width:100%;
+	font-weight:bold;
+	font-size:150%;
+}
+#SliderNext2, #SliderPrev2 {
+	width:1.5em;
+	text-align:center;
+	position:relative;
+}
+#SliderNext2 {
+	border-top-left-radius:1em;
+	border-bottom-left-radius:1em;
+	left:-1.5em;
+	height:2em;
+	z-index:3;
+}
+#SliderNext2 a {
+	height:100%;
+	background-image:url(http://2013.igem.org/wiki/images/d/da/Heidelberg_slider_Arrrow_next.png);
+	background-position:0% 100%;
+	background-size: 130% auto;
+}
+#SliderNext2 a:hover {
+	background-position:0% 0%;
+}
+#SliderPrev2 {
+	border-top-right-radius:1em;
+	border-bottom-right-radius:1em;
+	left:1.3em;
+	z-index:2;
+	border-left:1px solid #555;
+	box-shadow:0px 1px 2px 1px #555
+}
+#SliderPrev2 a {
+	background-color:#FFCC44;
+	color:#888;
+	line-height:1.5em;
+}
+#SliderPrev2 a:hover {
+	background-color:#FFCC00;
+	color:#292929;
+}
+#Slider2 {
+	width:40em;
+	height:14em;
+	display:auto;
+	border:1px solid #292929;
+	border-radius:0.5em;
+	background-color:#DDD;
+	box-shadow:0px 2px 4px 5px #909090;
+	z-index:1;
+	margin:1.5em 0em;
+}
+#SliderUl2 {
+	list-style:none;
+	position:relative;
+	left:10em;
+	margin:0px;
+	padding:0px;
+	-webkit-transition: 0.5s left;
+	-moz-transition: 0.5s left;
+	-ms-transition: 0.5s left;
+	-o-transition: 0.5s left;
+}
+#SliderUl2 li {
+	float:left;
+	width:20em;
+	height:14em;
+}
+#SliderUl2 img, #SliderUl2 div {
+	height:100%;
+}
+</style>
+
+<!-- End of Slider 2 -->
+
+<!-- End of Sliders -->
+					
 				</div>
 			</div>
 			
