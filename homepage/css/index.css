@@ -11,6 +11,8 @@
 body {
 	background-color:#606060;
 	text-align:center;
+	margin:0px;
+	padding:0px;
 }
 #center-wrapper {
 	overflow:hidden;
@@ -24,6 +26,7 @@ body {
 	text-align:center;
 	z-index:888;
 	border-style:none;
+	line-height:1.5em;
 }
 #top-section, #footer-box {
 	min-width:800px;
@@ -129,7 +132,7 @@ a:active { font-weight:bold; color:red; text-decoration:underline; }
 	position:absolute;
 	top:-7em;
 	width:120%;
-        left: -10%;
+    left:-10%;
 	z-index:999;
 	background-color:#292929;
 	border:1px solid #292929;
@@ -241,10 +244,7 @@ a:active { font-weight:bold; color:red; text-decoration:underline; }
 #top-separator {
 	background-color:#FFCC00;
 	height:20px;
-	text-align:left;
-}
-#top-separator * {
-	margin-left:12.5em;
+	text-align:center;
 }
 
 /* Style left navigation bar */
