@@ -5,27 +5,28 @@ shinyUI(
             div(class="row-fluid",
                 headerPanel("iGEM42 TimeLine")
             ),
-			div(class="row-fluid",
-				div(class="span3",
-					div(class="row-fluid",
+			div(class="row-fluid", id="Output",
+				div(class="row-fluid",
+					div(class="span3",
 						selectInput(inputId = "x",
 						label = "Choose Variable",
 						choices = myChoicesForX,
 						selected = "Teams")
 					),
-					div(class="row-fluid",
+					div(class="span3",
 						selectInput(inputId = "Sort",
 						label = "Choose Categories",
 						choices = myChoicesForSort,
 						selected = "Region")
 					)
 				),
-				div(class="span5",
+				div(class="row-fluid",
 					showOutput("myChart","nvd3")
 				)
 			),
-			div(class="container-fluid",
-				"General filter options",
+			div(class="container-fluid", id="Filters",
+			div(class="container-fluid", id="FilterGeneral",
+				a(id="DropGeneral", href="#", "General filter options"),
 				div(class="row-fluid",
 					div(class="span3", selectInput(
 						inputId="FILregion",
@@ -40,10 +41,10 @@ shinyUI(
 						selected=myChoicesForTrack,
 						multiple=TRUE ))
 				),
-				"Autofillable text entry for team names"
+				p("Autofillable text entry for team names")
 			),
 			div(class="container-fluid",
-				"Filter team success",
+				a(id="DropSuccess", href="#", "Filter team success"),
 				div(class="row-fluid",
 					div(class="span4", selectInput(
 						inputId="FILawards_regional",
@@ -82,10 +83,10 @@ shinyUI(
 						choices=myChoicesForBB_count,
 						selected=">200" ))
 				),
-				"Only those with abstract submitted"
+				p("Only those with abstract submitted")
 			),
-			div(class="container-fluid",
-				"Filter team composition",
+			div(class="container-fluid", id="FilterTeam",
+				a(id="DropTeam", href="#", "Filters for Team Composition"),
 				div(class="row-fluid",
 					div(class="span3", selectInput(
 						inputId="FILstudents_count_min",
@@ -122,7 +123,9 @@ shinyUI(
 						choices=myChoicesForInstructors_count,
 						selected=">15" ))
 				)
+				)
 			)
-        )
+        ),
+		includeHTML("javascript.js")
     )
 )
