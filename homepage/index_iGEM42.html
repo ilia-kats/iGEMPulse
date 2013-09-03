@@ -2,48 +2,126 @@
 	<head>
 		<title>iGEM 42 - the answer to everything</title>
 		<link rel="stylesheet" type="text/css" href="./css/index.css">
+<script>
+		window.onresize = function() {
+		rotateMenu("menu-team", getMenuAngle(2.2));
+		rotateMenu("menu-project", getMenuAngle(1.2));
+		rotateMenu("menu-notebook", getMenuAngle(0.2));
+		rotateMenu("menu-parts", getMenuAngle(0));
+		rotateMenu("menu-modelling", getMenuAngle(0.2), -1);
+		rotateMenu("menu-human", getMenuAngle(1.2), -1);
+		rotateMenu("menu-safety", getMenuAngle(2.2), -1);
+	}
+	function start_tour() {
+		var tour_navi = document.getElementById("tour-navi");
+		if (tour_navi.style.display !== "block") {
+			tour_navi.style.display = "block";
+		}
+	}
+	function stop_tour() {
+		var tour_navi = document.getElementById("tour-navi");
+		if (tour_navi.style.display !== "none") {
+			tour_navi.style.display = "none";
+		}
+	}
+	function getMenuAngle(position) {
+		var menu = document.getElementById("main-menu");
+		var width = menu.offsetWidth;
+		var a = 0.5 * width;
+		var b = menu.offsetHeight;
+		var wpos = width * position * 0.1;
+		var t = Math.acos(wpos / a);
+		var beta = Math.atan(a / b * Math.tan(t));
+		var angle = Math.PI * 0.5 - beta;
+		var y = b - b * Math.sin(t);
+		return Array(angle,y);
+	}
+	function rotateMenu(id, angle, factor) {
+		if (factor !== undefined)
+		    angle[0] *= factor;
+		var root = document.getElementById(id);
+		root.style.position = "relative";
+		root.style.top = "calc(5.3em - " + angle[1] + "px)"; // 100px from #main-menu
+		var children = root.children;
+		for (var i = 0; i < children.length; ++i) {
+                        if (children[i].nodeName == "A") {
+                            children[i].style.transform = "rotate(" + angle[0] + "rad)";
+                            break;
+			}
+		}
+	}
+	-->
+</script>
 	</head>
 
-	<body>
-
-	<div id="center-wrapper">
-
-		<div id="center">
-
-			<div id="page-header">
-
-				<div style="width:20%; float:right;"> <img src="logo.gif" alt="Logo"> </div>
-				<div style="width:auto; text-align:left;">
-					<h1>Welcome to iGEM42!</h1>
-					<p>iGEM42 offers a variety of apps and filters to browse the inscrutable amount of data in the previous iGEM-wikis, evaluate trends and find student expertise in useful methods.</p>
+<body>
+		<div id="center-wrapper">
+			
+			<div id="top-matter">
+				<div id="main-menu">
+				
+	<a href="http://2013.igem.org/Team:Heidelberg"><h1 id="menu-title">iGEM <span class="menu-title-green">2013 </span> TEAM <span class="menu-title-blue">HEIDELBERG</span></h1></a>
+	
+					<div id="menu-team" class="menu-item">
+						<a href="./about.html" target="center-frame" class="menu-link"><img id="menu-symbol" src="http://2013.igem.org/wiki/images/a/a4/Heidelberg_menu_symbol1.png" />About this project</a>
+					</div>
+					<div id="menu-project" class="menu-item">
+						<a href="./apps/factsfigures/" target="center-frame" class="menu-link"><img id="menu-symbol" src="http://2013.igem.org/wiki/images/c/c4/Heidelberg_menu_symbol2.png"/>Scatterplot</a>
+					</div>
+					<div id="menu-modelling" class="menu-item">
+						<a href="./apps/timeline/" target="center-frame" class="menu-link"><img id="menu-symbol" src="http://2013.igem.org/wiki/images/5/55/Heidelberg_menu_symbol3.png"/>Timeline</a>
+					</div>
+					<div id="menu-parts" class="menu-item">
+						<img id="menu-symbol" src="http://2013.igem.org/wiki/images/8/83/Heidelberg_menu_symbol4.png"/>Topics
+					</div>
+					<div id="menu-notebook" class="menu-item">
+						<img id="menu-symbol" src="http://2013.igem.org/wiki/images/e/eb/Heidelberg_menu_symbol5.png" />Methods
+					</div>
+					<div id="menu-human" class="menu-item">
+						<img id="menu-symbol" src="http://2013.igem.org/wiki/images/8/81/Heidelberg_menu_symbol6.png"/>Quick info
+					</div>
+					<div id="menu-safety" class="menu-item">
+						<a href="./teamdescription.html" target="center-frame" class="menu-link"><img id="menu-symbol" src="http://2013.igem.org/wiki/images/f/f1/Heidelberg_menu_symbol7.png"/>Team Heidelberg</a>
+					</div>
+					<div class="visualClear"></div>
 				</div>
+				<div id="title-line">
+					<a href="http://2013.igem.org/Team:Heidelberg" id="team-logo"><img src="http://2013.igem.org/wiki/images/f/ff/IGem_Team_Heidelberg_Logo.gif" alt="team-logo"/></a>
+					<div id="PS"><h1>PHILOSOPHER'S&nbsp;STONE</h1></div>
+					<!--	<a href="#" id="flubber" onclick="start_tour();return false"><img src="" alt="ask flubber" width="60" height="60" /></a> -->
+					<a href="http://2013.igem.org/Main_Page" id="igem-2013"><img src="http://igem.org/wiki/images/d/de/IGEM_basic_Logo_stylized.png" alt="igem-2013"/></a>
+				</div>
+				<div id="top-separator">
+					put current navigation here
+					<!--<input type="button" value="hide/show menu" onclick="hide_show_menu()"/>-->
+				</div>
+				
+<script>
+		rotateMenu("menu-team", getMenuAngle(2.2));
+		rotateMenu("menu-project", getMenuAngle(1.2));
+		rotateMenu("menu-notebook", getMenuAngle(0.2));
+		rotateMenu("menu-parts", getMenuAngle(0));
+		rotateMenu("menu-modelling", getMenuAngle(0.2), -1);
+		rotateMenu("menu-human", getMenuAngle(1.2), -1);
+		rotateMenu("menu-safety", getMenuAngle(2.2), -1);
+</script>
 			</div>
 			
+			<div id="main" class="center-vert">
+					<h1>Welcome to iGEM42!</h1>
+					<p>iGEM42 offers a variety of apps and filters to browse the inscrutable amount of data in the previous iGEM-wikis, evaluate trends and find student expertise in useful methods.</p>
 
-			<div id="main-menubar">
-				<ul class="menubar">
-					<li><a href="about.html" target="center-frame">About this project</a></li>
-					<li><a href="apps/factsfigures/" target="center-frame">Scatterplot</a></li>
-					<li><a href="apps/timeline/" target="center-frame">Timeline</a></li>
-					<li>Topics</li>
-					<li>Methods</li>
-					<li>Quick info</li>
-					<li><a href="teamdescription.html" target="center-frame">Team Heidelberg</a></li>
-				</ul>
+				<div class="shiny-app">
+
+					<iframe name="center-frame" src="./about.html"></iframe>
+
+				</div>
 
 			</div>
-
-			<div class="shiny-app">
-
-				<iframe name="center-frame" src="about.html"></iframe>
-
+			
+			<div id="bottom-matter" class="center-vert">
+				Sponsored by Julia
 			</div>
-
-			<div id="page-footer">external links etc.</div>
-
 		</div>
-
-	</div>
-
 	</body>
 </html>
