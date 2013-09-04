@@ -1,6 +1,7 @@
 shinyUI(
     bootstrapPage(
         # basic application container divs
+		includeHTML("style.css"),
 		h2("Timeline"),
         div(class="container-fluid",
 			div(class="row-fluid", id="Output",
@@ -23,18 +24,20 @@ shinyUI(
 				)
 			),
 			div(class="container-fluid", id="Filters",
-			p("Filtering options"),
-			tags$ul(style="list-style:none;",
-				tags$li(style="float:left;border:1pt solid black;padding:5px;", a(id="ShowRegion", href="#", onclick="Filter.Show('FilterRegion');return(false);", "Region")),
-				tags$li(style="float:left;border:1pt solid black;padding:5px;", a(id="ShowTrack", href="#", onclick="Filter.Show('FilterTrack');return(false);", "Track")),
-				tags$li(style="float:left;border:1pt solid black;padding:5px;", a(id="ShowAwards", href="#", onclick="Filter.Show('FilterAwards');return(false);", "Awards")),
-				tags$li(style="float:left;border:1pt solid black;padding:5px;", a(id="ShowScore", href="#", onclick="Filter.Show('FilterScore');return(false);", "Score")),
-				tags$li(style="float:left;border:1pt solid black;padding:5px;", a(id="ShowBiobricks", href="#", onclick="Filter.Show('FilterBiobricks');return(false);", "Biobricks submitted")),
-				tags$li(style="float:left;border:1pt solid black;padding:5px;", a(id="ShowStudents", href="#", onclick="Filter.Show('FilterStudents');return(false);", "Student number")),
-				tags$li(style="float:left;border:1pt solid black;padding:5px;", a(id="ShowAdvisors", href="#", onclick="Filter.Show('FilterAdvisors');return(false);", "Advisor number")),
-				tags$li(style="float:left;border:1pt solid black;padding:5px;", a(id="ShowInstructors", href="#", onclick="Filter.Show('FilterInstructors');return(false);", "Instructor number"))
+			div(class="row-fluid",
+				p("Filtering options", id="FilterLabel"),
+				tags$ul(id="FilterUl",
+					tags$li(a(id="ShowRegion", href="#", onclick="Filter.Show('FilterRegion', 'ShowRegion');return(false);", "Region")),
+					tags$li(a(id="ShowTrack", href="#", onclick="Filter.Show('FilterTrack', 'ShowTrack');return(false);", "Track")),
+					tags$li(a(id="ShowAwards", href="#", onclick="Filter.Show('FilterAwards', 'ShowAwards');return(false);", "Awards")),
+					tags$li(a(id="ShowScore", href="#", onclick="Filter.Show('FilterScore', 'ShowScore');return(false);", "Score")),
+					tags$li(a(id="ShowBiobricks", href="#", onclick="Filter.Show('FilterBiobricks', 'ShowBiobricks');return(false);", "Biobricks submitted")),
+					tags$li(a(id="ShowStudents", href="#", onclick="Filter.Show('FilterStudents', 'ShowStudents');return(false);", "Student number")),
+					tags$li(a(id="ShowAdvisors", href="#", onclick="Filter.Show('FilterAdvisors', 'ShowAdvisors');return(false);", "Advisor number")),
+					tags$li(a(id="ShowInstructors", href="#", onclick="Filter.Show('FilterInstructors', 'ShowInstructors');return(false);", "Instructor number")),
+					div(style="clear:both;")
+				)
 			),
-			div(style="clear:both;"),
 			div(class="container-fluid", id="AllFilters",
 				div(class="row-fluid", id="FilterRegion",
 					selectInput(

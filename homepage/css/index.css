@@ -348,3 +348,12 @@ a:active { font-weight:bold; color:red; text-decoration:underline; }
 	min-height:1000px;
 	border:0px;
 }
+
+#FilterUl {
+	list-style:none;
+}
+#FilterUl li {
+	float:left;
+	border:1pt solid black;
+	padding:5px;
+}
