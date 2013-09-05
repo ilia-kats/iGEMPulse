@@ -773,12 +773,7 @@
         "medal": "gold", 
         "region": "Europe", 
         "methods": {}
-    }, 
-    {
-        "medal": "Bronze", 
-        "name": "Wisconson", 
-        "year": 2007
-    }, 
+    },
     {
         "wiki": "http://2008.igem.org/Team:ETH_Zurich", 
         "instructors": [
@@ -2480,12 +2475,7 @@
         "medal": "silver", 
         "region": "Europe", 
         "methods": {}
-    }, 
-    {
-        "medal": "Gold", 
-        "name": "MIT", 
-        "year": 2007
-    }, 
+    },
     {
         "wiki": "http://2012.igem.org/Team:UConn", 
         "instructors": [
@@ -4497,12 +4487,7 @@
         "meshterms": {}, 
         "region": "Asia", 
         "methods": {}
-    }, 
-    {
-        "medal": "Gold", 
-        "name": "St. Petersberg", 
-        "year": 2007
-    }, 
+    },
     {
         "wiki": "http://2011.igem.org/Team:METU-BIN_Ankara", 
         "instructors": [
@@ -4859,6 +4844,7 @@
             "BBa_I716028", 
             "BBa_I716029"
         ], 
+        "medal": "gold",
         "url": "http://igem.org/Team.cgi?id=16", 
         "year": 2007, 
         "information_content": 0.5, 
@@ -16706,12 +16692,7 @@
         "medal": "Silver", 
         "region": "US", 
         "methods": {}
-    }, 
-    {
-        "medal": "Gold", 
-        "name": "Davidson_Missouri", 
-        "year": 2007
-    }, 
+    },
     {
         "wiki": "http://2010.igem.org/Team:LMU-Munich", 
         "instructors": [
@@ -18385,6 +18366,7 @@
             "David Peterson"
         ], 
         "parts": [], 
+        "medal": "bronze", 
         "url": "http://igem.org/Team.cgi?id=67", 
         "year": 2007, 
         "information_content": 0.5, 
@@ -20746,12 +20728,7 @@
         "medal": "gold", 
         "region": "Americas West", 
         "methods": {}
-    }, 
-    {
-        "medal": "Bronze", 
-        "name": "Boston U", 
-        "year": 2007
-    }, 
+    },
     {
         "wiki": "http://2009.igem.org/Team:Tianjin", 
         "instructors": [
@@ -21329,12 +21306,7 @@
         "medal": "bronze", 
         "region": "Americas East", 
         "methods": {}
-    }, 
-    {
-        "medal": "Bronze", 
-        "name": "Mississippi", 
-        "year": 2007
-    }, 
+    },
     {
         "wiki": "http://2009.igem.org/Team:LCG-UNAM-Mexico", 
         "instructors": [
@@ -22631,6 +22603,7 @@
             "BBa_I720009", 
             "BBa_I720010"
         ], 
+        "medal": "bronze", 
         "url": "http://igem.org/Team.cgi?id=20", 
         "year": 2007, 
         "information_content": 0.5, 
@@ -23044,6 +23017,7 @@
             "Scott Chi Tran"
         ], 
         "parts": [], 
+        "medal": "bronze", 
         "url": "http://igem.org/Team.cgi?id=40", 
         "year": 2007, 
         "information_content": 0.5, 
@@ -23088,6 +23062,7 @@
             "BBa_I760000", 
             "BBa_I760001"
         ], 
+        "medal": "gold", 
         "url": "http://igem.org/Team.cgi?id=60", 
         "year": 2007, 
         "information_content": 0.5, 
@@ -25611,6 +25586,7 @@
             "BBa_I715075", 
             "BBa_I715076"
         ], 
+        "medal": "gold", 
         "url": "http://igem.org/Team.cgi?id=15", 
         "year": 2007, 
         "information_content": 0.5, 
@@ -30590,6 +30566,7 @@
             "BBa_I765012", 
             "BBa_I765013"
         ], 
+        "medal": "bronze", 
         "url": "http://igem.org/Team.cgi?id=65", 
         "year": 2007, 
         "information_content": 0.5, 
@@ -33803,6 +33780,7 @@
             "BBa_I753002", 
             "BBa_I753003"
         ], 
+        "medal": "bronze", 
         "url": "http://igem.org/Team.cgi?id=53", 
         "year": 2007, 
         "information_content": 0.5, 
@@ -34493,12 +34471,7 @@
         "methods": {
             "imaging": 1
         }
-    }, 
-    {
-        "medal": "Gold", 
-        "name": "Berkeley", 
-        "year": 2007
-    }, 
+    },
     {
         "wiki": "http://2011.igem.org/Team:Cornell", 
         "instructors": [
@@ -37503,12 +37476,7 @@
         "medal": "gold", 
         "region": "Europe", 
         "methods": {}
-    }, 
-    {
-        "medal": "Bronze", 
-        "name": "Michigan ", 
-        "year": 2007
-    }, 
+    },
     {
         "wiki": "http://2009.igem.org/Team:Wash_U", 
         "instructors": [
@@ -44367,12 +44335,7 @@
         "medal": "gold", 
         "region": "Americas", 
         "methods": {}
-    }, 
-    {
-        "medal": "Bronze", 
-        "name": "Colombia_Israel", 
-        "year": 2007
-    }, 
+    },
     {
         "wiki": "http://2009.igem.org/Team:Tsinghua", 
         "instructors": [

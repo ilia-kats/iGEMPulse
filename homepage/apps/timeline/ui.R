@@ -4,8 +4,8 @@ shinyUI(
 		includeHTML("style.css"),
 		h2("Timeline"),
         div(class="container-fluid",
-			div(class="row-fluid", id="Output",
-				div(class="span3",
+			div(class="container-fluid", id="Output",
+				div(class="Output-hori", id="Select",
 					div(class="row-fluid",
 						selectInput(inputId = "x",
 						label = "Choose Variable",
@@ -19,7 +19,7 @@ shinyUI(
 						selected = "Region")
 					)
 				),
-				div(class="span6",
+				div(class="Output-hori", id="Chart",
 					showOutput("myChart","nvd3")
 				)
 			),

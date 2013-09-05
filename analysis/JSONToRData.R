@@ -82,22 +82,43 @@ DATParametersFromJSON <- data.frame()
 #### Go through all teams and write parameters to dataframe
 #### Add queries for single value parameters here
 #### Watch out for empty parameters! (e.g. track)
+ErrorListRegion <- c()
+ErrorListTrack <- c()
+ErrorListWiki <- c()
+ErrorListUrl <- c()
+ErrorListIC <- c()
 for (i in 1:length(JSONList)) {
 	name <- paste(JSONList[[i]]$name, JSONList[[i]]$year, sep = "")
 	DATParametersFromJSON[name, "name"] <- JSONList[[i]]$name
 	DATParametersFromJSON[name, "year"] <- as.numeric(JSONList[[i]]$year)
-	DATParametersFromJSON[name, "region"] <- JSONList[[i]]$region
-	if(length(JSONList[[i]]$track) == 0) DATParametersFromJSON[name, "track"] <- ""
-	else DATParametersFromJSON[name, "track"] <- JSONList[[i]]$track
+	if(length(JSONList[[i]]$region) == 0) { 
+		DATParametersFromJSON[name, "region"] <- ""
+		ErrorListRegion <- c(ErrorListRegion, name)
+	} else DATParametersFromJSON[name, "region"] <- JSONList[[i]]$region
+	if(length(JSONList[[i]]$track) == 0) {
+		DATParametersFromJSON[name, "track"] <- ""
+		ErrorListTrack <- c(ErrorListTrack, name)
+	} else DATParametersFromJSON[name, "track"] <- JSONList[[i]]$track
+	if(length(JSONList[[i]]$medal) == 0) DATParametersFromJSON[name, "medal"] <- ""
+	else DATParametersFromJSON[name, "medal"] <- JSONList[[i]]$medal
 	DATParametersFromJSON[name, "students_count"] <- length(JSONList[[i]]$students)
 	DATParametersFromJSON[name, "advisors_count"] <- length(JSONList[[i]]$advisors)
 	DATParametersFromJSON[name, "instructors_count"] <- length(JSONList[[i]]$instructors)
-	DATParametersFromJSON[name, "wiki"] <- JSONList[[i]]$wiki
-	DATParametersFromJSON[name, "url"] <- JSONList[[i]]$url
+	if(length(JSONList[[i]]$wiki) == 0) {
+		DATParametersFromJSON[name, "wiki"] <- ""
+		ErrorListWIki <- c(ErrorListWiki, name)
+	} else DATParametersFromJSON[name, "wiki"] <- JSONList[[i]]$wiki
+	if(length(JSONList[[i]]$url) == 0) {
+		DATParametersFromJSON[name, "url"] <- ""
+		ErrorListUrl <- c(ErrorListUrl, name)
+	} else DATParametersFromJSON[name, "url"] <- JSONList[[i]]$url
 	DATParametersFromJSON[name, "awards_regional_count"] <- length(JSONList[[i]]$awards_regional)
 	DATParametersFromJSON[name, "awards_championship_count"] <- length(JSONList[[i]]$awards_championship)
 	DATParametersFromJSON[name, "biobrick_count"] <- length(JSONList[[i]]$parts)
-	DATParametersFromJSON[name, "information_content"] <- as.numeric(JSONList[[i]]$information_content)
+	if(length(JSONList[[i]]$information_content) == 0) {
+		DATParametersFromJSON[name, "information_content"] <- 0
+		ErrorListIC <- c(ErrorListIC, name)
+	} else DATParametersFromJSON[name, "information_content"] <- as.numeric(JSONList[[i]]$information_content)
 	## use naive scoring function to calculate certain scores
 	DATParametersFromJSON[name, "score"] <- as.numeric(scoringFunc(c(JSONList[[i]][["awards_regional"]],JSONList[[i]][["awards_championship"]],JSONList[[i]][["medal"]]), awardScores))
 	#str(c(JSONList[[i]][["awards_regional"]],JSONList[[i]][["awards_championship"]],JSONList[[i]][["medal"]]))
@@ -116,6 +137,7 @@ DATContentsFromJSON <- list()
 #### Watch out for empty parameters!
 for (i in 1:length(JSONList)) {
 	name <- paste(JSONList[[i]]$name, JSONList[[i]]$year, sep = "")
+	DATContentsFromJSON[[name]] <- list()
 	DATContentsFromJSON[[name]][["year"]] <- JSONList[[i]]$year
 	if (length(JSONList[[i]]$awards_regional) == 0) DATContentsFromJSON[[name]][["awards_regional"]] <- ""
 	else DATContentsFromJSON[[name]]["awards_regional"] <- JSONList[[i]]["awards_regional"]
@@ -125,6 +147,12 @@ for (i in 1:length(JSONList)) {
 	else DATContentsFromJSON[[name]]["parts_range"] <- JSONList[[i]]["parts_range"]
 	if (length(JSONList[[i]]$parts) == 0) DATContentsFromJSON[[name]][["parts"]] <- ""
 	else DATContentsFromJSON[[name]][["parts"]] <- JSONList[[i]]$parts
+	if (length(JSONList[[i]]$meshterms) == 0) DATContentsFromJSON[[name]][["meshterms"]] <- ""
+	else DATContentsFromJSON[[name]][["meshterms"]] <- JSONList[[i]]$meshterms
+	if (length(JSONList[[i]]$methods) == 0) DATContentsFromJSON[[name]][["methods"]] <- ""
+	else DATContentsFromJSON[[name]][["methods"]] <- JSONList[[i]]$methods
+	if (length(JSONList[[i]]$topwords) == 0) DATContentsFromJSON[[name]][["topwords"]] <- ""
+	else DATContentsFromJSON[[name]][["topwords"]] <- JSONList[[i]]$topwords
 	DATContentsFromJSON[[name]]["advisors"] <- JSONList[[i]]["advisors"]
 	DATContentsFromJSON[[name]]["project"] <- JSONList[[i]]["project"]
 	DATContentsFromJSON[[name]]["abstract"] <- JSONList[[i]]["abstract"]

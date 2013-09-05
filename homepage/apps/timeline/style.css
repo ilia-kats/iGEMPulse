@@ -1,4 +1,17 @@
 <style>
+.Output-hori {
+	display:inline-block;
+	vertical-align:top;
+}
+#Chart {
+	width:70%;
+}
+#myChart {
+	width:100%;
+}
+#Select {
+	width:25%;
+}
 #FilterLabel, #FilterUl {
 	display:inline-block;
 	vertical-align:middle;

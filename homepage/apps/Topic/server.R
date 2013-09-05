@@ -1,5 +1,5 @@
-shinyServer(function(input, output) {
 source("global.R")
+shinyServer(function(input, output) {
 timelineDatGenerator <- function(x) {
 	output = data.frame(
 		"Teams" = nrow(x),
