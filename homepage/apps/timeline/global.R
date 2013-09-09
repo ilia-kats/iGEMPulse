@@ -30,9 +30,15 @@ myChoicesForStudents_count <- c(0, 5, 10, 15, 20, ">20")
 myChoicesForStudents_count <- c(0, 5, 10, 15, 20, ">20")
 myChoicesForAdvisors_count <- c(0, 2, 4, 6, 8, 10, 12, 14, ">14")
 myChoicesForInstructors_count <- c(0, 2, 5, 10, 15, ">15")
+myChoicesForInformation_content <- c("0", "0.4", "0.45", "0.5", "0.55", "0.6")
+myChoicesForTeamDisplay <- c("0", "5", "10", "20", "50", "100", "all")
+myChoicesForTeamSort <- c("Year", "alphabetic", "Score")
 
 # big ass filter
 bbqSauceFilter <- function(data, input){
+	data <- FilterForTeamName(data, input)
+	data <- FilterForAbstract(data, input)
+	data <- FilterForInformation_content(data, input)
 	data <- FilterForRegionalAwards(data, input)
 	data <- FilterForChampionshipAwards(data, input)
 	data <- FilterForRegion(data, input)
@@ -42,6 +48,17 @@ bbqSauceFilter <- function(data, input){
 	data <- FilterForStudents_count(data, input)
 	data <- FilterForAdvisors_count(data, input)
 	data <- FilterForInstructors_count(data, input)
+	return(data)
+}
+FilterForTeamName <- function(data, input) {
+	keepteams <- c()
+	Names <- unlist(strsplit(input$FILname, ", "))
+	Names <- unlist(strsplit(Names, ","))
+	for (i in 1:length(Names)) {
+		keepteams <- c(keepteams, grep(Names[i], data$name))
+	}
+	if (length(keepteams) != 0) data <- data[keepteams,]
+	rm(keepteams)
 	return(data)
 }
 FilterForRegion <- function(data, input) {
@@ -98,6 +115,20 @@ FilterForBiobrick_count <- function(data, input) {
 	else if (input$FILbiobrick_count_max == ">200" & input$FILbiobrick_count_min != "0") data <- data[-which(data$biobrick_count < as.numeric(input$FILbiobrick_count_min)),]
 	else if (input$FILbiobrick_count_max == ">200" & input$FILbiobrick_count_min == "0") return(data)
 	else data <- data[-which(data$biobrick_count < as.numeric(input$FILbiobrick_count_min) | data$biobrick_count > as.numeric(input$FILbiobrick_count_max)),]
+	return(data)
+}
+FilterForAbstract <- function(data, input) {
+	if (input$FILabstract == FALSE) return(data)
+	delete <- c()
+	for (i in 1:length(row.names(data))) {
+		if (DATContentsFromJSON[[row.names(data)[i]]]$abstract == "-- No abstract provided yet --") delete <- c(delete, i)
+	}
+	if(length(delete) != 0) data <- data[-delete,]
+	rm(delete)
+	return(data)
+}
+FilterForInformation_content <- function(data, input) {
+	if (length(which(data$information_content < as.numeric(input$FILinformation_content))) != 0)	data <- data[-which(data$information_content < as.numeric(input$FILinformation_content)),]
 	return(data)
 }
 FilterForRegionalAwards <- function(data, input) {
