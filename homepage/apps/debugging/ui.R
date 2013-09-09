@@ -20,7 +20,7 @@ shinyUI(
 					)
 				),
 				div(class="Output-hori", id="Chart",
-					showOutput("myChart","nvd3")
+					tableOutput("myChart")
 				)
 			),
 			div(class="container-fluid", id="Filters",

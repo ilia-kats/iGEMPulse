@@ -48,10 +48,9 @@ dat2 <- reactive({bbqSauceFilter(dat, input)})
 timelineDatRegion <- reactive({timelineNvd3Gen(dat2())})
 timelineDatTrack <- reactive({timelineNvd3GenTrack(dat2())})
 
-output$myChart <- renderChart({
-	if (input$Sort == "Region") timelinePlot <- nPlot(as.formula(paste0(input$x,"~year")), group = "region", data = timelineDatRegion(), type = "stackedAreaChart", id = "chart", dom = "myChart")
-	else timelinePlot <- nPlot(as.formula(paste0(input$x,"~year")), group = "track", data = timelineDatTrack(), type = "stackedAreaChart", id = "chart", dom = "myChart")
-	return(timelinePlot)
+output$myChart <- renderTable({
+	if (input$Sort == "Region") return(timelineDatRegion())
+	else return(timelineDatTrack())
 })
 output$TeamList <- renderTable({
 	if (input$TeamDisplay == "0") return()
