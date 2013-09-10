@@ -119,14 +119,6 @@ for (i in 1:length(JSONList)) {
 		DATParametersFromJSON[name, "information_content"] <- 0
 		ErrorListIC <- c(ErrorListIC, name)
 	} else DATParametersFromJSON[name, "information_content"] <- as.numeric(JSONList[[i]]$information_content)
-	## use naive scoring function to calculate certain scores
-	DATParametersFromJSON[name, "score"] <- as.numeric(scoringFunc(c(JSONList[[i]][["awards_regional"]],JSONList[[i]][["awards_championship"]],JSONList[[i]][["medal"]]), awardScores))
-	#str(c(JSONList[[i]][["awards_regional"]],JSONList[[i]][["awards_championship"]],JSONList[[i]][["medal"]]))
-}
-### normalize by year
-for(y in min(DATParametersFromJSON$year):max(DATParametersFromJSON$year) ) {
-	m <- max(DATParametersFromJSON$score[DATParametersFromJSON$year==y])
-	DATParametersFromJSON$score[DATParametersFromJSON$year==y] <-DATParametersFromJSON$score[DATParametersFromJSON$year==y]/m
 }
 
 #### Produce empty Parameters data frame
@@ -143,6 +135,33 @@ for (i in 1:length(JSONList)) {
 	else DATContentsFromJSON[[name]]["awards_regional"] <- JSONList[[i]]["awards_regional"]
 	if (length(JSONList[[i]]$awards_championship) == 0) DATContentsFromJSON[[name]][["awards_championship"]] <- ""
 	else DATContentsFromJSON[[name]]["awards_championship"] <- JSONList[[i]]["awards_championship"]
+	## Check Championship Awards
+	DATContentsFromJSON[[name]]["awards_championship"][grep("Grand Prize", DATContentsFromJSON[[name]]["awards_championship"])] <- "Grand Prize"
+	DATContentsFromJSON[[name]]["awards_championship"][grep("(1st)|(First) Runner Up", DATContentsFromJSON[[name]]["awards_championship"], perl=TRUE)] <- "1st Runner Up"
+	DATContentsFromJSON[[name]]["awards_championship"][grep("(2nd)|(Second) Runner Up", DATContentsFromJSON[[name]]["awards_championship"], perl=TRUE)] <- "2nd Runner Up"
+	DATContentsFromJSON[[name]]["awards_championship"][grep("Environment", DATContentsFromJSON[[name]]["awards_championship"])] <- "Best Environment Project"
+	DATContentsFromJSON[[name]]["awards_championship"][grep("Energy", DATContentsFromJSON[[name]]["awards_championship"])] <- "Best Food & Energy Project"
+	DATContentsFromJSON[[name]]["awards_championship"][grep("Health", DATContentsFromJSON[[name]]["awards_championship"])] <- "Best Health & Medicine Project"
+	DATContentsFromJSON[[name]]["awards_championship"][grep("Foundational", DATContentsFromJSON[[name]]["awards_championship"])] <- "Best Foundational Advance Project"
+	DATContentsFromJSON[[name]]["awards_championship"][grep("New Application", DATContentsFromJSON[[name]]["awards_championship"])] <- "Best New Application Project"
+	DATContentsFromJSON[[name]]["awards_championship"][grep("Part, Natural", DATContentsFromJSON[[name]]["awards_championship"])] <- "Best New BioBrick Part, Natural"
+	DATContentsFromJSON[[name]]["awards_championship"][grep("Best Model", DATContentsFromJSON[[name]]["awards_championship"])] <- "Best Model"
+	DATContentsFromJSON[[name]]["awards_championship"][grep("Information Processing", DATContentsFromJSON[[name]]["awards_championship"])] <- "Best Information Processing Project"
+	DATContentsFromJSON[[name]]["awards_championship"][grep("Software Tool", DATContentsFromJSON[[name]]["awards_championship"])] <- "Best Software Tool"
+	DATContentsFromJSON[[name]]["awards_championship"][grep("Presentation", DATContentsFromJSON[[name]]["awards_championship"])] <- "Best Presentation"
+	## Check Regional Awards
+	DATContentsFromJSON[[name]]["awards_regional"][grep("Grand Prize", DATContentsFromJSON[[name]]["awards_regional"])] <- "Grand Prize"
+	DATContentsFromJSON[[name]]["awards_regional"][grep("Finalist", DATContentsFromJSON[[name]]["awards_regional"])] <- "Regional Finalist"
+	DATContentsFromJSON[[name]]["awards_regional"][grep("Human Practices", DATContentsFromJSON[[name]]["awards_regional"])] <- "Best Human Practices Advance"
+	DATContentsFromJSON[[name]]["awards_regional"][grep("Experimental Measurement", DATContentsFromJSON[[name]]["awards_regional"])] <- "Best Experimental Measurement Approach"
+	DATContentsFromJSON[[name]]["awards_regional"][grep("Model", DATContentsFromJSON[[name]]["awards_regional"])] <- "Best Model"
+	DATContentsFromJSON[[name]]["awards_regional"][grep("Device, Engineered", DATContentsFromJSON[[name]]["awards_regional"])] <- "Best New BioBrick Device, Engineered"
+	DATContentsFromJSON[[name]]["awards_regional"][grep("Part, Natural", DATContentsFromJSON[[name]]["awards_regional"])] <- "Best New BioBrick Part, Natural"
+	DATContentsFromJSON[[name]]["awards_regional"][grep("Standard", DATContentsFromJSON[[name]]["awards_regional"])] <- "Best New Standard"
+	DATContentsFromJSON[[name]]["awards_regional"][grep("Poster", DATContentsFromJSON[[name]]["awards_regional"])] <- "Best Poster"
+	DATContentsFromJSON[[name]]["awards_regional"][grep("Presentation", DATContentsFromJSON[[name]]["awards_regional"])] <- "Best Presentation"
+	DATContentsFromJSON[[name]]["awards_regional"][grep("Wiki", DATContentsFromJSON[[name]]["awards_regional"])] <- "Best Wiki"
+	DATContentsFromJSON[[name]]["awards_regional"][grep("Safety", DATContentsFromJSON[[name]]["awards_regional"])] <- "Safety Commendation"
 	if (length(JSONList[[i]]$parts_range) == 0) DATContentsFromJSON[[name]][["parts_range"]] <- ""
 	else DATContentsFromJSON[[name]]["parts_range"] <- JSONList[[i]]["parts_range"]
 	if (length(JSONList[[i]]$parts) == 0) DATContentsFromJSON[[name]][["parts"]] <- ""
@@ -153,12 +172,37 @@ for (i in 1:length(JSONList)) {
 	else DATContentsFromJSON[[name]][["methods"]] <- JSONList[[i]]$methods
 	if (length(JSONList[[i]]$topwords) == 0) DATContentsFromJSON[[name]][["topwords"]] <- ""
 	else DATContentsFromJSON[[name]][["topwords"]] <- JSONList[[i]]$topwords
-	DATContentsFromJSON[[name]]["advisors"] <- JSONList[[i]]["advisors"]
 	DATContentsFromJSON[[name]]["project"] <- JSONList[[i]]["project"]
 	DATContentsFromJSON[[name]]["abstract"] <- JSONList[[i]]["abstract"]
 	## Meshterms is named numeric vector of term-counts
 	if (length(JSONList[[i]]$meshterms) == 0) DATContentsFromJSON[[name]]["meshterms"] <- c()
 	else DATContentsFromJSON[[name]]["meshterms"] <- JSONList[[i]]["meshterms"]
+}
+
+## Correct Medals
+DATParametersFromJSON$medal[grep("[Bb]ronze", DATParametersFromJSON$medal, perl=TRUE)] <- "Bronze"
+DATParametersFromJSON$medal[grep("[Ss]ilver", DATParametersFromJSON$medal, perl=TRUE)] <- "Silver"
+DATParametersFromJSON$medal[grep("[Gg]old", DATParametersFromJSON$medal, perl=TRUE)] <- "Gold"
+## Correct Region
+DATParametersFromJSON$region[grep("America", DATParametersFromJSON$region, perl=TRUE)] <- "America"
+DATParametersFromJSON$region <- gsub("Canada", "America", DATParametersFromJSON$region)
+DATParametersFromJSON$region <- gsub("US", "America", DATParametersFromJSON$region)
+DATParametersFromJSON$region <- gsub("--Specify Region--", "No region specified", DATParametersFromJSON$region)
+## Correct Track
+DATParametersFromJSON$track[grep("Medic", DATParametersFromJSON$track, perl=TRUE)] <- "Health & Medicine"
+DATParametersFromJSON$track[grep("Energy", DATParametersFromJSON$track, perl=TRUE)] <- "Food & Energy"
+DATParametersFromJSON$track[grep("Foundational", DATParametersFromJSON$track, perl=TRUE)] <- "Foundational Advance"
+
+for(i in 1:dim(DATParametersFromJSON)[2]) {
+	## use naive scoring function to calculate certain scores
+	DATParametersFromJSON[name, "score"] <- as.numeric(scoringFunc(c(JSONList[[i]][["awards_regional"]],JSONList[[i]][["awards_championship"]],JSONList[[i]][["medal"]]), awardScores))
+	#str(c(JSONList[[i]][["awards_regional"]],JSONList[[i]][["awards_championship"]],JSONList[[i]][["medal"]]))
+}
+
+### normalize by year
+for(y in min(DATParametersFromJSON$year):max(DATParametersFromJSON$year) ) {
+	m <- max(DATParametersFromJSON$score[DATParametersFromJSON$year==y])
+	DATParametersFromJSON$score[DATParametersFromJSON$year==y] <-DATParametersFromJSON$score[DATParametersFromJSON$year==y]/m
 }
 
 #### Write dataframe and list to one .RData file

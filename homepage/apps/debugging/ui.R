@@ -27,6 +27,7 @@ shinyUI(
 				div(class="row-fluid",
 					p("Filtering options", id="FilterLabel"),
 					tags$ul(id="FilterUl",
+						tags$li(a(id="ShowYear", href="#", onclick="Filter.Show('FilterYear', 'ShowYear');return(false);", "Year")),
 						tags$li(a(id="ShowRegion", href="#", onclick="Filter.Show('FilterRegion', 'ShowRegion');return(false);", "Region")),
 						tags$li(a(id="ShowTrack", href="#", onclick="Filter.Show('FilterTrack', 'ShowTrack');return(false);", "Track")),
 						tags$li(a(id="ShowName", href="#", onclick="Filter.Show('FilterName', 'ShowName');return(false);", "Name")),
@@ -41,6 +42,18 @@ shinyUI(
 					)
 				),
 				div(class="container-fluid", id="AllFilters",
+					div(class="row-fluid", id="FilterYear",
+						div(class="span3", selectInput(
+							inputId="FILyear_min",
+							label="minimum year",
+							choices=myChoicesForYear,
+							selected=min(myChoicesForYear) )),
+						div(class="span3", selectInput(
+							inputId="FILyear_max",
+							label="maximum year",
+							choices=myChoicesForYear,
+							selected=max(myChoicesForYear) ))
+					),
 					div(class="row-fluid", id="FilterRegion",
 						selectInput(
 							inputId="FILregion",
@@ -63,16 +76,22 @@ shinyUI(
 					),
 					div(class="row-fluid", id="FilterAwards",
 						div(class="span4", selectInput(
+							inputId="FILawards_championship",
+							label="select championship awards (hold ctrl for multiple)",
+							choices=myChoicesForChampionship_awards,
+							selected=myChoicesForChampionship_awards,
+							multiple=TRUE )),
+						div(class="span4", selectInput(
 							inputId="FILawards_regional",
 							label="select regional awards (hold ctrl for multiple)",
 							choices=myChoicesForRegional_awards,
 							selected=myChoicesForRegional_awards,
 							multiple=TRUE )),
 						div(class="span4", selectInput(
-							inputId="FILawards_championship",
-							label="select championship awards (hold ctrl for multiple)",
-							choices=myChoicesForChampionship_awards,
-							selected=myChoicesForChampionship_awards,
+							inputId="FILmedal",
+							label="select medals (hold ctrl for multiple)",
+							choices=myChoicesForMedal,
+							selected=myChoicesForMedal,
 							multiple=TRUE ))
 					),
 					div(class="row-fluid", id="FilterScore",

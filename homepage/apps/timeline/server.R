@@ -42,15 +42,31 @@ timelineNvd3GenTrack <- function(x) {
 	timelineDat = timelineDat[order(timelineDat$year),]
 	timelineDat
 }
+timelineNvd3GenMedal <- function(x) {
+	timelineDat <- ddply(x, c("year","medal"), timelineDatGenerator)
+	#now another hack to make sure even teams/categories not present in all years can be represented by nvd3
+	for (year in unique(timelineDat$year)) {
+		for (medal in unique(timelineDat$medal)) {
+			if (length(which(timelineDat$year == year & timelineDat$medal == medal)) == 0) {
+				newEntry = data.frame(year = year, medal = medal, Teams= 0, Students= 0, Advisors = 0, Instructors = 0, ChampionshipAwards=0)
+				timelineDat = rbind(timelineDat, newEntry)
+			}
+		}
+	}
+	timelineDat = timelineDat[order(timelineDat$year),]
+	timelineDat
+}
 
 # ok time for some reactive ACTION
 dat2 <- reactive({bbqSauceFilter(dat, input)})
 timelineDatRegion <- reactive({timelineNvd3Gen(dat2())})
 timelineDatTrack <- reactive({timelineNvd3GenTrack(dat2())})
+timelineDatMedal <- reactive({timelineNvd3GenMedal(dat2())})
 
 output$myChart <- renderChart({
 	if (input$Sort == "Region") timelinePlot <- nPlot(as.formula(paste0(input$x,"~year")), group = "region", data = timelineDatRegion(), type = "stackedAreaChart", id = "chart", dom = "myChart")
-	else timelinePlot <- nPlot(as.formula(paste0(input$x,"~year")), group = "track", data = timelineDatTrack(), type = "stackedAreaChart", id = "chart", dom = "myChart")
+	else if(input$Sort == "Track") timelinePlot <- nPlot(as.formula(paste0(input$x,"~year")), group = "track", data = timelineDatTrack(), type = "stackedAreaChart", id = "chart", dom = "myChart")
+	else if(input$Sort == "Medal") timelinePlot <- nPlot(as.formula(paste0(input$x,"~year")), group = "medal", data = timelineDatMedal(), type = "stackedAreaChart", id = "chart", dom = "myChart")
 	return(timelinePlot)
 })
 output$TeamList <- renderTable({

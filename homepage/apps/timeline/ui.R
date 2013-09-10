@@ -63,16 +63,22 @@ shinyUI(
 					),
 					div(class="row-fluid", id="FilterAwards",
 						div(class="span4", selectInput(
+							inputId="FILawards_championship",
+							label="select championship awards (hold ctrl for multiple)",
+							choices=myChoicesForChampionship_awards,
+							selected=myChoicesForChampionship_awards,
+							multiple=TRUE )),
+						div(class="span4", selectInput(
 							inputId="FILawards_regional",
 							label="select regional awards (hold ctrl for multiple)",
 							choices=myChoicesForRegional_awards,
 							selected=myChoicesForRegional_awards,
 							multiple=TRUE )),
 						div(class="span4", selectInput(
-							inputId="FILawards_championship",
-							label="select championship awards (hold ctrl for multiple)",
-							choices=myChoicesForChampionship_awards,
-							selected=myChoicesForChampionship_awards,
+							inputId="FILmedal",
+							label="select medals (hold ctrl for multiple)",
+							choices=myChoicesForMedal,
+							selected=myChoicesForMedal,
 							multiple=TRUE ))
 					),
 					div(class="row-fluid", id="FilterScore",

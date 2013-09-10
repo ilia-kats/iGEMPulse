@@ -4,27 +4,17 @@ require(plyr)
 
 ## Load Data:
 load("../../data/DataFromJSON.RData")
-
-# fix region specifications
 dat <- DATParametersFromJSON
-dat$region <- gsub("Canada", "America", dat$region)
-dat$region <- gsub("US", "America", dat$region)
-dat$region <- gsub("Americas East", "America", dat$region)
-dat$region <- gsub("Americas West", "America", dat$region)
-dat$region <- gsub("Latin America", "America", dat$region)
-dat$region <- gsub("Americas", "America", dat$region)
-dat$region <- gsub("--Specify Region--", "No region specified", dat$region)
-# temporary hack, but remove the 1 african team
-#dat = dat[dat$region != "Africa",]
 
 ## Layout choice lists:
 myChoicesForX = c("Students", "Teams", "Instructors", "Advisors", "ChampionshipAwards")
-myChoicesForSort = c("Region", "Track")
+myChoicesForSort = c("Region", "Track", "Medal")
 myChoicesForRegion <- levels(as.factor(dat$region))
 myChoicesForTrack <- levels(as.factor(DATParametersFromJSON$track))
 myChoicesForScore <- c(0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
-myChoicesForRegional_awards <- c("", "Grand Prize", "Best Wiki", "Best Poster", "Best Presentation", "Best Human Practice Advance", "Best Experimental Measurement Approach", "Best Foundational Advance", "Best New BioBrick Part, Natural", "Best New BioBrick Device, Synthetic", "Best Model", "Best New Standard", "Safety Commendation")
-myChoicesForChampionship_awards <- c("", "Grand Prize", "1st Runner Up", "2nd Runner Up", "Advance to Championship", "Finalist", "Best Wiki", "Best Poster", "Best Presentation", "Best Human Practice Advance", "Best Experimental Measurement Approach", "Best Foundational Advance", "Best New BioBrick Part, Natural", "Best New BioBrick Device, Synthetic", "Best Model", "Best New Standard", "Safety Commendation", "Best Food or Energy Project", "Best New Application Project", "Best Environment Project", "Best Health or Medicine Project", "Best Manufacturing Project", "Best Software", "Best Requirements Engineering", "Best Eugene Based Design", "Best SBOL Based Tool", "Best Genome Compiler Based Design", "Best Clotho App", "Best Information Processing Project", "Best Interaction with the Parts Registry")
+myChoicesForMedal <- c("", "Bronze", "Silver", "Gold")
+myChoicesForRegional_awards <- c("", "Grand Prize", "Regional Finalist", "Best Wiki", "Best Poster", "Best Presentation", "Best Human Practices Advance", "Best Experimental Measurement Approach", "Best Foundational Advance", "Best New BioBrick Part, Natural", "Best New BioBrick Device, Engineered", "Best Model", "Best New Standard", "Best Safety Commendation")
+myChoicesForChampionship_awards <- c("", "Grand Prize", "1st Runner Up", "2nd Runner Up", "Advance to Championship", "Finalist", "Best Wiki", "Best Poster", "Best Presentation", "Best Human Practices Advance", "Best Experimental Measurement Approach", "Best Foundational Advance", "Best New BioBrick Part, Natural", "Best New BioBrick Part or Device, Engineered", "Best Model", "Best New Standard", "Safety Commendation", "Best Food & Energy Project", "Best New Application Project", "Best Environment Project", "Best Health & Medicine Project", "Best Manufacturing Project", "Best Software", "Best Requirements Engineering", "Best Eugene Based Design", "Best SBOL Based Tool", "Best Genome Compiler Based Design", "Best Clotho App", "Best Information Processing Project", "Best Interaction with the Parts Registry")
 myChoicesForBB_count <- c(0, 5, 10, 20, 50, 100, 200, ">200")
 myChoicesForStudents_count <- c(0, 5, 10, 15, 20, ">20")
 myChoicesForStudents_count <- c(0, 5, 10, 15, 20, ">20")
@@ -38,16 +28,17 @@ myChoicesForTeamSort <- c("Year", "alphabetic", "Score")
 bbqSauceFilter <- function(data, input){
 	data <- FilterForTeamName(data, input)
 	data <- FilterForAbstract(data, input)
-	data <- FilterForInformation_content(data, input)
-	data <- FilterForRegionalAwards(data, input)
-	data <- FilterForChampionshipAwards(data, input)
+	data <- FilterForMedal(data, input)
 	data <- FilterForRegion(data, input)
 	data <- FilterForTrack(data, input)
 	data <- FilterForScore(data, input)
+	data <- FilterForInformation_content(data, input)
 	data <- FilterForBiobrick_count(data, input)
 	data <- FilterForStudents_count(data, input)
 	data <- FilterForAdvisors_count(data, input)
 	data <- FilterForInstructors_count(data, input)
+	data <- FilterForRegionalAwards(data, input)
+	data <- FilterForChampionshipAwards(data, input)
 	return(data)
 }
 FilterForTeamName <- function(data, input) {
@@ -129,6 +120,17 @@ FilterForAbstract <- function(data, input) {
 }
 FilterForInformation_content <- function(data, input) {
 	if (length(which(data$information_content < as.numeric(input$FILinformation_content))) != 0)	data <- data[-which(data$information_content < as.numeric(input$FILinformation_content)),]
+	return(data)
+}
+FilterForMedal <- function(data, input) {
+	matchMedal <- rep(0, times=length(data$medal))
+	for (i in 1:length(input$FILmedal)) {
+		matchMedal[which(data$medal == input$FILmedal[i])] <- 1
+	}
+	delete <- which(matchMedal == 0)
+	if (length(delete) != 0) data <- data[-delete,]
+	rm(matchMedal)
+	rm(delete)
 	return(data)
 }
 FilterForRegionalAwards <- function(data, input) {

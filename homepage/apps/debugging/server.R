@@ -47,10 +47,12 @@ timelineNvd3GenTrack <- function(x) {
 dat2 <- reactive({bbqSauceFilter(dat, input)})
 timelineDatRegion <- reactive({timelineNvd3Gen(dat2())})
 timelineDatTrack <- reactive({timelineNvd3GenTrack(dat2())})
+timelineDatMedal <- reactive({timelineNvd3GenMedal(dat2())})
 
 output$myChart <- renderTable({
 	if (input$Sort == "Region") return(timelineDatRegion())
-	else return(timelineDatTrack())
+	else if (input$Sort == "Track") return(timelineDatTrack())
+	else if (inout$Sort == "Medal") return(timelineDatMedal())
 })
 output$TeamList <- renderTable({
 	if (input$TeamDisplay == "0") return()
