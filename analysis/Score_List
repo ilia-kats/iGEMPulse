@@ -1,8 +1,8 @@
 awardScoresInternat <- data.frame(
   rbind(
-    c("Grand Prize Winner",324.8),
-    c("1st runner up",154.0),
-    c("2nd runner up",123.7),
+    c("Grand Prize",324.8),
+    c("1st Runner Up",154.0),
+    c("2nd Runner Up",123.7),
     c("Advance to Championship",33.9),
     c("Finalist",62.1), 
     c("Best Wiki",35.2),
