@@ -13,7 +13,7 @@ myChoicesForTrack <- levels(as.factor(DATParametersFromJSON$track))
 myChoicesForScore <- c(0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
 myChoicesForMedal <- c("", "Bronze", "Silver", "Gold")
 myChoicesForRegional_awards <- c("", "Grand Prize", "Regional Finalist", "Best Wiki", "Best Poster", "Best Presentation", "Best Human Practices Advance", "Best Experimental Measurement Approach", "Best Foundational Advance", "Best New BioBrick Part, Natural", "Best New BioBrick Device, Engineered", "Best Model", "Best New Standard", "Safety Commendation")
-myChoicesForChampionship_awards <- c("", "Grand Prize", "1st Runner Up", "2nd Runner Up", "Best Rookie Team", "Advance to Software Jamboree", "Advance to Championship", "Finalist", "Best Wiki", "Best Poster", "Best Presentation", "Best Human Practices Advance", "Best Experimental Measurement", "Best Foundational Advance", "Best New BioBrick Part, Natural", "Best New BioBrick Part or Device, Engineered", "Best Model", "Best New Standard", "Safety Commendation", "Best Food & Energy Project", "Best New Application Project", "Best Environment Project", "Best Health & Medicine Project", "Best Manufacturing Project", "Best Software", "Best Requirements Engineering", "Best Eugene Based Design", "Best SBOL Based Tool", "Best Genome Compiler Based Design", "Best Clotho App", "Best Information Processing Project", "Best Interaction with the Parts Registry")
+myChoicesForChampionship_awards <- c("", "Grand Prize", "1st Runner Up", "2nd Runner Up", "Best Rookie Team", "Advance to Software Jamboree", "Advance to Championship", "Finalist", "Best Wiki", "Best Poster", "Best Presentation", "Best Human Practices Advance", "Best Experimental Measurement", "Best Foundational Advance", "Best New BioBrick Part, Natural", "Best New BioBrick Part or Device, Engineered", "Best Model", "Best New Standard", "Safety Commendation", "Best Food & Energy Project", "Best New Application Project", "Best Environment Project", "Best Health & Medicine Project", "Best Manufacturing Project", "Best Software", "Best Requirements Engineering", "Best Eugene Based Design", "Best SBOL Based Tool", "Best Genome Compiler Based Design", "Best Clotho App", "Best Information Processing Project", "Best Interaction with the Parts Registry", "iGEMers Prize")
 myChoicesForBB_count <- c(0, 5, 10, 20, 50, 100, 200, ">200")
 myChoicesForStudents_count <- c(0, 5, 10, 15, 20, ">20")
 myChoicesForStudents_count <- c(0, 5, 10, 15, 20, ">20")
@@ -164,8 +164,8 @@ FilterForRegionalAwards <- function(data, input) {
 		}
 	}
 	if (length(keepteams) != 0) data <- data[keepteams,]
-	if (length(grep("NA.", row.names(data))) != 0 ) data <- data[-grep("NA.", row.names(data)),]
-	if (length(match("NA", row.names(data))) != 0) data <- data[-which(length(match("NA", row.names(data))) != 0),]
+	if (length(grep("NA\\.", row.names(data), perl=TRUE)) != 0 ) data <- data[-grep("NA\\.", row.names(data), perl=TRUE),]
+	if (row.names(data)[1] == "NA") data <- data[-1,]
 	rm(keepteams)
 	rm(Contents)
 	rm(deleteindex)
@@ -195,7 +195,7 @@ FilterForChampionshipAwards <- function(data, input) {
 		}
 	}
 	if (length(keepteams) != 0) data <- data[keepteams,]
-	if (length(grep("NA.", row.names(data))) != 0 ) data <- data[-grep("NA.", row.names(data)),]
+	if (length(grep("NA\\.", row.names(data), perl=TRUE)) != 0 ) data <- data[-grep("NA\\.", row.names(data), perl=TRUE),]
 	if (row.names(data)[1] == "NA") data <- data[-1,]
 	rm(keepteams)
 	rm(Contents)

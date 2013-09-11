@@ -174,7 +174,7 @@ shinyUI(
 							inputId="TeamDisplay",
 							label="Display table of teams",
 							choices=myChoicesForTeamDisplay,
-							selected="5" )),
+							selected="all" )),
 					div(class="span4",
 						selectInput(
 							inputId="TeamSort",
