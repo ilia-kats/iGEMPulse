@@ -194,16 +194,16 @@ DATParametersFromJSON$track[grep("Medic", DATParametersFromJSON$track, perl=TRUE
 DATParametersFromJSON$track[grep("Energy", DATParametersFromJSON$track, perl=TRUE)] <- "Food & Energy"
 DATParametersFromJSON$track[grep("Foundational", DATParametersFromJSON$track, perl=TRUE)] <- "Foundational Advance"
 
-for(i in 1:dim(DATParametersFromJSON)[2]) {
+for(i in 1:dim(DATParametersFromJSON)[1]) {
 	## use naive scoring function to calculate certain scores
-	DATParametersFromJSON[name, "score"] <- as.numeric(scoringFunc(c(JSONList[[i]][["awards_regional"]],JSONList[[i]][["awards_championship"]],JSONList[[i]][["medal"]]), awardScores))
+	DATParametersFromJSON[i, "score"] <- as.numeric(scoringFunc(c(DATContentsFromJSON[[i]][["awards_regional"]],DATContentsFromJSON[[i]][["awards_championship"]],DATParametersFromJSON[i, "medal"]), awardScores))
 	#str(c(JSONList[[i]][["awards_regional"]],JSONList[[i]][["awards_championship"]],JSONList[[i]][["medal"]]))
 }
 
 ### normalize by year
 for(y in min(DATParametersFromJSON$year):max(DATParametersFromJSON$year) ) {
 	m <- max(DATParametersFromJSON$score[DATParametersFromJSON$year==y])
-	DATParametersFromJSON$score[DATParametersFromJSON$year==y] <-DATParametersFromJSON$score[DATParametersFromJSON$year==y]/m
+	DATParametersFromJSON$score[DATParametersFromJSON$year==y] <- DATParametersFromJSON$score[DATParametersFromJSON$year==y]/m
 }
 
 #### Write dataframe and list to one .RData file

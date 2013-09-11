@@ -4,6 +4,7 @@ require(plyr)
 
 ## Load Data:
 load("../../data/DataFromJSON.RData")
+dat <- DATParametersFromJSON
 
 ## Layout choice lists:
 myChoicesForX = c("Students", "Teams", "Instructors", "Advisors", "ChampionshipAwards")
@@ -165,7 +166,7 @@ FilterForRegionalAwards <- function(data, input) {
 	}
 	if (length(keepteams) != 0) data <- data[keepteams,]
 	if (length(grep("NA\\.", row.names(data), perl=TRUE)) != 0 ) data <- data[-grep("NA\\.", row.names(data), perl=TRUE),]
-	if (row.names(data)[1] == "NA") data <- data[-1,]
+	if (length(which(row.names(data) == "NA")) == 1) data <- data[-which(row.names(data) == "NA"),]
 	rm(keepteams)
 	rm(Contents)
 	rm(deleteindex)
@@ -196,7 +197,7 @@ FilterForChampionshipAwards <- function(data, input) {
 	}
 	if (length(keepteams) != 0) data <- data[keepteams,]
 	if (length(grep("NA\\.", row.names(data), perl=TRUE)) != 0 ) data <- data[-grep("NA\\.", row.names(data), perl=TRUE),]
-	if (row.names(data)[1] == "NA") data <- data[-1,]
+	if (length(which(row.names(data) == "NA")) == 1) data <- data[-which(row.names(data) == "NA"),]
 	rm(keepteams)
 	rm(Contents)
 	rm(deleteindex)
