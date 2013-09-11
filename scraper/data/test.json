@@ -1638,7 +1638,9 @@
             "biology": 0.45511216860418563
         }, 
         "awards_championship": [
-            "Advance to Championship"
+            "Advance to Championship",
+			"Finalist",
+			"Best Health or Medicine Project"
         ], 
         "information_content": 0.5847953216374269, 
         "parts_range": [
@@ -4509,7 +4511,8 @@
             "provided": 0.20695083835005534
         }, 
         "awards_championship": [
-            "Advance to Championship"
+            "Advance to Championship",
+			"Best Interaction with the Parts Registry"
         ], 
         "information_content": 0.5119047619047619, 
         "parts_range": [
@@ -8265,7 +8268,8 @@
             "coli": 0.39118135234616425
         }, 
         "awards_championship": [
-            "Advance to Championship"
+            "Advance to Championship",
+			"Best Food or Energy Project"
         ], 
         "information_content": 0.5380116959064327, 
         "parts_range": [
@@ -8328,7 +8332,8 @@
             "coli": 0.1531846778196401
         }, 
         "awards_championship": [
-            "Advance to Championship"
+            "Advance to Championship",
+			"Best Environment Project"
         ], 
         "information_content": 0.5416666666666666, 
         "parts_range": [
@@ -8977,7 +8982,8 @@
             "one": 0.31726705149515516
         }, 
         "awards_championship": [
-            "Advance to Championship"
+            "Advance to Championship",
+			"Best Information Processing Project"
         ], 
         "information_content": 0.5307262569832403, 
         "parts_range": [
@@ -14646,7 +14652,8 @@
             "promoter": 0.5614795891237739
         }, 
         "awards_championship": [
-            "Advance to Championship"
+            "Advance to Championship",
+			"Best Foundational Advance"
         ], 
         "information_content": 0.5508474576271186, 
         "parts_range": [
@@ -15622,7 +15629,8 @@
             "coli": 0.11084412693117793
         }, 
         "awards_championship": [
-            "Advance to Championship"
+            "Advance to Championship",
+			"Best Human Practices Advance"
         ], 
         "information_content": 0.49375, 
         "parts_range": [
@@ -24078,7 +24086,8 @@
             "coli": 0.13255277219958123
         }, 
         "awards_championship": [
-            "Advance to Championship"
+            "Advance to Championship",
+			"iGEMers Prize"
         ], 
         "information_content": 0.46368715083798884, 
         "parts_range": [
@@ -26273,7 +26282,11 @@
             "coli": 0.2517491631675435
         }, 
         "awards_championship": [
-            "Advance to Championship"
+            "Advance to Championship",
+			"Grand Prize Winner",
+			"Finalist",
+			"Best Food or Energy Project",
+			"Best Poster"
         ], 
         "information_content": 0.5471698113207547, 
         "parts_range": [
@@ -28871,7 +28884,8 @@
             "biological": 0.34922794994431966
         }, 
         "awards_championship": [
-            "Advance to Championship"
+            "Advance to Championship",
+			"Best Software Tool"
         ], 
         "information_content": 0.554945054945055, 
         "parts_range": [
@@ -31511,7 +31525,8 @@
             "parts": 0.29233512370176346
         }, 
         "awards_championship": [
-            "Advance to Championship"
+            "Advance to Championship",
+			"Best Human Practices Advance"
         ], 
         "information_content": 0.5086705202312138, 
         "parts_range": [
@@ -31563,7 +31578,10 @@
             "one": 0.4215837667008982
         }, 
         "awards_championship": [
-            "Advance to Championship"
+            "Advance to Championship",
+			"2nd Runner Up",
+			"Finalist",
+			"Best New Application Area"
         ], 
         "information_content": 0.5617283950617284, 
         "parts_range": [
@@ -32108,7 +32126,11 @@
             "coli": 0.14199541118177722
         }, 
         "awards_championship": [
-            "Advance to Championship"
+            "Advance to Championship",
+			"1st Runner Up",
+			"Finalist",
+			"iGEMers Prize",
+			"Best Poster"
         ], 
         "information_content": 0.5365853658536586, 
         "parts_range": [
@@ -33385,7 +33407,8 @@
             "bacteria": 0.33730748267984917
         }, 
         "awards_championship": [
-            "Advance to Championship"
+            "Advance to Championship",
+			"Best New Application Area"
         ], 
         "information_content": 0.5705882352941176, 
         "parts_range": [
@@ -34493,7 +34516,8 @@
             "coli": 0.13383814712106173
         }, 
         "awards_championship": [
-            "Advance to Championship"
+            "Advance to Championship",
+			"Best Manufacturing Project"
         ], 
         "information_content": 0.5316455696202531, 
         "parts_range": [
