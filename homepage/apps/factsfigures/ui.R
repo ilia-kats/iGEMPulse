@@ -1,185 +1,206 @@
-choicesWithNames <- function(choices) {
-  # get choice names
-  choiceNames <- names(choices)
-  if (is.null(choiceNames))
-    choiceNames <- character(length(choices))
-
-  # default missing names to choice values
-  missingNames <- choiceNames == ""
-  choiceNames[missingNames] <- paste(choices)[missingNames]
-  names(choices) <- choiceNames
-
-  # return choices
-  return (choices)
-}
-
-inlineLabel <- function(controlName, label) {
-    tags$label(class = "control-label", style="display:inline", `for` = controlName, label)
-}
-
-selectInputInline <- function(inputId,
-                        label,
-                        choices,
-                        selected = NULL,
-                        multiple = FALSE) {
-  # resolve names
-  choices <- choicesWithNames(choices)
-
-  # default value if it's not specified
-  if (is.null(selected) && !multiple)
-    selected <- names(choices)[[1]]
-
-  # create select tag and add options
-  selectTag <- tags$select(id = inputId)
-  if (multiple)
-    selectTag$attribs$multiple <- "multiple"
-
-  for (i in seq_along(choices)) {
-    choiceName <- names(choices)[i]
-    optionTag <- tags$option(value = choices[[i]], choiceName)
-
-    if (choiceName %in% selected)
-      optionTag$attribs$selected = "selected"
-
-    selectTag <- tagAppendChild(selectTag, optionTag)
-  }
-
-  # return label and select tag
-  tagList(inlineLabel(inputId, label), selectTag)
-}
-
 shinyUI(
     bootstrapPage(
         # basic application container divs
-        div(
-            class="container-fluid",
-            div(class="row-fluid",
-                headerPanel("iGEM42 Scatter Plot")
-            ),
-            div(class="row-fluid",
-                selectInputInline(inputId = "x",
-                    label = "Choose X",
-                    choices = myChoices,
-                    selected = "Number of Students"),
-                selectInputInline(inputId = "y",
-                    label = "Choose Y",
-                    choices = myChoices,
-                    selected = "Number of Advisors")
-            ),
-            div(class="row-fluid",
-                div(class="span4",
-                    showOutput("myChart","polycharts")
-                )
-            ),
-            div(class="container-fluid",
-                "General filter options",
-                div(class="row-fluid",
-                    div(class="span3", selectInput(
-                        inputId="FILyear_min",
-                        label="minimum year",
-                        choices=myChoicesForYear,
-                        selected=min(myChoicesForYear) )),
-                    div(class="span3", selectInput(
-                        inputId="FILyear_max",
-                        label="maximum year",
-                        choices=myChoicesForYear,
-                        selected=max(myChoicesForYear) ))
-                ),
-                div(class="row-fluid",
-                    div(class="span3", selectInput(
-                        inputId="FILregion",
-                        label="select regions (hold ctrl for multiple)",
-                        choices=myChoicesForRegion,
-                        selected=myChoicesForRegion,
-                        multiple=TRUE )),
-                    div(class="span3", selectInput(
-                        inputId="FILtrack",
-                        label="select tracks (hold ctrl for multiple)",
-                        choices=myChoicesForTrack,
-                        selected=myChoicesForTrack,
-                        multiple=TRUE ))
-                ),
-                "Autofillable text entry for team names"
-            ),
-            div(class="container-fluid",
-                "Filter team success",
-                div(class="row-fluid",
-                    div(class="span3", selectInput(
-                        inputId="FILawards_regional",
-                        label="select regional awards (hold ctrl for multiple)",
-                                                   choices=myChoicesForRegional_awards,
-                                                   selected=myChoicesForRegional_awards,
-                                                   multiple=TRUE )),
-                    div(class="span3", selectInput(
-                        inputId="FILawards_championship",
-                        label="select championship awards (hold ctrl for multiple)",
-                                                   choices=myChoicesForChampionship_awards,
-                                                   selected=myChoicesForChampionship_awards,
-                                                   multiple=TRUE ))
-                ),
-                div(class="row-fluid",
-                    div(class="span3", selectInput(
-                        inputId="FILscore_min",
-                        label="minimum score",
-                        choices=myChoicesForScore,
-                        selected=min(myChoicesForScore) )),
-                    div(class="span3", selectInput(
-                        inputId="FILscore_max",
-                        label="maximum score",
-                        choices=myChoicesForScore,
-                        selected=max(myChoicesForScore) ))
-                ),
-                div(class="row-fluid",
-                    div(class="span3", selectInput(
-                        inputId="FILbiobrick_count_min",
-                        label="minimum biobricks submitted",
-                        choices=myChoicesForBB_count,
-                        selected="0" )),
-                    div(class="span3", selectInput(
-                        inputId="FILbiobrick_count_max",
-                        label="maximum biobricks submitted",
-                        choices=myChoicesForBB_count,
-                        selected=">200" ))
-                )
-            ),
-            div(class="container-fluid",
-                "Filter team composition",
-                div(class="row-fluid",
-                    div(class="span3", selectInput(
-                        inputId="FILstudents_count_min",
-                        label="minimum students number",
-                        choices=myChoicesForStudents_count,
-                        selected="0" )),
-                    div(class="span3", selectInput(
-                        inputId="FILstudents_count_max",
-                        label="maximum students number",
-                        choices=myChoicesForStudents_count,
-                        selected=">20" ))
-                ),
-                div(class="row-fluid",
-                    div(class="span3", selectInput(
-                        inputId="FILadvisors_count_min",
-                        label="minimum advisors number",
-                        choices=myChoicesForAdvisors_count,
-                        selected="0" )),
-                    div(class="span3", selectInput(
-                        inputId="FILadvisors_count_max",
-                        label="maximum advisors number",
-                        choices=myChoicesForAdvisors_count,
-                        selected=">14" ))
-                ),
-                div(class="row-fluid",
-                    div(class="span3", selectInput(
-                        inputId="FILinstructors_count_min",
-                        label="minimum instructors number",
-                        choices=myChoicesForInstructors_count,
-                        selected="0" )),
-                    div(class="span3", selectInput(
-                        inputId="FILinstructors_count_max",
-                        label="maximum instructors number",
-                        choices=myChoicesForInstructors_count,
-                        selected=">15" ))
-                )
-            )
-        )
-    ))
+		includeHTML("style.css"),
+		h2("Timeline"),
+        div(class="container-fluid",
+			div(class="container-fluid", id="Output",
+				div(class="Output-hori", id="Select",
+					div(class="row-fluid",
+						selectInput(inputId = "x",
+						label = "Choose X Axis",
+						choices = myChoicesForX,
+						selected = "Year")
+					),
+					div(class="row-fluid",
+						conditionalPanel(
+							condition="input.x == 'Year'",
+							selectInput(inputId = "Tsum",
+								label = "Choose summary parameter",
+								choices = myChoicesForTimeline,
+								selected = myChoicesForTimeline[1]))
+					),
+					div(class="row-fluid",
+						conditionalPanel(
+							condition="input.x != 'Year'",
+							selectInput(inputId = "y",
+								label = "Choose Y Axis",
+								choices = myChoicesForY,
+								selected = myChoicesForY[1]))
+					),
+					div(class="row-fluid",
+						selectInput(inputId = "Sort",
+						label = "Choose category",
+						choices = myChoicesForSort,
+						selected = "Region")
+					)
+				),
+				div(class="Output-hori", id="Chart",
+					showOutput("myChart", "nvd3")
+				)
+			),
+			div(class="container-fluid", id="Filters",
+				div(class="row-fluid",
+					p("Filtering options", id="FilterLabel"),
+					tags$ul(id="FilterUl",
+						tags$li(a(id="ShowYear", href="#", onclick="Filter.Show('FilterYear', 'ShowYear');return(false);", "Year")),
+						tags$li(a(id="ShowRegion", href="#", onclick="Filter.Show('FilterRegion', 'ShowRegion');return(false);", "Region")),
+						tags$li(a(id="ShowTrack", href="#", onclick="Filter.Show('FilterTrack', 'ShowTrack');return(false);", "Track")),
+						tags$li(a(id="ShowName", href="#", onclick="Filter.Show('FilterName', 'ShowName');return(false);", "Name")),
+						tags$li(a(id="ShowAwards", href="#", onclick="Filter.Show('FilterAwards', 'ShowAwards');return(false);", "Awards")),
+						tags$li(a(id="ShowScore", href="#", onclick="Filter.Show('FilterScore', 'ShowScore');return(false);", "Score")),
+						tags$li(a(id="ShowBiobricks", href="#", onclick="Filter.Show('FilterBiobricks', 'ShowBiobricks');return(false);", "Biobricks")),
+						tags$li(a(id="ShowAbstract", href="#", onclick="Filter.Show('FilterAbstract', 'ShowAbstract');return(false);", "Abstract")),
+						tags$li(a(id="ShowStudents", href="#", onclick="Filter.Show('FilterStudents', 'ShowStudents');return(false);", "Students")),
+						tags$li(a(id="ShowAdvisors", href="#", onclick="Filter.Show('FilterAdvisors', 'ShowAdvisors');return(false);", "Advisors")),
+						tags$li(a(id="ShowInstructors", href="#", onclick="Filter.Show('FilterInstructors', 'ShowInstructors');return(false);", "Instructors")),
+						div(style="clear:both;")
+					)
+				),
+				div(class="container-fluid", id="AllFilters",
+					div(class="row-fluid", id="FilterYear",
+						div(class="span3", selectInput(
+							inputId="FILyear_min",
+							label="minimum year",
+							choices=myChoicesForYear,
+							selected=min(myChoicesForYear) )),
+						div(class="span3", selectInput(
+							inputId="FILyear_max",
+							label="maximum year",
+							choices=myChoicesForYear,
+							selected=max(myChoicesForYear) ))
+					),
+					div(class="row-fluid", id="FilterRegion",
+						selectInput(
+							inputId="FILregion",
+							label="select regions (hold ctrl for multiple)",
+							choices=myChoicesForRegion,
+							selected=myChoicesForRegion,
+							multiple=TRUE )),
+					div(class="row-fluid", id="FilterTrack",
+						selectInput(
+							inputId="FILtrack",
+							label="select tracks (hold ctrl for multiple)",
+							choices=myChoicesForTrack,
+							selected=myChoicesForTrack,
+							multiple=TRUE )),
+					div(class="row-fluid", id="FilterName",
+						textInput(
+							inputId="FILname",
+							label="enter team names (, -separated)",
+							value="Name1, Name2")
+					),
+					div(class="row-fluid", id="FilterAwards",
+						div(class="span4", selectInput(
+							inputId="FILawards_championship",
+							label="select championship awards (hold ctrl for multiple)",
+							choices=myChoicesForChampionship_awards,
+							selected=myChoicesForChampionship_awards,
+							multiple=TRUE )),
+						div(class="span4", selectInput(
+							inputId="FILawards_regional",
+							label="select regional awards (hold ctrl for multiple)",
+							choices=myChoicesForRegional_awards,
+							selected=myChoicesForRegional_awards,
+							multiple=TRUE )),
+						div(class="span4", selectInput(
+							inputId="FILmedal",
+							label="select medals (hold ctrl for multiple)",
+							choices=myChoicesForMedal,
+							selected=myChoicesForMedal,
+							multiple=TRUE ))
+					),
+					div(class="row-fluid", id="FilterScore",
+						div(class="span4", selectInput(
+							inputId="FILscore_min",
+							label="minimum score",
+							choices=myChoicesForScore,
+							selected=min(myChoicesForScore) )),
+						div(class="span4", selectInput(
+							inputId="FILscore_max",
+							label="maximum score",
+							choices=myChoicesForScore,
+							selected=max(myChoicesForScore) ))
+					),
+					div(class="row-fluid", id="FilterBiobricks",
+						div(class="span4", selectInput(
+							inputId="FILbiobrick_count_min",
+							label="minimum biobricks submitted",
+							choices=myChoicesForBB_count,
+							selected="0" )),
+						div(class="span4", selectInput(
+							inputId="FILbiobrick_count_max",
+							label="maximum biobricks submitted",
+							choices=myChoicesForBB_count,
+							selected=">200" ))
+					),
+					div(class="row-fluid", id="FilterAbstract",
+						div(class="span4", checkboxInput(
+							inputId="FILabstract",
+							label="Only display teams who submitted an abstract",
+							value=FALSE)),
+						div(class="span4", selectInput(
+							inputId="FILinformation_content",
+							label="Minimum information content of abstract",
+							choices=myChoicesForInformation_content,
+							selected="0"))
+					),
+					div(class="row-fluid", id="FilterStudents",
+						div(class="span4", selectInput(
+							inputId="FILstudents_count_min",
+							label="minimum students number",
+							choices=myChoicesForStudents_count,
+							selected="0" )),
+						div(class="span4", selectInput(
+							inputId="FILstudents_count_max",
+							label="maximum students number",
+							choices=myChoicesForStudents_count,
+							selected=">20" ))
+					),
+					div(class="row-fluid", id="FilterAdvisors",
+						div(class="span4", selectInput(
+							inputId="FILadvisors_count_min",
+							label="minimum advisors number",
+							choices=myChoicesForAdvisors_count,
+							selected="0" )),
+						div(class="span4", selectInput(
+							inputId="FILadvisors_count_max",
+							label="maximum advisors number",
+							choices=myChoicesForAdvisors_count,
+							selected=">14" ))
+					),
+					div(class="row-fluid", id="FilterInstructors",
+						div(class="span4", selectInput(
+							inputId="FILinstructors_count_min",
+							label="minimum instructors number",
+							choices=myChoicesForInstructors_count,
+							selected="0" )),
+						div(class="span4", selectInput(
+							inputId="FILinstructors_count_max",
+							label="maximum instructors number",
+							choices=myChoicesForInstructors_count,
+							selected=">15" ))
+					)
+				)
+			),
+			div(class="container-fluid",
+				div(class="row-fluid",
+					div(class="span4",
+						selectInput(
+							inputId="TeamDisplay",
+							label="Display table of teams",
+							choices=myChoicesForTeamDisplay,
+							selected="5" )),
+					div(class="span4",
+						selectInput(
+							inputId="TeamSort",
+							label="Sorted by",
+							choices=myChoicesForTeamSort,
+							selected="Score" ))
+				),
+				tableOutput(outputId="TeamList")
+			)
+        ),
+		includeHTML("javascript.js")
+    )
+)
