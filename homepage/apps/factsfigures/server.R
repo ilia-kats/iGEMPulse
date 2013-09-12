@@ -70,7 +70,7 @@ output$myChart <- renderChart({
 		else if(input$Sort == "Medal") timelinePlot <- nPlot(as.formula(paste0(input$Tsum,"~year")), group = "medal", data = timelineDatMedal(), type = "stackedAreaChart", id = "chart", dom = "myChart")
 		return(timelinePlot)
 	} else {
-		p1 <- nPlot(as.formula(paste0(Choices[[input$x]],"~",Choices[[input$y]])), group = tolower(input$Sort), data = dat2(), type = 'scatterChart', id = "chart", dom = "myChart")
+		p1 <- nPlot(as.formula(paste0(Choices[[input$y]],"~",Choices[[input$x]])), group = tolower(input$Sort), data = dat2(), type = 'scatterChart', id = "chart", dom = "myChart")
 		return(p1)
 	}
 })
