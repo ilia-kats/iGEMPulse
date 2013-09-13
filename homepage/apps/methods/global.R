@@ -1,6 +1,17 @@
 load("../../data/DataFromJSON.RData")
 dat <- DATParametersFromJSON
 
+## Calculate Top 10
+methods <- c()
+for(i in 1:length(DATContentsFromJSON)) methods <- c(methods, names(DATContentsFromJSON[[i]]$methods))
+methodslevels <- levels(as.factor(methods))
+Top10 <- data.frame(Method=methodslevels, Teams=rep(0, length(methodslevels)))
+for(i in 1:length(methodslevels)) {
+	Top10$Teams[which(Top10$Method==methodslevels[i])] <- length(which(methods == methodslevels[i]))
+}
+Top10 <- Top10[order(Top10$Teams, decreasing=TRUE),]
+Top10 <- data.frame(Method = Top10$Method, Teams = Top10$Teams)
+
 myChoicesForTeamDisplay <- c("0", "5", "10", "20", "50", "100", "all")
 myChoicesForTeamSort <- c("Year", "Alphabetic", "Score")
 myChoicesForMethodCluster <- c("Preprocessing", "Processing", "Analysis")

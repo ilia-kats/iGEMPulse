@@ -4,6 +4,9 @@ shinyServer(function(input, output) {
 
 dat2 <- reactive({FilterForTopics(dat, input)})
 
+output$Top10 <- renderTable({
+	return(head(Top10, n=10))
+})
 output$TeamList <- renderTable({
 	if (input$TeamDisplay == "0") return()
 	else {

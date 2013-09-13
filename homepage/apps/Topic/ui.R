@@ -2,9 +2,13 @@ shinyUI(
 	bootstrapPage(
 		h2("Find Topics"),
 		div(class="container-fluid",
-			textInput(inputId="FILTopic",
-				label="Enter a topic",
-				value="Some Topic")
+			div(class="span4",
+				textInput(inputId="FILTopic",
+					label="Enter a topic",
+					value="Some Topic")),
+			div(class="span4",
+				tableOutput(outputId="Top10")
+			)
 		),
 		div(class="container-fluid",
 			div(class="row-fluid",

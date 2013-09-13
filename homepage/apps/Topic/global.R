@@ -1,6 +1,18 @@
 load("../../data/DataFromJSON.RData")
 dat <- DATParametersFromJSON
 
+## Calculate Top 10
+topics <- c()
+for(i in 1:length(DATContentsFromJSON)) topics <- c(topics, names(DATContentsFromJSON[[i]]$meshterms))
+topicslevels <- levels(as.factor(topics))
+Top10 <- data.frame(Topic=topicslevels, Teams=rep(0, length(topicslevels)))
+for(i in 1:length(topicslevels)) {
+	Top10$Teams[which(Top10$Topic==topicslevels[i])] <- length(which(topics == topicslevels[i]))
+}
+Top10 <- Top10[order(Top10$Teams, decreasing=TRUE),]
+Top10 <- data.frame(Topic = Top10$Topic, Teams = Top10$Teams)
+
+
 myChoicesForTeamDisplay <- c("0", "5", "10", "20", "50", "100", "all")
 myChoicesForTeamSort <- c("Year", "Alphabetic", "Score")
 							
