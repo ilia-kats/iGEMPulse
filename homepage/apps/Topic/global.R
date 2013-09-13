@@ -1,18 +1,20 @@
-FilterForTopic <- function(data, input) {
-	matchTopic <- rep(0, times=length(data$Topic))
-	for (i in 1:length(input$FILTopic)) {
-		matchTopic[which(data$Topic == input$FILtopic[i])] <- 1
+load("../../data/DataFromJSON.RData")
+dat <- DATParametersFromJSON
+
+myChoicesForTeamDisplay <- c("0", "5", "10", "20", "50", "100", "all")
+myChoicesForTeamSort <- c("Year", "Alphabetic", "Score")
+							
+FilterForTopics <- function(data, input) {
+	keepteams <- c()
+	Contents <- DATContentsFromJSON
+	for	(i in 1:length(DATContentsFromJSON)) {
+		if (length(which(names(Contents[[i]]$meshterms) == input$FILTopic)) != 0) keepteams <- c(keepteams, names(Contents)[i])
 	}
-	data <- data[which(matchTopic == 1),]
-	rm(matchTopic)
-	return(data)
-}
-FilterForMaintheme <- function(data, input) {
-	matchMaintheme <- rep(0, times=length(data$Maintheme))
-	for (i in 1:length(input$FILMaintheme)) {
-		matchMaintheme[which(data$tMaintheme == input$FILMaintheme[i])] <- 1
-	}
-	data <- data[which(matchMaintheme == 1),]
-	rm(matchMaintheme)
+	if (length(keepteams) != 0) data <- data[keepteams,]
+	else return(data.frame("name" = "No", "year" = "Teams", "wiki" = "with this topic", "score"=c("Teams", "for this method")))
+	if (length(grep("NA\\.", row.names(data), perl=TRUE)) != 0 ) data <- data[-grep("NA\\.", row.names(data), perl=TRUE),]
+	if (length(which(row.names(data) == "NA")) == 1) data <- data[-which(row.names(data) == "NA"),]
+	rm(keepteams)
+	rm(Contents)
 	return(data)
 }

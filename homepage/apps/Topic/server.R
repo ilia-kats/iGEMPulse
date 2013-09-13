@@ -1,21 +1,23 @@
 source("global.R")
+
 shinyServer(function(input, output) {
-timelineDatGenerator <- function(x) {
-	output = data.frame(
-		"Teams" = nrow(x),
-		"Maintheme" = sum(x$Maintheme_count),
-		"Topic" = sum(x$Topic_count))
-	return(output)
-}
-dat2 <- reactive({bbqSauceFilter(dat, input)})
-timelineDat <- reactive({timelineNvd3Gen(dat2())})
 
+dat2 <- reactive({FilterForTopics(dat, input)})
 
-  output$myChart <- renderChart({
-  	
+output$TeamList <- renderTable({
+	if (input$TeamDisplay == "0") return()
+	else {
+		outputData <- dat2()
+		if (input$TeamSort == "Year") outputData <- outputData[order(outputData$year, decreasing = TRUE),]
+		else if (input$TeamSort == "Score") outputData <- outputData[order(outputData$score, decreasing = TRUE),]
+		else outputData <- outputData[order(outputData$name),]
+		outputData <- data.frame(Name=outputData$name, Year=outputData$year, Wiki=outputData$wiki)
+		if (input$TeamDisplay == "all") return(outputData)
+		else {
+			outputData <- head(outputData, n=as.numeric(input$TeamDisplay))
+			return(outputData)
+		}
+	}
+})
 
-    timelinePlot <- nPlot(as.formula(paste0(input$x,"~year")),
-    	 group =  "Maintheme", data = timelineDat(), type = "stackedAreaChart", id = "chart", dom = "myChart")
-    return(timelinePlot)
-  })
-}
+})
