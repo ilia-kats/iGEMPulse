@@ -1,18 +1,20 @@
 Method
-	Preprocessing
 		Fusion Proteins
 		Primer Design
-		cloning
+		traditional cloning
+		Gibson
+		bacterial artificial chromosome
+		protein interaction
+		FISH
 		preparation of DNA
 		Restriction Digestion
 		Insert preparation
 		cell fractionation
 		cell counting
-	Processing
-		DNA sequencing
+		assembly line
+		Sequencing
 		PCR
-		DNA Microarray
-		arrays
+		Microarray
 		interaction chromatography
 		purification
 		Gel extraction
@@ -21,26 +23,35 @@ Method
 		FRET
 		DNA extraction
 		patch clamp
-	Analysis
+		computer simulation
+		drug production
+		encapsulation
+		genome deletion
+		mutagenesis
+		next generation sequencing
+		image processing
+		kill switch
 		Northern Blot
 		Southern Blot
-		Western blotting
+		Western Blot
 		Bioinformatics
 		ELISA
 		Chromatography
 		flow cytometry
 		X-Ray-crystallography
 		NMR
+		Mass spectrometry
 		Electron microscopy
 		Molecular dynamics
 		coimmunoprecipitation
 		Electrophoretic mobility shift assay
-		southwestern blotting
+		southwestern blot
 		size determination
 		gel electrophoresis
 		macromolecule blotting and probing
 		immuno assays
 		phenotypic analysis
+		fluorescence microscopy
 		imaging
 		spectroscopy
 		spectrometry
