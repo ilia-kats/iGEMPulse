@@ -1,7 +1,10 @@
 <style>
+div {
+	-moz-box-sizing:border-box;
+}
 #wrapper {
-	max-width:920px;
-	padding:10px;
+	padding-top:20px;
+	padding-bottom:20px;
 }
 #myChart {
 	width:100%;
@@ -17,7 +20,7 @@
 }
 #Select {
 	display:inline-block;
-	width:28%;
+	width:30%;
 	height:100%;
 	vertical-align:middle;
 	border:1px solid #BBBBBB;
@@ -25,8 +28,8 @@
 	padding:10px;
 }
 #Welcome {
-	display:inline-block;
-	width:60%;
+	float:right;
+	width:69%;
 	height:100%;
 	padding:10px;
 	vertical-align:middle;
