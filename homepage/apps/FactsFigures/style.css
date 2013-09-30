@@ -1,16 +1,37 @@
 <style>
-.Output-hori {
-	display:inline-block;
-	vertical-align:top;
-}
-#Chart {
-	width:70%;
+#wrapper {
+	max-width:920px;
+	padding:10px;
 }
 #myChart {
 	width:100%;
 }
+#Output {
+	margin:20px;
+	padding:10px;
+	border-top:1px solid #BBBBBB;
+	border-bottom:1px solid #BBBBBB;
+}
+#Top {
+	width:100%;
+}
 #Select {
-	width:25%;
+	display:inline-block;
+	width:28%;
+	height:100%;
+	vertical-align:middle;
+	border:1px solid #BBBBBB;
+	border-radius:3px;
+	padding:10px;
+}
+#Welcome {
+	display:inline-block;
+	width:60%;
+	height:100%;
+	padding:10px;
+	vertical-align:middle;
+	border:1px solid #BBBBBB;
+	border-radius:3px;
 }
 #FilterLabel, #FilterUl {
 	display:inline-block;

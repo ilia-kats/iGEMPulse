@@ -2,10 +2,9 @@ shinyUI(
     bootstrapPage(
         # basic application container divs
 		includeHTML("style.css"),
-		h2("Timeline"),
-        div(class="container-fluid",
-			div(class="container-fluid", id="Output",
-				div(class="Output-hori", id="Select",
+        div(id="wrapper",
+			div(class="container-fluid", id="Top",
+				div(id="Select",
 					div(class="row-fluid",
 						selectInput(inputId = "x",
 						label = "Choose X Axis",
@@ -35,9 +34,13 @@ shinyUI(
 						selected = "Region")
 					)
 				),
-				div(class="Output-hori", id="Chart",
-					showOutput("myChart", "nvd3")
+				div(id="Welcome",
+					h3("Facts & figures about iGEM"),
+					p("Here you can browse teams and data about previous iGEM competitions very easily. To the left you can select which data you want to see and in which categories you want to put the teams displayed. Underneath this box you can see the graph of the selected data. Mousing over the plot allows you to see the numbers behind that point. If you look further down you can also filter the teams for various parameters, as for example the awards they got or the continent they're from. Have fun!")
 				)
+			),
+			div(class="container-fluid", id="Output",
+				showOutput("myChart", "nvd3")
 			),
 			div(class="container-fluid", id="Filters",
 				div(class="row-fluid",
@@ -59,12 +62,12 @@ shinyUI(
 				),
 				div(class="container-fluid", id="AllFilters",
 					div(class="row-fluid", id="FilterYear",
-						div(class="span3", selectInput(
+						div(class="span4", selectInput(
 							inputId="FILyear_min",
 							label="minimum year",
 							choices=myChoicesForYear,
 							selected=min(myChoicesForYear) )),
-						div(class="span3", selectInput(
+						div(class="span4", selectInput(
 							inputId="FILyear_max",
 							label="maximum year",
 							choices=myChoicesForYear,
