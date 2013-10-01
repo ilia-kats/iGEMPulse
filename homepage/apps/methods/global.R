@@ -14,64 +14,94 @@ Top10 <- data.frame(Method = Top10$Method, Teams = Top10$Teams)
 
 myChoicesForTeamDisplay <- c("0", "5", "10", "20", "50", "100", "all")
 myChoicesForTeamSort <- c("Year", "Alphabetic", "Score")
-myChoicesForMethodCluster <- c("Preprocessing", "Processing", "Analysis")
-myChoicesForMethods <- list(	"Preprocessing" = c(
-									"Fusion Proteins",
-									"Primer Design",
-									"cloning",
-									"preparation of DNA",
-									"Restriction Digestion",
-									"Insert preparation",
-									"cell fractionation",
-									"cell counting"),
-								"Processing" = c("DNA sequencing",
-									"PCR",
-									"DNA Microarray",
-									"arrays",
-									"interaction chromatography",
-									"purification",
-									"Gel extraction",
-									"Ligation",
-									"Transformation",
-									"FRET",
-									"DNA extraction",
-									"patch clamp"),
-								"Analysis" = c(
-									"Northern Blot",
-									"Southern Blot",
-									"Western blotting",
-									"Bioinformatics",
-									"ELISA",
-									"Chromatography",
-									"flow cytometry",
-									"X-Ray-crystallography",
-									"NMR",
-									"Electron microscopy",
-									"Molecular dynamics",
-									"coimmunoprecipitation",
-									"Electrophoretic mobility shift assay",
-									"southwestern blotting",
-									"size determination",
-									"gel electrophoresis",
-									"macromolecule blotting and probing",
-									"immuno assays",
-									"phenotypic analysis",
-									"imaging",
-									"spectroscopy",
-									"spectrometry")
-							)
+myChoicesForMethodCluster <- c("Genomics", "Proteomics", "Imaging", "Bioanalytics", "(Bio-)Informatics", "Engineering", "Physiology", "Biophysics, Chemical biology")
+myChoicesForMethods <- list(	"Genomics" = c(
+		"Primer design",
+		"Traditional cloning",
+		"Gibson",
+		"Restriction Digestion",
+		"Ligation",
+		"Sequencing",
+		"Sanger sequencing",
+		"Next generation sequencing",
+		"PCR",
+		"Microarray",
+		"Transformation",
+		"DNA extraction",
+		"DNA preparation",
+		"Insert preparation",
+		"Gel electrophoresis",
+		"Gel extraction",
+		"Mutagenesis",
+		"Bacterial artificial chromosome",
+		"FISH",
+		"Genome deletion",
+		"Northern Blot",
+		"Southern Blot"),
+	"Proteomics" = c(
+		"Fusion proteins",
+		"Protein interaction",
+		"Western Blot",
+		"ELISA",
+		"Immuno assays",
+		"Coimmunoprecipitation",
+		"Protein purification"),
+	"Imaging" = c(
+		"FRET",
+		"Electron microscopy",
+		"Fluorescence microscopy",
+		"Imaging"),
+	"Bioanalytics" = c(
+		"Interaction chromatography",
+		"Thin layer chromatography",
+		"Ion exchange chromatography",
+		"Chromatography",
+		"Flow cytometry",
+		"Cell fractionation",
+		"Cell counting",
+		"Southwestern blot",
+		"Phenotypic analysis",
+		"Spectroscopy",
+		"Spectrometry"),
+	"(Bio-)Informatics" = c(
+		"Computer simulation",
+		"Computer model",
+		"Bioinformatics",
+		"Image processing",
+		"Neural networks"),
+	"Engineering" = c(
+		"Assembly line",
+		"Drug production",
+		"Encapsulation",
+		"Kill switch",
+		"Fermentation",
+		"Directed delivery"),
+	"Physiology" = c(
+		"Patch clamp",
+		"Mouse model",
+		"Intercellular signaling",
+		"Intracellular signaling"),
+	"Biophysics, Chemical biology" = c(
+		"Crystallography",
+		"NMR",
+		"Mass spectrometry") )
 							
 FilterForMethods <- function(data, input) {
 	keepteams <- c()
-	if (input$L1 == "Preprocessing") method <- "L12"
-	if (input$L1 == "Processing") method <- "L22"
-	if (input$L1 == "Analysis") method <- "L32"
+	if (input$L1 == "Genomics") method <- "L12"
+	else if (input$L1 == "Proteomics") method <- "L22"
+	else if (input$L1 == "Imaging") method <- "L32"
+	else if (input$L1 == "Bioanalytics") method <- "L42"
+	else if (input$L1 == "(Bio-)Informatics") method <- "L52"
+	else if (input$L1 == "Engineering") method <- "L62"
+	else if (input$L1 == "Physiology") method <- "L72"
+	else if (input$L1 == "Biophysics, Chemical biology") method <- "L82"
 	Contents <- DATContentsFromJSON
 	for	(i in 1:length(DATContentsFromJSON)) {
-		if (length(which(names(Contents[[i]]$methods) == input[[method]])) != 0) keepteams <- c(keepteams, names(Contents)[i])
+		if (length(which(names(Contents[[i]]$methods) == tolower(input[[method]]))) != 0) keepteams <- c(keepteams, names(Contents)[i])
 	}
 	if (length(keepteams) != 0) data <- data[keepteams,]
-	else return(data.frame("name" = "No", "year" = "Teams", "wiki" = "using this method", "score"=c("Teams", "for this method")))
+	else return(data.frame("name" = "No", "year" = "Teams", "wiki" = "using", "score"=c("Teams", "for this method"), "project"="this method"))
 	if (length(grep("NA\\.", row.names(data), perl=TRUE)) != 0 ) data <- data[-grep("NA\\.", row.names(data), perl=TRUE),]
 	if (length(which(row.names(data) == "NA")) == 1) data <- data[-which(row.names(data) == "NA"),]
 	rm(keepteams)
