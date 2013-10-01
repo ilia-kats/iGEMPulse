@@ -20,10 +20,10 @@ FilterForTopics <- function(data, input) {
 	keepteams <- c()
 	Contents <- DATContentsFromJSON
 	for	(i in 1:length(DATContentsFromJSON)) {
-		if (length(which(names(Contents[[i]]$meshterms) == input$FILTopic)) != 0) keepteams <- c(keepteams, names(Contents)[i])
+		if (length(agrep(input$FILTopic, names(Contents[[i]]$meshterms), ignore.case=TRUE, max.distance=list(ins=2, del=1, subs=1))) != 0) keepteams <- c(keepteams, names(Contents)[i])
 	}
 	if (length(keepteams) != 0) data <- data[keepteams,]
-	else return(data.frame("name" = "No", "year" = "Teams", "wiki" = "with this topic", "score"=c("Teams", "for this method")))
+	else return(data.frame("name" = "No", "year" = "Teams", "wiki" = "working", "score"=c("Teams", "for this method"), "project"="on this topic."))
 	if (length(grep("NA\\.", row.names(data), perl=TRUE)) != 0 ) data <- data[-grep("NA\\.", row.names(data), perl=TRUE),]
 	if (length(which(row.names(data) == "NA")) == 1) data <- data[-which(row.names(data) == "NA"),]
 	rm(keepteams)
