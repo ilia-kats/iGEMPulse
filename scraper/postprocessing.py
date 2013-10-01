@@ -13,7 +13,7 @@ from nltk.probability import FreqDist
 def stem_term(term, stemmer=PorterStemmer()):
     stripped = term.strip()
     tokenized = word_tokenize(stripped)
-    stemmed = [[stemmer.stem(w) for w in tokenized]]
+    stemmed = [[stemmer.stem(w.lower()) for w in tokenized]]
     stemmed.append("<%s>" % "> <".join(stemmed[0]))
     return (stripped, stemmed)
 
