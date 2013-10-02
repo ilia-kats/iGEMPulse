@@ -78,7 +78,11 @@ output$myChart <- renderChart({
 		if (max(sums) < 6) {
 			height <- 80 + (320/6*max(sums))
 			timelinePlot$params$height <- height
+			output$padding <- renderUI({
+				style <- tags$style(paste0('#myChart{padding-top:', (400-height)/2, 'px;} #myChart svg{position:relative; top:10px;}'))
+				return(style)})
 		}
+		else output$padding <- renderUI({return()})
 		return(timelinePlot)
 	} else {
 		p1 <- nPlot(as.formula(paste0(Choices[[input$y]],"~",Choices[[input$x]])), group = tolower(input$Sort), data = dat2(), type = 'scatterChart', id = "chart", dom = "myChart")

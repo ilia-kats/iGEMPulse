@@ -39,7 +39,7 @@ shinyUI(
 					p("Here you can browse teams and data about previous iGEM competitions very easily. To the left you can select which data you want to see and in which categories you want to put the teams displayed. Underneath this box you can see the graph of the selected data. Mousing over the plot allows you to see the numbers behind that point. If you look further down you can also filter the teams for various parameters, as for example the awards they got or the continent they're from. Have fun!")
 				)
 			),
-			div(class="container-fluid", id="Output",
+			div(class="container-fluid", id="Output", uiOutput("padding"),
 				showOutput("myChart", "nvd3")
 			),
 			div(class="container-fluid", id="Filters",
