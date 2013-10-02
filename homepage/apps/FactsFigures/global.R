@@ -5,10 +5,9 @@ require(plyr)
 ## Load Data:
 load("../../data/DataFromJSON.RData")
 dat <- DATParametersFromJSON
+dat$score <- dat$score * 100
 
 ## Layout choice lists:
-myChoicesForX = c("Year", "Number of Students", "Number of Advisors", "Number of Instructors", "Score", "Number of BioBricks", "Number of Championship Awards", "Number of Regional Awards")
-myChoicesForY = c("Number of Students", "Number of Advisors", "Number of Instructors", "Score", "Number of BioBricks", "Number of Championship Awards", "Number of Regional Awards")
 Choices <- list(	"Year" = "year",
 					"Number of Students" = "students_count",
 					"Number of Advisors" = "advisors_count",
@@ -19,6 +18,18 @@ Choices <- list(	"Year" = "year",
 					"Number of Regional Awards" = "awards_regional_count")
 myChoicesForX = c("Year", "Number of Students", "Number of Advisors", "Number of Instructors", "Score", "Number of BioBricks", "Number of Championship Awards", "Number of Regional Awards")
 myChoicesForY = c("Number of Students", "Number of Advisors", "Number of Instructors", "Score", "Number of BioBricks", "Number of Championship Awards", "Number of Regional Awards")
+units <- list(	"Teams" = "Number of teams / ",
+				"Students" = "Number of students / ",
+				"Instructors" = "Number of instructors / ",
+				"Advisors" = "Number of advisors / ",
+				"ChampionshipAwards" = "Number of championship awards / ",
+				"Number of Students" = "Number of students / team",
+				"Number of Advisors" = "Number of advisors / team",
+				"Number of Instructors" = "Number of instructors / team",
+				"Score" = "Score / team [%]",
+				"Number of BioBricks" = "BioBricks submitted / team",
+				"Number of Championship Awards" = "Championship awards / team",
+				"Number of Regional Awards" = "Regional awards / team" )
 myChoicesForTimeline = c("Teams", "Students", "Instructors", "Advisors", "ChampionshipAwards")
 myChoicesForSort = c("Region", "Track", "Medal")
 myChoicesForRegion <- levels(as.factor(dat$region))
@@ -115,7 +126,7 @@ FilterForInstructors_count <- function(data, input) {
 	return(data)
 }
 FilterForScore <- function(data, input) {
-	delete <- which(data$score < as.numeric(input$FILscore_min)/100 | data$score > as.numeric(input$FILscore_max)/100)
+	delete <- which(data$score < as.numeric(input$FILscore_min) | data$score > as.numeric(input$FILscore_max))
 	if (length(delete) != 0) data <- data[-delete,]
 	rm(delete)
 	return(data)

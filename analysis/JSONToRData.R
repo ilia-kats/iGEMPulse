@@ -153,7 +153,7 @@ for (i in 1:length(JSONList)) {
 	DATContentsFromJSON[[name]]$awards_championship[grep("Part, Natural", DATContentsFromJSON[[name]]$awards_championship)] <- "Best New BioBrick Part, Natural"
 	DATContentsFromJSON[[name]]$awards_championship[grep("Best Model", DATContentsFromJSON[[name]]$awards_championship)] <- "Best Model"
 	DATContentsFromJSON[[name]]$awards_championship[grep("Information Processing", DATContentsFromJSON[[name]]$awards_championship)] <- "Best Information Processing Project"
-	DATContentsFromJSON[[name]]$awards_championship[grep("Software Tool", DATContentsFromJSON[[name]]$awards_championship)] <- "Best Software Tool"
+	DATContentsFromJSON[[name]]$awards_championship[grep("Software Tool", DATContentsFromJSON[[name]]$awards_championship)] <- "Best Software"
 	DATContentsFromJSON[[name]]$awards_championship[grep("Presentation", DATContentsFromJSON[[name]]$awards_championship)] <- "Best Presentation"
 	## Check Regional Awards
 	DATContentsFromJSON[[name]]$awards_regional[grep("Grand Prize", DATContentsFromJSON[[name]]$awards_regional)] <- "Grand Prize"

@@ -54,5 +54,4 @@ var NameCompletion = function() {
 		}
 	}
 }
-
 </script>

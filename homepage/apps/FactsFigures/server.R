@@ -17,7 +17,7 @@ timelineDatGenerator <- function(x) {
 timelineNvd3Gen <- function(x) {
 	timelineDat <- ddply(x, c("year","region"), timelineDatGenerator)
 	#now another hack to make sure even teams/categories not present in all years can be represented by nvd3
-	for (year in unique(timelineDat$year)) {
+	for (year in 2007:2012) {
 		for (region in unique(timelineDat$region)) {
 			if (length(which(timelineDat$year == year & timelineDat$region == region)) == 0) {
 				newEntry = data.frame(year = year, region = region, Teams= 0, Students= 0, Advisors = 0, Instructors = 0, ChampionshipAwards=0)
@@ -31,7 +31,7 @@ timelineNvd3Gen <- function(x) {
 timelineNvd3GenTrack <- function(x) {
 	timelineDat <- ddply(x, c("year","track"), timelineDatGenerator)
 	#now another hack to make sure even teams/categories not present in all years can be represented by nvd3
-	for (year in unique(timelineDat$year)) {
+	for (year in 2007:2012) {
 		for (track in unique(timelineDat$track)) {
 			if (length(which(timelineDat$year == year & timelineDat$track == track)) == 0) {
 				newEntry = data.frame(year = year, track = track, Teams= 0, Students= 0, Advisors = 0, Instructors = 0, ChampionshipAwards=0)
@@ -45,7 +45,7 @@ timelineNvd3GenTrack <- function(x) {
 timelineNvd3GenMedal <- function(x) {
 	timelineDat <- ddply(x, c("year","medal"), timelineDatGenerator)
 	#now another hack to make sure even teams/categories not present in all years can be represented by nvd3
-	for (year in unique(timelineDat$year)) {
+	for (year in 2007:2012) {
 		for (medal in unique(timelineDat$medal)) {
 			if (length(which(timelineDat$year == year & timelineDat$medal == medal)) == 0) {
 				newEntry = data.frame(year = year, medal = medal, Teams= 0, Students= 0, Advisors = 0, Instructors = 0, ChampionshipAwards=0)
@@ -68,11 +68,19 @@ output$myChart <- renderChart({
 		if (input$Sort == "Region") timelinePlot <- nPlot(as.formula(paste0(input$Tsum,"~year")), group = "region", data = timelineDatRegion(), type = "stackedAreaChart", id = "chart", dom = "myChart")
 		else if(input$Sort == "Track") timelinePlot <- nPlot(as.formula(paste0(input$Tsum,"~year")), group = "track", data = timelineDatTrack(), type = "stackedAreaChart", id = "chart", dom = "myChart")
 		else if(input$Sort == "Medal") timelinePlot <- nPlot(as.formula(paste0(input$Tsum,"~year")), group = "medal", data = timelineDatMedal(), type = "stackedAreaChart", id = "chart", dom = "myChart")
-		timelinePlot$yAxis(tickFormat = "#!function(y) { return (y).toFixed(0) }!#")
-		timelinePlot$xAxis(tickFormat = "#!function(x) { return (x).toFixed(0) }!#")
+		timelinePlot$yAxis(tickFormat = "#!function(y) { return (y).toFixed(0) }!#", axisLabel = paste0(units[[input$Tsum]],tolower(input$Sort)), width = 60)
+		timelinePlot$xAxis(tickFormat = "#!function(x) { return (x).toFixed(0) }!#", axisLabel = "Year")
+		sums <- c()
+		checkset <- timelineDatRegion()
+		for (i in 2007:2012) {
+			sums <- c(sums, sum(checkset[checkset$year==i, input$Tsum]))
+		}
+		if (max(sums) < 6) timelinePlot$params$height <- 80 + (320/6*max(sums))
 		return(timelinePlot)
 	} else {
 		p1 <- nPlot(as.formula(paste0(Choices[[input$y]],"~",Choices[[input$x]])), group = tolower(input$Sort), data = dat2(), type = 'scatterChart', id = "chart", dom = "myChart")
+		p1$yAxis(axisLabel = units[[input$y]], width =60)
+		p1$xAxis(axisLabel = units[[input$x]])
 		return(p1)
 	}
 })
