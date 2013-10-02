@@ -68,6 +68,8 @@ output$myChart <- renderChart({
 		if (input$Sort == "Region") timelinePlot <- nPlot(as.formula(paste0(input$Tsum,"~year")), group = "region", data = timelineDatRegion(), type = "stackedAreaChart", id = "chart", dom = "myChart")
 		else if(input$Sort == "Track") timelinePlot <- nPlot(as.formula(paste0(input$Tsum,"~year")), group = "track", data = timelineDatTrack(), type = "stackedAreaChart", id = "chart", dom = "myChart")
 		else if(input$Sort == "Medal") timelinePlot <- nPlot(as.formula(paste0(input$Tsum,"~year")), group = "medal", data = timelineDatMedal(), type = "stackedAreaChart", id = "chart", dom = "myChart")
+		timelinePlot$yAxis(tickFormat = "#!function(y) { return (y).toFixed(0) }!#")
+		timelinePlot$xAxis(tickFormat = "#!function(x) { return (x).toFixed(0) }!#")
 		return(timelinePlot)
 	} else {
 		p1 <- nPlot(as.formula(paste0(Choices[[input$y]],"~",Choices[[input$x]])), group = tolower(input$Sort), data = dat2(), type = 'scatterChart', id = "chart", dom = "myChart")

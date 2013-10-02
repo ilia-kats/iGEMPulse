@@ -141,12 +141,12 @@ shinyUI(
 						div(class="span4", checkboxInput(
 							inputId="FILabstract",
 							label="Only display teams who submitted an abstract",
-							value=FALSE)),
-						div(class="span4", selectInput(
-							inputId="FILinformation_content",
-							label="Minimum information content of abstract",
-							choices=myChoicesForInformation_content,
-							selected="0"))
+							value=FALSE))#,
+						#div(class="span4", selectInput(
+							#inputId="FILinformation_content",
+							#label="Minimum information content of abstract",
+							#choices=myChoicesForInformation_content,
+							#selected="0"))
 					),
 					div(class="row-fluid", id="FilterStudents",
 						div(class="span4", selectInput(

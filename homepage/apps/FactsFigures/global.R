@@ -29,7 +29,6 @@ myChoicesForRegional_awards <- c("", "Grand Prize", "Regional Finalist", "Best W
 myChoicesForChampionship_awards <- c("", "Grand Prize", "1st Runner Up", "2nd Runner Up", "Best Rookie Team", "Advance to Software Jamboree", "Advance to Championship", "Finalist", "Best Wiki", "Best Poster", "Best Presentation", "Best Human Practices Advance", "Best Experimental Measurement", "Best Foundational Advance", "Best New BioBrick Part, Natural", "Best New BioBrick Part or Device, Engineered", "Best Model", "Best New Standard", "Safety Commendation", "Best Food & Energy Project", "Best New Application Project", "Best Environment Project", "Best Health & Medicine Project", "Best Manufacturing Project", "Best Software", "Best Requirements Engineering", "Best Eugene Based Design", "Best SBOL Based Tool", "Best Genome Compiler Based Design", "Best Clotho App", "Best Information Processing Project", "Best Interaction with the Parts Registry", "iGEMers Prize")
 myChoicesForBB_count <- c(0, 5, 10, 20, 50, 100, 200, ">200")
 myChoicesForStudents_count <- c(0, 5, 10, 15, 20, ">20")
-myChoicesForStudents_count <- c(0, 5, 10, 15, 20, ">20")
 myChoicesForAdvisors_count <- c(0, 2, 4, 6, 8, 10, 12, 14, ">14")
 myChoicesForInstructors_count <- c(0, 2, 5, 10, 15, ">15")
 myChoicesForInformation_content <- c("0", "0.4", "0.45", "0.5", "0.55", "0.6")
