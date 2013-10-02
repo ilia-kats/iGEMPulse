@@ -1,125 +1,107 @@
 ﻿<html>
-	<head>
-		<title>iGEM 42 - the answer to everything</title>
-		<link rel="stylesheet" type="text/css" href="./css/index.css">
-<script>
-		window.onresize = function() {
-		rotateMenu("menu-team", getMenuAngle(2.2));
-		rotateMenu("menu-project", getMenuAngle(1.2));
-		rotateMenu("menu-notebook", getMenuAngle(0.2));
-		rotateMenu("menu-parts", getMenuAngle(0));
-		rotateMenu("menu-modelling", getMenuAngle(0.2), -1);
-		rotateMenu("menu-human", getMenuAngle(1.2), -1);
-		rotateMenu("menu-safety", getMenuAngle(2.2), -1);
-	}
-	function start_tour() {
-		var tour_navi = document.getElementById("tour-navi");
-		if (tour_navi.style.display !== "block") {
-			tour_navi.style.display = "block";
-		}
-	}
-	function stop_tour() {
-		var tour_navi = document.getElementById("tour-navi");
-		if (tour_navi.style.display !== "none") {
-			tour_navi.style.display = "none";
-		}
-	}
-	function getMenuAngle(position) {
-		var menu = document.getElementById("main-menu");
-		var width = menu.offsetWidth;
-		var a = 0.5 * width;
-		var b = menu.offsetHeight;
-		var wpos = width * position * 0.1;
-		var t = Math.acos(wpos / a);
-		var beta = Math.atan(a / b * Math.tan(t));
-		var angle = Math.PI * 0.5 - beta;
-		var y = b - b * Math.sin(t);
-		return Array(angle,y);
-	}
-	function rotateMenu(id, angle, factor) {
-		if (factor !== undefined)
-		    angle[0] *= factor;
-		var root = document.getElementById(id);
-		root.style.position = "relative";
-		root.style.top = "calc(5.3em - " + angle[1] + "px)"; // 100px from #main-menu
-		var children = root.children;
-		for (var i = 0; i < children.length; ++i) {
-                        if (children[i].nodeName == "A") {
-                            children[i].style.transform = "rotate(" + angle[0] + "rad)";
-                            break;
-			}
-		}
-	}
-	-->
-</script>
-	</head>
+<head>
+<style type="text/css">
+   .navigation {
+      margin-bottom:5%;
+}
+   p  {
+      font-size:14px;
+}
+</style>
+<!-- Javascript -->
+<link rel="stylesheet" href="./css/index.css" type="text/css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="http://2013.igem.org/Team:Heidelberg/Templates/jqueryjs?action=raw&ctype=text/javascript"></script>
+<script src="http://2013.igem.org/Team:Heidelberg/Templates/bootstrapjs?action=raw&ctype=text/javascript"></script>
+<script src="http://2013.igem.org/Team:Heidelberg/Templates/holderjs?action=raw&ctype=text/javascript"></script>
+<script src="http://2013.igem.org/Team:Heidelberg/Templates/carousel-special-js?action=raw&ctype=text/javascript"></script>
+<script type="text/javascript">
+                $(function() {
+                    //enable scrolling in navbarExample labeled divs
+                    $('div').scrollspy({ target: '#navbarExample' });
 
+                    //Fragment-tab activation
+                    $('#myTab a').click(function (e) {
+                        e.preventDefault()
+                        $('#myTab a[href="#del_h1"]').tab('show')
+                        $('#myTab a[href="#del_ae1"]').tab('show')
+                        $('#myTab a[href="#del_h2"]').tab('show')
+                        $('#myTab a[href="#del_ae2"]').tab('show')
+                    })
+                });
+</script>
+<script>
+	    (function($){
+		$(function(){
+		    $(".carousel-caption").mCustomScrollbar({
+			autoHideScrollbar:true,
+			theme:"dark-thin"
+		    });
+		    $(".scrollContent").mCustomScrollbar({
+			autoHideScrollbar:true,
+			theme:"dark-thin"
+		    });
+		    $("#methods").mCustomScrollbar({
+			autoHideScrollbar:true,
+			theme:"dark-thin"
+		    });
+		 });
+		$("#myCarousel").on("slide.bs.carousel", function(){
+		    setTimeout(function () { $(".carousel-caption:visible").mCustomScrollbar("update"); }, 1000);
+		});
+               $('.nav-tabs a').click(function(){
+		    setTimeout(function () { $(".scrollContent").mCustomScrollbar("update"); }, 1000);
+		})
+	   })(jQuery);
+</script>
+</head>
 <body>
-		<div id="center-wrapper">
-			
-			<div id="top-matter">
-				<div id="main-menu">
-				
-	<a href="http://2013.igem.org/Team:Heidelberg"><h1 id="menu-title">iGEM <span class="menu-title-green">2013 </span> TEAM <span class="menu-title-blue">HEIDELBERG</span></h1></a>
-	
-					<div id="menu-team" class="menu-item">
-						<a href="./about.html" target="center-frame" class="menu-link"><img id="menu-symbol" src="http://2013.igem.org/wiki/images/a/a4/Heidelberg_menu_symbol1.png" />About this project</a>
-					</div>
-					<div id="menu-project" class="menu-item">
-						<a href="./apps/FactsFigures/" target="center-frame" class="menu-link"><img id="menu-symbol" src="http://2013.igem.org/wiki/images/c/c4/Heidelberg_menu_symbol2.png"/>Facts & Figures</a>
-					</div>
-					<div id="menu-notebook" class="menu-item">
-						<a href="./apps/methods/" target="center-frame" class="menu-link"><img id="menu-symbol" src="http://2013.igem.org/wiki/images/5/55/Heidelberg_menu_symbol3.png"/>Methods</a>
-					</div>
-					<div id="menu-parts" class="menu-item">
-						<a href="./apps/Topic/" target="center-frame" class="menu-link"><img id="menu-symbol" src="http://2013.igem.org/wiki/images/8/83/Heidelberg_menu_symbol4.png"/>Topics</a>
-					</div>
-					<div id="menu-modelling" class="menu-item">
-						<a href="#" class="menu-link"><img id="menu-symbol" src="http://2013.igem.org/wiki/images/e/eb/Heidelberg_menu_symbol5.png" />Spare menu point</a>
-					</div>
-					<div id="menu-human" class="menu-item">
-						<a href="#" class="menu-link"><img id="menu-symbol" src="http://2013.igem.org/wiki/images/8/81/Heidelberg_menu_symbol6.png"/>Quick info</a>
-					</div>
-					<div id="menu-safety" class="menu-item">
-						<a href="./teamdescription.html" target="center-frame" class="menu-link"><img id="menu-symbol" src="http://2013.igem.org/wiki/images/f/f1/Heidelberg_menu_symbol7.png"/>Team Heidelberg</a>
-					</div>
-					<div class="visualClear"></div>
-				</div>
-				<div id="title-line">
-					<a href="http://2013.igem.org/Team:Heidelberg" id="team-logo"><img src="http://2013.igem.org/wiki/images/f/ff/IGem_Team_Heidelberg_Logo.gif" alt="team-logo"/></a>
-					<div id="PS"><h1>iGEM&nbsp;42</h1></div>
-					<!--	<a href="#" id="flubber" onclick="start_tour();return false"><img src="" alt="ask flubber" width="60" height="60" /></a> -->
-					<a href="http://2013.igem.org/Main_Page" id="igem-2013"><img src="http://igem.org/wiki/images/d/de/IGEM_basic_Logo_stylized.png" alt="igem-2013"/></a>
-				</div>
-				<div id="top-separator">
-					iGEM42 offers a variety of apps and filters to browse the inscrutable amount of data in the previous iGEM-wikis, evaluate trends and find student expertise in useful methods.
-					<!--<input type="button" value="hide/show menu" onclick="hide_show_menu()"/>-->
-				</div>
-				
-<script>
-		rotateMenu("menu-team", getMenuAngle(2.2));
-		rotateMenu("menu-project", getMenuAngle(1.2));
-		rotateMenu("menu-notebook", getMenuAngle(0.2));
-		rotateMenu("menu-parts", getMenuAngle(0));
-		rotateMenu("menu-modelling", getMenuAngle(0.2), -1);
-		rotateMenu("menu-human", getMenuAngle(1.2), -1);
-		rotateMenu("menu-safety", getMenuAngle(2.2), -1);
-</script>
-			</div>
-			
-			<div id="main" class="center-vert">
-				
-				<div class="shiny-app">
+<div class="navigation">
+                <div>
+                    <a href="http://2013.igem.org/Team:Heidelberg" style="position:absolute; right:0.5%; top:5px"><object data="http://2013.igem.org/wiki/images/2/26/Heidelberg_team_logo_gray.png" height="70"></object><br/><b>Visit our<br/>team wiki</b></a>
+                    <a href="http://2013.igem.org" style="position:absolute; left:0.5%; top:5px"><object data="http://2013.igem.org/wiki/images/1/16/Heidelberg_igem_logo.png" height="70"></object><br/><b>iGEM 2013</b></a>
+                    
+                </div>
+            </div>
+  <div class="container" style="min-width:1000px;">
+            <!--Project Description-->
+            <div style="margin-top:80px">
+                        <h1><span style="font-size:150%;color:#FFCC00;">iGEM 42.</span><span class="text-muted" style="font-size:90%"> The answer to everything.</span></h1>
+                        <p>Have you ever easily found the piece of information you wanted from past iGEM competitions? Right! That turned out to be very hard.<br/>Maybe you should try this tool which was developed to do exactly this: Lead you directly to the <b>information you want</b>.</p>
+            </div><!--
+            <div>
+                 <a href="#">Check out the Notebook for this project</a>
+            </div> -->
+            <div class="labjournal-weekly">
+                <div>
+                    <ul class="nav nav-tabs" style="padding-left:5em;">
+                      <li class="active"><a href="#FactsFigures" data-toggle="tab" style="font-size:14px;">Facts & Figures</a></li>
+                      <li><a href="#Topics" data-toggle="tab" style="font-size:14px;">Find Experts by Topics</a></li>
+                      <li><a href="#Methods" data-toggle="tab" style="font-size:14px;">Find Experts by Methods</a></li>
+                    </ul>
+                </div>
+                <div class="jumbotron">
+                    <div class="nav navbar scrollContent" data-spy="scroll" data-target="#navbarExample" data-offset="0">
 
-					<iframe name="center-frame" src="./about.html"></iframe>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="FactsFigures">
+                                <iframe style="width:100%; height:700px;" name="igem42-1" frameBorder="0" src="http://igem2013.bioquant.uni-heidelberg.de/shiny/iGEMPulse/homepage/apps/FactsFigures/"></iframe>
+                            </div>
+                            <div class="tab-pane active" id="Topics">
+                                <iframe style="width:100%; height:700px;" name="igem42-2" frameBorder="0" src="http://igem2013.bioquant.uni-heidelberg.de/shiny/iGEMPulse/homepage/apps/Topic/"></iframe>
+                            </div>
+                            <div class="tab-pane active" id="Methods">
+                                <iframe style="width:100%; height:700px;" name="igem42-3" frameBorder="0" src="http://igem2013.bioquant.uni-heidelberg.de/shiny/iGEMPulse/homepage/apps/methods/"></iframe>
+                            </div>
 
-				</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-			</div>
-			
-			<div id="bottom-matter" class="center-vert">
-				Sponsored by Julia
-			</div>
-		</div>
-	</body>
+            
+  </div>
+
+
+</body>
 </html>
