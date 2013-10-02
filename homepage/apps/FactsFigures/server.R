@@ -75,7 +75,10 @@ output$myChart <- renderChart({
 		for (i in 2007:2012) {
 			sums <- c(sums, sum(checkset[checkset$year==i, input$Tsum]))
 		}
-		if (max(sums) < 6) timelinePlot$params$height <- 80 + (320/6*max(sums))
+		if (max(sums) < 6) {
+			height <- 80 + (320/6*max(sums))
+			timelinePlot$params$height <- height
+		}
 		return(timelinePlot)
 	} else {
 		p1 <- nPlot(as.formula(paste0(Choices[[input$y]],"~",Choices[[input$x]])), group = tolower(input$Sort), data = dat2(), type = 'scatterChart', id = "chart", dom = "myChart")
