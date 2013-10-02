@@ -98,7 +98,7 @@ FilterForMethods <- function(data, input) {
 	else if (input$L1 == "Biophysics, Chemical biology") method <- "L82"
 	Contents <- DATContentsFromJSON
 	for	(i in 1:length(DATContentsFromJSON)) {
-		if (length(which(names(Contents[[i]]$methods) == tolower(input[[method]]))) != 0) keepteams <- c(keepteams, names(Contents)[i])
+		if (length(which(names(Contents[[i]]$methods) == input[[method]])) != 0) keepteams <- c(keepteams, names(Contents)[i])
 	}
 	if (length(keepteams) != 0) data <- data[keepteams,]
 	else return(data.frame("name" = "No", "year" = "Teams", "wiki" = "using", "score"=c("Teams", "for this method"), "project"="this method"))
