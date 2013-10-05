@@ -22,19 +22,13 @@ Main packages
 
 Other stuff that is loaded by some of our python functions:
 -----------------------------------------------------------
-* __Requests__:Great library to do simple http requests!
-* __RabbitMQ__: Message broker required by Celery
-* __Biopython__ (>= 1.62): Just like bioperl but not in a crappy language!
-* __xhtml2pdf__: Also necessary for Gibthon..
-* __BeautifulSoup__: Beautiful soup!
-* __celery__: asynchronous scheduling framework
-* __kombu__: database-based message passing framework
-* __python-openbabel__: (>= 2.3.2) Python bindings to openbabel for 2D structure generation
-* __UNAFold__ and __MFold utils__: required by Gibthon
-* __HMMER__ (= 3.0): Hidden Markov Model based sequence analysis software used by antiSMASH
-* __MUSCLE__: multiple sequence alignment used by antiSMASH
-* __Clustal Omega__: multiple sequence alignment used by NRPSDesigner
-* __libSBOLpy__: Python bindings to the libSBOLc library
+
+* __json__: integration with .json format
+* __scrapy__: webscraping framework used for the data generation
+* __ntlk__: natural language toolkit used for text mining
+* __optparse__: parser used for command line options
+* __twisted__: event handling library for coordinating the scraping
+* __re__: library for regular expressions in python
 
 R stuff
 =======
